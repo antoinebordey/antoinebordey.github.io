@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 4,
+  "version": 5,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-10-25T11:59:56+01:00",
+  "derniere_mise_a_jour": "2026-10-25T16:21:25+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2025",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 22
+  "prochain_id": 27
  },
  "transactions": [
   {
@@ -3482,6 +3482,884 @@
      "evenement": "Fiche créée par la veille quotidienne"
     }
    ]
+  },
+  {
+   "id": "pdm-022",
+   "titre": "Barings acquiert un immeuble de bureaux entièrement loué face à l'ancienne Bourse, dans le 2e",
+   "resume": "Barings a annoncé le 5 février 2026 avoir acquis, pour une stratégie core européenne, un immeuble de bureaux entièrement loué du 2e arrondissement, situé face à l'ancienne Bourse de Paris. L'immeuble développe 8 275 m² sur sept étages et trois niveaux de sous-sol, autour d'un patio central de 600 m². Il sera détenu dans un OPPCI géré par Edmond de Rothschild ; le prix n'est pas communiqué et le vendeur est un investisseur institutionnel français.",
+   "date": {
+    "valeur": "2026-02-05",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-02-05",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition pour une stratégie core européenne",
+    "Détention via un OPPCI géré par Edmond de Rothschild"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux entièrement loué",
+   "actif": {
+    "nom": "Immeuble de bureaux face à l'ancienne Bourse",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     2
+    ],
+    "zone": "paris_qca",
+    "note": "Adresse non communiquée ; la source situe l'immeuble face à l'ancienne Bourse, dans le quartier central des affaires."
+   },
+   "acquereurs": [
+    {
+     "nom": "Barings",
+     "type": "Gestionnaire d'actifs",
+     "precision": "Pour une stratégie core européenne ; actif détenu dans un OPPCI géré par Edmond de Rothschild",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Investisseur institutionnel français (non nommé)",
+     "type": "Investisseur institutionnel",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "anonyme": true
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Oudot",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "LPA Law",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Colliers",
+     "cote": "acquereur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Strategies and Corp",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Delpha Conseil",
+     "role": "Conseil technique de l'acquéreur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Carb0n",
+     "role": "Conseil ESG de l'acquéreur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "ANTEA",
+     "role": "Conseil environnemental de l'acquéreur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Cushman & Wakefield",
+     "role": "Gestion de l'immeuble",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Les parties ont convenu de ne pas communiquer le prix."
+    },
+    "surface": {
+     "valeur": 8275,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Immeuble présenté comme entièrement loué."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Taille de l'opération pour l'acquéreur",
+     "valeur": "Plus importante acquisition de bureaux de Barings depuis cinq ans",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Performance énergétique",
+     "valeur": "Étiquette C, raccordement au réseau de chaleur urbain CPCU",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "core",
+    "niveau": "vehicule",
+    "citation": "« on behalf of a European core real estate strategy »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [
+     "Immeuble entièrement loué",
+     "Emplacement dans le quartier central des affaires"
+    ],
+    "commentaire": "Stratégie nommée par l'acquéreur pour le véhicule qui porte l'opération."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Barings",
+     "titre": "Barings Acquires Office in Paris' Prime Central Business District",
+     "url": "https://www.barings.com/guest/contact/media/news/barings-acquires-office-in-paris-prime-central-business-district",
+     "date": "2026-02-05",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de février 2026 ajoutée en rattrapage."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-023",
+   "titre": "Wenova Asset Management signe une promesse sur un complexe de commerce de gros de 45 000 m² à Aubervilliers",
+   "resume": "Selon l'annonce de son conseil, Wenova Asset Management a signé début 2026 une promesse de vente sur un complexe de commerces de gros à Aubervilliers, cédé par des investisseurs privés. L'ensemble de 45 000 m² est loué à plus de 90 % et fait ressortir un taux de rendement acte en main de 8,25 %. Un club deal dédié, associant un investisseur institutionnel, a été structuré pour l'acquisition.",
+   "date": {
+    "valeur": "2026-03-20",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-03-20",
+   "statut_operation": "promesse",
+   "modalites": [
+    "Promesse de vente signée début 2026",
+    "Club deal dédié associant un investisseur institutionnel"
+   ],
+   "classe": "commerces",
+   "sous_type": "Complexe de commerce de gros",
+   "actif": {
+    "nom": "Complexe de commerce de gros d'Aubervilliers",
+    "adresse": null,
+    "commune": "Aubervilliers (93)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "Adresse non communiquée par la source."
+   },
+   "acquereurs": [
+    {
+     "nom": "Club deal Wenova",
+     "type": "Club deal",
+     "gestionnaire": "Wenova Asset Management",
+     "precision": "Club deal dédié associant un investisseur institutionnel",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Investisseurs privés",
+     "type": "Particuliers",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "anonyme": true
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Delsol Avocats",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 45000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Le titre de l'annonce indique « plus de 40 000 m² », le texte 45 000 m²."
+    },
+    "occupation": {
+     "valeur": 90,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "%"
+    },
+    "rendement": {
+     "valeur": 8.25,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Taux de rendement acte en main (droits inclus)."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Portée de l'opération",
+     "valeur": "Présentée comme la plus importante transaction immobilière en première couronne de Paris Nord",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par la source ; indices insuffisants pour une hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de Delsol Avocats)",
+     "titre": "Delsol Avocats a accompagné Wenova dans le cadre de l'acquisition d'un ensemble immobilier à Aubervilliers de plus de 40 000 m² de commerce de gros",
+     "url": "https://www.lemondedudroit.fr/deals/103492-delsol-avocats-a-accompagne-wenova-dans-le-cadre-de-lacquisition-dun-ensemble-immobilier-a-aubervilliers-de-plus-de-40-000-m2-de-commerce-de-gros.html",
+     "date": "2026-03-20",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Date de la promesse indiquée seulement comme « début 2026 » ; la date retenue est celle de la publication."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-024",
+   "titre": "CDC Investissement Immobilier acquiert 139 logements rue de l'Assomption (16e) auprès d'Ofi Invest Real Estate",
+   "resume": "CDC Investissement Immobilier a annoncé le 24 novembre 2025 l'acquisition, pour le compte de la Caisse des Dépôts, d'un immeuble résidentiel des années 1960 situé 51-61 rue de l'Assomption, dans le 16e arrondissement. L'ensemble compte 139 logements pour environ 6 500 m² ; il était cédé par Ofi Invest Real Estate pour l'un de ses mandants. L'acquéreur annonce une détention de très long terme et un plan d'amélioration de la performance énergétique ; le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2025-11-24",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-11-24",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition d'un immeuble résidentiel existant",
+    "Détention de très long terme annoncée"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Immeuble résidentiel des années 1960",
+   "actif": {
+    "nom": "Immeuble du 51-61 rue de l'Assomption",
+    "adresse": "51-61 rue de l'Assomption, 75016 Paris",
+    "commune": "Paris",
+    "arrondissements": [
+     16
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "CDC Investissement Immobilier",
+     "type": "Investisseur institutionnel",
+     "precision": "Pour le compte de la Caisse des Dépôts",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Ofi Invest Real Estate",
+     "type": "Société de gestion",
+     "precision": "Pour l'un de ses mandants",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Thibierge Notaires",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Taylor Wessing",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Colliers Global Investors",
+     "cote": "acquereur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Elan France",
+     "cote": "acquereur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Chevreux",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Newmark",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "logements": {
+     "valeur": 139,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": null
+    },
+    "surface": {
+     "valeur": 6500,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Travaux annoncés",
+     "valeur": "Plan d'amélioration de la performance énergétique dans les prochaines années",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Détention de très long terme annoncée par l'acquéreur",
+     "Immeuble résidentiel existant, sans restructuration annoncée"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core » est une hypothèse d'analyste ; le plan d'amélioration énergétique pourrait aussi plaider pour Core+."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Caisse des Dépôts (CDC Investissement Immobilier)",
+     "titre": "Communiqué du 24 novembre 2025 : acquisition d'un immeuble résidentiel rue de l'Assomption, Paris 16e",
+     "url": "https://www.caissedesdepots.fr/sites/cdc.fr/files/2025-11/CP_CDC_Investissement-Immobilier_Residentiel-Paris16-Assomption_2025-11-24.pdf",
+     "date": "2025-11-24",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2025 ajoutée en rattrapage."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-025",
+   "titre": "CDC Investissement Immobilier acquiert un ensemble résidentiel de plus de 6 000 m² à Popincourt (11e) auprès de Generali Real Estate",
+   "resume": "Le 3 novembre 2025, CDC Investissement Immobilier a annoncé l'acquisition, pour le compte de la Caisse des Dépôts, d'un immeuble résidentiel des années 1990 du 11e arrondissement, entre le passage Sainte-Anne-Popincourt, le boulevard Richard-Lenoir et la rue Saint-Sabin. L'actif de plus de 6 000 m² comprend environ 300 m² de commerces et locaux professionnels en pied d'immeuble ; il était cédé par Generali Real Estate. L'acquéreur annonce une détention de très long terme et un plan d'amélioration énergétique ; le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2025-11-03",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-11-03",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition d'un immeuble résidentiel existant",
+    "Détention de très long terme annoncée"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Immeuble résidentiel avec commerces en pied d'immeuble",
+   "actif": {
+    "nom": "Ensemble résidentiel Sainte-Anne-Popincourt",
+    "adresse": "2 à 14 passage Sainte-Anne-Popincourt, 41 boulevard Richard-Lenoir et 40-42 rue Saint-Sabin, 75011 Paris",
+    "commune": "Paris",
+    "arrondissements": [
+     11
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "CDC Investissement Immobilier",
+     "type": "Investisseur institutionnel",
+     "precision": "Pour le compte de la Caisse des Dépôts",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Generali Real Estate",
+     "type": "Assureur",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Allez & Associés",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Taylor Wessing",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Alamo",
+     "cote": "acquereur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Step One Transition",
+     "cote": "acquereur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "BNP Paribas Real Estate",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Ikory Capital Markets",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 6000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Commerces",
+     "valeur": "Environ 300 m² de commerces et locaux professionnels en pied d'immeuble",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Travaux annoncés",
+     "valeur": "Plan d'amélioration de la performance énergétique dans les prochaines années",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Détention de très long terme annoncée par l'acquéreur",
+     "Immeuble résidentiel existant, sans restructuration annoncée"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core » est une hypothèse d'analyste ; le plan d'amélioration énergétique pourrait aussi plaider pour Core+."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Caisse des Dépôts (CDC Investissement Immobilier)",
+     "titre": "Communiqué du 3 novembre 2025 : acquisition d'un immeuble résidentiel à Paris 11e (Popincourt)",
+     "url": "https://www.caissedesdepots.fr/sites/default/files/2025-11/CP_CDC_Investissement-Immobilier_Residentiel-Paris11-Popincourt_2025-11-03.pdf",
+     "date": "2025-11-03",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Nombre de logements non communiqué.",
+    "Opération de 2025 ajoutée en rattrapage."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-026",
+   "titre": "Foncière Renaissance et MIMCO acquièrent le 48 rue Notre-Dame-des-Victoires (2e) pour le restructurer en bureaux",
+   "resume": "D'après l'annonce de leur conseil publiée le 14 avril 2025, Foncière Renaissance et MIMCO ont acquis un immeuble de 7 417 m² sur sept niveaux au 48 rue Notre-Dame-des-Victoires, dans le 2e arrondissement, présenté comme l'ancien siège de la Banque de France. Les acquéreurs prévoient une restructuration complète en immeuble de bureaux de nouvelle génération, avec un chantier de juillet 2025 à septembre 2027. Une vente en bloc à un investisseur institutionnel est envisagée à terme ; vendeur et prix ne sont pas communiqués.",
+   "date": {
+    "valeur": "2025-04-14",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-04-14",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition en vue d'une restructuration complète",
+    "Revente en bloc envisagée à terme"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble à restructurer en bureaux",
+   "actif": {
+    "nom": "Immeuble du 48 rue Notre-Dame-des-Victoires",
+    "adresse": "48 rue Notre-Dame-des-Victoires, 75002 Paris",
+    "commune": "Paris",
+    "arrondissements": [
+     2
+    ],
+    "zone": "paris",
+    "note": "Présenté par la source comme l'ancien siège de la Banque de France."
+   },
+   "acquereurs": [
+    {
+     "nom": "Foncière Renaissance",
+     "type": "Foncière",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "MIMCO",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Racine",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 7417,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Restructuration complète en immeuble de bureaux de nouvelle génération ; permis de construire déposé",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Calendrier",
+     "valeur": "Chantier à partir de juillet 2025, livraison prévue en septembre 2027",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Restructuration complète, permis de construire déposé",
+     "Livraison prévue en septembre 2027 après deux ans de travaux",
+     "Vente en bloc à un investisseur institutionnel envisagée à terme"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de Racine)",
+     "titre": "Racine conseille Foncière Renaissance et MIMCO dans l'acquisition d'un immeuble emblématique au cœur de Paris",
+     "url": "https://www.lemondedudroit.fr/deals/98667-racine-conseille-fonciere-renaissance-et-mimco-dans-lacquisition-dun-immeuble-emblematique-au-coeur-de-paris.html",
+     "date": "2025-04-14",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Date de l'opération non précisée ; la date retenue est celle de la publication de l'annonce.",
+    "Opération de 2025 ajoutée en rattrapage."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -3597,6 +4475,16 @@
    "a_confirmer": 2,
    "sources_consultees": 16,
    "resume": "4 opérations ajoutées : le Pullman Paris Montparnasse (rattrapage 2025), 173 logements cédés par Gecina à M&G dans les Hauts-de-Seine, le 211-215 rue de la Convention racheté par la Ville de Paris et le projet hôtelier du 44 Bastille. Pistes écartées : opérations hors Île-de-France, ventes sans société identifiée (Fouquet's, 19 Blanche, 21 Moulinet) et articles antérieurs à 2025."
+  },
+  {
+   "date": "2026-10-25T16:21:25+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 5,
+   "mises_a_jour": 0,
+   "a_confirmer": 0,
+   "sources_consultees": 5,
+   "resume": "Aucune annonce nouvelle repérée depuis le passage du matin. Cinq opérations antérieures ajoutées en rattrapage, toutes appuyées sur un communiqué ou une annonce de conseil : Barings dans le 2e, Wenova à Aubervilliers, deux immeubles résidentiels acquis par CDC Investissement Immobilier, et le 48 rue Notre-Dame-des-Victoires repris par Foncière Renaissance et MIMCO."
   }
  ]
 }
