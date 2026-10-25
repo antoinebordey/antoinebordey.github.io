@@ -1,0 +1,3602 @@
+{
+ "meta": {
+  "nom": "Paris Deal Monitor",
+  "version": 4,
+  "schema": 1,
+  "derniere_mise_a_jour": "2026-10-25T11:59:56+01:00",
+  "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2025",
+  "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
+  "prochain_id": 22
+ },
+ "transactions": [
+  {
+   "id": "pdm-001",
+   "titre": "Gecina signe une promesse sur un immeuble de bureaux à Gare de Lyon",
+   "resume": "Gecina a signé une promesse d'achat portant sur un immeuble de bureaux d'environ 15 000 m² dans le quartier de la Gare de Lyon, entièrement loué à quatre locataires. Restructuré en 2021, l'actif ne nécessite pas de travaux à court ou moyen terme selon le communiqué. La réalisation était attendue début 2026.",
+   "date": {
+    "valeur": "2025-10-27",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "statut_operation": "promesse",
+   "modalites": [
+    "Promesse d'achat (accord préliminaire)"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Bureaux",
+   "actif": {
+    "nom": "Immeuble de bureaux, quartier Gare de Lyon",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     12
+    ],
+    "zone": "paris",
+    "note": "Arrondissement déduit du quartier cité par le communiqué (Gare de Lyon)."
+   },
+   "acquereurs": [
+    {
+     "nom": "Gecina",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 135000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "DI"
+    },
+    "surface": {
+     "valeur": 15000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 9000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "DI"
+    },
+    "loyer": {
+     "valeur": 8900000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR/an",
+     "libelle": "Loyers annuels"
+    },
+    "rendement": {
+     "valeur": 6.6,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "%",
+     "note": "Calcul : loyers annuels 8,9 M€ ÷ prix 135,0 M€ droits inclus = rendement brut d'environ 6,6 %."
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "« Entièrement loué à quatre locataires »."
+    },
+    "duree_baux": {
+     "valeur": 8,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "ans",
+     "note": "« Durée moyenne des baux de près de huit ans ».",
+     "libelle": "Durée moyenne des baux"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Travaux",
+     "valeur": "Restructuration complète achevée en 2021 ; pas de capex à court ou moyen terme",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Certifications",
+     "valeur": "HQE Excellent, BREEAM Excellent, WiredScore Gold",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Réalisation",
+     "valeur": "Attendue début 2026, sous conditions suspensives usuelles (non vérifiée à ce jour)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeuble entièrement loué à quatre locataires",
+     "Durée moyenne des baux proche de 8 ans",
+     "Restructuration achevée en 2021, sans capex prévu à court ou moyen terme",
+     "Certifications environnementales de premier niveau"
+    ],
+    "commentaire": "Profil d'actif stabilisé et loué. La source ne nomme pas de stratégie : classement « Core » proposé comme hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Gecina — communiqué diffusé par Business Wire",
+     "titre": "Gecina: New Office Acquisition in Paris",
+     "url": "https://www.businesswire.com/news/home/20251027216431/en/Gecina-New-Office-Acquisition-in-Paris",
+     "date": "2025-10-27",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Communiqué publié en anglais ; chiffres repris tels quels."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-002",
+   "titre": "Gecina signe une promesse sur un ensemble de bureaux de 32 200 m² dans le QCA",
+   "resume": "Selon une dépêche CercleFinance reprise par EasyBourse, Gecina a signé une promesse pour acquérir un ensemble de bureaux de 32 200 m² au cœur du Quartier Central des Affaires, à quelques pas de la gare Saint-Lazare, pour un investissement total de 435 M€ droits inclus. L'actif a fait l'objet d'une restructuration intégrale récente.",
+   "date": {
+    "valeur": "2025-05-16",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "statut_operation": "promesse",
+   "modalites": [
+    "Promesse d'achat"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Bureaux",
+   "actif": {
+    "nom": "Ensemble de bureaux près de la gare Saint-Lazare",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [],
+    "zone": "paris_qca",
+    "note": "Arrondissement non précisé par la source (secteur Saint-Lazare, QCA)."
+   },
+   "acquereurs": [
+    {
+     "nom": "Gecina",
+     "type": "Foncière cotée",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 435000000,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "DI"
+    },
+    "surface": {
+     "valeur": 32200,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 13509,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "€/m²",
+     "base": "DI",
+     "note": "Calcul : 435 M€ ÷ 32 200 m². La dépêche affiche un prix au m² tronqué (« environ 13. 300 euros/m² ») : valeur non reprise."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "État de l'actif",
+     "valeur": "Restructuration intégrale récente ; vastes plateaux de bureaux",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Effet attendu",
+     "valeur": "Impact relutif à court terme sur le résultat net récurrent, selon le groupe",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Restructuration intégrale récente",
+     "Localisation qualifiée de « prime » par le groupe",
+     "Effet relutif immédiat annoncé"
+    ],
+    "commentaire": "Aucune stratégie nommée par la source : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "EasyBourse — dépêche CercleFinance",
+     "titre": "Gecina: vers une grosse acquisition dans le QCA de Paris",
+     "url": "https://www.easybourse.com/financieres/news/1507453/gecina-vers-une-grosse-acquisition-dans-qca-paris.html",
+     "date": "2025-05-16",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le communiqué original de Gecina n'a pas été consulté : fiche à confirmer."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "faible",
+    "motifs": [
+     "Une seule source de presse consultée en intégralité"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-003",
+   "titre": "Blackstone signe pour le Centre d'Affaires Paris Trocadéro",
+   "resume": "Le fonds Blackstone Real Estate a signé un accord en vue d'acquérir le Centre d'Affaires Paris Trocadéro, ensemble d'environ 41 000 m² situé place du Trocadéro (16e), auprès d'Union Investment Real Estate, pour environ 700 M€. La finalisation était attendue au quatrième trimestre 2025.",
+   "date": {
+    "valeur": "2025-09-15",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "statut_operation": "promesse",
+   "modalites": [
+    "Accord signé en vue de l'acquisition"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Bureaux",
+   "actif": {
+    "nom": "Centre d'Affaires Paris Trocadéro",
+    "adresse": "Place du Trocadéro",
+    "commune": "Paris",
+    "arrondissements": [
+     16
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Fonds Blackstone Real Estate",
+     "type": "Fonds d'investissement",
+     "gestionnaire": "Blackstone",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Union Investment Real Estate",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Attal & Associés",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Darrois Villey Maillot Brochier",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Thibierge Notaires",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "CMS Francis Lefebvre",
+     "cote": "vendeur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Simmons & Simmons",
+     "cote": "vendeur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 700000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "surface": {
+     "valeur": 41000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 17073,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul sur valeurs arrondies : ≈ 700 M€ ÷ ≈ 41 000 m². Base du prix (droits inclus ou non) non précisée."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Calendrier",
+     "valeur": "Finalisation attendue au T4 2025 (non vérifiée à ce jour)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie déclarée ; taux d'occupation et état locatif non publiés : aucune hypothèse n'est formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet De Pardieu",
+     "titre": "De Pardieu, conseil de Blackstone dans le cadre de l'acquisition du Centre d'Affaires Paris Trocadéro",
+     "url": "https://www.lemondedudroit.fr/deals/100603-depardieu-conseil-de-blackstone-acquisition-du-centre-daffaires-paris-trocadero.html",
+     "date": "2025-09-15",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-004",
+   "titre": "CORUM Origin acquiert l'immeuble « l'Alphabet » à Bois-Colombes",
+   "resume": "La SCPI CORUM Origin a acquis auprès de Sefri-Cime et AXA IM l'immeuble de bureaux « l'Alphabet » à Bois-Colombes (20 481 m², livré en 2023). L'actif est occupé à 90 % par Elior, Subsea 7 et Wolters Kluwer, avec une durée résiduelle ferme de 6,3 ans.",
+   "date": {
+    "valeur": "2025-12",
+    "precision": "mois",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-02-06",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Cession réalisée en décembre 2025"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Bureaux",
+   "actif": {
+    "nom": "Immeuble « l'Alphabet »",
+    "adresse": null,
+    "commune": "Bois-Colombes (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "CORUM Origin",
+     "type": "SCPI",
+     "precision": "SCPI du groupe CORUM",
+     "gestionnaire": "CORUM",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Sefri-Cime",
+     "type": "Promoteur (maître d'ouvrage délégué)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "AXA IM",
+     "type": "Gestionnaire d'actifs",
+     "precision": "Immeuble développé par AXA IM Alts pour le compte de ses clients",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "vendeur",
+     "role": "Juridique (immobilier)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact"
+    },
+    "surface": {
+     "valeur": 20481,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "occupation": {
+     "valeur": 90,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%"
+    },
+    "duree_baux": {
+     "valeur": 6.3,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "ans",
+     "libelle": "Durée résiduelle ferme (WALB)"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataires",
+     "valeur": "Elior, Subsea 7, Wolters Kluwer",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Livraison",
+     "valeur": "2023 (immeuble neuf)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Certifications",
+     "valeur": "BREEAM Very Good, HQE Très Performant, WiredScore Gold",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeuble neuf livré en 2023",
+     "Taux d'occupation de 90 %",
+     "Locataires qualifiés de « premier rang »",
+     "Durée résiduelle ferme de 6,3 ans",
+     "Acquéreur : SCPI, véhicule de rendement"
+    ],
+    "commentaire": "Profil locatif sécurisé ; aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet De Pardieu",
+     "titre": "De Pardieu, conseil de Sefri-Cime et AXA IM dans le cadre de la cession de l'immeuble « l'Alphabet » à CORUM Origin",
+     "url": "https://www.lemondedudroit.fr/deals/102848-de-pardieu-conseil-de-sefri-cime-et-axa-im-cession-de-limmeuble-lalphabet-a-corum-origin.html",
+     "date": "2026-02-06",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Zone « Croissant Ouest » : Bois-Colombes (Hauts-de-Seine)."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-005",
+   "titre": "Icade cède l'immeuble Marignan, sur les Champs-Élysées, pour 402 M€",
+   "resume": "Icade a finalisé en avril 2026 la cession de l'immeuble Marignan, sur les Champs-Élysées (8e), pour 402 M€ à Black Swan Real Estate Capital, agissant pour le compte de fonds Bain Capital et Revcap. La promesse avait été signée en décembre 2025, à l'issue d'un appel d'offres lancé à l'été 2025.",
+   "date": {
+    "valeur": "2026-04",
+    "precision": "mois",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-07-21",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Appel d'offres",
+    "Promesse en décembre 2025, cession finalisée en avril 2026"
+   ],
+   "classe": "mixte",
+   "sous_type": "Bureaux et commerces",
+   "actif": {
+    "nom": "Immeuble Marignan",
+    "adresse": "Avenue des Champs-Élysées",
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Black Swan Real Estate Capital",
+     "type": "Investisseur pour compte de tiers",
+     "precision": "Agissant pour le compte de fonds Bain Capital et Revcap",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Bain Capital",
+     "type": "Fonds (investisseur)",
+     "precision": "Fonds représentés par Black Swan Real Estate Capital",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Revcap",
+     "type": "Fonds (investisseur)",
+     "precision": "Fonds représentés par Black Swan Real Estate Capital",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Icade",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 402000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "prix_m2": {
+     "valeur": 33000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "€/m²",
+     "note": "Valeur au m², bureaux et commerces confondus, selon le vendeur."
+    },
+    "surface": {
+     "valeur": 12182,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Calcul : 402 M€ ÷ 33 000 €/m² (valeur arrondie) ≈ 12 200 m². Surface non publiée telle quelle."
+    },
+    "rendement": {
+     "valeur": 3.75,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "%",
+     "note": "« Yield potentiel estimé à la livraison de c. 3,75 % », selon le vendeur."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Processus",
+     "valeur": "Appel d'offres « très compétitif » initié à l'été 2025",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Prime",
+     "valeur": "Plus de 20 % au-dessus de l'ANR du 31 décembre 2024, selon le vendeur",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie déclarée pour l'opération. Le vendeur évoque un rendement potentiel « à la livraison » ; l'état locatif n'étant pas publié, aucune hypothèse n'est formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Icade — communiqué des résultats semestriels 2026",
+     "titre": "Résultats semestriels 2026",
+     "url": "https://www.icade.fr/finance/publications/resultats-semestriels-2026.pdf",
+     "date": "2026-07-21",
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Icade — communiqué d'activité au 31 mars 2026",
+     "titre": "Activité au 31 mars 2026",
+     "url": "https://www.icade.fr/finance/publications/icade-activite-au-31-mars-2026",
+     "date": "2026-04-16",
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "extrait"
+    }
+   ],
+   "contradictions": [],
+   "notes": [],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-006",
+   "titre": "Icade rachète les 49 % minoritaires de la Tour Eqho à La Défense",
+   "resume": "Le 13 juillet 2026, Icade a repris la participation de 49 % détenue par des investisseurs sud-coréens, via l'OPPCI Eqho Property Holdings, dans la SAS Tour Eqho, et détient désormais 100 % de la tour (environ 79 000 m² sur 42 étages). L'opération suit le renouvellement du bail de KPMG et la signature d'un bail avec la Préfecture des Hauts-de-Seine en 2025 : la tour est désormais entièrement louée.",
+   "date": {
+    "valeur": "2026-07-13",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-07-21",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition de titres (share deal)",
+    "Quote-part de 49 %"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Tour de bureaux",
+   "actif": {
+    "nom": "Tour Eqho",
+    "adresse": null,
+    "commune": "La Défense",
+    "arrondissements": [],
+    "zone": "la_defense",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Icade",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "OPPCI Eqho Property Holdings",
+     "type": "OPPCI",
+     "precision": "Détenu par des investisseurs sud-coréens",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact"
+    },
+    "quote_part": {
+     "valeur": 49,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%"
+    },
+    "surface": {
+     "valeur": 79000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Surface de la tour entière (42 étages)."
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "« Désormais entièrement louée »."
+    },
+    "rendement": {
+     "valeur": 8,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "%",
+     "note": "« Rendement supérieur à 8 %, y compris en tenant compte du renouvellement du bail de KPMG », selon l'acquéreur."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Baux",
+     "valeur": "Renouvellement du bail KPMG (c. 41 000 m²) et nouveau bail de la Préfecture des Hauts-de-Seine en 2025",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Certifications",
+     "valeur": "HQE Bâtiment Durable Excellent, BREEAM in-use Excellent",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Tour désormais entièrement louée",
+     "Baux majeurs renouvelés ou signés en 2025",
+     "Certifications environnementales de premier niveau"
+    ],
+    "commentaire": "Le communiqué parle d'« acquisition opportuniste » au sens d'opportunité de marché : le terme ne désigne pas ici la stratégie « Opportunistic » de la typologie des fonds. Classement « Core » proposé comme hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Icade — communiqué des résultats semestriels 2026",
+     "titre": "Résultats semestriels 2026",
+     "url": "https://www.icade.fr/finance/publications/resultats-semestriels-2026.pdf",
+     "date": "2026-07-21",
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-007",
+   "titre": "Hines acquiert le 83 Marceau auprès de Colonial SFL",
+   "resume": "Hines a acquis auprès de Colonial SFL l'immeuble du 83 avenue Marceau, près de l'Arc de Triomphe : près de 10 000 m² de bureaux accueillant notamment le siège français de Goldman Sachs. L'opération a été réalisée pour le compte du Hines European Core Fund (HECF).",
+   "date": {
+    "valeur": "2026-03-17",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Bureaux",
+   "actif": {
+    "nom": "83 Marceau",
+    "adresse": "83 avenue Marceau",
+    "commune": "Paris",
+    "arrondissements": [],
+    "zone": "paris_qca",
+    "note": "Arrondissement contesté (8e ou 16e) : voir les contradictions. Zone QCA retenue, les deux sources situant l'immeuble près de l'Arc de Triomphe."
+   },
+   "acquereurs": [
+    {
+     "nom": "Hines European Core Fund (HECF)",
+     "type": "Fonds d'investissement",
+     "gestionnaire": "Hines",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Colonial SFL",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 242500000,
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Montant cité par Business Immo (CoStar) pour le « 83-85 avenue Marceau » ; article consulté via un extrait uniquement."
+    },
+    "surface": {
+     "valeur": 10000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "pres_de",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "note": "Non calculé : le montant presse vise le « 83-85 avenue Marceau » alors que la surface publiée concerne le 83."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataire",
+     "valeur": "Siège français de Goldman Sachs (bail signé en 2020 sur près de 6 500 m², 12 ans dont 9 fermes, selon SFL)",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S4"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "core",
+    "niveau": "vehicule",
+    "citation": "« réalisée pour le compte du Hines European Core Fund (HECF) »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [
+     "Acquisition pour un fonds dont la dénomination et le positionnement sont « Core »",
+     "Actifs « de grande qualité et générateurs de revenus », selon l'annonce"
+    ],
+    "commentaire": "Stratégie confirmée au niveau du véhicule acquéreur, nommé par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet De Pardieu",
+     "titre": "De Pardieu, conseil fiscal de Hines dans le cadre de l'acquisition de l'immeuble « 83 Marceau » auprès de Colonial SFL",
+     "url": "https://www.lemondedudroit.fr/deals/103496-de-pardieu-conseil-fiscal-de-hines-dans-le-cadre-de-lacquisition-de-limmeuble-83-marceau-aupres-de-colonial-sfl.html",
+     "date": "2026-03-21",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "De Pardieu — communiqué de presse (PDF)",
+     "titre": "De Pardieu conseil fiscal de Hines dans le cadre de l'acquisition de l'immeuble « 83 Marceau »",
+     "url": "https://www.de-pardieu.com/wp-content/uploads/2026/03/260310_DPBM_Deal_Hines.pdf",
+     "date": "2026-03-17",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "extrait",
+     "note": "Même communiqué que S1, à sa source."
+    },
+    {
+     "id": "S3",
+     "editeur": "Business Immo (CoStar)",
+     "titre": "[EXCLUSIF] Vers une cession à un demi-milliard dans la capitale ?",
+     "url": "https://www.costar.com/article/235895191/exclusif-vers-une-cession-a-un-demi-milliard-dans-la-capitale",
+     "date": null,
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article payant : seul l'extrait de recherche a été lu."
+    },
+    {
+     "id": "S4",
+     "editeur": "SFL — communiqué diffusé par Business Wire (2020)",
+     "titre": "SFL – Goldman Sachs prend à bail plus de 80% des bureaux du 83 Marceau",
+     "url": "https://www.businesswire.com/news/home/20200602005867/fr",
+     "date": "2020-06-02",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué antérieur, utilisé pour le contexte locatif."
+    }
+   ],
+   "contradictions": [
+    {
+     "champ": "arrondissement",
+     "libelle": "Arrondissement",
+     "valeurs": [
+      {
+       "valeur": "8e",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "valeur": "16e",
+       "sources": [
+        "S4"
+       ]
+      }
+     ],
+     "note": "Le communiqué De Pardieu (2026) situe l'immeuble dans le 8e, le communiqué SFL de 2020 dans le 16e. Les deux versions sont conservées."
+    }
+   ],
+   "notes": [
+    "Business Immo désigne l'actif comme le « 83-85 avenue Marceau »."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "moyen",
+    "motifs": [
+     "Contradiction entre sources : arrondissement"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-008",
+   "titre": "La SCPI AEW Paris Commerces acquiert une boutique au 20 rue Tronchet",
+   "resume": "La SCPI AEW Paris Commerces a acquis pour 6 M€ une boutique de 291 m² sur deux niveaux au 20 rue Tronchet (8e), près de la place de la Madeleine et des Grands Magasins. Récemment rénovée, elle est louée à l'enseigne danoise de mobilier Bolia.",
+   "date": {
+    "valeur": "2026-03-23",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition"
+   ],
+   "classe": "commerces",
+   "sous_type": "Commerce de pied d'immeuble",
+   "actif": {
+    "nom": "Boutique, 20 rue Tronchet",
+    "adresse": "20 rue Tronchet",
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "AEW Paris Commerces",
+     "type": "SCPI",
+     "gestionnaire": "AEW",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 6000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "surface": {
+     "valeur": 291,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "La rubrique « À la une » du bulletin indique « près de 300 m² »."
+    },
+    "prix_m2": {
+     "valeur": 20619,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "€/m²",
+     "note": "Calcul : 6 M€ ÷ 291 m²."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataire",
+     "valeur": "Bolia (mobilier et design haut de gamme)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "État",
+     "valeur": "Rénovée récemment",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Boutique récemment rénovée et louée",
+     "Artère commerçante de premier plan (8e, Madeleine)",
+     "Acquéreur : SCPI de rendement"
+    ],
+    "commentaire": "La SCPI évoque une stratégie « d'actifs ultra-ciblés très qualitatifs », sans la rattacher à une catégorie : « Core » est une hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "AEW — bulletin semestriel de la SCPI AEW Paris Commerces",
+     "titre": "Bulletin semestriel n°1 2026 (1er janvier – 30 juin 2026)",
+     "url": "https://access.fortunyconseil.fr/api/v1/SCPI/files/bulletinsemestriels12026_e2f1a2f09f9b11f1914467ad01a16986.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Document daté par sa période d'analyse (S1 2026)."
+    }
+   ],
+   "contradictions": [],
+   "notes": [],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-009",
+   "titre": "Magellim REIM finalise l'acquisition de deux boutiques-hôtels 4★ à Paris",
+   "resume": "Magellim REIM a finalisé l'acquisition, murs et fonds, du Grand Hôtel Chicago (17e, 51 chambres) et de l'Hôtel Riesner (12e, 38 chambres), pour un investissement total de près de 40 M€, dans le cadre de son troisième club deal « murs et fonds », avec ArMen Asset Management pour la gestion hôtelière.",
+   "date": {
+    "valeur": "2026-07-15",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "statut_operation": "realisee",
+   "modalites": [
+    "Murs et fonds",
+    "Portefeuille de 2 hôtels",
+    "Club deal"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtels 4★",
+   "actif": {
+    "nom": "Grand Hôtel Chicago et Hôtel Riesner",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     17,
+     12
+    ],
+    "zone": "paris",
+    "note": "Portefeuille : Batignolles (17e) et Gare de Lyon – Bercy (12e)."
+   },
+   "acquereurs": [
+    {
+     "nom": "Club deal « murs et fonds » n° 3",
+     "type": "Club deal",
+     "gestionnaire": "Magellim REIM",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "ArMen Asset Management",
+     "role": "Investissement et gestion d'actifs hôteliers (groupe Magellim)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 40000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "pres_de",
+     "unite": "EUR",
+     "base": "NC",
+     "libelle": "Investissement total"
+    },
+    "cles": {
+     "valeur": 89,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres",
+     "note": "Calcul : 51 + 38 chambres."
+    },
+    "prix_cle": {
+     "valeur": 449438,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/clé",
+     "note": "Calcul : près de 40 M€ ÷ 89 chambres ≈ 450 k€ par clé."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "État",
+     "valeur": "Hôtels récemment rénovés, pleinement exploités, sans travaux structurels",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Objectif du véhicule",
+     "valeur": "TRI net investisseur cible de 10 % (non garanti)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core_plus",
+    "indices": [
+     "Acquisition murs et fonds : exposition au risque d'exploitation hôtelière",
+     "Hôtels récemment rénovés, sans travaux structurels",
+     "TRI net cible de 10 % annoncé pour le club deal (non garanti)"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core+ » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "TendanceHotellerie — communiqué de Magellim REIM",
+     "titre": "Magellim REIM finalise l'acquisition de deux boutiques-hôtels 4 étoiles au cœur de Paris",
+     "url": "https://www.tendancehotellerie.fr/articles-breves/communique-de-presse/25785-article/magellim-reim-finalise-l-acquisition-de-deux-boutiques-hotels-4-etoiles-au-coeur-de-paris",
+     "date": "2026-07-15",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-010",
+   "titre": "Pontegadea acquiert l'immeuble Capital 8 auprès d'Invesco",
+   "resume": "Selon Merca2, Pontegadea, la holding d'Amancio Ortega, a acquis l'immeuble Capital 8 (8e, près de l'Arc de Triomphe) pour 800 M€. L'ensemble de 45 000 m², occupé à environ 95 %, est loué notamment à Mitsubishi, Standard Chartered et CMA CGM ; Invesco l'avait acquis 789 M€ en 2018. Business Immo évoque de son côté près de 850 M€.",
+   "date": {
+    "valeur": "2026-07-24",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Bureaux",
+   "actif": {
+    "nom": "Capital 8",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Pontegadea",
+     "type": "Holding patrimoniale (family office)",
+     "precision": "Holding d'Amancio Ortega",
+     "statut": "presse",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Invesco Real Estate",
+     "type": "Société de gestion",
+     "statut": "presse",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 800000000,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Montant contesté : voir les contradictions."
+    },
+    "surface": {
+     "valeur": 45000,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 17778,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "€/m²",
+     "note": "Calcul : 800 M€ ÷ 45 000 m². Sur la base de près de 850 M€ (Business Immo), environ 18 900 €/m²."
+    },
+    "occupation": {
+     "valeur": 95,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "%"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataires",
+     "valeur": "Mitsubishi, Standard Chartered, CMA CGM (liste non exhaustive)",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Historique",
+     "valeur": "Acquis par Invesco en 2018 pour 789 M€",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Financement",
+     "valeur": "Sans recours à l'emprunt bancaire, selon Merca2",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Occupation d'environ 95 %",
+     "Locataires de premier plan",
+     "Loyers indexés et baux longs selon la presse",
+     "Acquisition sans dette bancaire selon la presse"
+    ],
+    "commentaire": "Aucune stratégie déclarée par l'acquéreur : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Merca2",
+     "titre": "Amancio Ortega de compras por París: récord de 800 millones en oficinas",
+     "url": "https://www.merca2.es/2026/07/24/amancio-ortega-compra-paris-800-millones-2423576/",
+     "date": "2026-07-24",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Business Immo (CoStar)",
+     "titre": "Capital 8 illumine un marché des bureaux en demi-teinte",
+     "url": "https://www.costar.com/article/1262671316/capital-8-illumine-un-marche-des-bureaux-en-demi-teinte",
+     "date": "2026-08-03",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article payant : seul l'extrait de recherche a été lu."
+    }
+   ],
+   "contradictions": [
+    {
+     "champ": "montant",
+     "libelle": "Montant",
+     "valeurs": [
+      {
+       "valeur": "800 M€",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "valeur": "près de 850 M€",
+       "sources": [
+        "S2"
+       ]
+      }
+     ],
+     "note": "Deux montants publiés par la presse ; aucun communiqué des parties consulté."
+    }
+   ],
+   "notes": [
+    "Article en espagnol ; informations reprises dans nos propres termes."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "moyen",
+    "motifs": [
+     "Une seule source de presse consultée en intégralité",
+     "Contradiction entre sources : montant"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-011",
+   "titre": "Square Groupe acquiert le Best Western Plus Paris Nation",
+   "resume": "Square Groupe, société d'investissement genevoise spécialisée dans l'hôtellerie, annonce l'acquisition du Best Western Plus Paris Nation, hôtel 4★ de 48 chambres au 61 rue de la Voûte (12e). C'est sa troisième acquisition hôtelière à Paris, présentée comme la poursuite de sa stratégie value-add.",
+   "date": {
+    "valeur": "2026",
+    "precision": "annee",
+    "nature": "annonce"
+   },
+   "statut_operation": "annoncee",
+   "modalites": [
+    "Acquisition"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel 4★",
+   "actif": {
+    "nom": "Best Western Plus Paris Nation",
+    "adresse": "61 rue de la Voûte",
+    "commune": "Paris",
+    "arrondissements": [
+     12
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Square Groupe",
+     "type": "Société d'investissement",
+     "precision": "Basée à Genève, spécialisée dans l'investissement hôtelier et le private equity",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact"
+    },
+    "cles": {
+     "valeur": 48,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Rang",
+     "valeur": "Troisième acquisition hôtelière du groupe à Paris",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "value_add",
+    "niveau": "operation",
+    "citation": "« le groupe poursuit sa stratégie value-add, fondée sur l'identification d'hôtels présentant un potentiel de création de valeur »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [
+     "Stratégie nommée explicitement dans le communiqué"
+    ],
+    "commentaire": "Stratégie confirmée par la source pour cette acquisition."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "TendanceHotellerie — communiqué de Square Groupe",
+     "titre": "Square Groupe poursuit sa stratégie hôtelière avec l'acquisition d'un établissement 4 étoiles à Paris",
+     "url": "https://www.tendancehotellerie.fr/articles-breves/communique-de-presse/25556-article/square-groupe-poursuit-sa-strategie-hoteliere-avec-l-acquisition-d-un-etablissement-4-etoiles-a-paris",
+     "date": null,
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "extrait",
+     "note": "Page inaccessible au robot de collecte : contenu lu via les extraits de recherche."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Date exacte de publication non vérifiée (2026)."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "moyen",
+    "motifs": [
+     "Source de niveau A lue uniquement par extrait",
+     "Date de l'opération imprécise"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-012",
+   "titre": "Eternam acquiert le Grand Hôtel des Balcons pour le repositionner en 4★",
+   "resume": "Eternam a acquis, via le FPCI Odéon Saint-Germain, les murs et le fonds du Grand Hôtel des Balcons, boutique-hôtel de 49 chambres dans le quartier de l'Odéon, auprès de deux propriétaires privés, pour environ 530 k€ par clé. L'hôtel sera entièrement rénové et repositionné en 4★, avec un horizon de détention cible de 5 ans ; travaux et exploitation sont confiés à Hôtels en Ville.",
+   "date": {
+    "valeur": "2026-06-18",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "statut_operation": "realisee",
+   "modalites": [
+    "Murs et fonds",
+    "Véhicule : FPCI"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel (repositionnement 4★)",
+   "actif": {
+    "nom": "Grand Hôtel des Balcons",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     6
+    ],
+    "zone": "paris",
+    "note": "Arrondissement déduit du quartier cité par le communiqué (Odéon)."
+   },
+   "acquereurs": [
+    {
+     "nom": "FPCI Odéon Saint-Germain",
+     "type": "FPCI",
+     "gestionnaire": "Eternam",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Deux propriétaires privés",
+     "type": "Particuliers",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "anonyme": true
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "14 Pyramides",
+     "cote": "non_precise",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "JSA",
+     "cote": "non_precise",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Deloitte",
+     "cote": "non_precise",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Artélia",
+     "cote": "non_precise",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Cushman & Wakefield",
+     "cote": "non_precise",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [
+    {
+     "nom": "BNP Paribas",
+     "role": "Financement",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "autres_intervenants": [
+    {
+     "nom": "Hôtels en Ville",
+     "role": "Exploitant et pilotage des travaux",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 25970000,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Calcul : environ 530 k€ par clé × 49 chambres ≈ 26 M€. Montant total non publié tel quel."
+    },
+    "cles": {
+     "valeur": 49,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    },
+    "prix_cle": {
+     "valeur": 530000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/clé"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Rénovation intégrale et repositionnement en catégorie 4★",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Horizon",
+     "valeur": "Détention cible de 5 ans",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Véhicule",
+     "valeur": "Dixième fonds d'investissement alternatif hôtelier structuré par Eternam",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Rénovation intégrale et repositionnement en 4★",
+     "Horizon de détention cible de 5 ans",
+     "Acquisition murs et fonds auprès de propriétaires privés",
+     "Objectifs de « création de valeur » mentionnés"
+    ],
+    "commentaire": "La source parle de « création de valeur » sans nommer de catégorie : « Value-Add » est une hypothèse forte."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "TendanceHotellerie — communiqué d'Eternam",
+     "titre": "Eternam acquiert le Grand Hôtel des Balcons en vue de sa transformation en hôtel 4 étoiles",
+     "url": "https://www.tendancehotellerie.fr/articles-breves/communique-de-presse/25707-article/eternam-acquiert-le-grand-hotel-des-balcons-en-vue-de-sa-transformation-en-hotel-4-etoiles",
+     "date": "2026-06-18",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Rôles des conseils non précisés par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-013",
+   "titre": "La SCPI Upêka achète deux commerces parisiens pour près de 7 M€",
+   "resume": "Selon France SCPI, la SCPI Upêka, gérée par Axipit Real Estate Partners (filiale de Catella Aquila IM France), finalise en octobre 2026 l'achat de deux boutiques en pied d'immeuble à Paris, pour environ 7 M€ et près de 450 m², louées à Silvera et John Taylor. L'opération est financée en partie par un emprunt bancaire de près de 3 M€.",
+   "date": {
+    "valeur": "2026-10",
+    "precision": "mois",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-10-21",
+   "statut_operation": "en_cours",
+   "modalites": [
+    "Portefeuille de 2 commerces",
+    "Financement bancaire partiel"
+   ],
+   "classe": "commerces",
+   "sous_type": "Commerces de pied d'immeuble",
+   "actif": {
+    "nom": "Deux cellules commerciales",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [],
+    "zone": "paris_nc",
+    "note": "Adresses non communiquées par la source."
+   },
+   "acquereurs": [
+    {
+     "nom": "Upêka",
+     "type": "SCPI",
+     "precision": "Gérée par Axipit Real Estate Partners, filiale de Catella Aquila IM France",
+     "gestionnaire": "Axipit Real Estate Partners",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 7000000,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "surface": {
+     "valeur": 450,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "pres_de",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 15556,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "note": "Calcul sur valeurs arrondies : ≈ 7 M€ ÷ ≈ 450 m²."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataires",
+     "valeur": "Silvera (mobilier design) et John Taylor (immobilier de prestige)",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Dette",
+     "valeur": "Emprunt bancaire de près de 3 M€ ; ratio d'endettement de la SCPI porté à 11,12 %",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Rendement visé",
+     "valeur": "En ligne avec le taux de distribution cible de la SCPI (5,5 %, non garanti)",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Boutiques louées à des enseignes établies",
+     "Rendement visé en ligne avec un taux de distribution de SCPI",
+     "Endettement limité"
+    ],
+    "commentaire": "Aucune catégorie nommée : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "France SCPI",
+     "titre": "Upêka s'offre deux commerces parisiens pour près de 7 M€",
+     "url": "https://francescpi.com/scpi/actualites-scpi/upeka-s-offre-deux-commerces-parisiens-pour-environ-7-me-2026",
+     "date": "2026-10-21",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Média spécialisé ; le site signale ses articles comme communications publicitaires."
+    }
+   ],
+   "contradictions": [],
+   "notes": [],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "faible",
+    "motifs": [
+     "Une seule source de presse consultée en intégralité"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-014",
+   "titre": "AG Real Estate France cède deux hôtels d'activités parisiens (DORIAN, CAP19)",
+   "resume": "AG Real Estate France a cédé à un bailleur institutionnel parisien un portefeuille de deux hôtels d'activités : DORIAN (172 rue de Charonne, 11e, environ 13 000 m², 25 locataires) et CAP19 (13 rue Georges Auric, 19e, environ 10 500 m², 40 locataires), détenus depuis 2012 sous baux à construction avec la Ville de Paris. Le montant de 47,5 M€ figure dans les résultats annuels du vendeur ; Business Immo identifie l'acquéreur comme la RIVP.",
+   "date": {
+    "valeur": "2025-12-22",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "statut_operation": "realisee",
+   "modalites": [
+    "Portefeuille de 2 actifs",
+    "Baux à construction (Ville de Paris)"
+   ],
+   "classe": "activites",
+   "sous_type": "Hôtels d'activités (locaux productifs et artisanaux)",
+   "actif": {
+    "nom": "DORIAN et CAP19",
+    "adresse": "172 rue de Charonne (11e) ; 13 rue Georges Auric (19e)",
+    "commune": "Paris",
+    "arrondissements": [
+     11,
+     19
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "RIVP",
+     "type": "Bailleur institutionnel",
+     "precision": "Identifiée par Business Immo (« selon nos informations ») ; le vendeur parle d'« un bailleur parisien », investisseur institutionnel déjà fortement positionné sur ce segment",
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "AG Real Estate France",
+     "type": "Investisseur et promoteur",
+     "precision": "Filiale française d'AG Real Estate",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Cheuvreux",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Madelus",
+     "cote": "non_precise",
+     "role": "Broker indépendant",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 47500000,
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "surface": {
+     "valeur": 23500,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "pres_de",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 2021,
+     "statut": "calcule",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "note": "Calcul : 47,5 M€ ÷ près de 23 500 m²."
+    },
+    "locataires": {
+     "valeur": 65,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "locataires",
+     "note": "Calcul : 25 (DORIAN) + 40 (CAP19)."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Historique",
+     "valeur": "Actifs détenus depuis 2012 par le vendeur, dans le dispositif des hôtels d'activités parisiens",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Asset management",
+     "valeur": "Taux d'occupation et qualité des immeubles « significativement » améliorés pendant la détention, selon le vendeur",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Acquéreur institutionnel inscrivant l'opération dans une logique de détention et de gestion de long terme (selon le vendeur) : la typologie Core / Value-Add des fonds ne s'applique pas directement, aucune hypothèse n'est formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "AG Real Estate France — communiqué de presse",
+     "titre": "AG Real Estate France annonce la cession à un bailleur parisien d'un portefeuille de deux hôtels d'activités situés à Paris",
+     "url": "https://pressroom.agrealestate.eu/wp-content/uploads/sites/3/2025/12/CP-AG-Real-Estate-France-DORIAN-22-12-25-FR-7-1.pdf",
+     "date": "2025-12-22",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "AG Real Estate France — communiqué des résultats 2025",
+     "titre": "Résultats 2025",
+     "url": "https://pressroom.agrealestate.eu/wp-content/uploads/sites/3/2026/01/CP-AG-Real-Estate-France-Resultats-2025_FR.pdf",
+     "date": "2026-01-29",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Business Immo",
+     "titre": "AG Real Estate France cède un portefeuille de deux hôtels d'activités à Paris",
+     "url": "https://www-prd.businessimmo.com/annuaire/societes/ms0eghl/cheuvreux/actualites",
+     "date": null,
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Titre et chapeau lus dans une liste d'articles ; article complet non consulté."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Identité de l'acquéreur : attribution de presse (niveau B)."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Nom de l'acquéreur attribué par la presse (niveau B)"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-015",
+   "titre": "Axipit Real Estate Partners acquiert le 20 rue Vivienne en value-add",
+   "resume": "Axipit Real Estate Partners a acquis, pour le compte du fonds Axipit Global Value, un hôtel particulier du XVIIe siècle à usage de bureaux au 20 rue Vivienne (2e) : plus de 3 000 m² vacants, achetés à un assureur français pour plus de 45 M€. Un programme de rénovation complète doit repositionner l'actif sur le segment prime ; l'asset management est confié à Catella Aquila IM France.",
+   "date": {
+    "valeur": "2026-07-08",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition",
+    "Financement bancaire"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Bureaux (hôtel particulier)",
+   "actif": {
+    "nom": "20 rue Vivienne",
+    "adresse": "20 rue Vivienne",
+    "commune": "Paris",
+    "arrondissements": [
+     2
+    ],
+    "zone": "paris_qca",
+    "note": "La source situe l'actif « au cœur du Quartier Central des Affaires »."
+   },
+   "acquereurs": [
+    {
+     "nom": "Axipit Global Value",
+     "type": "Fonds d'investissement",
+     "gestionnaire": "Axipit Real Estate Partners",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Assureur français (non nommé)",
+     "type": "Assureur",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "anonyme": true
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Catella Aquila IM France",
+     "cote": "acquereur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Allez & Associés",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Enoma Partners",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Cheuvreux",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [
+    {
+     "nom": "Caisse d'Epargne Hauts de France",
+     "role": "Financement",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "autres_intervenants": [
+    {
+     "nom": "Catella Aquila IM France",
+     "role": "Asset management de l'actif",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 45000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "surface": {
+     "valeur": 3000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "note": "Non calculable : montant et surface ne sont connus que par des bornes inférieures (« plus de »)."
+    },
+    "occupation": {
+     "valeur": 0,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Actif « actuellement vacant »."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Rénovation complète pour repositionner l'actif sur le segment prime du marché locatif parisien",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Actif",
+     "valeur": "Hôtel particulier du XVIIe siècle à usage de bureaux",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "value_add",
+    "niveau": "operation",
+    "citation": "« continues to actively pursue its value-add investment strategy in prime Paris locations »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [
+     "Actif vacant",
+     "Programme de rénovation complète",
+     "Repositionnement sur le segment prime"
+    ],
+    "commentaire": "Stratégie nommée explicitement par le communiqué."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Catella Aquila IM France — communiqué de presse",
+     "titre": "AXIPIT REAL ESTATE PARTNERS acquires 20 Rue Vivienne",
+     "url": "https://www.catella.com/en/france/investment-management/newsroom/press-releases/2025/axipit-real-estate-partners-acquires-20-rue-vivienne",
+     "date": "2026-07-08",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Communiqué publié en anglais ; citation reprise dans sa langue d'origine."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-016",
+   "titre": "EQT Real Estate acquiert une résidence étudiante de 202 studios à Saint-Ouen",
+   "resume": "EQT Real Estate a acquis une résidence étudiante à Saint-Ouen-sur-Seine (93), sur le site anciennement occupé par le musée Pierre Cardin. Développée par Novaxia Investissement, la résidence comprendra 202 studios et doit ouvrir pour la rentrée académique 2026-2027.",
+   "date": {
+    "valeur": "2025-03-05",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "statut_operation": "annoncee",
+   "modalites": [
+    "Acquisition"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Résidence étudiante",
+   "actif": {
+    "nom": "Résidence étudiante (ancien site du musée Pierre Cardin)",
+    "adresse": null,
+    "commune": "Saint-Ouen-sur-Seine (93)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "EQT Real Estate",
+     "type": "Gestionnaire d'investissement",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Arsene",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Novaxia Investissement",
+     "role": "Développeur du projet",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact"
+    },
+    "logements": {
+     "valeur": 202,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "studios"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Ouverture",
+     "valeur": "Prévue pour la rentrée académique 2026-2027",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Recyclage urbain d'un site anciennement occupé par le musée Pierre Cardin",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Résidence non encore ouverte à la date de l'annonce ; aucune stratégie déclarée : pas d'hypothèse formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet Arsene",
+     "titre": "Arsene conseille EQT Real Estate dans l'acquisition d'une résidence étudiante à Saint-Ouen",
+     "url": "https://www.lemondedudroit.fr/deals/97510-arsene-conseille-eqt-real-estate-acquisition-residence-etudiante-saint-ouen-cardin.html",
+     "date": "2025-03-05",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Vendeur non nommé par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-017",
+   "titre": "The Boost Society acquiert une résidence de colocation étudiante à Ivry",
+   "resume": "Selon Hospitality ON, The Boost Society a acquis une résidence étudiante en colocation à Ivry, d'une capacité de 257 lits répartis en 72 chambres, construite en 2022 par le groupe Ovalto / NoeCampus. Elle sera exploitée sous la marque KLEY ; l'acquisition a été finalisée en moins de trois mois.",
+   "date": {
+    "valeur": "2025-07-01",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Résidence étudiante en colocation (coliving)",
+   "actif": {
+    "nom": "Résidence étudiante en colocation",
+    "adresse": null,
+    "commune": "Ivry-sur-Seine (94)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "The Boost Society",
+     "type": "Investisseur-exploitant (résidentiel géré)",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Ovalto / NoeCampus",
+     "role": "Constructeur de la résidence (2022)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact"
+    },
+    "logements": {
+     "valeur": 72,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    },
+    "lits": {
+     "valeur": 257,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "lits"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Exploitation",
+     "valeur": "Sous la marque KLEY",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Construction",
+     "valeur": "2022",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie déclarée : pas d'hypothèse formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Hospitality ON",
+     "titre": "The Boost Society s'agrandit avec une nouvelle acquisition de coliving à Ivry",
+     "url": "https://hospitality-on.com/fr/developpement/boost-society-sagrandit-avec-une-nouvelle-acquisition-de-coliving-ivry",
+     "date": "2025-07-01",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Vendeur non nommé par la source."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "faible",
+    "motifs": [
+     "Une seule source de presse consultée en intégralité"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée lors de l'initialisation de la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-018",
+   "titre": "Bain Capital, Columbia Threadneedle et QuinSpark signent pour le Pullman Paris Montparnasse, cédé par URW",
+   "resume": "Unibail-Rodamco-Westfield a signé le 25 juillet 2025 la cession de l'hôtel Pullman Paris Montparnasse (957 chambres, 14e arrondissement), murs et société d'exploitation, à un consortium réunissant Columbia Threadneedle Investments, Bain Capital et QuinSpark. Les annonces des cabinets d'avocats présentaient l'opération comme soumise aux conditions suspensives usuelles, avec une finalisation attendue au second semestre 2025. La presse spécialisée évoque un prix d'un peu plus de 300 M€, non confirmé par les parties dans les sources lues.",
+   "date": {
+    "valeur": "2025-07-25",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-08-26",
+   "statut_operation": "promesse",
+   "modalites": [
+    "Cession de l'immobilier et de la société d'exploitation",
+    "Consortium de trois investisseurs",
+    "Conditions suspensives usuelles"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel 4★ de grande capacité",
+   "actif": {
+    "nom": "Hôtel Pullman Paris Montparnasse",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     14
+    ],
+    "zone": "paris",
+    "note": "Adresse non précisée par les sources lues ; hôtel situé près de la gare et de la tour Montparnasse."
+   },
+   "acquereurs": [
+    {
+     "nom": "Columbia Threadneedle Investments",
+     "type": "Gestionnaire d'actifs",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Bain Capital",
+     "type": "Fonds d'investissement",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "QuinSpark",
+     "type": "Investisseur",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Unibail-Rodamco-Westfield",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Lacourte Raquin Tatar",
+     "cote": "vendeur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "CMS Francis Lefebvre",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Clifford Chance",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 300000000,
+     "statut": "presse",
+     "sources": [
+      "S3",
+      "S4"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué par les parties ; la presse indique « plus de 300 M€ »."
+    },
+    "cles": {
+     "valeur": 957,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    },
+    "prix_cle": {
+     "valeur": 313480,
+     "statut": "calcule",
+     "sources": [
+      "S3",
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "€/clé",
+     "base": "NC",
+     "note": "Calcul : plus de 300 M€ (presse) ÷ 957 chambres ≈ plus de 313 000 € par clé."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Signature",
+     "valeur": "Accord conclu le 25 juillet 2025, finalisation attendue au second semestre 2025",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Conseil de Clifford Chance",
+     "valeur": "Bain Capital conseillé y compris sur le financement de l'acquisition",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources lues ; indices insuffisants pour une hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de Lacourte Raquin Tatar)",
+     "titre": "Lacourte Raquin Tatar a conseillé Unibail-Rodamco-Westfield dans la cession de l'hôtel Pullman Paris Montparnasse",
+     "url": "https://www.lemondedudroit.fr/deals/100387-lacourte-raquin-tatar-a-conseille-unibail-rodamco-westfield-cession-hotel-pullman-paris-montparnasse.html",
+     "date": "2025-08-26",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Clifford Chance",
+     "titre": "Clifford Chance advises Bain Capital on the acquisition of the Pullman Paris Montparnasse hotel",
+     "url": "https://www.cliffordchance.com/news/news/2025/08/clifford-chance-advises-bain-capital-on-the-acquisition-of-the-p.html",
+     "date": "2025-08-29",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "CoStar",
+     "titre": "Unibail-Rodamco-Westfield sells Pullman Paris Montparnasse",
+     "url": "https://www.costar.com/article/263497416/unibail-rodamco-westfield-sells-pullman-paris-montparnasse",
+     "date": "2025-07-31",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article payant, seul l'en-tête est lisible."
+    },
+    {
+     "id": "S4",
+     "editeur": "Real Asset Insight",
+     "titre": "URW sells landmark Paris hotel to Bain Capital consortium for over €300m",
+     "url": "https://realassetinsight.com/2025/09/18/urw-sells-landmark-paris-hotel-to-bain-capital-consortium-for-over-e300m/",
+     "date": "2025-09-18",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Réalisation définitive non confirmée par les sources lues : à vérifier lors d'un prochain contrôle des promesses.",
+    "Opération de 2025 absente du jeu initial, ajoutée en rattrapage."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Deux annonces de conseils (niveau A) lues en intégralité",
+     "Aucune contradiction entre sources",
+     "Date de signature connue au jour",
+     "Montant issu de la presse uniquement ; réalisation non confirmée"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille quotidienne"
+    }
+   ]
+  },
+  {
+   "id": "pdm-019",
+   "titre": "M&G acquiert 173 logements neufs à La Garenne-Colombes et Rueil-Malmaison auprès de Gecina",
+   "resume": "M&G Real Estate annonce le 15 octobre 2026 avoir acquis hors marché, pour son fonds M&G European Living Property Fund, deux résidences locatives neuves des Hauts-de-Seine cédées par Gecina : Alba à La Garenne-Colombes (80 logements) et Rueil Arsenal à Rueil-Malmaison (93 logements). Le prix total est d'environ 67 M€, soit 29,0 M€ et 38,1 M€. Livrés en 2025, les deux immeubles sont décrits comme déjà bien occupés.",
+   "date": {
+    "valeur": "2026-10-15",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-10-15",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Portefeuille de 2 résidences",
+    "Acquisition hors marché (off market)"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Logements locatifs neufs en bloc",
+   "actif": {
+    "nom": "Résidences Alba et Rueil Arsenal",
+    "adresse": null,
+    "commune": "La Garenne-Colombes (92) et Rueil-Malmaison (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": "Adresses non communiquées ; promoteurs : Woodeum (groupe Cogedim) et Les Nouveaux Constructeurs."
+   },
+   "acquereurs": [
+    {
+     "nom": "M&G European Living Property Fund",
+     "type": "Fonds immobilier",
+     "gestionnaire": "M&G Real Estate",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Gecina",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Woodeum",
+     "role": "Promoteur de la résidence de La Garenne-Colombes",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Les Nouveaux Constructeurs",
+     "role": "Promoteur de la résidence de Rueil-Malmaison",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 67000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Total annoncé 67 M€ ; détail : 29,0 M€ (La Garenne-Colombes) et 38,1 M€ (Rueil-Malmaison), soit 67,1 M€."
+    },
+    "logements": {
+     "valeur": 173,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": null
+    },
+    "surface": {
+     "valeur": 10676,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Somme des surfaces résidentielles communiquées : 4 695 m² + 5 981 m²."
+    },
+    "prix_m2": {
+     "valeur": 6285,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 67,1 M€ ÷ 10 676 m² ≈ 6 285 €/m² (base du prix non précisée)."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Performance énergétique",
+     "valeur": "DPE A (La Garenne-Colombes) et B (Rueil-Malmaison), sans énergie fossile sur site ; certification NF Habitat HQE « Excellent » visée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Livraison",
+     "valeur": "Avril 2025 (Rueil-Malmaison) et juin 2025 (La Garenne-Colombes)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeubles neufs livrés en 2025, sans travaux",
+     "Résidences décrites comme déjà bien occupées, revenus immédiats",
+     "Recherche affichée de revenus résilients à long terme"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "M&G plc",
+     "titre": "M&G acquires 173 new homes in Greater Paris",
+     "url": "https://group.mandg.com/news-and-insights/press-releases/2026/15-10-2026-mg-acquires-153-new-homes-in-greater-paris-67million",
+     "date": "2026-10-15",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "L'adresse de la page mentionne 153 logements, le titre et le texte 173."
+    },
+    {
+     "id": "S2",
+     "editeur": "IREI",
+     "titre": "M&G acquires 173 new homes in Greater Paris",
+     "url": "https://irei.com/news/mg-acquires-173-new-homes-in-greater-paris/",
+     "date": "2026-10-15",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Communiqué de l'acquéreur (niveau A) lu en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille quotidienne"
+    }
+   ]
+  },
+  {
+   "id": "pdm-020",
+   "titre": "La Ville de Paris rachète à la Carac l'ensemble de logements du 211-215 rue de la Convention",
+   "resume": "Selon CFNEWS Immo, la mutuelle La Carac a cédé à la Ville de Paris l'ensemble du 211-215 rue de la Convention (15e), qui compte plus de 92 logements et 7 commerces sur environ 5 200 m². Le vendeur était accompagné par Newmark et par Atream, filiale de la Carac. Le prix n'est pas lisible dans l'extrait consulté.",
+   "date": {
+    "valeur": "2026-10",
+    "precision": "mois",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-10-19",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition par une collectivité"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Ensemble de logements avec commerces en pied d'immeuble",
+   "actif": {
+    "nom": "Ensemble du 211-215 rue de la Convention",
+    "adresse": "211-215 rue de la Convention, 75015 Paris",
+    "commune": "Paris",
+    "arrondissements": [
+     15
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Ville de Paris",
+     "type": "Collectivité",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "La Carac",
+     "type": "Mutuelle",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Newmark",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Atream",
+     "role": "Accompagnement du vendeur (filiale de la Carac)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Non lisible dans l'extrait consulté."
+    },
+    "surface": {
+     "valeur": 5200,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    },
+    "logements": {
+     "valeur": 92,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": null
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Commerces",
+     "valeur": "7 commerces en pied d'immeuble",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Acquéreur public : la grille Core à Opportunistic ne s'applique pas."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "CFNEWS Immo",
+     "titre": "Le 211-215 Convention loge la Ville de Paris",
+     "url": "https://www.cfnewsimmo.net/L-actualite/Transactions/Le-211-215-Convention-loge-la-Ville-de-Paris-507216",
+     "date": "2026-10-19",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article réservé aux abonnés : seul le chapeau est lisible. La fiche transaction associée est datée du 15 octobre 2026."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Date de réalisation indiquée au mois : la fiche transaction de la source porte le 15 octobre 2026, sans précision sur sa nature."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "faible",
+    "motifs": [
+     "Une seule source de presse, lue par extrait",
+     "Montant non communiqué"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille quotidienne"
+    }
+   ]
+  },
+  {
+   "id": "pdm-021",
+   "titre": "Joconde AM cède son projet d'hôtel de 96 chambres au 44 Bastille (Paris 12e)",
+   "resume": "CFNEWS Immo rapporte que Joconde AM, anciennement Kerria AM, a discrètement cédé le projet hôtelier de 96 chambres (« smart hotel ») intégré à son opération mixte des 42-44 Bastille, dans le 12e arrondissement. L'acquéreur et le prix ne figurent pas dans l'extrait lisible.",
+   "date": {
+    "valeur": "2026-10-21",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-10-21",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Cession d'un volet hôtelier au sein d'une opération mixte"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Projet d'hôtel (« smart hotel »)",
+   "actif": {
+    "nom": "Projet hôtelier du 44 Bastille",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     12
+    ],
+    "zone": "paris",
+    "note": "La source cite le « 44 Bastille » (75012) sans préciser le type de voie."
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "Joconde AM",
+     "type": "Société de gestion",
+     "precision": "Anciennement Kerria AM",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Non lisible dans l'extrait consulté."
+    },
+    "cles": {
+     "valeur": 96,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Acquéreur non identifié ; aucune stratégie publiée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "CFNEWS Immo",
+     "titre": "Joconde valorise déjà son opération mixte au 42-44 Bastille",
+     "url": "https://www.cfnewsimmo.net/L-actualite/Transactions/Joconde-valorise-deja-son-operation-mixte-au-42-44-Bastille-507544",
+     "date": "2026-10-21",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article réservé aux abonnés : seul le chapeau est lisible."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Acquéreur non identifié dans les sources consultées.",
+    "Les fiches transaction liées de la source sont datées du 29 avril 2026 (42 Bastille) et du 21 mai 2026 (44 Bastille), sans précision sur leur objet."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "faible",
+    "motifs": [
+     "Une seule source de presse, lue par extrait",
+     "Acquéreur et montant non communiqués"
+    ]
+   },
+   "ajoute_le": "2026-10-25",
+   "verifie_le": "2026-10-25",
+   "historique": [
+    {
+     "date": "2026-10-25",
+     "evenement": "Fiche créée par la veille quotidienne"
+    }
+   ]
+  }
+ ],
+ "contexte": {
+  "sources": [
+   {
+    "id": "M1",
+    "editeur": "Cushman & Wakefield France",
+    "titre": "Réactions aux indicateurs de marché Immostat — 3e trimestre 2026",
+    "url": "https://www.cushmanwakefield.com/fr-fr/france/news/2026/10/reactions-immostat-investissement-residentiel-t3-2026",
+    "date": "2026-10-06",
+    "niveau": "B",
+    "nature": "etude",
+    "acces": "extrait",
+    "note": "Lu via un extrait de recherche."
+   },
+   {
+    "id": "M2",
+    "editeur": "AEW — bulletin semestriel AEW Paris Commerces",
+    "titre": "Bulletin semestriel n°1 2026 (1er janvier – 30 juin 2026)",
+    "url": "https://access.fortunyconseil.fr/api/v1/SCPI/files/bulletinsemestriels12026_e2f1a2f09f9b11f1914467ad01a16986.pdf",
+    "date": null,
+    "niveau": "B",
+    "nature": "etude",
+    "acces": "integral"
+   },
+   {
+    "id": "M3",
+    "editeur": "Business Immo (CoStar)",
+    "titre": "Capital 8 illumine un marché des bureaux en demi-teinte",
+    "url": "https://www.costar.com/article/1262671316/capital-8-illumine-un-marche-des-bureaux-en-demi-teinte",
+    "date": "2026-08-03",
+    "niveau": "B",
+    "nature": "presse",
+    "acces": "extrait",
+    "note": "Article payant : seul l'extrait de recherche a été lu."
+   }
+  ],
+  "series": {
+   "titre": "Investissement en immobilier d'entreprise en France (Md€)",
+   "unite": "Md€",
+   "points": [
+    {
+     "periode": "T1 2026",
+     "valeur": 2.01
+    },
+    {
+     "periode": "T2 2026",
+     "valeur": 4.82,
+     "note": "Soutenu par une cession de portefeuille"
+    },
+    {
+     "periode": "T3 2026",
+     "valeur": 3.4
+    }
+   ],
+   "sources": [
+    "M1"
+   ],
+   "note": "Cumul des neuf premiers mois : 10,3 Md€."
+  },
+  "indicateurs": [
+   {
+    "libelle": "Loyer prime bureaux, Paris QCA",
+    "valeur": "1 250 €/m²/an",
+    "detail": "T3 2026 — stable sur un trimestre, +4 % sur un an",
+    "sources": [
+     "M1"
+    ]
+   },
+   {
+    "libelle": "Demande placée bureaux, Île-de-France",
+    "valeur": "313 900 m²",
+    "detail": "T3 2026 — −18 % par rapport au T2 2026",
+    "sources": [
+     "M1"
+    ]
+   },
+   {
+    "libelle": "Investissement bureaux, France",
+    "valeur": "1,9 Md€",
+    "detail": "1er semestre 2026 — −22 % sur un an",
+    "sources": [
+     "M3"
+    ]
+   },
+   {
+    "libelle": "Rendement prime, commerce de pied d'immeuble à Paris",
+    "valeur": "4,50 %",
+    "detail": "1er semestre 2026 — loyer prime de 16 000 €/m²/an",
+    "sources": [
+     "M2"
+    ]
+   }
+  ]
+ },
+ "journal": [
+  {
+   "date": "2026-10-25T01:39:00+02:00",
+   "type": "initialisation",
+   "statut": "ok",
+   "ajoutees": 17,
+   "mises_a_jour": 0,
+   "a_confirmer": 6,
+   "sources_consultees": 24,
+   "resume": "Constitution du jeu de départ : 17 opérations re-vérifiées sur le texte de leurs sources. Pistes écartées : opérations antérieures à 2025 remontées par les moteurs de recherche, annonces de bail présentées comme des ventes, et annonces impossibles à vérifier (page inaccessible, aucune seconde source)."
+  },
+  {
+   "date": "2026-10-25T02:23:12+02:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 4,
+   "mises_a_jour": 0,
+   "a_confirmer": 2,
+   "sources_consultees": 16,
+   "resume": "4 opérations ajoutées : le Pullman Paris Montparnasse (rattrapage 2025), 173 logements cédés par Gecina à M&G dans les Hauts-de-Seine, le 211-215 rue de la Convention racheté par la Ville de Paris et le projet hôtelier du 44 Bastille. Pistes écartées : opérations hors Île-de-France, ventes sans société identifiée (Fouquet's, 19 Blanche, 21 Moulinet) et articles antérieurs à 2025."
+  }
+ ]
+}
