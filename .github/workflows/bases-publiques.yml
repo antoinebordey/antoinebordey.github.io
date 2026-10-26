@@ -1,0 +1,54 @@
+name: Bases publiques
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/bases/**"
+      - "data/deals.json"
+  workflow_dispatch:
+    inputs:
+      forcer:
+        description: "Tout recharger (oui / non)"
+        default: "non"
+      modules:
+        description: "Modules à lancer (vide = tous) : taux carte geocodage dvf permis"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bases-publiques
+  cancel-in-progress: false
+
+jobs:
+  mise-a-jour:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Récupérer le dépôt
+        run: git clone --depth 1 "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" depot
+
+      - name: Mettre à jour les bases
+        working-directory: depot
+        env:
+          FORCER: ${{ github.event.inputs.forcer }}
+          MODULES: ${{ github.event.inputs.modules }}
+        run: python3 scripts/bases/run_all.py
+
+      - name: Publier les fichiers modifiés
+        working-directory: depot
+        run: |
+          git config user.name "Paris Deal Monitor"
+          git config user.email "antoinebordey@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "Aucun changement"; exit 0; fi
+          git commit -q -m "Bases publiques : mise à jour du $(date -u +%Y-%m-%d)"
+          for essai in 1 2 3; do
+            if git pull -q --rebase origin main && git push -q origin main; then exit 0; fi
+            sleep 15
+          done
+          exit 1
