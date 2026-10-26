@@ -1,31 +1,32 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 5,
+  "version": 6,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-10-25T16:21:25+01:00",
+  "derniere_mise_a_jour": "2026-10-26T11:58:56+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2025",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 27
+  "prochain_id": 30
  },
  "transactions": [
   {
    "id": "pdm-001",
-   "titre": "Gecina signe une promesse sur un immeuble de bureaux à Gare de Lyon",
-   "resume": "Gecina a signé une promesse d'achat portant sur un immeuble de bureaux d'environ 15 000 m² dans le quartier de la Gare de Lyon, entièrement loué à quatre locataires. Restructuré en 2021, l'actif ne nécessite pas de travaux à court ou moyen terme selon le communiqué. La réalisation était attendue début 2026.",
+   "titre": "Gecina acquiert « Bloom », immeuble de bureaux de 15 000 m² à Gare de Lyon",
+   "resume": "Gecina a finalisé le 16 décembre 2025 l'acquisition de « Bloom », immeuble de bureaux d'environ 15 000 m² situé dans le quartier de la Gare de Lyon, pour lequel un accord préliminaire avait été annoncé en octobre 2025. Restructuré en 2021 et entièrement loué à quatre locataires, l'actif génère 8,9 M€ de loyers annuels, soit un rendement de 6,6 % selon le groupe, pour un prix de 135 M€ droits inclus.",
    "date": {
-    "valeur": "2025-10-27",
+    "valeur": "2025-12-16",
     "precision": "jour",
-    "nature": "annonce"
+    "nature": "realisation"
    },
-   "statut_operation": "promesse",
+   "statut_operation": "realisee",
    "modalites": [
-    "Promesse d'achat (accord préliminaire)"
+    "Accord préliminaire annoncé le 27 octobre 2025",
+    "Acquisition finalisée le 16 décembre 2025"
    ],
    "classe": "bureaux",
    "sous_type": "Bureaux",
    "actif": {
-    "nom": "Immeuble de bureaux, quartier Gare de Lyon",
+    "nom": "Immeuble « Bloom », quartier Gare de Lyon",
     "adresse": null,
     "commune": "Paris",
     "arrondissements": [
@@ -82,7 +83,8 @@
      "valeur": 8900000,
      "statut": "communique",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ],
      "qualificatif": "exact",
      "unite": "EUR/an",
@@ -90,13 +92,13 @@
     },
     "rendement": {
      "valeur": 6.6,
-     "statut": "calcule",
+     "statut": "communique",
      "sources": [
-      "S1"
+      "S2"
      ],
-     "qualificatif": "environ",
+     "qualificatif": "exact",
      "unite": "%",
-     "note": "Calcul : loyers annuels 8,9 M€ ÷ prix 135,0 M€ droits inclus = rendement brut d'environ 6,6 %."
+     "note": "Rendement indiqué par Gecina dans ses résultats annuels 2025 (loyer annuel de 8,9 M€)."
     },
     "occupation": {
      "valeur": 100,
@@ -112,11 +114,12 @@
      "valeur": 8,
      "statut": "communique",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ],
      "qualificatif": "environ",
      "unite": "ans",
-     "note": "« Durée moyenne des baux de près de huit ans ».",
+     "note": "« Durée moyenne des baux de près de huit ans » (communiqué d'octobre 2025) ; « durée moyenne ferme de 8 ans » (résultats annuels 2025).",
      "libelle": "Durée moyenne des baux"
     }
    },
@@ -139,10 +142,10 @@
     },
     {
      "libelle": "Réalisation",
-     "valeur": "Attendue début 2026, sous conditions suspensives usuelles (non vérifiée à ce jour)",
+     "valeur": "Acquisition finalisée le 16 décembre 2025",
      "statut": "communique",
      "sources": [
-      "S1"
+      "S2"
      ]
     }
    ],
@@ -170,6 +173,16 @@
      "niveau": "A",
      "nature": "communique_partie",
      "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Gecina — résultats annuels 2025",
+     "titre": "Gecina – Résultats au 31 décembre 2025",
+     "url": "https://presse.gecina.fr/download-pdf/698b63e5e60d93921c074fc8",
+     "date": "2026-02-10",
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral"
     }
    ],
    "contradictions": [],
@@ -181,60 +194,80 @@
     "preuve": "fort",
     "motifs": [
      "Source de niveau A consultée en intégralité",
-     "Aucune contradiction entre sources"
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
     ]
    },
    "ajoute_le": "2026-10-25",
-   "verifie_le": "2026-10-25",
+   "verifie_le": "2026-10-26",
    "historique": [
     {
      "date": "2026-10-25",
      "evenement": "Fiche créée lors de l'initialisation de la veille"
+    },
+    {
+     "date": "2026-10-26",
+     "evenement": "Promesse réalisée : acquisition finalisée le 16 décembre 2025 selon les résultats annuels de Gecina"
     }
    ]
   },
   {
    "id": "pdm-002",
-   "titre": "Gecina signe une promesse sur un ensemble de bureaux de 32 200 m² dans le QCA",
-   "resume": "Selon une dépêche CercleFinance reprise par EasyBourse, Gecina a signé une promesse pour acquérir un ensemble de bureaux de 32 200 m² au cœur du Quartier Central des Affaires, à quelques pas de la gare Saint-Lazare, pour un investissement total de 435 M€ droits inclus. L'actif a fait l'objet d'une restructuration intégrale récente.",
+   "titre": "Gecina acquiert « Rocher » et « Hôtel Particulier », 32 200 m² de bureaux près de Saint-Lazare",
+   "resume": "Gecina a signé en mai 2025 une promesse pour acquérir deux immeubles de bureaux voisins de la gare Saint-Lazare, dans le QCA : « Rocher » (38-46 rue du Rocher, 25 000 m², vide) et « Hôtel Particulier » (19-23 rue de Vienne, 7 200 m², intégralement loué), pour 435 M€ droits inclus. Selon ses résultats annuels 2025, l'acquisition de « Hôtel Particulier » a été finalisée le 23 juillet 2025 et « Rocher–Vienne » fait partie des trois actifs de bureaux acquis au second semestre. La presse spécialisée désigne Deka Immobilien comme vendeur.",
    "date": {
-    "valeur": "2025-05-16",
+    "valeur": "2025-05-15",
     "precision": "jour",
-    "nature": "publication"
+    "nature": "annonce"
    },
-   "statut_operation": "promesse",
+   "statut_operation": "realisee",
    "modalites": [
-    "Promesse d'achat"
+    "Promesse annoncée le 15 mai 2025",
+    "Acquisition réalisée au second semestre 2025"
    ],
    "classe": "bureaux",
    "sous_type": "Bureaux",
    "actif": {
-    "nom": "Ensemble de bureaux près de la gare Saint-Lazare",
-    "adresse": null,
+    "nom": "Immeubles « Rocher » et « Hôtel Particulier »",
+    "adresse": "38-46 rue du Rocher et 19-23 rue de Vienne",
     "commune": "Paris",
-    "arrondissements": [],
+    "arrondissements": [
+     8
+    ],
     "zone": "paris_qca",
-    "note": "Arrondissement non précisé par la source (secteur Saint-Lazare, QCA)."
+    "note": "Gecina situe l'ensemble dans le QCA, à environ 120 m de la gare Saint-Lazare ; arrondissement indiqué par la presse spécialisée."
    },
    "acquereurs": [
     {
      "nom": "Gecina",
      "type": "Foncière cotée",
-     "statut": "presse",
+     "statut": "communique",
      "sources": [
-      "S1"
+      "S2",
+      "S3"
      ]
     }
    ],
-   "vendeurs": [],
+   "vendeurs": [
+    {
+     "nom": "Deka Immobilien",
+     "type": "Société de gestion",
+     "precision": "Via le fonds ouvert Deka-ImmobilienEuropa, selon la presse",
+     "statut": "presse",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
    "conseils": [],
    "financement": [],
    "autres_intervenants": [],
    "chiffres": {
     "montant": {
      "valeur": 435000000,
-     "statut": "presse",
+     "statut": "communique",
      "sources": [
+      "S2",
       "S1"
      ],
      "qualificatif": "exact",
@@ -243,32 +276,67 @@
     },
     "surface": {
      "valeur": 32200,
-     "statut": "presse",
+     "statut": "communique",
      "sources": [
+      "S2",
       "S1"
      ],
      "qualificatif": "exact",
-     "unite": "m²"
+     "unite": "m²",
+     "note": "25 000 m² pour « Rocher » et 7 200 m² pour « Hôtel Particulier »."
     },
     "prix_m2": {
-     "valeur": 13509,
-     "statut": "calcule",
+     "valeur": 13300,
+     "statut": "communique",
      "sources": [
-      "S1"
+      "S2"
      ],
-     "qualificatif": "exact",
+     "qualificatif": "environ",
      "unite": "€/m²",
      "base": "DI",
-     "note": "Calcul : 435 M€ ÷ 32 200 m². La dépêche affiche un prix au m² tronqué (« environ 13. 300 euros/m² ») : valeur non reprise."
+     "note": "Valeur indiquée par Gecina dans son communiqué."
     }
    },
    "faits": [
     {
-     "libelle": "État de l'actif",
-     "valeur": "Restructuration intégrale récente ; vastes plateaux de bureaux",
-     "statut": "presse",
+     "libelle": "Composition",
+     "valeur": "« Rocher » : 25 000 m², construit en 2013, vide à l'acquisition ; « Hôtel Particulier » : 7 200 m², entièrement rénové en 2013, intégralement loué",
+     "statut": "communique",
      "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "État de l'actif",
+     "valeur": "Ensemble ayant bénéficié d'une restructuration intégrale récente",
+     "statut": "communique",
+     "sources": [
+      "S2",
       "S1"
+     ]
+    },
+    {
+     "libelle": "Travaux prévus",
+     "valeur": "Programme de rénovation de « Rocher » d'environ 12 à 15 mois, estimé entre 30 et 40 M€",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Réalisation",
+     "valeur": "« Hôtel Particulier » finalisé le 23 juillet 2025 ; « Rocher–Vienne » acquis au second semestre 2025 (date non précisée)",
+     "statut": "communique",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "libelle": "Rendement potentiel de « Rocher–Vienne »",
+     "valeur": "6,3 % après 12 mois de rénovation ciblée",
+     "statut": "communique",
+     "sources": [
+      "S3"
      ]
     },
     {
@@ -285,13 +353,13 @@
     "niveau": null,
     "citation": null,
     "sources": [],
-    "hypothese": "core",
+    "hypothese": "value_add",
     "indices": [
-     "Restructuration intégrale récente",
-     "Localisation qualifiée de « prime » par le groupe",
-     "Effet relutif immédiat annoncé"
+     "« Rocher » (25 000 des 32 200 m²) vide à l'acquisition",
+     "Programme de rénovation de 12 à 15 mois, estimé entre 30 et 40 M€",
+     "Rendement potentiel de 6,3 % visé après rénovation ciblée"
     ],
-    "commentaire": "Aucune stratégie nommée par la source : « Core » est une hypothèse d'analyste."
+    "commentaire": "Gecina ne nomme pas de stratégie. L'essentiel de la surface doit être rénové puis reloué : « Value-Add » est une hypothèse d'analyste, l'ensemble ayant toutefois été restructuré récemment."
    },
    "sources": [
     {
@@ -303,43 +371,81 @@
      "niveau": "B",
      "nature": "presse",
      "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Gecina — communiqué diffusé par Business Wire",
+     "titre": "Gecina – Allocation du capital : acquisition stratégique d'un immeuble de bureaux au cœur du Quartier Central des Affaires",
+     "url": "https://www.businesswire.com/news/home/20250515639139/fr",
+     "date": "2025-05-15",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Gecina — résultats annuels 2025",
+     "titre": "Gecina – Résultats au 31 décembre 2025",
+     "url": "https://presse.gecina.fr/download-pdf/698b63e5e60d93921c074fc8",
+     "date": "2026-02-10",
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral"
+    },
+    {
+     "id": "S4",
+     "editeur": "Real Asset Insight",
+     "titre": "Gecina acquires €435m Paris office complex from Germany's Deka Immobilien",
+     "url": "https://realassetinsight.com/2025/05/19/gecina-acquires-e435m-paris-office-complex-from-germanys-deka-immobilien/",
+     "date": "2025-05-19",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
     }
    ],
    "contradictions": [],
    "notes": [
-    "Le communiqué original de Gecina n'a pas été consulté : fiche à confirmer."
+    "Vendeur non nommé par Gecina ; identifié par la presse spécialisée.",
+    "La dépêche initiale affichait un prix au m² tronqué ; la valeur retenue est celle du communiqué de Gecina."
    ],
    "publication": {
-    "statut": "a_confirmer",
-    "preuve": "faible",
+    "statut": "publie_auto",
+    "preuve": "fort",
     "motifs": [
-     "Une seule source de presse consultée en intégralité"
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
     ]
    },
    "ajoute_le": "2026-10-25",
-   "verifie_le": "2026-10-25",
+   "verifie_le": "2026-10-26",
    "historique": [
     {
      "date": "2026-10-25",
      "evenement": "Fiche créée lors de l'initialisation de la veille"
+    },
+    {
+     "date": "2026-10-26",
+     "evenement": "Fiche consolidée avec le communiqué de Gecina et ses résultats annuels 2025 : opération réalisée au second semestre 2025"
     }
    ]
   },
   {
    "id": "pdm-003",
-   "titre": "Blackstone signe pour le Centre d'Affaires Paris Trocadéro",
-   "resume": "Le fonds Blackstone Real Estate a signé un accord en vue d'acquérir le Centre d'Affaires Paris Trocadéro, ensemble d'environ 41 000 m² situé place du Trocadéro (16e), auprès d'Union Investment Real Estate, pour environ 700 M€. La finalisation était attendue au quatrième trimestre 2025.",
+   "titre": "Blackstone acquiert le Centre d'Affaires Paris Trocadéro auprès d'Union Investment",
+   "resume": "Union Investment Real Estate, propriétaire depuis 2003, a cédé au fonds Blackstone Real Estate le Centre d'Affaires Paris Trocadéro, ensemble mixte de bureaux, commerces et logements situé place du Trocadéro (16e), pour environ 700 M€. L'accord avait été annoncé en septembre 2025 ; selon l'annonce du conseil du vendeur publiée fin janvier 2026, la vente est intervenue au quatrième trimestre 2025.",
    "date": {
     "valeur": "2025-09-15",
     "precision": "jour",
     "nature": "publication"
    },
-   "statut_operation": "promesse",
+   "statut_operation": "realisee",
    "modalites": [
-    "Accord signé en vue de l'acquisition"
+    "Accord annoncé en septembre 2025",
+    "Vente intervenue au 4e trimestre 2025"
    ],
-   "classe": "bureaux",
-   "sous_type": "Bureaux",
+   "classe": "mixte",
+   "sous_type": "Bureaux, commerces et logements",
    "actif": {
     "nom": "Centre d'Affaires Paris Trocadéro",
     "adresse": "Place du Trocadéro",
@@ -357,7 +463,9 @@
      "gestionnaire": "Blackstone",
      "statut": "communique",
      "sources": [
-      "S1"
+      "S1",
+      "S2",
+      "S3"
      ]
     }
    ],
@@ -367,7 +475,9 @@
      "type": "Société de gestion",
      "statut": "communique",
      "sources": [
-      "S1"
+      "S1",
+      "S2",
+      "S3"
      ]
     }
    ],
@@ -377,7 +487,8 @@
      "cote": "acquereur",
      "role": "Juridique",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ]
     },
     {
@@ -385,7 +496,8 @@
      "cote": "acquereur",
      "role": "Notaires",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ]
     },
     {
@@ -393,7 +505,8 @@
      "cote": "acquereur",
      "role": "Fiscal",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ]
     },
     {
@@ -401,7 +514,8 @@
      "cote": "vendeur",
      "role": "Notaires",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ]
     },
     {
@@ -409,7 +523,8 @@
      "cote": "vendeur",
      "role": "Juridique",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ]
     },
     {
@@ -417,7 +532,8 @@
      "cote": "vendeur",
      "role": "Fiscal",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ]
     }
    ],
@@ -457,11 +573,27 @@
    },
    "faits": [
     {
-     "libelle": "Calendrier",
-     "valeur": "Finalisation attendue au T4 2025 (non vérifiée à ce jour)",
+     "libelle": "Réalisation",
+     "valeur": "Vente intervenue au cours du 4e trimestre 2025 (date exacte non publiée)",
      "statut": "communique",
      "sources": [
-      "S1"
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Détention par le vendeur",
+     "valeur": "Propriétaire de l'actif depuis 2003",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Surface locative",
+     "valeur": "Environ 39 300 m²",
+     "statut": "communique",
+     "sources": [
+      "S2"
      ]
     }
    ],
@@ -484,24 +616,51 @@
      "niveau": "A",
      "nature": "communique_conseil",
      "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit — annonce du cabinet CMS Francis Lefebvre",
+     "titre": "CMS Francis Lefebvre conseille Union Investment Real Estate dans le cadre de la vente du Centre d'Affaires Paris Trocadéro",
+     "url": "https://www.lemondedudroit.fr/deals/102750-cms-francis-lefebvre-conseille-union-investment-real-estate-dans-le-cadre-de-la-vente-du-centre-daffaires-paris-trocadero.html",
+     "date": "2026-01-31",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Le Monde du Droit — annonce du cabinet Simmons & Simmons",
+     "titre": "Simmons & Simmons conseille Union Investment dans la cession du Centre d'Affaires Paris Trocadéro",
+     "url": "https://www.lemondedudroit.fr/deals/101779-simmons-simmons-conseille-union-investment-cession-centre-daffaires-paris-trocadero.html",
+     "date": "2025-11-26",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
     }
    ],
    "contradictions": [],
-   "notes": [],
+   "notes": [
+    "Les deux annonces ne retiennent pas la même mesure : « environ 41 000 m² » sans précision de base (septembre 2025) et une surface locative d'environ 39 300 m² (janvier 2026). Les deux valeurs sont conservées, sans moyenne ; le prix au m² est calculé sur la première."
+   ],
    "publication": {
     "statut": "publie_auto",
     "preuve": "fort",
     "motifs": [
      "Source de niveau A consultée en intégralité",
-     "Aucune contradiction entre sources"
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
     ]
    },
    "ajoute_le": "2026-10-25",
-   "verifie_le": "2026-10-25",
+   "verifie_le": "2026-10-26",
    "historique": [
     {
      "date": "2026-10-25",
      "evenement": "Fiche créée lors de l'initialisation de la veille"
+    },
+    {
+     "date": "2026-10-26",
+     "evenement": "Promesse réalisée : vente intervenue au 4e trimestre 2025 selon l'annonce du conseil du vendeur"
     }
    ]
   },
@@ -2821,19 +2980,19 @@
   },
   {
    "id": "pdm-018",
-   "titre": "Bain Capital, Columbia Threadneedle et QuinSpark signent pour le Pullman Paris Montparnasse, cédé par URW",
-   "resume": "Unibail-Rodamco-Westfield a signé le 25 juillet 2025 la cession de l'hôtel Pullman Paris Montparnasse (957 chambres, 14e arrondissement), murs et société d'exploitation, à un consortium réunissant Columbia Threadneedle Investments, Bain Capital et QuinSpark. Les annonces des cabinets d'avocats présentaient l'opération comme soumise aux conditions suspensives usuelles, avec une finalisation attendue au second semestre 2025. La presse spécialisée évoque un prix d'un peu plus de 300 M€, non confirmé par les parties dans les sources lues.",
+   "titre": "Bain Capital, Columbia Threadneedle et QuinSpark acquièrent le Pullman Paris Montparnasse auprès d'URW",
+   "resume": "Unibail-Rodamco-Westfield a signé le 25 juillet 2025 la cession de l'hôtel Pullman Paris Montparnasse (957 chambres, 14e arrondissement), murs et société d'exploitation, à un consortium réunissant Columbia Threadneedle Investments, Bain Capital et QuinSpark. La presse hôtelière a fait état en septembre 2025 de la finalisation de l'acquisition, sans en préciser la date. La presse spécialisée évoque un prix d'un peu plus de 300 M€, non confirmé par les parties dans les sources lues.",
    "date": {
     "valeur": "2025-07-25",
     "precision": "jour",
     "nature": "annonce"
    },
    "date_publication": "2025-08-26",
-   "statut_operation": "promesse",
+   "statut_operation": "realisee",
    "modalites": [
     "Cession de l'immobilier et de la société d'exploitation",
     "Consortium de trois investisseurs",
-    "Conditions suspensives usuelles"
+    "Finalisation rapportée en septembre 2025"
    ],
    "classe": "hotellerie",
    "sous_type": "Hôtel 4★ de grande capacité",
@@ -2968,6 +3127,14 @@
      "sources": [
       "S2"
      ]
+    },
+    {
+     "libelle": "Finalisation",
+     "valeur": "Acquisition présentée comme finalisée par la presse hôtelière le 19 septembre 2025 (date exacte non publiée)",
+     "statut": "presse",
+     "sources": [
+      "S5"
+     ]
     }
    ],
    "strategie": {
@@ -3020,29 +3187,42 @@
      "niveau": "B",
      "nature": "presse",
      "acces": "integral"
+    },
+    {
+     "id": "S5",
+     "editeur": "Hospitality ON",
+     "titre": "Le Pullman Paris Montparnasse change de mains",
+     "url": "https://hospitality-on.com/fr/fusionacquisition/le-pullman-paris-montparnasse-change-de-mains",
+     "date": "2025-09-19",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
     }
    ],
    "contradictions": [],
    "notes": [
-    "Réalisation définitive non confirmée par les sources lues : à vérifier lors d'un prochain contrôle des promesses.",
+    "Finalisation rapportée par la presse spécialisée ; aucune confirmation des parties dans les sources lues.",
     "Opération de 2025 absente du jeu initial, ajoutée en rattrapage."
    ],
    "publication": {
     "statut": "publie_auto",
     "preuve": "fort",
     "motifs": [
-     "Deux annonces de conseils (niveau A) lues en intégralité",
+     "Source de niveau A consultée en intégralité",
      "Aucune contradiction entre sources",
-     "Date de signature connue au jour",
-     "Montant issu de la presse uniquement ; réalisation non confirmée"
+     "Date connue au jour"
     ]
    },
    "ajoute_le": "2026-10-25",
-   "verifie_le": "2026-10-25",
+   "verifie_le": "2026-10-26",
    "historique": [
     {
      "date": "2026-10-25",
      "evenement": "Fiche créée par la veille quotidienne"
+    },
+    {
+     "date": "2026-10-26",
+     "evenement": "Contrôle des promesses : finalisation rapportée par la presse hôtelière (septembre 2025)"
     }
    ]
   },
@@ -4360,6 +4540,532 @@
      "evenement": "Fiche créée par la veille"
     }
    ]
+  },
+  {
+   "id": "pdm-027",
+   "titre": "SCBSM acquiert l'immeuble « Saint Frères », 8 200 m² de bureaux rue du Louvre (1er)",
+   "resume": "SCBSM a annoncé le 17 avril 2026 l'acquisition de l'immeuble « Saint Frères », situé 34-36 rue du Louvre et 112 rue Saint-Honoré, dans le 1er arrondissement. Conçu à l'origine comme siège social, l'ensemble développe environ 8 200 m², dont 6 600 m² en superstructure, et accueille des locataires de premier plan non nommés. Le prix n'est pas communiqué ; l'opération est financée par un emprunt bancaire de 78,5 M€ sur sept ans.",
+   "date": {
+    "valeur": "2026-04-17",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-04-17",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition annoncée par communiqué réglementé",
+    "Financement bancaire de 78,5 M€ sur 7 ans"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux conçu comme siège social",
+   "actif": {
+    "nom": "Immeuble « Saint Frères »",
+    "adresse": "34-36 rue du Louvre et 112 rue Saint-Honoré",
+    "commune": "Paris",
+    "arrondissements": [
+     1
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "SCBSM",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [
+    {
+     "nom": "Banque Européenne du Crédit Mutuel (BECM)",
+     "role": "Prêteur, aux côtés de BNP Paribas (emprunt de 78,5 M€ sur 7 ans)",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "BNP Paribas",
+     "role": "Prêteur, aux côtés de la BECM",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué ; seul le financement bancaire de 78,5 M€ est publié."
+    },
+    "surface": {
+     "valeur": 8200,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Dont 6 600 m² en superstructure."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Financement",
+     "valeur": "Emprunt bancaire de 78,5 M€ sur 7 ans ; ratio LTV estimé inférieur à 50 % après l'opération",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Programme de valorisation : restauration du cachet historique et amélioration des performances énergétiques (décret tertiaire)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Effet pour l'acquéreur",
+     "valeur": "Loyers du groupe estimés à plus de 25 M€ en année pleine",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Statut",
+     "valeur": "Acquisition présentée comme réalisée",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core_plus",
+    "indices": [
+     "Immeuble accueillant des « locataires de premier plan »",
+     "Programme de valorisation annoncé : restauration du cachet historique et amélioration des performances énergétiques"
+    ],
+    "commentaire": "SCBSM évoque une « création de valeur à long terme » sans nommer de catégorie : « Core+ » est une hypothèse d'analyste pour un actif loué faisant l'objet d'une valorisation."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "SCBSM — information réglementée diffusée par l'AMF",
+     "titre": "Communiqué de SCBSM du 17 avril 2026 sur l'acquisition de l'immeuble « Saint Frères »",
+     "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/ACT/2026/04/FCACT079204_20260417.pdf",
+     "date": "2026-04-17",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Option Finance (dépêche Zonebourse)",
+     "titre": "SCBSM a réalisé l'acquisition de l'immeuble « Saint Frères » à Paris",
+     "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-04-20-scbsm-a-realise-lacquisition-de-limmeuble-saint-freres-a-paris.html",
+     "date": "2026-04-20",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération d'avril 2026 ajoutée en rattrapage.",
+    "Date de l'acte non précisée ; la date retenue est celle du communiqué."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-26",
+   "verifie_le": "2026-10-26",
+   "historique": [
+    {
+     "date": "2026-10-26",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-028",
+   "titre": "Honotel acquiert les murs et le fonds de l'hôtel Pavillon Monceau (17e)",
+   "resume": "Le groupe Honotel a annoncé le 3 avril 2026 l'acquisition des murs et du fonds de commerce de l'hôtel Pavillon Monceau, établissement 4 étoiles de 42 chambres situé dans le 17e arrondissement. L'opération a été réalisée par les fonds Cap Hospitality IV et Cap Hospitality V, gérés par la société de gestion Hôtel Investissement Capital. Le prix et l'identité du vendeur ne sont pas communiqués.",
+   "date": {
+    "valeur": "2026-04-03",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-04-03",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition des murs et du fonds de commerce",
+    "Investissement porté par deux fonds du groupe"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel 4★ (42 chambres)",
+   "actif": {
+    "nom": "Hôtel Pavillon Monceau",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     17
+    ],
+    "zone": "paris",
+    "note": "Adresse non communiquée ; actif en pierre de taille selon le communiqué."
+   },
+   "acquereurs": [
+    {
+     "nom": "Cap Hospitality IV",
+     "type": "Fonds d'investissement",
+     "gestionnaire": "Hôtel Investissement Capital (groupe Honotel)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Cap Hospitality V",
+     "type": "Fonds d'investissement",
+     "gestionnaire": "Hôtel Investissement Capital (groupe Honotel)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Valther",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Mazars",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "SVZ",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Monassier",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Rosenpick & Associés",
+     "cote": "vendeur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Artelia",
+     "role": "Conseil technique de l'acquéreur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Exsolv'ho",
+     "role": "Conseil en gestion de l'acquéreur",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "cles": {
+     "valeur": 42,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Classement",
+     "valeur": "4 étoiles depuis 2025",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Objectif annoncé",
+     "valeur": "Consolider le portefeuille d'actifs sous gestion du groupe",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Rôle de SVZ",
+     "valeur": "Conseil en droit social de l'acquéreur",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par le communiqué ; indices insuffisants pour une hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Groupe Honotel — communiqué reproduit par TendanceHotellerie",
+     "titre": "Honotel renforce sa présence parisienne avec l'acquisition de l'hôtel Pavillon Monceau",
+     "url": "https://www.tendancehotellerie.fr/articles-breves/communique-de-presse/25477-article/honotel-renforce-sa-presence-parisienne-avec-l-acquisition-de-l-hotel-pavillon-monceau",
+     "date": "2026-04-03",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération d'avril 2026 ajoutée en rattrapage.",
+    "Date de l'acte non précisée ; la date retenue est celle du communiqué."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-26",
+   "verifie_le": "2026-10-26",
+   "historique": [
+    {
+     "date": "2026-10-26",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-029",
+   "titre": "Osae Partners acquiert auprès de Nexity un immeuble de bureaux à restructurer à Levallois-Perret",
+   "resume": "Osae Partners a acquis auprès de Nexity l'immeuble du 77-79 rue Anatole France à Levallois-Perret, ancien siège de LVMH Fragrance Brands, avec un financement d'Aareal Bank. Les quelque 5 800 m² de bureaux existants doivent être restructurés en un immeuble d'environ 6 200 m² avec services et plus de 900 m² d'espaces extérieurs, dont un rooftop. Les travaux étaient annoncés pour le premier semestre 2026 ; le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2026-02-02",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-02-02",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition auprès de Nexity",
+    "Financement bancaire d'Aareal Bank"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux à restructurer",
+   "actif": {
+    "nom": "Ancien siège de LVMH Fragrance Brands",
+    "adresse": "77-79 rue Anatole France",
+    "commune": "Levallois-Perret (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Osae Partners",
+     "type": "Société de gestion",
+     "precision": "Véhicule d'acquisition non nommé",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Nexity",
+     "type": "Promoteur",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [
+    {
+     "nom": "Aareal Bank AG",
+     "role": "Prêteur",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 5800,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Surface de bureaux existante ; environ 6 200 m² après restructuration."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Restructuration en un immeuble d'environ 6 200 m² de bureaux avec services et plus de 900 m² d'espaces extérieurs, dont un rooftop",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Calendrier",
+     "valeur": "Travaux annoncés pour le premier semestre 2026",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Restructuration lourde des 5 800 m² de bureaux existants",
+     "Travaux programmés dès le premier semestre 2026",
+     "Création de surfaces supplémentaires et d'espaces extérieurs"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de De Pardieu Brocas Maffei)",
+     "titre": "De Pardieu, conseil d'Osae Partners dans le cadre de l'acquisition d'un immeuble auprès de Nexity ainsi que de son financement auprès d'Aareal Bank AG",
+     "url": "https://www.lemondedudroit.fr/deals/102784-de-pardieu-conseil-dosae-partners-dans-le-cadre-de-lacquisition-dun-immeuble-aupres-de-nexity-ainsi-que-de-son-financement-aupres-daareal-bank-ag.html",
+     "date": "2026-02-02",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de février 2026 ajoutée en rattrapage.",
+    "Date de l'acte non précisée ; la date retenue est celle de la publication de l'annonce."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-26",
+   "verifie_le": "2026-10-26",
+   "historique": [
+    {
+     "date": "2026-10-26",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -4485,6 +5191,16 @@
    "a_confirmer": 0,
    "sources_consultees": 5,
    "resume": "Aucune annonce nouvelle repérée depuis le passage du matin. Cinq opérations antérieures ajoutées en rattrapage, toutes appuyées sur un communiqué ou une annonce de conseil : Barings dans le 2e, Wenova à Aubervilliers, deux immeubles résidentiels acquis par CDC Investissement Immobilier, et le 48 rue Notre-Dame-des-Victoires repris par Foncière Renaissance et MIMCO."
+  },
+  {
+   "date": "2026-10-26T11:58:56+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 3,
+   "mises_a_jour": 4,
+   "a_confirmer": 0,
+   "sources_consultees": 12,
+   "resume": "Aucune annonce nouvelle repérée depuis le dernier passage. Contrôle des promesses : quatre opérations confirmées comme réalisées (« Bloom » et « Rocher–Vienne » pour Gecina, Centre d'Affaires Paris Trocadéro, Pullman Paris Montparnasse) ; trois opérations de 2026 ajoutées en rattrapage (SCBSM rue du Louvre, Honotel au Pavillon Monceau, Osae Partners à Levallois-Perret)."
   }
  ]
 }
