@@ -1,0 +1,578 @@
+{
+ "titre": "Taux de l'OAT 10 ans",
+ "description": "Rendement des emprunts d'État français à 10 ans, moyenne mensuelle (taux long terme publié par la BCE pour la France).",
+ "unite": "%",
+ "source": {
+  "editeur": "Banque centrale européenne — ECB Data Portal",
+  "titre": "Taux d'intérêt à long terme, France, échéance 10 ans (série IRS.M.FR.L.L40.CI.0000.EUR.N.Z)",
+  "url": "https://data.ecb.europa.eu/data/datasets/IRS/IRS.M.FR.L.L40.CI.0000.EUR.N.Z",
+  "conditions": "Statistiques de la BCE, réutilisables avec mention de la source."
+ },
+ "maj": "2026-10-26T23:46:14+00:00",
+ "points": [
+  {
+   "periode": "2015-01",
+   "valeur": 0.67
+  },
+  {
+   "periode": "2015-02",
+   "valeur": 0.6
+  },
+  {
+   "periode": "2015-03",
+   "valeur": 0.51
+  },
+  {
+   "periode": "2015-04",
+   "valeur": 0.44
+  },
+  {
+   "periode": "2015-05",
+   "valeur": 0.89
+  },
+  {
+   "periode": "2015-06",
+   "valeur": 1.2
+  },
+  {
+   "periode": "2015-07",
+   "valeur": 1.11
+  },
+  {
+   "periode": "2015-08",
+   "valeur": 1.01
+  },
+  {
+   "periode": "2015-09",
+   "valeur": 1.0
+  },
+  {
+   "periode": "2015-10",
+   "valeur": 0.87
+  },
+  {
+   "periode": "2015-11",
+   "valeur": 0.88
+  },
+  {
+   "periode": "2015-12",
+   "valeur": 0.93
+  },
+  {
+   "periode": "2016-01",
+   "valeur": 0.84
+  },
+  {
+   "periode": "2016-02",
+   "valeur": 0.59
+  },
+  {
+   "periode": "2016-03",
+   "valeur": 0.51
+  },
+  {
+   "periode": "2016-04",
+   "valeur": 0.51
+  },
+  {
+   "periode": "2016-05",
+   "valeur": 0.51
+  },
+  {
+   "periode": "2016-06",
+   "valeur": 0.39
+  },
+  {
+   "periode": "2016-07",
+   "valeur": 0.17
+  },
+  {
+   "periode": "2016-08",
+   "valeur": 0.15
+  },
+  {
+   "periode": "2016-09",
+   "valeur": 0.18
+  },
+  {
+   "periode": "2016-10",
+   "valeur": 0.33
+  },
+  {
+   "periode": "2016-11",
+   "valeur": 0.67
+  },
+  {
+   "periode": "2016-12",
+   "valeur": 0.75
+  },
+  {
+   "periode": "2017-01",
+   "valeur": 0.86
+  },
+  {
+   "periode": "2017-02",
+   "valeur": 1.03
+  },
+  {
+   "periode": "2017-03",
+   "valeur": 1.02
+  },
+  {
+   "periode": "2017-04",
+   "valeur": 0.88
+  },
+  {
+   "periode": "2017-05",
+   "valeur": 0.81
+  },
+  {
+   "periode": "2017-06",
+   "valeur": 0.66
+  },
+  {
+   "periode": "2017-07",
+   "valeur": 0.84
+  },
+  {
+   "periode": "2017-08",
+   "valeur": 0.71
+  },
+  {
+   "periode": "2017-09",
+   "valeur": 0.7
+  },
+  {
+   "periode": "2017-10",
+   "valeur": 0.81
+  },
+  {
+   "periode": "2017-11",
+   "valeur": 0.72
+  },
+  {
+   "periode": "2017-12",
+   "valeur": 0.67
+  },
+  {
+   "periode": "2018-01",
+   "valeur": 0.85
+  },
+  {
+   "periode": "2018-02",
+   "valeur": 0.98
+  },
+  {
+   "periode": "2018-03",
+   "valeur": 0.83
+  },
+  {
+   "periode": "2018-04",
+   "valeur": 0.78
+  },
+  {
+   "periode": "2018-05",
+   "valeur": 0.79
+  },
+  {
+   "periode": "2018-06",
+   "valeur": 0.75
+  },
+  {
+   "periode": "2018-07",
+   "valeur": 0.67
+  },
+  {
+   "periode": "2018-08",
+   "valeur": 0.7
+  },
+  {
+   "periode": "2018-09",
+   "valeur": 0.77
+  },
+  {
+   "periode": "2018-10",
+   "valeur": 0.82
+  },
+  {
+   "periode": "2018-11",
+   "valeur": 0.76
+  },
+  {
+   "periode": "2018-12",
+   "valeur": 0.7
+  },
+  {
+   "periode": "2019-01",
+   "valeur": 0.65
+  },
+  {
+   "periode": "2019-02",
+   "valeur": 0.55
+  },
+  {
+   "periode": "2019-03",
+   "valeur": 0.44
+  },
+  {
+   "periode": "2019-04",
+   "valeur": 0.37
+  },
+  {
+   "periode": "2019-05",
+   "valeur": 0.3
+  },
+  {
+   "periode": "2019-06",
+   "valeur": 0.08
+  },
+  {
+   "periode": "2019-07",
+   "valeur": -0.07
+  },
+  {
+   "periode": "2019-08",
+   "valeur": -0.34
+  },
+  {
+   "periode": "2019-09",
+   "valeur": -0.27
+  },
+  {
+   "periode": "2019-10",
+   "valeur": -0.16
+  },
+  {
+   "periode": "2019-11",
+   "valeur": -0.02
+  },
+  {
+   "periode": "2019-12",
+   "valeur": 0.04
+  },
+  {
+   "periode": "2020-01",
+   "valeur": -0.01
+  },
+  {
+   "periode": "2020-02",
+   "valeur": -0.18
+  },
+  {
+   "periode": "2020-03",
+   "valeur": -0.05
+  },
+  {
+   "periode": "2020-04",
+   "valeur": 0.06
+  },
+  {
+   "periode": "2020-05",
+   "valeur": -0.03
+  },
+  {
+   "periode": "2020-06",
+   "valeur": -0.04
+  },
+  {
+   "periode": "2020-07",
+   "valeur": -0.15
+  },
+  {
+   "periode": "2020-08",
+   "valeur": -0.17
+  },
+  {
+   "periode": "2020-09",
+   "valeur": -0.21
+  },
+  {
+   "periode": "2020-10",
+   "valeur": -0.3
+  },
+  {
+   "periode": "2020-11",
+   "valeur": -0.32
+  },
+  {
+   "periode": "2020-12",
+   "valeur": -0.34
+  },
+  {
+   "periode": "2021-01",
+   "valeur": -0.31
+  },
+  {
+   "periode": "2021-02",
+   "valeur": -0.15
+  },
+  {
+   "periode": "2021-03",
+   "valeur": -0.07
+  },
+  {
+   "periode": "2021-04",
+   "valeur": -0.01
+  },
+  {
+   "periode": "2021-05",
+   "valeur": 0.21
+  },
+  {
+   "periode": "2021-06",
+   "valeur": 0.15
+  },
+  {
+   "periode": "2021-07",
+   "valeur": -0.01
+  },
+  {
+   "periode": "2021-08",
+   "valeur": -0.12
+  },
+  {
+   "periode": "2021-09",
+   "valeur": 0.04
+  },
+  {
+   "periode": "2021-10",
+   "valeur": 0.2
+  },
+  {
+   "periode": "2021-11",
+   "valeur": 0.1
+  },
+  {
+   "periode": "2021-12",
+   "valeur": 0.05
+  },
+  {
+   "periode": "2022-01",
+   "valeur": 0.31
+  },
+  {
+   "periode": "2022-02",
+   "valeur": 0.68
+  },
+  {
+   "periode": "2022-03",
+   "valeur": 0.78
+  },
+  {
+   "periode": "2022-04",
+   "valeur": 1.28
+  },
+  {
+   "periode": "2022-05",
+   "valeur": 1.52
+  },
+  {
+   "periode": "2022-06",
+   "valeur": 2.06
+  },
+  {
+   "periode": "2022-07",
+   "valeur": 1.71
+  },
+  {
+   "periode": "2022-08",
+   "valeur": 1.69
+  },
+  {
+   "periode": "2022-09",
+   "valeur": 2.41
+  },
+  {
+   "periode": "2022-10",
+   "valeur": 2.77
+  },
+  {
+   "periode": "2022-11",
+   "valeur": 2.58
+  },
+  {
+   "periode": "2022-12",
+   "valeur": 2.62
+  },
+  {
+   "periode": "2023-01",
+   "valeur": 2.69
+  },
+  {
+   "periode": "2023-02",
+   "valeur": 2.87
+  },
+  {
+   "periode": "2023-03",
+   "valeur": 2.92
+  },
+  {
+   "periode": "2023-04",
+   "valeur": 2.9
+  },
+  {
+   "periode": "2023-05",
+   "valeur": 2.94
+  },
+  {
+   "periode": "2023-06",
+   "valeur": 2.93
+  },
+  {
+   "periode": "2023-07",
+   "valeur": 3.04
+  },
+  {
+   "periode": "2023-08",
+   "valeur": 3.11
+  },
+  {
+   "periode": "2023-09",
+   "valeur": 3.24
+  },
+  {
+   "periode": "2023-10",
+   "valeur": 3.45
+  },
+  {
+   "periode": "2023-11",
+   "valeur": 3.19
+  },
+  {
+   "periode": "2023-12",
+   "valeur": 2.65
+  },
+  {
+   "periode": "2024-01",
+   "valeur": 2.74
+  },
+  {
+   "periode": "2024-02",
+   "valeur": 2.85
+  },
+  {
+   "periode": "2024-03",
+   "valeur": 2.82
+  },
+  {
+   "periode": "2024-04",
+   "valeur": 2.97
+  },
+  {
+   "periode": "2024-05",
+   "valeur": 3.03
+  },
+  {
+   "periode": "2024-06",
+   "valeur": 3.15
+  },
+  {
+   "periode": "2024-07",
+   "valeur": 3.14
+  },
+  {
+   "periode": "2024-08",
+   "valeur": 2.94
+  },
+  {
+   "periode": "2024-09",
+   "valeur": 2.9
+  },
+  {
+   "periode": "2024-10",
+   "valeur": 2.99
+  },
+  {
+   "periode": "2024-11",
+   "valeur": 3.09
+  },
+  {
+   "periode": "2024-12",
+   "valeur": 3.01
+  },
+  {
+   "periode": "2025-01",
+   "valeur": 3.32
+  },
+  {
+   "periode": "2025-02",
+   "valeur": 3.15
+  },
+  {
+   "periode": "2025-03",
+   "valeur": 3.43
+  },
+  {
+   "periode": "2025-04",
+   "valeur": 3.26
+  },
+  {
+   "periode": "2025-05",
+   "valeur": 3.26
+  },
+  {
+   "periode": "2025-06",
+   "valeur": 3.24
+  },
+  {
+   "periode": "2025-07",
+   "valeur": 3.36
+  },
+  {
+   "periode": "2025-08",
+   "valeur": 3.42
+  },
+  {
+   "periode": "2025-09",
+   "valeur": 3.51
+  },
+  {
+   "periode": "2025-10",
+   "valeur": 3.44
+  },
+  {
+   "periode": "2025-11",
+   "valeur": 3.44
+  },
+  {
+   "periode": "2025-12",
+   "valeur": 3.56
+  },
+  {
+   "periode": "2026-01",
+   "valeur": 3.53
+  },
+  {
+   "periode": "2026-02",
+   "valeur": 3.4
+  },
+  {
+   "periode": "2026-03",
+   "valeur": 3.64
+  },
+  {
+   "periode": "2026-04",
+   "valeur": 3.73
+  },
+  {
+   "periode": "2026-05",
+   "valeur": 3.74
+  },
+  {
+   "periode": "2026-06",
+   "valeur": 3.68
+  },
+  {
+   "periode": "2026-07",
+   "valeur": 3.85
+  },
+  {
+   "periode": "2026-08",
+   "valeur": 4.0
+  },
+  {
+   "periode": "2026-09",
+   "valeur": 4.44
+  }
+ ]
+}

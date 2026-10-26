@@ -1,0 +1,147 @@
+{
+ "source": {
+  "editeur": "IGN — Géoplateforme, service de géocodage (Base Adresse Nationale)",
+  "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
+  "licence": "Licence Ouverte 2.0"
+ },
+ "maj": "2026-10-26T23:46:26+00:00",
+ "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue.",
+ "fiches": {
+  "pdm-002": {
+   "requete": "38 rue du Rocher 75008 Paris",
+   "trouve": true,
+   "lat": 48.877406,
+   "lon": 2.321181,
+   "libelle": "38 Rue du Rocher 75008 Paris",
+   "precision": "housenumber",
+   "score": 0.972,
+   "code_insee": "75108"
+  },
+  "pdm-003": {
+   "requete": "Place du Trocadéro 75016 Paris",
+   "trouve": false,
+   "meilleur": "Rue du Ranelagh 75016 Paris",
+   "score": 0.407
+  },
+  "pdm-005": {
+   "requete": "Avenue des Champs-Élysées 75008 Paris",
+   "trouve": true,
+   "lat": 48.871049,
+   "lon": 2.30373,
+   "libelle": "Avenue des Champs Élysées 75008 Paris",
+   "precision": "street",
+   "score": 0.973,
+   "code_insee": "75108"
+  },
+  "pdm-007": {
+   "requete": "83 avenue Marceau Paris",
+   "trouve": true,
+   "lat": 48.872169,
+   "lon": 2.296157,
+   "libelle": "83 Avenue Marceau 75116 Paris",
+   "precision": "housenumber",
+   "score": 0.976,
+   "code_insee": "75116"
+  },
+  "pdm-008": {
+   "requete": "20 rue Tronchet 75008 Paris",
+   "trouve": true,
+   "lat": 48.872089,
+   "lon": 2.326207,
+   "libelle": "20 Rue Tronchet 75008 Paris",
+   "precision": "housenumber",
+   "score": 0.968,
+   "code_insee": "75108"
+  },
+  "pdm-011": {
+   "requete": "61 rue de la Voûte 75012 Paris",
+   "trouve": true,
+   "lat": 48.846525,
+   "lon": 2.410239,
+   "libelle": "61 Rue de la Voûte 75012 Paris",
+   "precision": "housenumber",
+   "score": 0.977,
+   "code_insee": "75112"
+  },
+  "pdm-014": {
+   "requete": "172 rue de Charonne Paris",
+   "trouve": true,
+   "lat": 48.856046,
+   "lon": 2.393024,
+   "libelle": "172 Rue de Charonne 75011 Paris",
+   "precision": "housenumber",
+   "score": 0.982,
+   "code_insee": "75111"
+  },
+  "pdm-015": {
+   "requete": "20 rue Vivienne 75002 Paris",
+   "trouve": true,
+   "lat": 48.868416,
+   "lon": 2.339889,
+   "libelle": "20 Rue Vivienne 75002 Paris",
+   "precision": "housenumber",
+   "score": 0.968,
+   "code_insee": "75102"
+  },
+  "pdm-020": {
+   "requete": "211 rue de la Convention 75015 Paris",
+   "trouve": true,
+   "lat": 48.836457,
+   "lon": 2.299473,
+   "libelle": "211 Rue de la Convention 75015 Paris",
+   "precision": "housenumber",
+   "score": 0.985,
+   "code_insee": "75115"
+  },
+  "pdm-024": {
+   "requete": "51 rue de l'Assomption 75016 Paris",
+   "trouve": true,
+   "lat": 48.854876,
+   "lon": 2.268492,
+   "libelle": "51 Rue de l'Assomption 75016 Paris",
+   "precision": "housenumber",
+   "score": 0.98,
+   "code_insee": "75116"
+  },
+  "pdm-025": {
+   "requete": "2 passage Sainte-Anne-Popincourt 75011 Paris",
+   "trouve": true,
+   "lat": 48.858105,
+   "lon": 2.369496,
+   "libelle": "2 Passage Sainte-Anne Popincourt 75011 Paris",
+   "precision": "housenumber",
+   "score": 0.971,
+   "code_insee": "75111"
+  },
+  "pdm-026": {
+   "requete": "48 rue Notre-Dame-des-Victoires 75002 Paris",
+   "trouve": true,
+   "lat": 48.869433,
+   "lon": 2.342399,
+   "libelle": "48 Rue Notre-Dame des Victoires 75002 Paris",
+   "precision": "housenumber",
+   "score": 0.967,
+   "code_insee": "75102"
+  },
+  "pdm-027": {
+   "requete": "34 rue du Louvre 75001 Paris",
+   "trouve": true,
+   "lat": 48.861911,
+   "lon": 2.341489,
+   "libelle": "34 Rue du Louvre 75001 Paris",
+   "precision": "housenumber",
+   "score": 0.964,
+   "code_insee": "75101"
+  },
+  "pdm-029": {
+   "requete": "77 rue Anatole France Levallois-Perret",
+   "trouve": true,
+   "lat": 48.892418,
+   "lon": 2.28454,
+   "libelle": "77 Rue Anatole France 92300 Levallois-Perret",
+   "precision": "housenumber",
+   "score": 0.977,
+   "code_insee": "92044"
+  }
+ }
+}

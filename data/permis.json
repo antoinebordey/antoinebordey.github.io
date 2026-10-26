@@ -1,0 +1,82 @@
+{
+ "source": {
+  "editeur": "SDES — liste des permis de construire et autres autorisations d'urbanisme (Sitadel)",
+  "jeu": "Liste des permis de construire et autres autorisations d’urbanisme",
+  "fichier": "Liste des autorisations d'urbanisme créant des locaux non résidentiels",
+  "url": "https://www.data.gouv.fr/fr/datasets/689c42fa521ccf80ce954f83/",
+  "maj_source": "2026-09-29T13:00:05.771000+00:00",
+  "licence": "Licence Ouverte 2.0"
+ },
+ "maj": "2026-10-26T23:48:48+00:00",
+ "depuis": "2022-01-01",
+ "note": "Autorisations rapprochées par numéro et nom de voie de l'adresse publiée de l'actif ; seuls les demandeurs personnes morales sont nommés.",
+ "fiches": {
+  "pdm-002": [
+   {
+    "type": "DP",
+    "numero": "07510825V0479",
+    "date_autorisation": "2025-12-27",
+    "etat": "2",
+    "debut_travaux": null,
+    "achevement": null,
+    "adresse": "19 RUE DE VIENNE",
+    "code_commune": "75108",
+    "nature_projet": "6",
+    "surfaces": {
+     "SURF_LOC_AVANT": 33835,
+     "SURF_LOC_CREEE": 19,
+     "SURF_LOC_DEMOLIE": 378,
+     "SURF_BUR_AVANT": 33835,
+     "SURF_BUR_CREEE": 19,
+     "SURF_BUR_DEMOLIE": 378
+    },
+    "demandeur": "SCI ROCHER VIENNE",
+    "siren": "819358201"
+   },
+   {
+    "type": "DP",
+    "numero": "07510824V0531",
+    "date_autorisation": "2024-12-18",
+    "etat": "2",
+    "debut_travaux": null,
+    "achevement": null,
+    "adresse": "19 RUE DE VIENNE",
+    "code_commune": "75108",
+    "nature_projet": "6",
+    "surfaces": {
+     "SURF_LOC_AVANT": 33107,
+     "SURF_LOC_CREEE": 18,
+     "SURF_LOC_DEMOLIE": 337,
+     "SURF_BUR_AVANT": 33107,
+     "SURF_BUR_CREEE": 18,
+     "SURF_BUR_DEMOLIE": 337
+    },
+    "demandeur": "DEKA EQWATER SARL",
+    "siren": "501621338"
+   }
+  ],
+  "pdm-029": [
+   {
+    "type": "PC",
+    "numero": "09204422D0015",
+    "date_autorisation": "2023-06-16",
+    "etat": "5",
+    "debut_travaux": "2026-02-09",
+    "achevement": null,
+    "adresse": "77 RUE ANATOLE FRANCE",
+    "code_commune": "92044",
+    "nature_projet": "5",
+    "surfaces": {
+     "SURF_LOC_AVANT": 5893,
+     "SURF_LOC_CREEE": 1723,
+     "SURF_LOC_DEMOLIE": 1474,
+     "SURF_BUR_AVANT": 5893,
+     "SURF_BUR_CREEE": 1723,
+     "SURF_BUR_DEMOLIE": 1474
+    },
+    "demandeur": "NEXIMMO 132",
+    "siren": "895333102"
+   }
+  ]
+ }
+}
