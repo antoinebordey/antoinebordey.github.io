@@ -9,3 +9,7 @@ Site : https://antoinebordey.github.io
 - `data/dvf.json`, `taux.json`, `permis.json`, `geo.json`, `carte.json` : bases publiques (prix DVF agrégés, OAT 10 ans, permis de construire, géolocalisation des adresses, contours), mises à jour automatiquement par les scripts de `scripts/bases/`.
 
 Chaque chiffre est relié à une source publique ; les valeurs non communiquées restent marquées « NC ».
+
+## Droits
+
+© 2026 Antoine Bordey. Le code et la présentation du site sont protégés : tous droits réservés, aucune réutilisation sans autorisation écrite. Les données publiques reprises sur le site (DVF, Sitadel, BCE, IGN) restent soumises à leurs propres licences, et leurs sources sont citées.

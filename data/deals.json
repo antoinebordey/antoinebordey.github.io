@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 7,
+  "version": 8,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-10-27T01:20:00+01:00",
-  "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2025",
+  "derniere_mise_a_jour": "2026-10-27T14:05:00+01:00",
+  "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 30
+  "prochain_id": 45
  },
  "transactions": [
   {
@@ -844,7 +844,7 @@
   {
    "id": "pdm-005",
    "titre": "Icade cède l'immeuble Marignan, sur les Champs-Élysées, pour 402 M€",
-   "resume": "Icade a finalisé en avril 2026 la cession de l'immeuble Marignan, sur les Champs-Élysées (8e), pour 402 M€ à Black Swan Real Estate Capital, agissant pour le compte de fonds Bain Capital et Revcap. La promesse avait été signée en décembre 2025, à l'issue d'un appel d'offres lancé à l'été 2025.",
+   "resume": "Icade a finalisé en avril 2026 la cession de l'immeuble Marignan, sur les Champs-Élysées (8e), pour 402 M€ à Black Swan Real Estate Capital, agissant pour le compte de fonds Bain Capital et Revcap. La promesse avait été signée en décembre 2025, à l'issue d'un appel d'offres lancé à l'été 2025. Vacant à l'acquisition, cet immeuble Art déco des 29-33 avenue des Champs-Élysées doit être rénové pour accueillir trois grandes surfaces de commerce et des bureaux haut de gamme.",
    "date": {
     "valeur": "2026-04",
     "precision": "mois",
@@ -860,13 +860,13 @@
    "sous_type": "Bureaux et commerces",
    "actif": {
     "nom": "Immeuble Marignan",
-    "adresse": "Avenue des Champs-Élysées",
+    "adresse": "29-33 avenue des Champs-Élysées",
     "commune": "Paris",
     "arrondissements": [
      8
     ],
     "zone": "paris_qca",
-    "note": null
+    "note": "Adresse indiquée par l'annonce du conseil de l'acquéreur (S3)."
    },
    "acquereurs": [
     {
@@ -908,7 +908,16 @@
      ]
     }
    ],
-   "conseils": [],
+   "conseils": [
+    {
+     "nom": "Mayer Brown",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
    "financement": [],
    "autres_intervenants": [],
    "chiffres": {
@@ -970,6 +979,22 @@
      "sources": [
       "S1"
      ]
+    },
+    {
+     "libelle": "État locatif",
+     "valeur": "Immeuble vacant lors de l'acquisition",
+     "statut": "communique",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Rénovation en trois surfaces de commerce emblématiques et des bureaux haut de gamme, Black Swan Real Estate Capital assurant la gestion du projet",
+     "statut": "communique",
+     "sources": [
+      "S3"
+     ]
     }
    ],
    "strategie": {
@@ -977,9 +1002,13 @@
     "niveau": null,
     "citation": null,
     "sources": [],
-    "hypothese": null,
-    "indices": [],
-    "commentaire": "Aucune stratégie déclarée pour l'opération. Le vendeur évoque un rendement potentiel « à la livraison » ; l'état locatif n'étant pas publié, aucune hypothèse n'est formulée."
+    "hypothese": "value_add",
+    "indices": [
+     "Immeuble vacant à l'acquisition",
+     "Rénovation et réhabilitation prévues dans le cadre de l'opération",
+     "Opération présentée par le conseil de l'acquéreur comme une opportunité de création de valeur"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste, formulée après publication du projet de rénovation."
    },
    "sources": [
     {
@@ -1001,6 +1030,16 @@
      "niveau": "A",
      "nature": "document_financier",
      "acces": "extrait"
+    },
+    {
+     "id": "S3",
+     "editeur": "Le Monde du Droit (annonce de Mayer Brown)",
+     "titre": "Mayer Brown conseille Bain Capital dans le cadre de l'acquisition d'un immeuble Art déco à Paris",
+     "url": "https://www.lemondedudroit.fr/deals/103770-mayer-brown-conseille-bain-capital-dans-le-cadre-de-lacquisition-dun-immeuble-art-deco-a-paris.html",
+     "date": "2026-04-17",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
     }
    ],
    "contradictions": [],
@@ -1010,15 +1049,20 @@
     "preuve": "fort",
     "motifs": [
      "Source de niveau A consultée en intégralité",
-     "Aucune contradiction entre sources"
+     "Aucune contradiction entre sources",
+     "Date connue au mois"
     ]
    },
    "ajoute_le": "2026-10-25",
-   "verifie_le": "2026-10-25",
+   "verifie_le": "2026-10-27",
    "historique": [
     {
      "date": "2026-10-25",
      "evenement": "Fiche créée lors de l'initialisation de la veille"
+    },
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche enrichie : adresse, état locatif et projet de rénovation (annonce du conseil de l'acquéreur) ; hypothèse de stratégie ajoutée"
     }
    ]
   },
@@ -5066,6 +5110,2723 @@
      "evenement": "Fiche créée par la veille"
     }
    ]
+  },
+  {
+   "id": "pdm-030",
+   "titre": "Sofidy et Klépierre acquièrent le centre commercial O'Parinor auprès de Hammerson",
+   "resume": "Sofidy (75 %) et Klépierre (25 %) ont acquis auprès de Hammerson le centre commercial O'Parinor, à Aulnay-sous-Bois, à une quinzaine de kilomètres au nord-est de Paris. Le centre compte plus de 70 000 m² de surfaces commerciales, 190 boutiques et restaurants et un cinéma de 14 salles. Sofidy assure la gestion administrative et financière, Klépierre la gestion locative et technique ; l'opération est financée par un prêt vert structuré par Natixis. Le prix n'est pas communiqué par les parties ; une étude de marché l'établit à 200 M€.",
+   "date": {
+    "valeur": "2024-02-29",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2024-02-29",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Club deal initié par Sofidy",
+    "Financement « Green Loan » structuré par Natixis"
+   ],
+   "classe": "commerces",
+   "sous_type": "Centre commercial régional",
+   "actif": {
+    "nom": "Centre commercial O'Parinor",
+    "adresse": null,
+    "commune": "Aulnay-sous-Bois (93)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Sofidy",
+     "type": "Société de gestion",
+     "precision": "75 % du capital, via ses fonds et aux côtés d'investisseurs institutionnels français",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Klépierre",
+     "type": "Foncière cotée",
+     "precision": "25 % du capital ; gestion locative et technique du centre",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Hammerson",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Herbert Smith Freehills",
+     "cote": "non_precise",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "White & Case",
+     "cote": "non_precise",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "CMS Francis Lefebvre",
+     "cote": "non_precise",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Thibierge",
+     "cote": "non_precise",
+     "role": "Notaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Primexis",
+     "cote": "non_precise",
+     "role": "Conseil financier",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Moreau",
+     "cote": "non_precise",
+     "role": "Audit technique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Cushman & Wakefield Expertise",
+     "cote": "non_precise",
+     "role": "Évaluation",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Knight Frank",
+     "cote": "non_precise",
+     "role": "Intermédiaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Cushman & Wakefield",
+     "cote": "non_precise",
+     "role": "Intermédiaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Arsene",
+     "cote": "vendeur",
+     "role": "Fiscal",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [
+    {
+     "nom": "Natixis",
+     "role": "Structuration du prêt vert",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 200000000,
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Montant indiqué par une étude de marché ; non communiqué par les parties."
+    },
+    "surface": {
+     "valeur": 70000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "m²",
+     "note": "Surface commerciale du centre."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Composition",
+     "valeur": "190 boutiques et restaurants, principalement d'enseignes nationales et internationales, et un cinéma de 14 salles",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Gestion",
+     "valeur": "Sofidy : gestion administrative et financière ; Klépierre : gestion locative et technique",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Certification",
+     "valeur": "BREEAM In-Use « Excellent »",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core_plus",
+    "indices": [
+     "Centre commercial établi, certifié BREEAM In-Use « Excellent »",
+     "Partenariat présenté comme une gestion intégrée à long terme",
+     "Risque d'exploitation propre aux grands centres commerciaux"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core+ » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Sofidy — communiqué de presse",
+     "titre": "Sofidy et Klépierre acquièrent le centre commercial O'Parinor",
+     "url": "https://www.sofidy.com/app/uploads/2024/02/290224-CP-Sofidy-OPARINOR-Acquisition-1.pdf",
+     "date": "2024-02-29",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit (annonce d'Arsene)",
+     "titre": "Arsene conseille Hammerson pour la cession du centre commercial O'Parinor",
+     "url": "https://www.lemondedudroit.fr/deals/91790-arsene-conseille-hammerson-pour-la-cession-centre-commercial-oparinor.html",
+     "date": "2024-03-07",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Arthur Loyd — étude de marché",
+     "titre": "L'indispensable du marché de l'investissement Île-de-France, T1 2024",
+     "url": "https://www.arthur-loyd.com/media/file/da54e61c-l-indispensable-investissement-t1-2024.pdf",
+     "date": null,
+     "niveau": "B",
+     "nature": "etude",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "Le communiqué de Sofidy cite les conseils de l'opération sans préciser leur côté ; Herbert Smith Freehills est présenté ailleurs comme conseil des acquéreurs."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-031",
+   "titre": "CDC Investissement Immobilier acquiert une résidence hôtelière Adagio rue de Caumartin (9e)",
+   "resume": "CDC Investissement Immobilier a acquis, pour le compte de la Caisse des Dépôts, l'immeuble du 43 rue de Caumartin, dans le 9e arrondissement : une résidence hôtelière 4 étoiles récemment rénovée de 99 chambres, exploitée par Adagio dans le cadre d'un bail de longue durée, et trois commerces en rez-de-chaussée, soit environ 4 500 m². Ni le vendeur ni le prix ne sont communiqués.",
+   "date": {
+    "valeur": "2024-03-19",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2024-03-19",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "hotellerie",
+   "sous_type": "Résidence hôtelière 4★ (99 chambres)",
+   "actif": {
+    "nom": "Immeuble du 43 rue de Caumartin",
+    "adresse": "43 rue de Caumartin",
+    "commune": "Paris",
+    "arrondissements": [
+     9
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "CDC Investissement Immobilier",
+     "type": "Investisseur institutionnel",
+     "precision": "Pour le compte de la Caisse des Dépôts",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Étude Acte 2",
+     "cote": "acquereur",
+     "role": "Notaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "LPA CGR avocats",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "ROM",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "ELAN",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Adagio",
+     "role": "Exploitant (bail de longue durée)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 4500,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "cles": {
+     "valeur": 99,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Composition",
+     "valeur": "Résidence hôtelière de 99 chambres et trois commerces en rez-de-chaussée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "État",
+     "valeur": "Résidence 4 étoiles récemment rénovée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Exploitation encadrée par un bail de longue durée avec Adagio",
+     "Résidence récemment rénovée"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Caisse des Dépôts — communiqué de CDC Investissement Immobilier",
+     "titre": "CDC Investissement Immobilier acquiert une résidence hôtelière au 43 rue de Caumartin (Paris 9e)",
+     "url": "https://www.caissedesdepots.fr/sites/default/files/2024-03/CP_CDC-Investissement-Immobilier_Tertiaire-Caumartin_2024-03-19.pdf",
+     "date": "2024-03-19",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "Le vendeur n'est pas nommé par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-032",
+   "titre": "Morgan Stanley et QuinSpark acquièrent le Pullman Paris Tour Eiffel auprès d'Amundi",
+   "resume": "Un fonds géré par Morgan Stanley Real Estate Investing a acquis début 2024, avec son partenaire QuinSpark Investment Partners, le Pullman Paris Tour Eiffel, hôtel exploité par Accor. Selon la presse, le vendeur était Amundi Immobilier, via l'OPCI Opcimmo, pour un prix de 330 M€, soit environ 767 000 € par clé. Les sources divergent sur le mois de la finalisation (mars ou avril 2024) et sur le nombre de chambres (435 ou 430). Les acquéreurs ont ensuite mené un programme d'amélioration de l'exploitation, avant de revendre l'hôtel en 2026.",
+   "date": {
+    "valeur": "2024-03",
+    "precision": "mois",
+    "nature": "realisation"
+   },
+   "date_publication": null,
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel 4★",
+   "actif": {
+    "nom": "Pullman Paris Tour Eiffel",
+    "adresse": "18 avenue de Suffren",
+    "commune": "Paris",
+    "arrondissements": [
+     15
+    ],
+    "zone": "paris",
+    "note": "Adresse de l'établissement ; elle n'est pas reprise dans les communiqués de la transaction."
+   },
+   "acquereurs": [
+    {
+     "nom": "Morgan Stanley Real Estate Investing",
+     "type": "Société de gestion",
+     "precision": "Via un fonds d'investissement qu'elle gère",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "QuinSpark Investment Partners",
+     "type": "Investisseur hôtelier",
+     "precision": "Partenaire opérationnel de l'acquisition",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Amundi Immobilier",
+     "type": "Société de gestion",
+     "precision": "Via l'OPCI Opcimmo",
+     "statut": "presse",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Accor",
+     "role": "Exploitant (enseigne Pullman)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 330000000,
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "cles": {
+     "valeur": 435,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres",
+     "note": "Nombre de chambres indiqué par le communiqué de 2026 ; la presse en compte 430 lors de l'acquisition de 2024 (voir les contradictions)."
+    },
+    "prix_cle": {
+     "valeur": 767000,
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/clé",
+     "base": "NC",
+     "note": "Valeur publiée par la presse, sur la base de 330 M€ et de 430 chambres."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Programme après l'acquisition",
+     "valeur": "Améliorations opérationnelles, de l'expérience client et baisse de la consommation d'énergie",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Revente",
+     "valeur": "Hôtel cédé en 2026 à un consortium géré par Batipart Europe",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Programme de création de valeur mené après l'acquisition : exploitation, expérience client, consommation d'énergie",
+     "Revente environ deux ans après l'achat"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Morgan Stanley Investment Management — communiqué",
+     "titre": "MSREI and QuinSpark announce the sale of the Pullman Paris Tour Eiffel hotel",
+     "url": "https://www.morganstanley.com/im/en-ie/intermediary-investor/insights/press-release/msrei-and-quinspark-announce-the-sale-of-the-pullman-paris-tour-eiffel-hotel.html",
+     "date": "2026-04-17",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué de la revente de 2026, qui rappelle l'acquisition de mars 2024."
+    },
+    {
+     "id": "S2",
+     "editeur": "Hospitality ON",
+     "titre": "Revente éclair et plus-value de 100 M€ pour le Pullman Tour Eiffel",
+     "url": "https://hospitality-on.com/fr/investisseurs/revente-eclair-et-plus-value-de-100-meu-pour-le-pullman-tour-eiffel",
+     "date": "2026-04-18",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Property Magazine",
+     "titre": "Morgan Stanley and Quinspark complete Pullman Paris Tour Eiffel purchase from Amundi",
+     "url": "https://property-magazine.eu/morgan-stanley-and-quinspark-complete-pullman-paris-tour-eiffel-purchase-from-amundi-67084.html",
+     "date": null,
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [
+    {
+     "champ": "date",
+     "libelle": "Mois de la finalisation",
+     "valeurs": [
+      {
+       "valeur": "mars 2024",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "valeur": "avril 2024",
+       "sources": [
+        "S2"
+       ]
+      }
+     ],
+     "note": "Le communiqué de Morgan Stanley indique une acquisition en mars 2024 ; la presse situe la finalisation en avril 2024. Les deux versions sont conservées."
+    },
+    {
+     "champ": "cles",
+     "libelle": "Nombre de chambres",
+     "valeurs": [
+      {
+       "valeur": "435 chambres",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "valeur": "430 chambres",
+       "sources": [
+        "S2"
+       ]
+      }
+     ],
+     "note": "Le communiqué de 2026 décrit un hôtel de 435 chambres ; la presse retient 430 chambres pour l'acquisition de 2024. Les deux valeurs sont conservées."
+    }
+   ],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "Date retenue : mars 2024, selon le communiqué de Morgan Stanley ; la presse situe la finalisation en avril 2024 (voir les contradictions)."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "moyen",
+    "motifs": [
+     "Contradictions entre sources : mois de la finalisation, nombre de chambres"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-033",
+   "titre": "Osae Partners acquiert l'immeuble de bureaux Opéra Gramont auprès de Deka Immobilien",
+   "resume": "Osae Partners a acquis, pour l'un de ses fonds discrétionnaires, l'immeuble de bureaux « Opéra Gramont », dans le 2e arrondissement, auprès de Deka Immobilien. L'immeuble d'environ 8 200 m², doté de 57 places de parking, a été restructuré en 2001, est certifié BREEAM In-Use « Very Good » et est entièrement loué au groupe Coty. L'acquisition a été financée par une dette bancaire. Le prix n'est pas communiqué par les parties ; une étude de marché le situe au-delà de 100 M€.",
+   "date": {
+    "valeur": "2024-04-29",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2024-04-29",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition financée par une dette bancaire (prêteur non nommé)"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux loué",
+   "actif": {
+    "nom": "Opéra Gramont",
+    "adresse": "12-14 rue de Gramont, 14 rue du Quatre-Septembre et 8 rue de Gramont",
+    "commune": "Paris",
+    "arrondissements": [
+     2
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Osae Partners",
+     "type": "Société de gestion",
+     "precision": "Pour l'un de ses fonds discrétionnaires",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Deka Immobilien",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "acquereur",
+     "role": "Juridique, fiscal et financement",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Coty",
+     "role": "Locataire unique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 100000000,
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "« Plus de 100 millions d'euros » selon une étude de marché, qui indique « > 110 M€ » dans son tableau."
+    },
+    "surface": {
+     "valeur": 8200,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Entièrement loué à Coty."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Stationnement",
+     "valeur": "57 places de parking",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Historique",
+     "valeur": "Immeuble entièrement restructuré en 2001",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Certification",
+     "valeur": "BREEAM In-Use « Very Good »",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeuble entièrement loué à un locataire unique (Coty)",
+     "Emplacement dans le QCA, quartier de l'Opéra"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources et durée des baux non publiée : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Osae Partners — actualité",
+     "titre": "Osae Partners has acquired the Opéra Gramont office building",
+     "url": "https://www.osae-partners.com/en/blog/acquisition-opera-gramont/",
+     "date": "2024-04-29",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit (annonce de De Pardieu Brocas Maffei)",
+     "titre": "De Pardieu conseille Osae Partners pour l'acquisition et le financement de l'immeuble de bureaux Opéra Gramont",
+     "url": "https://www.lemondedudroit.fr/deals/92768-depardieu-conseille-osae-partners-pour-l-acquisition-et-le-financement-de-l-immeuble-de-bureaux-opera-gramont.html",
+     "date": "2024-05-09",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Arthur Loyd — étude de marché",
+     "titre": "L'indispensable du marché de l'investissement Île-de-France, T2 2024",
+     "url": "https://www.arthur-loyd.com/media/file/49f543cd-l-indispensable-investissement-t2-2024.pdf",
+     "date": null,
+     "niveau": "B",
+     "nature": "etude",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-034",
+   "titre": "URW cède les bureaux de Gaîté-Montparnasse à Norges Bank IM et Swiss Life pour 172,5 M€",
+   "resume": "Unibail-Rodamco-Westfield a signé le 30 septembre 2024 la cession de la société détenant les bureaux de l'ensemble mixte Gaîté-Montparnasse (« Les Ateliers Gaîté », 14e) à une coentreprise de Norges Bank Investment Management (65 %) et de Swiss Life (35 %), pour un coût total d'acquisition de 172,5 M€, soit une décote de 4 % sur la dernière valeur d'expertise. Livrés en 2022, les 12 500 m² de bureaux sont loués en totalité à Wojo, l'opérateur d'espaces de travail flexibles du groupe Accor. La réalisation était attendue au quatrième trimestre 2024.",
+   "date": {
+    "valeur": "2024-09-30",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-09-30",
+   "statut_operation": "promesse",
+   "modalites": [
+    "Cession des titres de la société propriétaire",
+    "Réalisation attendue au T4 2024, sous conditions suspensives"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Bureaux d'un ensemble mixte",
+   "actif": {
+    "nom": "Les Ateliers Gaîté (bureaux de Gaîté-Montparnasse)",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     14
+    ],
+    "zone": "paris",
+    "note": "Adresse non précisée par les sources."
+   },
+   "acquereurs": [
+    {
+     "nom": "Norges Bank Investment Management",
+     "type": "Investisseur institutionnel",
+     "precision": "65 % de la coentreprise (112,1 M€)",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Swiss Life Asset Managers",
+     "type": "Société de gestion",
+     "precision": "35 % pour des entités du groupe Swiss Life (60,4 M€) ; gestionnaire de l'actif",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Unibail-Rodamco-Westfield",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Lacourte Raquin Tatar",
+     "cote": "vendeur",
+     "role": "Juridique et fiscal",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "nom": "Gide",
+     "cote": "acquereur",
+     "role": "Juridique, fiscal et contrôle des concentrations",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Wojo (groupe Accor)",
+     "role": "Locataire unique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 172500000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "« Coût total d'acquisition » selon le vendeur, « valeur brute » du bien selon Swiss Life Asset Managers."
+    },
+    "surface": {
+     "valeur": 12500,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 13800,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "€/m²",
+     "note": "Calcul : 172,5 M€ ÷ 12 500 m²."
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Loués en totalité à Wojo (groupe Accor)."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Décote",
+     "valeur": "4 % sous la dernière valeur d'expertise, selon le vendeur",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Livraison",
+     "valeur": "Bureaux livrés en 2022",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "core",
+    "niveau": "vehicule",
+    "citation": "targets core assets in Berlin and Paris",
+    "sources": [
+     "S2"
+    ],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Selon Swiss Life Asset Managers, la coentreprise acquéreuse vise des actifs « core » à Berlin et à Paris : stratégie confirmée au niveau du véhicule."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Unibail-Rodamco-Westfield — communiqué (publié sur l'ASX)",
+     "titre": "Sale of the office component of Gaîté-Montparnasse",
+     "url": "https://announcements.asx.com.au/asxpdf/20241001/pdf/068kt4tqdk4bv4.pdf",
+     "date": "2024-09-30",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Swiss Life Asset Managers France — actualité",
+     "titre": "Agreement with Norges Bank Investment Management, Paris 14",
+     "url": "https://fr.swisslife-am.com/en/home/news/france/institutional/real-estate/Norges-Bank-Investment-Management-agreement-Paris-14.html",
+     "date": null,
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Le Monde du Droit (annonce de Lacourte Raquin Tatar)",
+     "titre": "Lacourte Raquin Tatar a conseillé Unibail-Rodamco-Westfield dans le cadre de la cession de la société détenant l'immeuble de bureaux du complexe Gaîté-Montparnasse",
+     "url": "https://www.lemondedudroit.fr/deals/94969-lacourte-raquin-tatar-a-conseille-unibail-rodamco-westfield-dans-le-cadre-de-la-cession-de-la-societe-detenant-l-immeuble-de-bureaux-du-complexe-a-usage-mixte-gaite-montparnasse-a-paris.html",
+     "date": "2024-10-10",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "La réalisation définitive n'est pas confirmée par les sources consultées."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-035",
+   "titre": "CDC Investissement Immobilier acquiert l'ensemble de bureaux « Ville-l'Évêque » (8e) auprès de Deka Immobilien",
+   "resume": "CDC Investissement Immobilier a acquis auprès de Deka Immobilien, pour le compte de la Caisse des Dépôts, l'ensemble de bureaux « Ville-l'Évêque », dans le 8e arrondissement : environ 4 900 m² locatifs avec patio intérieur et toit-terrasse, entièrement restructurés par le vendeur entre 2021 et 2023. Le cabinet Simmons & Simmons reste locataire dans le cadre d'un bail de longue durée. Le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2024-12-19",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2024-12-19",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux restructuré",
+   "actif": {
+    "nom": "Ensemble de bureaux « Ville-l'Évêque »",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": "Adresse précise non indiquée par la source."
+   },
+   "acquereurs": [
+    {
+     "nom": "CDC Investissement Immobilier",
+     "type": "Investisseur institutionnel",
+     "precision": "Pour le compte de la Caisse des Dépôts",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Deka Immobilien",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Allez & Associés",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Reinhart Marville Torre",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Alamo",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Elan",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Simmons & Simmons",
+     "role": "Locataire (bail de longue durée)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 4900,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Surface locative."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Historique",
+     "valeur": "Construit en 1977, transformé en 1996, entièrement restructuré par Deka Immobilien entre 2021 et 2023",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Équipements",
+     "valeur": "Patio intérieur et toit-terrasse",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "core",
+    "niveau": "vehicule",
+    "citation": "profils core, dans toutes les classes d'actif",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "CDC Investissement Immobilier indique concentrer depuis 18 mois ses acquisitions sur des profils « core » : stratégie confirmée au niveau de l'investisseur."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Caisse des Dépôts — communiqué de CDC Investissement Immobilier",
+     "titre": "CDC Investissement Immobilier acquiert l'ensemble immobilier de bureaux « Ville-l'Évêque » (Paris 8e)",
+     "url": "https://www.caissedesdepots.fr/sites/default/files/2025-05/CP_19122024_CDC_Investissement_Immobilier_Paris_8%C3%A8me_Ville_Eveque_accessible.pdf",
+     "date": "2024-12-19",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-036",
+   "titre": "URW cède 15 % de Westfield Forum des Halles à CDC Investissement Immobilier pour 235 M€",
+   "resume": "Unibail-Rodamco-Westfield a cédé à CDC Investissement Immobilier, pour le compte de la Caisse des Dépôts, une participation de 15 % dans Westfield Forum des Halles, centre commercial de 77 600 m² au cœur de Paris, pour un prix net de 235 M€, en ligne avec la dernière valeur d'expertise. URW conserve 50 % et la gestion du centre ; AXA IM Alts en détient 35 % pour le compte de ses clients. Jusqu'à 10 % du prix relèvent d'un mécanisme garantissant à la Caisse des Dépôts un rendement de 5 % par an, activable jusqu'en 2029.",
+   "date": {
+    "valeur": "2025-01-06",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-01-06",
+   "statut_operation": "annoncee",
+   "modalites": [],
+   "classe": "commerces",
+   "sous_type": "Centre commercial (participation minoritaire)",
+   "actif": {
+    "nom": "Westfield Forum des Halles",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     1
+    ],
+    "zone": "paris",
+    "note": "Arrondissement non précisé par le communiqué : le Forum des Halles est situé dans le 1er."
+   },
+   "acquereurs": [
+    {
+     "nom": "CDC Investissement Immobilier",
+     "type": "Investisseur institutionnel",
+     "precision": "15 % du centre, pour le compte de la Caisse des Dépôts",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Unibail-Rodamco-Westfield",
+     "type": "Foncière cotée",
+     "precision": "Conserve 50 % et la gestion du centre",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "AXA IM Alts",
+     "role": "Copropriétaire (35 %, pour le compte de ses clients)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 235000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix net de la participation de 15 %."
+    },
+    "quote_part": {
+     "valeur": 15,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%"
+    },
+    "surface": {
+     "valeur": 77600,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Surface de l'ensemble du centre commercial."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Mécanisme de prix",
+     "valeur": "Jusqu'à 10 % du prix soumis à un mécanisme de rendement de 5 % par an pour la Caisse des Dépôts, activable jusqu'en 2029",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Valorisation",
+     "valeur": "Prix en ligne avec la dernière valeur d'expertise",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Participation minoritaire dans un centre commercial de premier plan, géré par URW",
+     "Prix aligné sur la dernière valeur d'expertise",
+     "Mécanisme de rendement minimal sur une partie du prix"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Unibail-Rodamco-Westfield et Caisse des Dépôts — communiqué",
+     "titre": "URW cède 15 % dans Westfield Forum des Halles à CDC Investissement Immobilier",
+     "url": "https://www.caissedesdepots.fr/sites/default/files/2025-02/CP_URW-c%C3%A8de-15%25-dans-Westfield-Forum-des-Halles-%C3%A0-CDC-Investissement-Immobilier_2025-01-06.pdf",
+     "date": "2025-01-06",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-037",
+   "titre": "Kering cède à Ardian 60 % de trois immeubles de prestige, place Vendôme et avenue Montaigne",
+   "resume": "Kering a apporté trois immeubles parisiens à une coentreprise détenue à 60 % par Ardian et à 40 % par le groupe : l'hôtel de Nocé, au 26 place Vendôme, et deux immeubles de l'avenue Montaigne, aux 35-37 et au 56. Le produit net pour Kering s'élève à 837 M€. Annoncé le 15 janvier 2025, l'accord a été finalisé fin mars 2025 selon la presse. Le groupe présente l'opération comme un moyen de sécuriser des emplacements clés sur le long terme.",
+   "date": {
+    "valeur": "2025-01-15",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-01-15",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Apport des trois immeubles à une coentreprise (Ardian 60 %, Kering 40 %)",
+    "Accord annoncé le 15 janvier 2025, finalisé fin mars 2025 selon la presse"
+   ],
+   "classe": "commerces",
+   "sous_type": "Immeubles de prestige accueillant des boutiques de luxe",
+   "actif": {
+    "nom": "Hôtel de Nocé et deux immeubles de l'avenue Montaigne",
+    "adresse": "26 place Vendôme ; 35-37 avenue Montaigne ; 56 avenue Montaigne",
+    "commune": "Paris",
+    "arrondissements": [
+     1,
+     8
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Ardian",
+     "type": "Société d'investissement",
+     "precision": "60 % de la coentreprise détenant les immeubles",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Kering",
+     "type": "Groupe de luxe",
+     "precision": "Conserve 40 % de la coentreprise",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Gide",
+     "cote": "vendeur",
+     "role": "Juridique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 837000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Produit net de la cession de 60 % ; la valeur totale des immeubles n'est pas communiquée.",
+     "libelle": "Montant (produit net pour Kering)"
+    },
+    "quote_part": {
+     "valeur": 60,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Réalisation",
+     "valeur": "Opération finalisée fin mars 2025",
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "libelle": "Occupation",
+     "valeur": "Le 35 avenue Montaigne abrite une boutique Valentino",
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Emplacements de tout premier plan : place Vendôme et avenue Montaigne",
+     "Objectif affiché de sécuriser ces emplacements sur le long terme"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Ardian — communiqué de presse",
+     "titre": "Kering and Ardian sign an investment agreement regarding prime real estate assets in Paris",
+     "url": "https://www.ardian.com/news-insights/press-releases/kering-and-ardian-sign-investment-agreement-regarding-prime-real",
+     "date": "2025-01-15",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Gide — annonce d'opération",
+     "titre": "Gide advises Kering on its investment agreement with Ardian",
+     "url": "https://www.gide.com/en/?p=75129",
+     "date": "2025-01-17",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "FashionUnited",
+     "titre": "Kering closes sale of majority stake in prime Parisian real estate assets to Ardian",
+     "url": "https://fashionunited.com/news/business/kering-closes-sale-of-majority-stake-in-prime-parisian-real-estate-assets-to-ardian/2025032865197",
+     "date": "2025-03-28",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-038",
+   "titre": "Picture AM et Demathieu Bard Immobilier acquièrent un immeuble de bureaux à restructurer rue de la Pierre-Levée (11e)",
+   "resume": "Picture Asset Management, pour son fonds PictO+, et Demathieu Bard Immobilier ont acquis l'immeuble de bureaux d'environ 1 800 m² du 7 rue de la Pierre-Levée, dans le 11e arrondissement, en vue de le restructurer. L'opération est financée par Scor Real Estate Loans V, fonds de dette géré par SCOR Investment Partners. Ni le vendeur ni le prix ne sont communiqués.",
+   "date": {
+    "valeur": "2025-01-18",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-01-18",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Financement par un fonds de dette immobilière"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux à restructurer",
+   "actif": {
+    "nom": "Immeuble du 7 rue de la Pierre-Levée",
+    "adresse": "7 rue de la Pierre-Levée",
+    "commune": "Paris",
+    "arrondissements": [
+     11
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Picture Asset Management",
+     "type": "Société de gestion",
+     "precision": "Pour le fonds PictO+",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Demathieu Bard Immobilier",
+     "type": "Promoteur",
+     "precision": "En partenariat",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Dechert",
+     "cote": "non_precise",
+     "role": "Conseil du prêteur",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [
+    {
+     "nom": "Scor Real Estate Loans V (SCOR Investment Partners)",
+     "role": "Prêteur",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 1800,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Restructuration de l'immeuble",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Restructuration de l'immeuble prévue dès l'acquisition",
+     "Association avec un promoteur"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de Dechert)",
+     "titre": "Dechert conseille SCOR Investment Partners dans le financement de l'acquisition d'un immeuble de bureaux à Paris",
+     "url": "https://www.lemondedudroit.fr/deals/96660-dechert-conseille-scor-investment-partners-dans-le-financement-de-l-acquisition-d-un-immeuble-de-bureaux-a-paris.html",
+     "date": "2025-01-18",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base.",
+    "Le vendeur n'est pas nommé par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-039",
+   "titre": "CDC Investissement Immobilier acquiert deux immeubles résidentiels avenue Victor Hugo (16e)",
+   "resume": "CDC Investissement Immobilier a acquis, pour le compte de la Caisse des Dépôts, deux immeubles résidentiels du 16e arrondissement, au 90-92 avenue Victor Hugo et au 1 place Victor Hugo, soit plus de 10 000 m² dont 1 500 m² de commerces en rez-de-chaussée. Présentés comme des actifs d'exception destinés à une détention de très long terme, ils feront l'objet d'un plan d'amélioration de leur performance énergétique. Le vendeur, conseillé par BNP Paribas Real Estate et JLL, n'est pas nommé ; le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2025-01-20",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-01-20",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "residentiel",
+   "sous_type": "Immeubles d'habitation avec commerces",
+   "actif": {
+    "nom": "Immeubles de l'avenue et de la place Victor Hugo",
+    "adresse": "90-92 avenue Victor Hugo ; 1 place Victor Hugo",
+    "commune": "Paris",
+    "arrondissements": [
+     16
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "CDC Investissement Immobilier",
+     "type": "Investisseur institutionnel",
+     "precision": "Pour le compte de la Caisse des Dépôts",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Propriétaire non nommé",
+     "type": "Non précisé",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "anonyme": true
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Acte 2",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Taylor Wessing",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Ikory",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Arp-Astrance",
+     "cote": "acquereur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "BNP Paribas Real Estate",
+     "cote": "vendeur",
+     "role": "Mandat de vente co-exclusif",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "JLL",
+     "cote": "vendeur",
+     "role": "Mandat de vente co-exclusif",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 10000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "m²",
+     "note": "Dont 1 500 m² de commerces en rez-de-chaussée."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Plan d'amélioration de la performance énergétique",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Stratégie de l'investisseur",
+     "valeur": "Stratégie résidentielle lancée début 2024 : immeubles existants haut de gamme et bien situés, pour une détention de très long terme",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeubles existants haut de gamme et bien situés",
+     "Détention de très long terme annoncée"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Caisse des Dépôts — communiqué de CDC Investissement Immobilier",
+     "titre": "CDC Investissement Immobilier acquiert deux immeubles résidentiels dans le 16e arrondissement de Paris",
+     "url": "https://www.caissedesdepots.fr/sites/default/files/2025-05/CP_20_01_2025_Paris_16_VHB_accessible.pdf",
+     "date": "2025-01-20",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-040",
+   "titre": "Hestia IM acquiert le 23 Taitbout (9e) et le 134 Faubourg Saint-Honoré (8e)",
+   "resume": "Hestia IM a acquis deux immeubles mixtes de bureaux et de commerces : le 23 rue Taitbout (9e), 2 653 m² abritant notamment le Club Haussmann, cédé par CNP Assurances (actif géré par AEW), et le 134 rue du Faubourg Saint-Honoré (8e), 1 810 m², cédé par Pimco Prime Real Estate à l'issue d'un appel d'offres disputé. L'acquéreur met en avant une stratégie de création de valeur sur des actifs à fort potentiel de revalorisation. Les prix ne sont pas communiqués.",
+   "date": {
+    "valeur": "2025-03-12",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-03-12",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "mixte",
+   "sous_type": "Immeubles mixtes bureaux et commerces",
+   "actif": {
+    "nom": "23 Taitbout et 134 Faubourg Saint-Honoré",
+    "adresse": "23 rue Taitbout ; 134 rue du Faubourg Saint-Honoré",
+    "commune": "Paris",
+    "arrondissements": [
+     8,
+     9
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Hestia IM",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "CNP Assurances",
+     "type": "Assureur",
+     "precision": "23 Taitbout, actif géré par AEW",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Pimco Prime Real Estate",
+     "type": "Société de gestion",
+     "precision": "134 Faubourg Saint-Honoré, à l'issue d'un appel d'offres",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Osborne Clarke",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Club Haussmann",
+     "role": "Occupant du 23 rue Taitbout",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqués."
+    },
+    "surface": {
+     "valeur": 4463,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Somme des surfaces communiquées : 2 653 m² (23 Taitbout) et 1 810 m² (134 Faubourg Saint-Honoré)."
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Stratégie de l'acquéreur présentée comme « axée sur la création de valeur »",
+     "Actifs décrits comme ayant un « fort potentiel de revalorisation »"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce d'Osborne Clarke)",
+     "titre": "Osborne Clarke conseille Hestia IM dans l'acquisition des immeubles 23 Taitbout et 134 Faubourg Saint-Honoré",
+     "url": "https://www.lemondedudroit.fr/deals/97597-osborne-clarke-conseille-hestia-im-dans-l-acquisition-des-immeubles-23-taitbout-et-134-faubourg-saint-honore.html",
+     "date": "2025-03-12",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-041",
+   "titre": "Deka Immobilien acquiert l'immeuble « 21 Opéra » (1er) et complète son ensemble de l'Opéra",
+   "resume": "Deka Immobilien a acquis pour son fonds ouvert Deka-ImmobilienEuropa l'immeuble d'angle « 21 Opéra », dans le 1er arrondissement, pour environ 33 M€. L'immeuble compte environ 2 450 m² : quelque 1 830 m² de bureaux, des commerces loués à long terme à Monoprix et des logements au dernier étage. L'acquisition complète l'ensemble de plus de 10 000 m² que le fonds détenait déjà dans le quartier de l'avenue de l'Opéra ; Deka attend un potentiel de développement de la gestion active.",
+   "date": {
+    "valeur": "2025-12-15",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-12-15",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "mixte",
+   "sous_type": "Immeuble mixte bureaux, commerces et logements",
+   "actif": {
+    "nom": "21 Opéra",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     1
+    ],
+    "zone": "paris_qca",
+    "note": "Numéro de voie non précisé par la source."
+   },
+   "acquereurs": [
+    {
+     "nom": "Deka Immobilien",
+     "type": "Société de gestion",
+     "precision": "Pour le fonds ouvert Deka-ImmobilienEuropa",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "LPA Law",
+     "cote": "acquereur",
+     "role": "Juridique et fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "C&C Notaires",
+     "cote": "acquereur",
+     "role": "Notaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Ingérop",
+     "cote": "acquereur",
+     "role": "Technique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Monoprix",
+     "role": "Locataire des commerces (bail de longue durée)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 33000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "surface": {
+     "valeur": 2450,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Surface locative."
+    },
+    "prix_m2": {
+     "valeur": 13469,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "note": "Calcul : environ 33 M€ ÷ environ 2 450 m²."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Composition",
+     "valeur": "Environ 1 830 m² de bureaux, commerces du sous-sol au premier étage, logements au dernier étage",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Ensemble",
+     "valeur": "Complète un ensemble de plus de 10 000 m² déjà détenu par le fonds dans le même quartier",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core_plus",
+    "indices": [
+     "Commerces loués à long terme à Monoprix",
+     "Potentiel de développement attendu de la gestion active, selon l'acquéreur"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core+ » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Deka Immobilien — actualité",
+     "titre": "Deka Immobilien acquires 21 Opéra in Paris",
+     "url": "https://www.deka-immobilien.de/en/insights-news/the-latest-from-deka-immobiliens-real-estate-world/deka-immobilien-acquires-21-op%C3%A9ra-in-paris/",
+     "date": "2025-12-15",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base.",
+    "Le vendeur n'est pas nommé par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-042",
+   "titre": "Deka Immobilien acquiert le 10 avenue Hoche (8e), loué à Mayer Brown",
+   "resume": "Deka Immobilien a acquis pour son fonds Deka-ImmobilienEuropa l'immeuble de bureaux haussmannien du 10 avenue Hoche, dans le 8e arrondissement, auprès de la société de gestion d'un investisseur institutionnel non nommé. D'environ 4 500 m² locatifs, l'immeuble, autrefois occupé par le groupe Kering, a été entièrement rénové et est loué en totalité au cabinet Mayer Brown. Le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2026-03-09",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-03-09",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux haussmannien rénové",
+   "actif": {
+    "nom": "Immeuble du 10 avenue Hoche",
+    "adresse": "10 avenue Hoche",
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Deka Immobilien",
+     "type": "Société de gestion",
+     "precision": "Pour le fonds Deka-ImmobilienEuropa",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Société de gestion d'un investisseur institutionnel (non nommée)",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "anonyme": true
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "CMS Francis Lefebvre",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Attal & Associés",
+     "cote": "acquereur",
+     "role": "Notaire",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Mayer Brown",
+     "role": "Locataire unique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 4500,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Surface locative."
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Loué en totalité à Mayer Brown après rénovation."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Certifications",
+     "valeur": "HQE Excellent, BREEAM Very Good, DPE C",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Historique",
+     "valeur": "Anciennement occupé par le groupe Kering, puis entièrement rénové",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeuble entièrement rénové et certifié",
+     "Loué en totalité à un locataire unique",
+     "Emplacement dans le QCA"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de CMS Francis Lefebvre)",
+     "titre": "CMS Francis Lefebvre conseille Deka Immobilien dans le cadre de l'acquisition d'un actif « prime » tertiaire situé en plein cœur du 8e arrondissement",
+     "url": "https://www.lemondedudroit.fr/deals/103303-cms-francis-lefebvre-conseille-deka-immobilien-dans-le-cadre-de-lacquisition-dun-actif-prime-tertiaire-situe-en-plein-coeur-du-8eme-arrondissement-a-paris.html",
+     "date": "2026-03-09",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-043",
+   "titre": "Un consortium mené par Batipart Europe rachète le Pullman Paris Tour Eiffel à Morgan Stanley",
+   "resume": "Un fonds géré par Morgan Stanley Real Estate Investing et son partenaire QuinSpark ont cédé le Pullman Paris Tour Eiffel (435 chambres), acquis en mars 2024, à un consortium géré par Batipart Europe via son véhicule hôtelier Anama, aux côtés de CDC Investissement Immobilier, de Sogecap et de QuinSpark, qui reste au capital. Accor continue d'exploiter l'hôtel et les nouveaux propriétaires préparent un programme de rénovation présenté comme ambitieux. Le prix n'est pas communiqué par les parties.",
+   "date": {
+    "valeur": "2026-04-17",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-04-17",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel 4★ (435 chambres)",
+   "actif": {
+    "nom": "Pullman Paris Tour Eiffel",
+    "adresse": "18 avenue de Suffren",
+    "commune": "Paris",
+    "arrondissements": [
+     15
+    ],
+    "zone": "paris",
+    "note": "Adresse de l'établissement ; elle n'est pas reprise dans les communiqués de la transaction."
+   },
+   "acquereurs": [
+    {
+     "nom": "Batipart Europe",
+     "type": "Société d'investissement",
+     "precision": "Via son véhicule hôtelier Anama ; gestionnaire d'actifs du consortium",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "CDC Investissement Immobilier",
+     "type": "Investisseur institutionnel",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Sogecap",
+     "type": "Assureur",
+     "precision": "Société Générale Assurances",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "QuinSpark Investment Partners",
+     "type": "Investisseur hôtelier",
+     "precision": "Reste au capital et partenaire opérationnel",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Morgan Stanley Real Estate Investing",
+     "type": "Société de gestion",
+     "precision": "Via un fonds qu'elle gère",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    },
+    {
+     "nom": "QuinSpark Investment Partners",
+     "type": "Investisseur hôtelier",
+     "precision": "Partenaire du fonds vendeur",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Clifford Chance",
+     "cote": "vendeur",
+     "role": "Juridique et fiscal",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Accor",
+     "role": "Exploitant (enseigne Pullman)",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué par les parties."
+    },
+    "cles": {
+     "valeur": 435,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Exploitation",
+     "valeur": "Accor continue d'assurer la gestion quotidienne de l'hôtel",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Programme de rénovation en préparation avec le nouveau propriétaire",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Plus-value",
+     "valeur": "Environ 100 M€ selon la presse, d'après des proches du dossier ; non confirmée par les parties",
+     "statut": "presse",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Programme de rénovation présenté comme ambitieux par les vendeurs",
+     "Repositionnement en 5 étoiles évoqué par la presse"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Morgan Stanley Investment Management — communiqué",
+     "titre": "MSREI and QuinSpark announce the sale of the Pullman Paris Tour Eiffel hotel",
+     "url": "https://www.morganstanley.com/im/en-ie/intermediary-investor/insights/press-release/msrei-and-quinspark-announce-the-sale-of-the-pullman-paris-tour-eiffel-hotel.html",
+     "date": "2026-04-17",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "De Pardieu Brocas Maffei — annonce d'opération",
+     "titre": "De Pardieu advises the purchasers on the acquisition of the Pullman Paris Tour Eiffel",
+     "url": "https://www.de-pardieu.com/en/de-pardieu-advises-the-purchasers-on-the-acquisition-of-the-pullman-paris-tour-eiffel/",
+     "date": "2026-04-20",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Le Monde du Droit (annonce de Clifford Chance)",
+     "titre": "Clifford Chance a conseillé Morgan Stanley Real Estate Investing sur la cession de l'hôtel Pullman Paris Tour Eiffel",
+     "url": "https://www.lemondedudroit.fr/deals/104134-clifford-chance-a-conseille-morgan-stanley-real-estate-investing-sur-la-cession-de-lhotel-pullman-paris-tour-eiffel.html",
+     "date": "2026-05-04",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S4",
+     "editeur": "Hospitality ON",
+     "titre": "Revente éclair et plus-value de 100 M€ pour le Pullman Tour Eiffel",
+     "url": "https://hospitality-on.com/fr/investisseurs/revente-eclair-et-plus-value-de-100-meu-pour-le-pullman-tour-eiffel",
+     "date": "2026-04-18",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base.",
+    "Finalisation de la cession confirmée par l'annonce du conseil du vendeur (S3)."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-044",
+   "titre": "La CRPN cède l'immeuble de bureaux Seine Saint-Germain, à Issy-les-Moulineaux, à Brownfields",
+   "resume": "La Caisse de retraite complémentaire du personnel navigant professionnel de l'aéronautique civile (CRPN) a cédé à Brownfields l'immeuble de bureaux Seine Saint-Germain, situé à l'entrée de l'île Saint-Germain à Issy-les-Moulineaux. Ni le prix ni la surface ne sont communiqués.",
+   "date": {
+    "valeur": "2026-10-04",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-10-04",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux",
+   "actif": {
+    "nom": "Seine Saint-Germain",
+    "adresse": null,
+    "commune": "Issy-les-Moulineaux (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": "À l'entrée de l'île Saint-Germain ; adresse précise non communiquée."
+   },
+   "acquereurs": [
+    {
+     "nom": "Brownfields",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "CRPN",
+     "type": "Caisse de retraite",
+     "precision": "Caisse de retraite complémentaire du personnel navigant professionnel de l'aéronautique civile",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Gide",
+     "cote": "vendeur",
+     "role": "Immobilier",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Le projet de l'acquéreur n'est pas communiqué : aucune hypothèse n'est formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de Gide)",
+     "titre": "Gide, conseil de la CRPN",
+     "url": "https://www.lemondedudroit.fr/deals/106014-gide-conseil-de-la-crpn.html",
+     "date": "2026-10-04",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération repérée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-27",
+   "verifie_le": "2026-10-27",
+   "historique": [
+    {
+     "date": "2026-10-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -5277,6 +8038,16 @@
    "a_confirmer": 0,
    "sources_consultees": 12,
    "resume": "Aucune annonce nouvelle repérée depuis le dernier passage. Contrôle des promesses : quatre opérations confirmées comme réalisées (« Bloom » et « Rocher–Vienne » pour Gecina, Centre d'Affaires Paris Trocadéro, Pullman Paris Montparnasse) ; trois opérations de 2026 ajoutées en rattrapage (SCBSM rue du Louvre, Honotel au Pavillon Monceau, Osae Partners à Levallois-Perret)."
+  },
+  {
+   "date": "2026-10-27T14:05:00+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 15,
+   "mises_a_jour": 1,
+   "a_confirmer": 1,
+   "sources_consultees": 31,
+   "resume": "Rattrapage de la base : six opérations de 2024 (O'Parinor, Opéra Gramont, bureaux de Gaîté-Montparnasse, Ville-l'Évêque, Pullman Paris Tour Eiffel, résidence Adagio Caumartin) et neuf opérations de 2025-2026 ajoutées à partir des annonces des parties et de leurs conseils ; fiche de l'immeuble Marignan enrichie (adresse, état locatif, projet)."
   }
  ]
 }

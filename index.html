@@ -427,6 +427,7 @@ table.simple tr:last-child td{border-bottom:0}
 .drawer-body{overflow:auto;padding:18px 22px 40px;display:flex;flex-direction:column;gap:22px}
 .d-title{font-family:var(--serif);font-weight:600;font-size:25px;line-height:1.2;letter-spacing:-.01em}
 .d-badges{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.d-badges .tag-soft{white-space:normal;max-width:100%;min-width:0}
 .d-sec{display:flex;flex-direction:column;gap:10px}
 .d-sec h3{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .d-resume{font-size:15px;color:var(--ink);line-height:1.6}
@@ -780,7 +781,7 @@ function inPeriod(t, p){
   if (p === 'tout') return true;
   const d = t.date || {};
   const year = (d.valeur || '').slice(0,4);
-  if (p === '2026' || p === '2025') return year === p;
+  if (/^\d{4}$/.test(p)) return year === p;
   if (p === '12m'){
     const ref = new Date(refDate() + 'T00:00:00Z');
     const cut = new Date(ref.getTime() - 365*86400000).toISOString().slice(0,10);
@@ -844,6 +845,8 @@ function isNew(t){
   if (!t.ajoute_le || t.ajoute_le < initDate() || fromInit(t)) return false;
   const ref = new Date(refDate() + 'T00:00:00Z').getTime();
   const add = new Date(t.ajoute_le + 'T00:00:00Z').getTime();
+  const k = dateKey(t.date);
+  if (k && (add - new Date(k + 'T00:00:00Z').getTime()) > 120 * 86400000) return false;
   return (ref - add) <= 10 * 86400000;
 }
 function knownAmount(t){ const m = t.chiffres && t.chiffres.montant; return m && (m.statut === 'communique' || m.statut === 'presse') && m.valeur != null ? m.valeur : null; }
@@ -1031,7 +1034,7 @@ function renderFoot(){
   const el = $('#foot');
   el.textContent = '';
   const m = state.data.meta;
-  el.append(h('div', null, 'Antoine Bordey · Paris Deal Monitor — outil de veille conçu et piloté par Antoine Bordey. Sources publiques uniquement, citées pour chaque chiffre.'),
+  el.append(h('div', null, 'Antoine Bordey · Paris Deal Monitor — outil de veille conçu et piloté par Antoine Bordey. Sources publiques uniquement, citées pour chaque chiffre. © ' + new Date().getFullYear() + ' Antoine Bordey, code et présentation : tous droits réservés.'),
     h('div', null, 'Jeu de données v' + m.version + ' · mis à jour le ' + fmtDateISO(m.derniere_mise_a_jour.slice(0,10)) + ' · ', h('button',{class:'link-btn', type:'button', onclick:() => go('methode')}, 'Méthode'), ' · ', h('button',{class:'link-btn', type:'button', onclick:() => go('apropos')}, 'Contact')));
 }
 
@@ -1050,7 +1053,7 @@ function renderFilters(){
   const rowB = h('div', {class:'f-row'});
   wrap.append(rowA, rowB);
   const seg = h('div', {class:'seg', role:'group', 'aria-label':'Période'});
-  [['tout','Tout'],['12m','12 mois'],['2026','2026'],['2025','2025']].forEach(([k,l]) => seg.append(h('button', {type:'button', 'aria-pressed': f.periode === k ? 'true' : 'false', onclick:() => { f.periode = k; refreshData(); }}, l)));
+  [['tout','Tout'],['12m','12 mois'],['2026','2026'],['2025','2025'],['2024','2024']].forEach(([k,l]) => seg.append(h('button', {type:'button', 'aria-pressed': f.periode === k ? 'true' : 'false', onclick:() => { f.periode = k; refreshData(); }}, l)));
   rowB.append(seg);
   rowB.append(h('button', {class:'btn filters-toggle', type:'button', 'aria-expanded': state.filtersOpen ? 'true' : 'false', onclick:() => { state.filtersOpen = !state.filtersOpen; renderFilters(); }}, icon('filter', 15), 'Filtres'));
   const more = h('div', {class:'more'});
@@ -1126,7 +1129,7 @@ function renderDashboard(root){
   const m = state.data.meta;
   root.append(pageHead('Veille des transactions · Paris, La Défense, Île-de-France',
     'Le marché parisien, opération par opération',
-    "Les transactions immobilières rendues publiques depuis janvier 2025 : stratégie, acteurs, prix et source de chaque chiffre. Rien n'est estimé sans être signalé.",
+    "Les transactions immobilières rendues publiques depuis janvier 2024 : stratégie, acteurs, prix et source de chaque chiffre. Rien n'est estimé sans être signalé.",
     h('div', {class:'meta-line'}, h('span', null, h('span',{class:'pulse','aria-hidden':'true'}), ' Veille automatique · ' + m.rythme_veille.charAt(0).toLowerCase() + m.rythme_veille.slice(1)), h('span', null, 'Dernière mise à jour : ' + fmtDateISO(m.derniere_mise_a_jour.slice(0,10))))));
   if (!list.length){ root.append(h('div', {class:'empty'}, 'Aucune opération ne correspond aux filtres. ', h('button',{class:'link-btn', type:'button', onclick:resetFilters}, 'Réinitialiser'))); return; }
   // KPIs
@@ -1241,7 +1244,7 @@ function timeline(list){
   const wrap = h('div', {class:'tl-wrap'});
   const dated = list.filter(t => t.date && (t.date.precision === 'jour' || t.date.precision === 'mois'));
   const undated = list.length - dated.length;
-  const start = '2025-01';
+  const start = '2024-01';
   const refM = refDate().slice(0,7);
   const lastDeal = dated.map(t => t.date.valeur.slice(0,7)).sort().pop() || refM;
   const end = lastDeal > refM ? lastDeal : refM;
