@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-10-26T23:46:26+00:00",
+ "maj": "2026-10-27T13:05:05+00:00",
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue.",
  "fiches": {
   "pdm-002": {
@@ -24,12 +24,12 @@
    "score": 0.407
   },
   "pdm-005": {
-   "requete": "Avenue des Champs-Élysées 75008 Paris",
+   "requete": "29 avenue des Champs-Élysées 75008 Paris",
    "trouve": true,
-   "lat": 48.871049,
-   "lon": 2.30373,
-   "libelle": "Avenue des Champs Élysées 75008 Paris",
-   "precision": "street",
+   "lat": 48.869515,
+   "lon": 2.307311,
+   "libelle": "29 Avenue des Champs Élysées 75008 Paris",
+   "precision": "housenumber",
    "score": 0.973,
    "code_insee": "75108"
   },
@@ -142,6 +142,96 @@
    "precision": "housenumber",
    "score": 0.977,
    "code_insee": "92044"
+  },
+  "pdm-031": {
+   "requete": "43 rue de Caumartin 75009 Paris",
+   "trouve": true,
+   "lat": 48.872729,
+   "lon": 2.328189,
+   "libelle": "43 Rue de Caumartin 75009 Paris",
+   "precision": "housenumber",
+   "score": 0.974,
+   "code_insee": "75109"
+  },
+  "pdm-032": {
+   "requete": "18 avenue de Suffren 75015 Paris",
+   "trouve": true,
+   "lat": 48.855867,
+   "lon": 2.293293,
+   "libelle": "18 Avenue de Suffren 75015 Paris",
+   "precision": "housenumber",
+   "score": 0.981,
+   "code_insee": "75115"
+  },
+  "pdm-033": {
+   "requete": "12 rue de Gramont 75002 Paris",
+   "trouve": true,
+   "lat": 48.869754,
+   "lon": 2.336882,
+   "libelle": "12 Rue de Gramont 75002 Paris",
+   "precision": "housenumber",
+   "score": 0.965,
+   "code_insee": "75102"
+  },
+  "pdm-037": {
+   "requete": "26 place Vendôme Paris",
+   "trouve": true,
+   "lat": 48.867898,
+   "lon": 2.330198,
+   "libelle": "26 Place Vendôme 75001 Paris",
+   "precision": "housenumber",
+   "score": 0.964,
+   "code_insee": "75101"
+  },
+  "pdm-038": {
+   "requete": "7 rue de la Pierre-Levée 75011 Paris",
+   "trouve": true,
+   "lat": 48.866927,
+   "lon": 2.370648,
+   "libelle": "7 Rue de la Pierre Levée 75011 Paris",
+   "precision": "housenumber",
+   "score": 0.974,
+   "code_insee": "75111"
+  },
+  "pdm-039": {
+   "requete": "90 avenue Victor Hugo 75016 Paris",
+   "trouve": true,
+   "lat": 48.851564,
+   "lon": 2.267508,
+   "libelle": "90 Avenue Mozart 75016 Paris",
+   "precision": "housenumber",
+   "score": 0.491,
+   "code_insee": "75116"
+  },
+  "pdm-040": {
+   "requete": "23 rue Taitbout Paris",
+   "trouve": true,
+   "lat": 48.873126,
+   "lon": 2.335259,
+   "libelle": "23 Rue Taitbout 75009 Paris",
+   "precision": "housenumber",
+   "score": 0.974,
+   "code_insee": "75109"
+  },
+  "pdm-042": {
+   "requete": "10 avenue Hoche 75008 Paris",
+   "trouve": true,
+   "lat": 48.877167,
+   "lon": 2.302682,
+   "libelle": "10 Avenue Hoche 75008 Paris",
+   "precision": "housenumber",
+   "score": 0.971,
+   "code_insee": "75108"
+  },
+  "pdm-043": {
+   "requete": "18 avenue de Suffren 75015 Paris",
+   "trouve": true,
+   "lat": 48.855867,
+   "lon": 2.293293,
+   "libelle": "18 Avenue de Suffren 75015 Paris",
+   "precision": "housenumber",
+   "score": 0.981,
+   "code_insee": "75115"
   }
  }
 }

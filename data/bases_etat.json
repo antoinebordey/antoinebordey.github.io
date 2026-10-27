@@ -30,14 +30,14 @@
   },
   "geocodage": {
    "statut": "ok",
-   "derniere_tentative": "2026-10-26T23:46:17+00:00",
-   "derniere_reussite": "2026-10-26T23:46:26+00:00",
+   "derniere_tentative": "2026-10-27T13:04:55+00:00",
+   "derniere_reussite": "2026-10-27T13:05:05+00:00",
    "resultat": {
     "change": true,
-    "appels": 14,
-    "geolocalisees": 13,
-    "rejetees": 1,
-    "total": 13
+    "appels": 10,
+    "geolocalisees": 10,
+    "rejetees": 0,
+    "total": 22
    },
    "erreur": null
   },
@@ -222,6 +222,6 @@
    "erreur": null
   }
  },
- "maj": "2026-10-26T23:48:48+00:00",
+ "maj": "2026-10-27T13:05:05+00:00",
  "note": "État des mises à jour automatiques des bases publiques du site."
 }
