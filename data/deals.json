@@ -1,9 +1,9 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 6,
+  "version": 7,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-10-26T11:58:56+01:00",
+  "derniere_mise_a_jour": "2026-10-27T01:20:00+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2025",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
   "prochain_id": 30
@@ -5101,6 +5101,26 @@
     "nature": "presse",
     "acces": "extrait",
     "note": "Article payant : seul l'extrait de recherche a été lu."
+   },
+   {
+    "id": "M4",
+    "editeur": "BNP Paribas Real Estate — Research & Insights",
+    "titre": "T2 2026 Bureaux Île-de-France",
+    "url": "https://www.realestate.bnpparibas.fr/media/france/2026-08/REVIEW%20BUREAUX%20IDF%20-%20T2%202026.pdf",
+    "date": null,
+    "niveau": "B",
+    "nature": "etude",
+    "acces": "integral"
+   },
+   {
+    "id": "M5",
+    "editeur": "JLL France",
+    "titre": "Investissement immobilier en France au 3ème trimestre 2026",
+    "url": "https://www.jll.com/fr-fr/newsroom/investissement-immobilier-france-t3-2026",
+    "date": "2026-10-06",
+    "niveau": "B",
+    "nature": "etude",
+    "acces": "integral"
    }
   ],
   "series": {
@@ -5157,6 +5177,62 @@
     "detail": "1er semestre 2026 — loyer prime de 16 000 €/m²/an",
     "sources": [
      "M2"
+    ]
+   }
+  ],
+  "rendements_prime": [
+   {
+    "segment": "Bureaux Paris QCA",
+    "periode": "T2 2026",
+    "valeur": 4.4,
+    "note": "taux prime attendu « autour de 4,40 % »",
+    "sources": [
+     "M4"
+    ]
+   },
+   {
+    "segment": "Bureaux Paris QCA",
+    "periode": "T3 2026",
+    "valeur_min": 4.25,
+    "valeur_max": 4.5,
+    "note": "fourchette publiée par la source",
+    "sources": [
+     "M5"
+    ]
+   },
+   {
+    "segment": "Commerce pied d'immeuble Paris",
+    "periode": "S1 2026",
+    "valeur": 4.5,
+    "sources": [
+     "M2"
+    ]
+   },
+   {
+    "segment": "Commerce pied d'immeuble",
+    "periode": "T3 2026",
+    "valeur": 4.25,
+    "note": "périmètre géographique non précisé par la source",
+    "sources": [
+     "M5"
+    ]
+   },
+   {
+    "segment": "Logistique",
+    "periode": "T3 2026",
+    "valeur": 5.15,
+    "note": "périmètre géographique non précisé par la source",
+    "sources": [
+     "M5"
+    ]
+   },
+   {
+    "segment": "Locaux d'activités",
+    "periode": "T3 2026",
+    "valeur": 6.15,
+    "note": "périmètre géographique non précisé par la source",
+    "sources": [
+     "M5"
     ]
    }
   ]

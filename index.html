@@ -50,6 +50,7 @@ img{max-width:100%}
   --map-0:#EFECE4; --map-1:#5DB293; --map-2:#3C9275; --map-3:#157459; --map-4:#01553F;
   --map-ink-0:#5F6670; --map-ink-1:#0B0F14; --map-ink-2:#FFFFFF; --map-ink-3:#FFFFFF; --map-ink-4:#FFFFFF;
   --bar:#4A5361;
+  --cat-1:#2a78d6; --cat-2:#eb6834;
   --shadow:0 1px 2px rgba(20,24,29,.05),0 6px 18px rgba(20,24,29,.06);
   --shadow-lg:0 18px 60px rgba(20,24,29,.22);
   --scrim:rgba(15,17,20,.38);
@@ -71,6 +72,7 @@ img{max-width:100%}
     --map-0:#1F2329; --map-1:#056249; --map-2:#268064; --map-3:#4DA284; --map-4:#73C8A9;
     --map-ink-0:#8A919B; --map-ink-1:#FFFFFF; --map-ink-2:#FFFFFF; --map-ink-3:#0B0F14; --map-ink-4:#0B0F14;
     --bar:#AEB6C2;
+    --cat-1:#3987e5; --cat-2:#d95926;
     --shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px rgba(0,0,0,.28);
     --shadow-lg:0 18px 60px rgba(0,0,0,.6);
     --scrim:rgba(0,0,0,.55);
@@ -89,6 +91,7 @@ img{max-width:100%}
   --map-0:#1F2329; --map-1:#056249; --map-2:#268064; --map-3:#4DA284; --map-4:#73C8A9;
   --map-ink-0:#8A919B; --map-ink-1:#FFFFFF; --map-ink-2:#FFFFFF; --map-ink-3:#0B0F14; --map-ink-4:#0B0F14;
   --bar:#AEB6C2;
+  --cat-1:#3987e5; --cat-2:#d95926;
   --shadow:0 1px 2px rgba(0,0,0,.35),0 6px 18px rgba(0,0,0,.28);
   --shadow-lg:0 18px 60px rgba(0,0,0,.6);
   --scrim:rgba(0,0,0,.55);
@@ -505,6 +508,68 @@ ul.clean{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px;f
 .notice{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--surface-2);font-size:13.5px;color:var(--ink-2)}
 .notice svg{flex:none;margin-top:2px}
 
+/* ---------- bases publiques */
+.lazy{min-width:0}
+.lazy > .note{padding:4px 0}
+.kpi-unit{font-size:.42em;font-weight:500;color:var(--ink-2);letter-spacing:0;margin-left:.25em}
+.axis-t{font-size:11px;fill:var(--muted);font-family:var(--font)}
+.gl{stroke:var(--line);stroke-width:1}
+.gl0{stroke:var(--line-strong);stroke-width:1}
+.ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.pt{stroke:var(--surface);stroke-width:2}
+.xhair{stroke:var(--ink-2);stroke-width:1;pointer-events:none}
+.xhit{fill:transparent;cursor:crosshair}
+.mk{cursor:default}
+.mk:focus-visible{outline:none}
+.mk:focus-visible .pt{stroke:var(--focus);stroke-width:3}
+.lg-line{width:16px;height:2px;border-radius:1px;display:inline-block;flex:none}
+.lg-dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.lg-push{margin-left:auto}
+.lg-item{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.lg-sw{width:14px;height:10px;border-radius:2px;display:inline-block;flex:none}
+.tt-row{display:flex;align-items:center;gap:7px;margin-top:3px}
+.tt-row b{font-weight:600;font-variant-numeric:tabular-nums}
+.tt-key{width:12px;height:2px;border-radius:1px;flex:none;display:inline-block}
+.tt-key.dot{width:8px;height:8px;border-radius:50%}
+.spreads{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-top:14px}
+.spreads .ind-item{display:flex;flex-direction:column;gap:3px}
+.geo-map{width:100%;min-width:0}
+.geo-map svg{display:block;width:100%;height:auto;max-height:min(72vh,580px);margin:0 auto}
+.geo-zone{fill:var(--surface-2);stroke:var(--surface);stroke-width:1;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.geo-zone.paris{fill:var(--surface-3)}
+.geo-zone.out{opacity:.38}
+.geo-zone.clk{cursor:pointer}
+.geo-zone.clk:hover{fill:var(--accent-soft)}
+.choro .geo-zone.clk:hover{filter:brightness(1.12)}
+.geo-sel{fill:none;stroke:var(--ink);stroke-width:2.2;vector-effect:non-scaling-stroke;pointer-events:none;stroke-linejoin:round}
+.geo-lab{fill:var(--ink-2);font-family:var(--font);font-weight:600;text-anchor:middle;dominant-baseline:central;pointer-events:none;paint-order:stroke;stroke:var(--surface);stroke-linejoin:round}
+.geo-pt{cursor:pointer}
+.geo-pt .hit{fill:transparent}
+.geo-pt:hover .hit,.geo-pt:focus-visible .hit{fill:color-mix(in srgb,var(--ink) 13%,transparent)}
+.geo-pt:focus-visible{outline:none}
+.pr-list{display:flex;flex-direction:column}
+.pr-axis,.pr-row{display:grid;grid-template-columns:minmax(118px,28%) minmax(0,1fr) 92px;grid-template-areas:"lab track val";gap:4px 12px;align-items:center}
+.pr-axis{font-size:11px;color:var(--muted);padding:0 4px 4px;border-bottom:1px solid var(--line)}
+.pr-axis .ax-lab{grid-area:lab}
+.pr-axis .dp-ticks{grid-area:track}
+.pr-axis .ax-val{grid-area:val;text-align:right}
+.pr-row{width:100%;border:0;border-bottom:1px solid var(--line);background:none;padding:7px 4px;text-align:left;color:inherit}
+.pr-row:hover{background:var(--surface-2)}
+.pr-row.is-sel{background:var(--accent-soft)}
+.pr-lab{grid-area:lab;font-size:13px;min-width:0;display:flex;flex-wrap:wrap;align-items:center;gap:2px 6px}
+.pr-track{grid-area:track;position:relative;height:20px}
+.pr-iqr{position:absolute;top:50%;height:8px;transform:translateY(-50%);background:color-mix(in srgb,var(--bar) 26%,var(--surface));border-radius:4px}
+.pr-med{position:absolute;top:50%;width:4px;height:16px;transform:translate(-50%,-50%);background:var(--bar);border-radius:2px;box-shadow:0 0 0 2px var(--surface)}
+.pr-val{grid-area:val;font-size:12.5px;color:var(--ink-2);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+@media (max-width:640px){
+  .pr-axis,.pr-row{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"lab val" "track track"}
+  .pr-axis .ax-lab,.pr-axis .ax-val{display:none}
+}
+.repere-box{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--bg);display:flex;flex-direction:column;gap:8px;font-size:14px}
+.repere-box .d-badges{gap:4px 14px}
+.pm{border-top:1px solid var(--line);padding-top:8px;display:flex;flex-direction:column;gap:3px}
+.pm .src-top b{font-weight:600;font-size:13.5px}
+
 /* ---------- mobile shell */
 .mobile-title{display:none}
 @media (max-width:1099px){
@@ -618,6 +683,7 @@ const ICON_PATHS = {
   filter:'<path d="M3 5h18l-7 8v6l-4 2v-8L3 5Z"/>',
   arrow:'<path d="M5 12h14M13 6l6 6-6 6"/>',
   info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>',
+  trend:'<path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/>',
 };
 function icon(name, size){
   const sz = size || 16;
@@ -677,7 +743,7 @@ const STATUT_OP = {promesse:'Promesse / accord', realisee:'Réalisée', annoncee
 const VAL = {communique:'Communiqué', presse:'Presse', calcule:'Calculé', nc:'NC'};
 const VAL_ICON = {communique:'checkCircle', presse:'news', calcule:'calc', nc:null};
 const BASE = {DI:'droits inclus', HD:'hors droits', NC:'base non précisée'};
-const NATURE_SRC = {communique_partie:"Communiqué d'une partie", communique_conseil:"Annonce d'un conseil", document_financier:'Document financier', presse:'Presse', etude:'Étude de marché'};
+const NATURE_SRC = {communique_partie:"Communiqué d'une partie", communique_conseil:"Annonce d'un conseil", document_financier:'Document financier', presse:'Presse', etude:'Étude de marché', annonce_legale:'Annonce légale (BODACC)', base_publique:'Base publique'};
 const CHIFFRES = [['montant','Montant'],['prix_m2','Prix au m²'],['surface','Surface'],['loyer','Loyers'],['rendement','Rendement'],['occupation','Occupation'],['duree_baux','Durée des baux'],['quote_part','Quote-part acquise'],['cles','Chambres'],['prix_cle','Prix par clé'],['logements','Logements'],['lits','Lits'],['locataires','Locataires']];
 const PUB = {publie_auto:'Publiée', a_confirmer:'À confirmer'};
 const PROOF = {fort:'Preuve forte', moyen:'Preuve moyenne', faible:'Preuve faible'};
@@ -694,7 +760,11 @@ const state = {
   actorRole: 'tous', actorQ: '',
   mapSel: null,
   filtersOpen: false,
-  drawer: null
+  drawer: null,
+  bases: {},
+  carteVue: 'paris',
+  carteFocus: null,
+  marche: null
 };
 let actorsCache = null;
 
@@ -913,11 +983,13 @@ const VIEWS = {
   acteurs:{label:'Acteurs', icon:'users', render:renderActors, filters:true},
   carte:{label:'Carte', icon:'map', render:renderMap, filters:true},
   comparables:{label:'Comparables', icon:'scale', render:renderComparables, filters:true},
+  marche:{label:'Prix de marché', icon:'trend', render:renderMarche, filters:false},
   methode:{label:'Méthode', icon:'book', render:renderMethod, filters:false},
   apropos:{label:'À propos', icon:'user', render:renderAbout, filters:false}
 };
 function go(view, opts){
   if (!VIEWS[view]) view = 'tableau';
+  if (view !== 'carte') state.carteFocus = null;
   state.view = view;
   setHash((opts && opts.hash) || view);
   renderNav(); renderFilters(); renderView();
@@ -936,7 +1008,7 @@ function readHash(){
 function renderNav(){
   const nav = $('#nav');
   nav.textContent = '';
-  const order = ['tableau','operations','acteurs','carte','comparables','sep','methode','apropos'];
+  const order = ['tableau','operations','acteurs','carte','comparables','marche','sep','methode','apropos'];
   for (const k of order){
     if (k === 'sep'){ nav.append(h('div',{class:'nav-sep',role:'separator'})); continue; }
     const v = VIEWS[k];
@@ -1092,6 +1164,8 @@ function renderDashboard(root){
   grid.append(h('div',{class:'span-5'}, card('Journal de la veille', 'Chaque passage de la veille automatique est consigné.', journal(3))));
   // market
   grid.append(h('div',{class:'span-12'}, card('Contexte de marché', 'Indicateurs publiés par les conseils et la presse, sources citées. Ils situent les opérations recensées dans le marché.', market())));
+  // rates
+  grid.append(h('div',{class:'span-12'}, card('Taux et prime de risque', "Rendement prime des bureaux du QCA parisien face au taux de l'OAT 10 ans (moyenne mensuelle publiée par la BCE). Survolez la courbe pour lire chaque mois.", rateCard())));
   root.append(grid);
 }
 function riskUnits(list){
@@ -1464,10 +1538,10 @@ function openDrawer(kind, id, build){
   document.body.style.overflow = 'hidden';
   hideTip();
 }
-function closeDrawer(){
+function closeDrawer(keepHash){
   drawer.classList.remove('show'); scrim.classList.remove('show');
   state.drawer = null;
-  setHash(state.view);
+  if (keepHash !== true) setHash(state.view);
   setTimeout(() => { drawer.hidden = true; scrim.hidden = true; }, 200);
   document.body.style.overflow = '';
   if (lastFocus && document.contains(lastFocus)) lastFocus.focus({preventScroll:true});
@@ -1541,13 +1615,15 @@ function openDeal(id){
     if ((t.strategie.indices||[]).length) sb.append(h('div', null, h('div',{class:'fig-lab', style:{marginBottom:'4px'}}, st.mode === 'hyp' ? "Indices à l'appui de l'hypothèse" : 'Indices'), h('ul', {class:'clean'}, t.strategie.indices.map(i => h('li', null, i)))));
     if (t.strategie.commentaire) sb.append(h('p', {class:'fig-note'}, t.strategie.commentaire));
     body.append(h('div', {class:'d-sec'}, h('h3', null, 'Stratégie'), sb));
+    // public data
+    body.append(lazyBox(['dvf', 'permis', 'geo'], () => repereSection(t)));
     // contradictions
     (t.contradictions||[]).forEach(c => body.append(h('div', {class:'contra'}, h('div',{class:'contra-title'}, icon('alert', 16), 'Contradiction conservée : ' + c.libelle.toLowerCase()),
       h('ul', {class:'clean'}, c.valeurs.map(v => h('li', null, h('b', null, v.valeur), ' ', srcRefs(v.sources, body)))), c.note ? h('p', {class:'fig-note'}, c.note) : null)));
     // sources
     const srcs = h('div', {class:'srcs'});
     t.sources.forEach(x => srcs.append(h('div', {class:'src', 'data-src':x.id},
-      h('div', {class:'src-top'}, h('span',{class:'srcref'}, x.id), h('span',{class:'lvl ' + x.niveau, title: x.niveau === 'A' ? 'Niveau A : communiqué d\'une partie ou d\'un conseil, document financier' : 'Niveau B : presse, étude'}, 'Niveau ' + x.niveau), h('span',{class:'tag-soft'}, NATURE_SRC[x.nature] || x.nature), x.acces === 'extrait' ? h('span',{class:'pill v-nc'}, 'lu par extrait') : null),
+      h('div', {class:'src-top'}, h('span',{class:'srcref'}, x.id), h('span',{class:'lvl ' + x.niveau, title: x.niveau === 'A' ? 'Niveau A : communiqué d\'une partie ou d\'un conseil, document financier, annonce légale ou base publique officielle' : 'Niveau B : presse, étude'}, 'Niveau ' + x.niveau), h('span',{class:'tag-soft'}, NATURE_SRC[x.nature] || x.nature), x.acces === 'extrait' ? h('span',{class:'pill v-nc'}, 'lu par extrait') : null),
       h('div', {class:'src-title'}, h('a', {href:x.url, target:'_blank', rel:'noopener'}, x.titre, ' ', icon('ext', 12))),
       h('div', {class:'src-meta'}, x.editeur + (x.date ? ' · ' + fmtDateISO(x.date) : '')),
       x.note ? h('div', {class:'fig-note'}, x.note) : null)));
@@ -1621,17 +1697,21 @@ function renderActors(root){
 /* =========================================================== MAP view */
 function renderMap(root){
   const list = filtered();
-  root.append(pageHead(null, 'Carte des opérations', "Vue schématique : chaque case est un arrondissement, placé selon sa position approximative dans Paris. Les zones hors Paris figurent à droite. Cliquez pour lister les opérations."));
+  root.append(pageHead(null, 'Carte des opérations', "Le plan place chaque opération à l'adresse publiée par ses sources ; la vue schématique compte les opérations par arrondissement et par zone. Cliquez sur un point pour ouvrir la fiche, sur un arrondissement pour lister ses opérations."));
+  root.append(card('Plan des opérations', 'Couleur : stratégie. Point plein : confirmée par la source ; point creux : hypothèse d\'analyste.', geoPlan(list)));
   const pickArr = a => { state.mapSel = state.mapSel === a ? null : a; state.filters.arr = null; renderView(); };
   const pickZone = k => { state.mapSel = state.mapSel === k ? null : k; renderView(); };
   const grid = tileGrid(list, false, pickArr);
   grid.querySelectorAll('.tile[aria-pressed]').forEach(b => { const n = parseInt(b.querySelector('.t-name').textContent, 10); b.setAttribute('aria-pressed', state.mapSel === n ? 'true' : 'false'); });
   const zt = zoneTiles(list, pickZone);
   zt.querySelectorAll('.tile').forEach((b, i) => b.setAttribute('aria-pressed', state.mapSel === ['la_defense','croissant_ouest','idf','paris_nc'][i] ? 'true' : 'false'));
-  root.append(card('Paris et sa périphérie', 'Intensité = nombre d\'opérations recensées (filtres actifs appliqués).', h('div', null, h('div', {class:'map-layout'}, grid, zt), mapLegend())));
+  root.append(card('Vue schématique', 'Chaque case est un arrondissement, placé selon sa position approximative dans Paris ; les zones hors Paris figurent à droite. Intensité = nombre d\'opérations recensées (filtres actifs appliqués).', h('div', null, h('div', {class:'map-layout'}, grid, zt), mapLegend())));
   let sel = [];
   let title = 'Toutes les opérations localisées';
+  const selZone = String(state.mapSel || '').startsWith('c:') && state.bases.carte ? (state.bases.carte.zones || []).find(z => z.code === state.mapSel.slice(2)) : null;
   if (typeof state.mapSel === 'number'){ sel = list.filter(t => (t.actif.arrondissements||[]).includes(state.mapSel)); title = 'Paris ' + state.mapSel + (state.mapSel === 1 ? 'er' : 'e') + ' arrondissement'; }
+  else if (selZone){ sel = dealsInZone(list, selZone); title = selZone.nom; }
+  else if (String(state.mapSel || '').startsWith('c:')){ state.mapSel = null; sel = list; }
   else if (state.mapSel === 'paris_nc'){ sel = list.filter(t => t.actif.commune === 'Paris' && !(t.actif.arrondissements||[]).length); title = 'Paris, arrondissement non précisé ou contesté'; }
   else if (state.mapSel){ sel = list.filter(t => t.actif.zone === state.mapSel); title = ZONES[state.mapSel]; }
   else sel = list;
@@ -1700,7 +1780,7 @@ function renderMethod(root){
     h('dt', null, valPill('calcule')), h('dd', null, 'Déduit de valeurs sourcées par un calcul simple (prix au m², prix par clé, rendement brut) ; la formule figure sur la fiche.'),
     h('dt', null, valPill('nc')), h('dd', null, 'Non communiqué par les sources consultées.')))));
   g.append(h('div', {class:'span-6'}, card('Niveau des sources', null, h('dl', {class:'defs'},
-    h('dt', null, h('span', {class:'lvl A'}, 'Niveau A')), h('dd', null, "Communiqué d'une partie ou d'un conseil (avocats, notaires, brokers), document financier (résultats, bulletin de SCPI)."),
+    h('dt', null, h('span', {class:'lvl A'}, 'Niveau A')), h('dd', null, "Communiqué d'une partie ou d'un conseil (avocats, notaires, brokers), document financier (résultats, bulletin de SCPI), annonce légale (BODACC) ou base publique officielle (permis de construire)."),
     h('dt', null, h('span', {class:'lvl'}, 'Niveau B')), h('dd', null, 'Presse, médias spécialisés, études de marché.'),
     h('dt', null, h('span', {class:'lvl'}, 'Niveau C')), h('dd', null, 'Autres sources (réseaux sociaux, sites généralistes) : jamais suffisantes seules.'),
     h('dt', null, h('span', {class:'pill v-nc'}, 'lu par extrait')), h('dd', null, 'Seul un extrait a pu être lu (article payant, page inaccessible) : la fiche ne peut pas être publiée automatiquement sur cette seule base.')))));
@@ -1721,13 +1801,14 @@ function renderMethod(root){
       h('p', null, h('b', null, 'Niveaux de confirmation. '), "« Confirmée (opération) » : la source qualifie l'opération elle-même. « Confirmée (véhicule) » : l'acquisition est faite pour un fonds dont la dénomination ou le mandat porte la stratégie (par exemple un fonds « Core »). « Hypothèse d'analyste » : classement proposé à partir d'indices publiés. « Non classée » : indices insuffisants."),
       h('p', null, h('b', null, 'Piège fréquent. '), "Un communiqué qui parle d'« acquisition opportuniste » désigne souvent une opportunité de marché, pas la stratégie Opportunistic : le mot seul ne suffit jamais."))))));
   g.append(h('div', {class:'span-12'}, card('La veille automatique', "La veille automatisée suit ces étapes trois fois par semaine (lundi, mercredi et vendredi), selon les règles ci-dessus ; chaque passage est consigné dans le journal.", h('div', null,
-    h('div', {class:'flow'}, [['Recherche','Presse spécialisée, communiqués des investisseurs et des conseils, publications financières.'],['Extraction','Fiche normalisée : actif, parties, chiffres, stratégie ; chaque champ relié à sa source.'],['Vérification','Niveau de source, recoupements, contradictions, doublons.'],['Décision','Publication si les règles sont remplies, sinon « À confirmer ».'],['Journal','Mise à jour du site et du journal de veille.']].map((x, i) => h('div', {class:'step'}, h('span',{class:'n'}, '0' + (i+1)), h('b', null, x[0]), h('span', null, x[1])))),
+    h('div', {class:'flow'}, [['Recherche',"Presse spécialisée, communiqués des investisseurs et des conseils, information réglementée publiée via l'AMF, bulletins de SCPI et d'OPCI, annonces légales du BODACC."],['Extraction','Fiche normalisée : actif, parties, chiffres, stratégie ; chaque champ relié à sa source.'],['Vérification','Niveau de source, recoupements, contradictions, doublons.'],['Décision','Publication si les règles sont remplies, sinon « À confirmer ».'],['Journal','Mise à jour du site et du journal de veille.']].map((x, i) => h('div', {class:'step'}, h('span',{class:'n'}, '0' + (i+1)), h('b', null, x[0]), h('span', null, x[1])))),
     h('div', {style:{marginTop:'16px'}}, journal())))));
+  g.append(h('div', {class:'span-12'}, card('Bases publiques', "Des bases de données ouvertes complètent les opérations recensées : prix de marché, taux, permis de construire et adresses. Elles sont mises à jour automatiquement, sans intervention.", basesMethodCard())));
   g.append(h('div', {class:'span-6'}, card('Périmètre et limites', null, h('div', {class:'prose'}, h('ul', null,
     h('li', null, "Seules les opérations rendues publiques sont recensées : une large part des transactions, notamment les plus petites, n'est jamais communiquée."),
     h('li', null, 'La presse et les communiqués privilégient les opérations importantes et les acteurs qui communiquent : la base reflète ce biais.'),
     h('li', null, 'Les montants sont souvent publiés sans préciser leur base (droits inclus ou hors droits) : la base est indiquée lorsqu\'elle est connue.'),
-    h('li', null, "Les données DVF de la DGFiP ne sont pas utilisées à ce stade : elles ne couvrent pas les cessions de titres (share deals), sont publiées avec plusieurs mois de décalage, et leurs conditions d'utilisation interdisent la ré-identification des personnes."),
+    h('li', null, "Les prix de marché viennent des données DVF de la DGFiP : elles ne couvrent pas les cessions de titres (share deals), paraissent avec plusieurs mois de décalage et ne sont diffusées ici que sous forme de médianes d'au moins 11 ventes, sans aucune vente individuelle."),
     h('li', null, 'Les zones (QCA, Croissant Ouest…) et la carte sont des repères indicatifs, pas des délimitations officielles.'))))));
   g.append(h('div', {class:'span-6'}, card('Lexique', null, h('dl', {class:'defs'},
     h('dt', null, 'DI / HD'), h('dd', null, 'Prix droits inclus (avec droits de mutation et frais) ou hors droits.'),
@@ -1755,6 +1836,7 @@ function renderAbout(root){
       h('li', null, h('b', null, 'Lecture des transactions — '), 'stratégies de Core à Opportunistic, share deals, murs et fonds, prix au m² et par clé, rendements.'),
       h('li', null, h('b', null, 'Automatisation — '), 'une veille automatisée, trois fois par semaine, qui recherche, vérifie et publie selon des règles explicites que j\'ai définies.'),
       h('li', null, h('b', null, 'Rigueur des données — '), 'niveau de preuve, contradictions conservées, aucune donnée inventée.'),
+      h('li', null, h('b', null, 'Données publiques — '), "prix de marché DVF, permis de construire (Sitadel), taux de l'OAT 10 ans et géolocalisation des adresses, intégrés et mis à jour automatiquement."),
       h('li', null, h('b', null, 'Ciblage — '), 'une lecture par acteur pour orienter des candidatures vers les équipes réellement actives sur le marché.'))));
   const right = card('Parcours', null, h('div', {class:'prose'},
     h('p', null, h('b', null, 'MSc Financial Markets & Risk Management'), h('br'), 'NEOMA Business School (Rouen), août 2025 – juin 2028', h('br'), h('span', {class:'note'}, 'Programme Grande École, cursus 100 % anglophone.')),
@@ -1768,6 +1850,620 @@ function renderAbout(root){
     h('dt', null, 'E-mail'), h('dd', null, h('a', {href:'mailto:' + CONTACT.mail}, CONTACT.mail)), copyBtn(CONTACT.mail, "Copier l'adresse e-mail", 'Adresse e-mail copiée'),
     h('dt', null, 'LinkedIn'), h('dd', null, h('a', {href:CONTACT.linkedin, target:'_blank', rel:'noopener'}, 'linkedin.com/in/antoine-bordey', ' ', icon('ext', 12))), h('span', {'aria-hidden':'true'})), {cls:'about-contact'});
   root.append(h('div', {class:'about'}, left, h('div', {class:'about-side'}, contact, right)));
+}
+
+/* =========================================================== BASES PUBLIQUES */
+const baseWaiters = [];
+const baseLoading = new Set();
+function baseReady(names){ return names.every(n => n in state.bases); }
+function requestBase(nom){
+  if (nom in state.bases || baseLoading.has(nom)) return;
+  baseLoading.add(nom);
+  fetch('data/' + nom + '.json', {cache:'no-cache'})
+    .then(r => r.ok ? r.json() : null).catch(() => null)
+    .then(d => {
+      baseLoading.delete(nom);
+      state.bases[nom] = d;
+      for (const w of baseWaiters.slice()){
+        if (!baseReady(w.names)) continue;
+        baseWaiters.splice(baseWaiters.indexOf(w), 1);
+        try { w.cb(false); } catch(e){ console.error(e); }
+      }
+    });
+}
+function whenBases(names, cb){
+  if (baseReady(names)){ cb(true); return; }
+  baseWaiters.push({names, cb});
+  names.forEach(requestBase);
+}
+function lazyBox(names, build){
+  const box = h('div', {class:'lazy'}, h('p', {class:'note'}, 'Chargement des données publiques…'));
+  whenBases(names, sync => {
+    if (!sync && !box.isConnected) return;
+    box.textContent = '';
+    let el = null;
+    try { el = build(); } catch(e){ console.error(e); el = h('p', {class:'note'}, 'Ces données ne peuvent pas être affichées pour le moment.'); }
+    if (el) box.append(el); else box.hidden = true;
+  });
+  return box;
+}
+function srcBase(label, url, extra){
+  return h('div', {class:'src-line'}, 'Source : ', h('a', {href:url, target:'_blank', rel:'noopener'}, label), extra ? ' — ' + extra : '');
+}
+function normTxt(x){ return String(x || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(); }
+function cap1(w){ return w.charAt(0).toUpperCase() + w.slice(1); }
+function fmtM2(v){ return nf0.format(v) + ' €/m²'; }
+function nVentes(n){ return nf0.format(n) + (n > 1 ? ' ventes' : ' vente'); }
+const nfr = new Intl.NumberFormat('fr-FR', {minimumFractionDigits:2, maximumFractionDigits:2});
+function fmtRate(x){ return nfr.format(x) + ' %'; }
+function fmtPct(x){
+  const a = Math.abs(x), r = a >= 10 ? Math.round(a) : Math.round(a * 10) / 10;
+  return (r === 0 ? '' : x > 0 ? '+' : '−') + (a >= 10 ? nf0 : nf1).format(r) + ' %';
+}
+function fmtBp(a, b){
+  const f = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v);
+  return a === b ? f(a) + ' pb' : f(a) + ' à ' + f(b) + ' pb';
+}
+const VOIE_MIN = new Set(['rue','avenue','boulevard','place','quai','impasse','allee','cours','passage','square','villa','cite','chemin','route','esplanade','parvis','promenade','ruelle','sentier','voie','porte','hameau','galerie','cour','carrefour','sente','placette','rond point','de','du','des','la','le','les','et','sur','en','aux','au','a','bis','ter']);
+function niceVoie(str){
+  return String(str || '').toLowerCase().split(/\s+/).filter(Boolean).map(w => {
+    if (/^\d/.test(w) || VOIE_MIN.has(normTxt(w))) return w;
+    if (/^[dl]['’]/.test(w)) return w.slice(0, 2) + cap1(w.slice(2));
+    return w.split('-').map(cap1).join('-');
+  }).join(' ');
+}
+
+/* ---------- petits outils de graphique */
+function niceStep(range, target){
+  const raw = range / Math.max(1, target);
+  const p = Math.pow(10, Math.floor(Math.log10(raw)));
+  const m = raw / p;
+  return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p;
+}
+function showTipAt(cx, cy, build){
+  tip.textContent = '';
+  append(tip, [build()]);
+  tip.hidden = false;
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  tip.style.left = Math.max(8, Math.min(window.innerWidth - tw - 8, cx - tw / 2)) + 'px';
+  let y = cy - th - 16;
+  if (y < 8) y = cy + 18;
+  tip.style.top = y + 'px';
+}
+function tipRow(color, value, label, dot){
+  return h('div', {class:'tt-row'}, h('i', {class:'tt-key' + (dot ? ' dot' : ''), style:{background:color}}), h('b', null, value), h('span', {class:'tt-s'}, label));
+}
+function lineKey(color){ return h('i', {class:'lg-line', style:{background:color}}); }
+function dotKey(color){ return h('i', {class:'lg-dot', style:{background:color}}); }
+// réticule vertical : suit le pointeur et se cale sur la position de données la plus proche
+function crosshair(svg, o){
+  const line = s('line', {class:'xhair', x1:0, x2:0, y1:o.y0, y2:o.y1, visibility:'hidden'});
+  const hit = s('rect', {class:'xhit', x:o.x0 - 6, y:o.y0, width:Math.max(1, o.x1 - o.x0 + 12), height:Math.max(1, o.y1 - o.y0)});
+  const at = e => {
+    const r = svg.getBoundingClientRect(), vb = svg.viewBox.baseVal;
+    const sx = (e.clientX - r.left) * (vb.width / r.width);
+    let best = 0, bd = Infinity;
+    for (let i = 0; i < o.n; i++){ const dd = Math.abs(o.X(i) - sx); if (dd < bd){ bd = dd; best = i; } }
+    const x = o.X(best);
+    line.setAttribute('x1', x); line.setAttribute('x2', x); line.setAttribute('visibility', 'visible');
+    showTipAt(r.left + x * (r.width / vb.width), e.clientY, () => o.tip(best));
+  };
+  hit.addEventListener('pointermove', at);
+  hit.addEventListener('pointerdown', at);
+  hit.addEventListener('pointerleave', () => { line.setAttribute('visibility', 'hidden'); hideTip(); });
+  svg.append(line, hit);
+}
+
+/* ---------- DVF */
+const DVF_CAT = {local:'Locaux commerciaux', appartement:'Appartements'};
+const DVF_DE = {local:'de locaux commerciaux et assimilés', appartement:"d'appartements"};
+const DVF_CAT_DEAL = {bureaux:'local', commerces:'local', activites:'local', mixte:'local', residentiel:'appartement'};
+function dvfLatestYear(d){
+  const full = (d.annees || []).filter(a => !(d.annees_partielles || []).includes(a));
+  return full[full.length - 1] || (d.annees || [])[(d.annees || []).length - 1];
+}
+function communeNom(t){ return String((t.actif || {}).commune || '').replace(/\s*\(.*?\)\s*/g, ' ').trim(); }
+function dvfZoneForDeal(t){
+  const d = state.bases.dvf;
+  if (!d || !d.zones) return null;
+  const a = t.actif || {};
+  if (a.commune === 'Paris'){
+    const arr = a.arrondissements || [];
+    return arr.length === 1 ? '751' + String(arr[0]).padStart(2, '0') : null;
+  }
+  const g = geoOf(t);
+  if (g && g.code_insee && d.zones[g.code_insee]) return g.code_insee;
+  const nom = normTxt(communeNom(t));
+  for (const code in d.zones) if (normTxt(d.zones[code].nom) === nom) return code;
+  return null;
+}
+function dvfRepere(t){
+  const d = state.bases.dvf, cat = DVF_CAT_DEAL[t.classe], zone = d && cat ? dvfZoneForDeal(t) : null;
+  if (!zone) return null;
+  const z = (d.stats[cat] || {})[zone] || {};
+  const an = String((t.date || {}).valeur || '').slice(0, 4);
+  let annee = z[an] && z[an].med != null ? an : null;
+  if (!annee){ const ok = d.annees.filter(a => z[a] && z[a].med != null); annee = ok[ok.length - 1] || null; }
+  return {zone, cat, annee, st: annee ? z[annee] : null, exact: annee === an};
+}
+function goMarche(r){
+  const d = state.bases.dvf;
+  state.marche = {cat:r.cat, dep:d.zones[r.zone].dep, annee:r.annee || dvfLatestYear(d), zone:r.zone, scroll:true};
+  closeDrawer();
+  go('marche');
+}
+function dvfRepereBlock(t){
+  const r = dvfRepere(t), d = state.bases.dvf;
+  if (!r) return null;
+  const nomZone = d.zones[r.zone].nom, de = DVF_DE[r.cat];
+  const box = h('div', {class:'repere-box'}, h('div', {class:'fig-lab'}, 'Prix de marché (DVF)'));
+  if (!r.st){
+    box.append(h('p', null, 'Trop peu de ventes ' + de + ' à ' + nomZone + ' pour publier une médiane (seuil : ' + d.seuil_ventes + ' ventes par an).'));
+  } else {
+    const st = r.st;
+    const pm = t.chiffres && t.chiffres.prix_m2 && t.chiffres.prix_m2.valeur != null ? t.chiffres.prix_m2 : null;
+    box.append(h('p', null, 'Ventes ' + de + ' à ' + nomZone + ' en ' + r.annee + ' : médiane de ', h('b', null, fmtM2(st.med)), ', la moitié centrale des ventes se situant entre ' + nf0.format(st.q1) + ' et ' + fmtM2(st.q3) + ' (' + nVentes(st.n) + ').'));
+    if (pm) box.append(h('p', null, "Prix au m² de l'opération : " + fmtChiffre('prix_m2', pm, true) + (pm.base && pm.base !== 'NC' && BASE[pm.base] ? ' ' + BASE[pm.base] : '') + ', soit ' + fmtPct((pm.valeur / st.med - 1) * 100) + ' par rapport à cette médiane.'));
+    box.append(h('p', {class:'fig-note'}, (r.exact ? '' : "L'année de l'opération n'est pas encore couverte par DVF : la dernière année publiée est retenue. ") + "Repère indicatif : le calcul ne retient que les ventes d'un seul local, souvent de taille modeste, à des prix hors droits de mutation ; les grandes opérations, fréquemment conclues par cession de société, n'y figurent pas."));
+  }
+  box.append(h('div', {class:'d-badges'}, srcBase('DGFiP, DVF (version Etalab)', d.source.url), h('button', {class:'link-btn', type:'button', onclick:() => goMarche(r)}, 'Voir les prix de marché', icon('arrow', 13))));
+  return box;
+}
+
+/* ---------- permis de construire (Sitadel) */
+const PERMIS_TYPE = {PC:'Permis de construire', DP:'Déclaration préalable', PA:"Permis d'aménager", PD:'Permis de démolir'};
+const SURF_DEST = [['BUR','Bureaux'],['COM','Commerce'],['HEB','Hébergement hôtelier'],['ENT','Entrepôt'],['IND','Industrie'],['PUB',"Service public ou d'intérêt collectif"],['AGR','Exploitation agricole'],['HAB','Habitation']];
+function fmtNumDau(type, num){
+  const n = String(num || '').replace(/\s+/g, '');
+  return [type, n.length >= 12 ? [n.slice(0, 3), n.slice(3, 6), n.slice(6, 8), n.slice(8)].join(' ') : n].filter(Boolean).join(' ');
+}
+function surfLines(surf){
+  return SURF_DEST.map(([k, lab]) => {
+    const v = x => surf['SURF_' + k + '_' + x] || 0;
+    const bits = [];
+    if (v('AVANT')) bits.push(nf0.format(v('AVANT')) + ' m² existants');
+    if (v('CREEE')) bits.push('+' + nf0.format(v('CREEE')) + ' m² créés');
+    if (v('ISSUE_TRANSFO')) bits.push('+' + nf0.format(v('ISSUE_TRANSFO')) + ' m² issus de transformation');
+    if (v('TRANSFORMEE')) bits.push('−' + nf0.format(v('TRANSFORMEE')) + ' m² transformés');
+    if (v('DEMOLIE')) bits.push('−' + nf0.format(v('DEMOLIE')) + ' m² démolis');
+    return bits.length ? lab + ' : ' + bits.join(' · ') : null;
+  }).filter(Boolean);
+}
+function permisBlock(t){
+  const p = state.bases.permis, list = p && p.fiches && p.fiches[t.id];
+  if (!list || !list.length) return null;
+  return h('div', {class:'repere-box'},
+    h('div', {class:'fig-lab'}, "Autorisations d'urbanisme à cette adresse"),
+    list.map(x => {
+      const bits = [niceVoie(x.adresse), 'autorisation du ' + fmtDateISO(x.date_autorisation)];
+      if (x.etat === '4') bits.push('autorisation annulée');
+      if (x.debut_travaux) bits.push('chantier ouvert le ' + fmtDateISO(x.debut_travaux)); else if (x.etat === '5') bits.push('travaux commencés');
+      if (x.achevement) bits.push('achèvement déclaré le ' + fmtDateISO(x.achevement)); else if (x.etat === '6') bits.push('travaux terminés');
+      return h('div', {class:'pm'},
+        h('div', {class:'src-top'}, h('b', null, PERMIS_TYPE[x.type] || 'Autorisation'), h('span', {class:'ref'}, fmtNumDau(x.type, x.numero))),
+        h('div', {class:'src-meta'}, bits.join(' · ')),
+        surfLines(x.surfaces || {}).map(l => h('div', {class:'fig-note'}, l)),
+        x.demandeur ? h('div', {class:'fig-note'}, 'Demandeur : ' + x.demandeur) : null);
+    }),
+    h('p', {class:'fig-note'}, "Autorisations créant des locaux non résidentiels, délivrées depuis le " + fmtDateISO(p.depuis).replace(/^1 /, '1er ') + " à l'adresse publiée de l'actif et rapprochées automatiquement par numéro et nom de voie : une autorisation peut ne concerner qu'une partie de l'immeuble."),
+    srcBase('SDES, liste des permis de construire (Sitadel)', p.source.url, p.source.maj_source ? 'fichier du ' + fmtDateISO(String(p.source.maj_source).slice(0, 10)) : null));
+}
+
+/* ---------- géolocalisation et fond de carte */
+function geoOf(t){ const g = state.bases.geo; const x = g && g.fiches && g.fiches[t.id]; return x && x.trouve ? x : null; }
+function projXY(c, lon, lat){ const p = c.proj; return [(lon - p.lon0) * p.c * p.k, (p.lat0 - lat) * p.k]; }
+const bboxCache = new Map();
+function pathBox(d){
+  if (bboxCache.has(d)) return bboxCache.get(d);
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  for (const m of d.matchAll(/(-?[\d.]+),(-?[\d.]+)/g)){ const x = +m[1], y = +m[2]; if (x < x0) x0 = x; if (y < y0) y0 = y; if (x > x1) x1 = x; if (y > y1) y1 = y; }
+  const b = [x0, y0, x1, y1];
+  bboxCache.set(d, b);
+  return b;
+}
+function zonesBox(zs, marge){
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  zs.forEach(z => { const b = pathBox(z.d); x0 = Math.min(x0, b[0]); y0 = Math.min(y0, b[1]); x1 = Math.max(x1, b[2]); y1 = Math.max(y1, b[3]); });
+  const m = marge || 8;
+  return [x0 - m, y0 - m, x1 - x0 + 2 * m, y1 - y0 + 2 * m];
+}
+function dealsInZone(list, z){
+  return list.filter(t => {
+    const a = t.actif || {};
+    if (z.dep === '75') return a.commune === 'Paris' && (a.arrondissements || []).includes(Number(z.code.slice(3)));
+    const g = geoOf(t);
+    if (g) return g.code_insee === z.code;
+    return normTxt(communeNom(t)) === normTxt(z.nom);
+  });
+}
+function geoMap(o){
+  const c = state.bases.carte, vb = o.viewBox;
+  const svg = s('svg', {viewBox: vb.map(v => Number(v).toFixed(1)).join(' '), role:'img', 'aria-label':o.label, preserveAspectRatio:'xMidYMid meet'});
+  const gz = s('g');
+  c.zones.forEach(z => {
+    const fill = o.fill ? o.fill(z) : null;
+    const dim = o.dim ? o.dim(z) : false;
+    const p = s('path', {d:z.d, class:'geo-zone' + (z.dep === '75' ? ' paris' : '') + (dim ? ' out' : '') + (o.onZone && !dim ? ' clk' : ''), style: fill ? 'fill:' + fill : null});
+    if (o.zoneTip) withTip(p, () => o.zoneTip(z));
+    if (o.onZone && !dim) p.addEventListener('click', () => o.onZone(z));
+    gz.append(p);
+  });
+  svg.append(gz);
+  if (o.selected){ const z = c.zones.find(x => x.code === o.selected); if (z) svg.append(s('path', {d:z.d, class:'geo-sel'})); }
+  if (o.labels){
+    const fs = vb[2] / 64;
+    const gl = s('g', {class:'geo-labs', 'aria-hidden':'true', style:'font-size:' + fs.toFixed(2) + 'px;stroke-width:' + (fs * 0.3).toFixed(2) + 'px'});
+    c.zones.filter(o.labels).forEach(z => { if (z.c) gl.append(s('text', {x:z.c[0], y:z.c[1], class:'geo-lab'}, o.labelText ? o.labelText(z) : z.nom)); });
+    svg.append(gl);
+  }
+  if (o.points){
+    const r = vb[2] / 85;
+    o.points.slice().sort((a, b) => (a.focus ? 1 : 0) - (b.focus ? 1 : 0)).forEach(pt => {
+      const [x, y] = projXY(c, pt.lon, pt.lat);
+      const st = stratOf(pt.t);
+      const color = st.mode === 'nc' ? 'var(--st-nc)' : 'var(--sp-c)';
+      const g = s('g', {class:'geo-pt k-' + st.k, tabindex:0, role:'button', 'aria-label':'Ouvrir la fiche : ' + pt.t.titre});
+      g.append(s('circle', {cx:x, cy:y, r:r * 2.3, class:'hit', 'data-k':2.3}));
+      if (pt.focus) g.append(s('circle', {cx:x, cy:y, r:r * 2, fill:'none', stroke:'var(--ink)', 'stroke-width':r / 3, 'data-k':2, 'data-w':1 / 3}));
+      if (st.mode === 'hyp') g.append(s('circle', {cx:x, cy:y, r:r * 0.9, fill:'var(--surface)', stroke:color, 'stroke-width':r / 2.6, 'data-k':0.9, 'data-w':1 / 2.6}));
+      else g.append(s('circle', {cx:x, cy:y, r:r, fill:color, stroke:'var(--surface)', 'stroke-width':r / 3.2, 'data-k':1, 'data-w':1 / 3.2}));
+      g.addEventListener('click', () => openDeal(pt.t.id));
+      g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openDeal(pt.t.id); } });
+      withTip(g, dealTip(pt.t));
+      svg.append(g);
+    });
+  }
+  const wrap = h('div', {class:'geo-map' + (o.cls ? ' ' + o.cls : '')}, svg);
+  // points and labels keep the same size on screen whatever the scale of the map
+  const fit = () => {
+    const rc = svg.getBoundingClientRect();
+    if (!rc.width || !rc.height) return;
+    const sc = Math.min(rc.width / vb[2], rc.height / vb[3]);
+    const R = 6 / sc;
+    svg.querySelectorAll('[data-k]').forEach(el => { el.setAttribute('r', (Number(el.getAttribute('data-k')) * R).toFixed(2)); const w = el.getAttribute('data-w'); if (w) el.setAttribute('stroke-width', (Number(w) * R).toFixed(2)); });
+    const gl = svg.querySelector('.geo-labs');
+    if (gl){ const fs = 10.5 / sc; gl.style.display = sc < 0.62 ? 'none' : ''; gl.style.fontSize = fs.toFixed(2) + 'px'; gl.style.strokeWidth = (fs * 0.3).toFixed(2) + 'px'; }
+  };
+  requestAnimationFrame(fit);
+  if (window.ResizeObserver){ let lw = 0; const ro = new ResizeObserver(() => { const w = wrap.clientWidth; if (w && Math.abs(w - lw) > 2){ lw = w; fit(); } }); ro.observe(wrap); }
+  return wrap;
+}
+function mapSelCode(){
+  if (typeof state.mapSel === 'number') return '751' + String(state.mapSel).padStart(2, '0');
+  return String(state.mapSel || '').startsWith('c:') ? state.mapSel.slice(2) : null;
+}
+function geoPlan(list){
+  return lazyBox(['carte', 'geo'], () => {
+    const c = state.bases.carte, g = state.bases.geo;
+    if (!c || !c.zones || !g) return h('p', {class:'note'}, "Le plan n'est pas disponible pour le moment.");
+    const focusDeal = state.carteFocus ? dealById(state.carteFocus) : null;
+    const base = focusDeal && !list.includes(focusDeal) ? list.concat([focusDeal]) : list;
+    const pts = base.map(t => { const x = geoOf(t); return x ? {t, lon:x.lon, lat:x.lat, focus: t === focusDeal} : null; }).filter(Boolean);
+    const vue = state.carteVue === 'couronne' ? 'couronne' : 'paris';
+    const vb = vue === 'paris' ? c.cadre_paris : [0, 0, c.largeur, c.hauteur];
+    const hors = pts.filter(p => { const [x, y] = projXY(c, p.lon, p.lat); return x < vb[0] || x > vb[0] + vb[2] || y < vb[1] || y > vb[1] + vb[3]; }).length;
+    const seg = h('div', {class:'seg', role:'group', 'aria-label':'Étendue du plan'});
+    [['paris', 'Paris'], ['couronne', 'Petite couronne']].forEach(([k, l]) => seg.append(h('button', {type:'button', 'aria-pressed': vue === k ? 'true' : 'false', onclick:() => { state.carteVue = k; renderView(); }}, l)));
+    const map = geoMap({viewBox:vb, points:pts, selected:mapSelCode(), label:'Plan des opérations : ' + plural(pts.length, 'opération placée', 'opérations placées') + ' à leur adresse publiée',
+      labels: vue === 'paris' ? (z => z.dep === '75') : null, labelText: z => z.nom.replace(/^Paris /, ''),
+      zoneTip: z => { const ds = dealsInZone(list, z); return h('div', null, h('div', {class:'tt-v'}, z.nom), h('div', {class:'tt-s'}, ds.length ? plural(ds.length, 'opération recensée', 'opérations recensées') : 'Aucune opération recensée'), ds.slice(0, 4).map(t => h('div', {class:'tt-s'}, '• ' + t.titre)), ds.length > 4 ? h('div', {class:'tt-s'}, '…') : null); },
+      onZone: z => {
+        if (z.dep === '75'){ const n = Number(z.code.slice(3)); state.mapSel = state.mapSel === n ? null : n; }
+        else state.mapSel = state.mapSel === 'c:' + z.code ? null : 'c:' + z.code;
+        renderView();
+      }});
+    const placedInList = list.filter(t => geoOf(t)).length;
+    return h('div', null,
+      h('div', {class:'toolbar', style:{marginBottom:'10px'}}, seg, hors ? h('span', {class:'note'}, plural(hors, 'opération est hors du cadre', 'opérations sont hors du cadre') + (vue === 'paris' ? ' : passez à la petite couronne.' : '.')) : null),
+      map,
+      h('div', {class:'legend'},
+        h('span', null, h('i', {class:'lg-dot', style:{background:'var(--st-coreplus)'}}), 'Stratégie confirmée'),
+        h('span', null, h('i', {class:'lg-dot', style:{background:'var(--surface)', boxShadow:'inset 0 0 0 2.5px var(--st-coreplus)'}}), "Hypothèse d'analyste"),
+        h('span', null, h('i', {class:'lg-dot', style:{background:'var(--st-nc)'}}), 'Non classée'),
+        h('span', null, h('span', {class:'ramp', 'aria-hidden':'true'}, h('i', {style:{background:'var(--st-core)'}}), h('i', {style:{background:'var(--st-coreplus)'}}), h('i', {style:{background:'var(--st-va)'}}), h('i', {style:{background:'var(--st-opp)'}})), 'Risque croissant : Core → Opportunistic')),
+      h('p', {class:'note', style:{marginTop:'10px'}}, plural(placedInList, 'opération sur ' + list.length + ' est placée', 'opérations sur ' + list.length + ' sont placées') + " à l'adresse publiée par leurs sources (première adresse citée). Les autres n'ont pas d'adresse précise publiée : elles figurent dans la vue schématique ci-dessous."),
+      h('div', {class:'src-line'}, 'Sources : ', h('a', {href:g.source.url, target:'_blank', rel:'noopener'}, 'IGN, géocodage de la Base Adresse Nationale'), ' ; contours : ', h('a', {href:c.source.url, target:'_blank', rel:'noopener'}, 'geo.api.gouv.fr (IGN)'), '.'));
+  });
+}
+
+/* ---------- taux et prime de risque */
+const PRIME_FOCUS = 'Bureaux Paris QCA';
+function periodMonth(p){
+  let m = /^T([1-4])\s+(\d{4})$/.exec(p); if (m) return m[2] + '-' + String(Number(m[1]) * 3 - 1).padStart(2, '0');
+  m = /^S([12])\s+(\d{4})$/.exec(p); if (m) return m[2] + (m[1] === '1' ? '-04' : '-10');
+  if (/^\d{4}-\d{2}$/.test(p)) return p;
+  m = /^(\d{4})$/.exec(p); if (m) return p + '-07';
+  return null;
+}
+function periodEndMonth(p){
+  let m = /^T([1-4])\s+(\d{4})$/.exec(p); if (m) return m[2] + '-' + String(Number(m[1]) * 3).padStart(2, '0');
+  m = /^S([12])\s+(\d{4})$/.exec(p); if (m) return m[2] + (m[1] === '1' ? '-06' : '-12');
+  m = /^(\d{4})$/.exec(p); if (m) return p + '-12';
+  return periodMonth(p);
+}
+function primeVal(r){ return r.valeur != null ? fmtRate(r.valeur) : nfr.format(r.valeur_min) + ' à ' + fmtRate(r.valeur_max); }
+function primeLo(r){ return r.valeur != null ? r.valeur : r.valeur_min; }
+function primeHi(r){ return r.valeur != null ? r.valeur : r.valeur_max; }
+function primeRows(tx){
+  const primes = ((state.data.contexte || {}).rendements_prime || []).filter(r => r && r.segment && periodMonth(String(r.periode || '')) && (r.valeur != null || (r.valeur_min != null && r.valeur_max != null)));
+  return primes.map(r => {
+    const em = periodEndMonth(r.periode);
+    const o = (tx.points || []).find(x => x.periode === em) || null;
+    return {r, o, sp: o ? [Math.round((primeLo(r) - o.valeur) * 100), Math.round((primeHi(r) - o.valeur) * 100)] : null};
+  });
+}
+function rateCard(){
+  return lazyBox(['taux'], () => {
+    const tx = state.bases.taux;
+    if (!tx || !(tx.points || []).length) return h('p', {class:'note'}, "La série des taux n'est pas disponible pour le moment.");
+    const rows = primeRows(tx);
+    const y0 = 2021, start = y0 + '-01';
+    const pts = tx.points.filter(p => p.periode >= start);
+    const mIdx = m => { const [y, mo] = m.split('-').map(Number); return (y - y0) * 12 + mo - 1; };
+    const last = pts[pts.length - 1].periode, nM = mIdx(last) + 1;
+    const focus = rows.map(x => x.r).filter(r => r.segment === PRIME_FOCUS).filter(r => { const i = mIdx(periodMonth(r.periode)); return i >= 0 && i < nM + 3; });
+    const vals = pts.map(p => p.valeur).concat(focus.map(primeHi), focus.map(primeLo));
+    const yMin = Math.min(0, Math.floor(Math.min(...vals))), yMax = Math.ceil(Math.max(...vals) + 0.3);
+    const wrap = h('div', {class:'tl-wrap'});
+    function draw(){
+      wrap.textContent = '';
+      const W = Math.max(300, wrap.clientWidth || 700), H = 240, pl = 40, pr = 14, pt = 12, pb = 26;
+      const X = i => pl + (W - pl - pr) * i / Math.max(1, nM - 1);
+      const Y = v => pt + (H - pt - pb) * (1 - (v - yMin) / (yMax - yMin));
+      const lp = pts[pts.length - 1];
+      const svg = s('svg', {viewBox:'0 0 ' + W + ' ' + H, width:W, height:H, role:'img', 'aria-label':"Taux de l'OAT 10 ans depuis " + y0 + ", dernier point " + fmtRate(lp.valeur) + ' en ' + fmtDateISO(lp.periode) + ', et rendement prime des bureaux du QCA parisien'});
+      for (let v = yMin; v <= yMax; v++){
+        svg.append(s('line', {x1:pl, x2:W - pr, y1:Y(v), y2:Y(v), class: v === 0 ? 'gl0' : 'gl'}));
+        svg.append(s('text', {x:pl - 7, y:Y(v) + 4, 'text-anchor':'end', class:'axis-t'}, (v < 0 ? '−' + Math.abs(v) : String(v)) + ' %'));
+      }
+      const yEnd = Number(last.slice(0, 4));
+      const every = W < 520 ? 2 : 1;
+      for (let y = y0; y <= yEnd; y++){
+        const i = mIdx(y + '-01');
+        svg.append(s('line', {x1:X(i), x2:X(i), y1:H - pb, y2:H - pb + 4, class:'gl0'}));
+        if ((y - y0) % every === 0) svg.append(s('text', {x:X(i) + 3, y:H - 8, class:'axis-t'}, String(y)));
+      }
+      svg.append(s('path', {d:pts.map((p, k) => (k ? 'L' : 'M') + X(mIdx(p.periode)).toFixed(1) + ',' + Y(p.valeur).toFixed(1)).join(''), class:'ln', style:'stroke:var(--cat-1)'}));
+      crosshair(svg, {x0:pl, x1:W - pr, y0:pt, y1:H - pb, n:pts.length, X:k => X(mIdx(pts[k].periode)), tip:k => {
+        const p = pts[k], here = focus.filter(r => periodMonth(r.periode) === p.periode);
+        return h('div', null, h('div', {class:'tt-s'}, cap1(fmtDateISO(p.periode))), tipRow('var(--cat-1)', fmtRate(p.valeur), 'OAT 10 ans, moyenne du mois'), here.map(r => tipRow('var(--cat-2)', primeVal(r), 'rendement prime QCA, ' + r.periode, true)));
+      }});
+      svg.append(s('circle', {cx:X(mIdx(lp.periode)), cy:Y(lp.valeur), r:4, class:'pt', style:'fill:var(--cat-1)'}));
+      focus.forEach(r => {
+        const x = X(Math.min(mIdx(periodMonth(r.periode)), nM - 1));
+        const g = s('g', {class:'mk', tabindex:0, 'aria-label':'Rendement prime ' + r.segment + ', ' + r.periode + ' : ' + primeVal(r)});
+        if (r.valeur != null) g.append(s('circle', {cx:x, cy:Y(r.valeur), r:5, class:'pt', style:'fill:var(--cat-2)'}));
+        else g.append(s('rect', {x:x - 5, y:Y(r.valeur_max) - 5, width:10, height:Math.max(10, Y(r.valeur_min) - Y(r.valeur_max) + 10), rx:5, class:'pt', style:'fill:var(--cat-2)'}));
+        withTip(g, () => h('div', null, h('div', {class:'tt-s'}, r.periode), tipRow('var(--cat-2)', primeVal(r), 'rendement prime, bureaux Paris QCA', true), r.note ? h('div', {class:'tt-s'}, cap1(r.note)) : null));
+        svg.append(g);
+      });
+      wrap.append(svg);
+    }
+    requestAnimationFrame(draw);
+    if (window.ResizeObserver){ let lw = 0; const ro = new ResizeObserver(() => { const w = wrap.clientWidth; if (w && Math.abs(w - lw) > 4){ lw = w; draw(); } }); ro.observe(wrap); }
+    const segs = [...new Set(rows.map(x => x.r.segment))].sort((a, b) => (a === PRIME_FOCUS ? -1 : b === PRIME_FOCUS ? 1 : 0));
+    const latest = segs.map(sg => rows.filter(x => x.r.segment === sg).sort((a, b) => periodEndMonth(a.r.periode).localeCompare(periodEndMonth(b.r.periode))).pop());
+    const srcOf = ids => (state.data.contexte.sources || []).filter(x => (ids || []).includes(x.id));
+    const tables = () => h('div', null,
+      h('div', {class:'simple-wrap'}, h('table', {class:'simple'},
+        h('caption', {class:'sr-only'}, 'Rendements prime publiés et écart avec le taux de l\'OAT 10 ans'),
+        h('thead', null, h('tr', null, h('th', null, 'Segment'), h('th', null, 'Période'), h('th', {class:'t-num'}, 'Rendement prime'), h('th', {class:'t-num'}, 'OAT 10 ans'), h('th', {class:'t-num'}, 'Écart'), h('th', null, 'Source'))),
+        h('tbody', null, rows.slice().sort((a, b) => a.r.segment.localeCompare(b.r.segment, 'fr') || periodEndMonth(a.r.periode).localeCompare(periodEndMonth(b.r.periode))).map(x => h('tr', null,
+          h('td', null, x.r.segment), h('td', null, x.r.periode), h('td', {class:'t-num'}, primeVal(x.r)),
+          h('td', {class:'t-num'}, x.o ? fmtRate(x.o.valeur) + ' (' + fmtDateISO(x.o.periode) + ')' : 'non publiée'),
+          h('td', {class:'t-num'}, x.sp ? fmtBp(x.sp[0], x.sp[1]) : '—'),
+          h('td', null, srcOf(x.r.sources).map(z => z.editeur.split(' — ')[0]).join(', '))))))),
+      h('div', {class:'simple-wrap', style:{marginTop:'14px'}}, h('table', {class:'simple'},
+        h('caption', {class:'sr-only'}, "Taux de l'OAT 10 ans, douze derniers mois"),
+        h('thead', null, h('tr', null, h('th', null, 'Mois'), h('th', {class:'t-num'}, 'OAT 10 ans (moyenne mensuelle)'))),
+        h('tbody', null, tx.points.slice(-12).reverse().map(p => h('tr', null, h('td', null, cap1(fmtDateISO(p.periode))), h('td', {class:'t-num'}, fmtRate(p.valeur))))))));
+    const tg = dataToggle(wrap, tables);
+    const allIds = [...new Set(rows.flatMap(x => x.r.sources || []))];
+    const body = h('div', null,
+      h('div', {class:'legend', style:{marginTop:0, paddingTop:0, borderTop:0, marginBottom:'8px'}},
+        h('span', null, lineKey('var(--cat-1)'), "OAT 10 ans (moyenne mensuelle)"),
+        focus.length ? h('span', null, dotKey('var(--cat-2)'), 'Rendement prime, bureaux Paris QCA (barre : fourchette publiée)') : null,
+        h('span', {class:'lg-push'}, tg.btn)),
+      tg.box,
+      latest.length ? h('div', {class:'spreads'}, latest.map(x => h('div', {class:'ind-item'},
+        h('div', {class:'ind-lab'}, x.r.segment + ' · ' + x.r.periode),
+        h('div', {class:'ind-val'}, x.sp ? fmtBp(x.sp[0], x.sp[1]) : primeVal(x.r)),
+        h('div', {class:'ind-det'}, x.sp ? 'Rendement prime ' + primeVal(x.r) + " contre " + fmtRate(x.o.valeur) + " pour l'OAT 10 ans (" + fmtDateISO(x.o.periode) + ')' : "Rendement prime ; l'OAT du dernier mois de la période n'est pas encore publiée"),
+        x.r.note ? h('div', {class:'ind-det'}, cap1(x.r.note)) : null,
+        srcLine(x.r.sources || [])))) : h('p', {class:'note', style:{marginTop:'12px'}}, 'Les rendements prime seront ajoutés au fil des publications trimestrielles des conseils.'),
+      h('p', {class:'note', style:{marginTop:'10px'}}, "Écart en points de base (pb) entre le rendement prime publié et le taux de l'OAT 10 ans du dernier mois de la période : une mesure simple de la prime de risque de l'immobilier. Les rendements prime sont des estimations de conseils, pas des transactions ; une fourchette publiée n'est jamais moyennée."),
+      srcBase(tx.source.editeur, tx.source.url, 'série IRS.M.FR.L.L40.CI.0000.EUR.N.Z'),
+      allIds.length ? srcLine(allIds) : null);
+    return body;
+  });
+}
+
+/* ---------- vue Prix de marché */
+function renderMarche(root){
+  root.append(pageHead('Données publiques · DVF', 'Prix de marché',
+    "Les prix des ventes enregistrées par l'administration fiscale, par arrondissement et par commune, pour situer chaque opération dans son marché. Les grandes transactions institutionnelles, souvent conclues par cession de société, n'y figurent pas."));
+  root.append(lazyBox(['dvf', 'carte', 'geo'], buildMarche));
+}
+function buildMarche(){
+  const d = state.bases.dvf;
+  if (!d || !d.stats || !d.zones) return h('div', {class:'notice'}, icon('alert', 16), h('div', null, 'Les données de prix ne sont pas disponibles pour le moment. Réessayez dans un instant.'));
+  const m = state.marche = state.marche || {};
+  if (!DVF_CAT[m.cat]) m.cat = 'local';
+  if (!d.departements[m.dep]) m.dep = '75';
+  if (m.annee !== 'periode' && !(d.annees || []).includes(m.annee)) m.annee = dvfLatestYear(d);
+  const out = h('div', {class:'view'});
+  // commandes
+  const row = h('div', {class:'f-row'});
+  const seg = h('div', {class:'seg', role:'group', 'aria-label':'Type de bien'});
+  Object.entries(DVF_CAT).forEach(([k, l]) => seg.append(h('button', {type:'button', 'aria-pressed': m.cat === k ? 'true' : 'false', onclick:() => { m.cat = k; renderView(); }}, l)));
+  const selDep = h('select', {class:'sel', 'aria-label':'Département'});
+  Object.entries(d.departements).forEach(([k, l]) => { const o = h('option', {value:k}, l + ' (' + k + ')'); if (m.dep === k) o.selected = true; selDep.append(o); });
+  selDep.addEventListener('change', () => { m.dep = selDep.value; m.zone = null; renderView(); });
+  const selAn = h('select', {class:'sel', 'aria-label':'Année'});
+  d.annees.slice().reverse().concat(['periode']).forEach(a => { const o = h('option', {value:a}, a === 'periode' ? d.annees[0] + '–' + d.annees[d.annees.length - 1] + ' (cumul)' : a + ((d.annees_partielles || []).includes(a) ? ' (partielle)' : '')); if (m.annee === a) o.selected = true; selAn.append(o); });
+  selAn.addEventListener('change', () => { m.annee = selAn.value; renderView(); });
+  row.append(seg, selDep, selAn, h('span', {class:'count'}, 'Ventes du ' + fmtDateISO(d.periode.debut) + ' au ' + fmtDateISO(d.periode.fin)));
+  out.append(h('div', {class:'filters', role:'group', 'aria-label':'Sélection des prix de marché'}, row));
+  // chiffres clés
+  const agg = (d.agregats[m.cat] || {})[m.dep] || {};
+  const cur = agg[m.annee] || {};
+  const yrs = d.annees.filter(a => agg[a] && agg[a].med != null);
+  const prevY = m.annee !== 'periode' ? yrs.filter(a => a < m.annee).pop() : null;
+  const evo = prevY && cur.med != null ? (cur.med / agg[prevY].med - 1) * 100 : null;
+  const first = yrs[0], lastY = yrs[yrs.length - 1];
+  const evo5 = first && lastY && first !== lastY ? (agg[lastY].med / agg[first].med - 1) * 100 : null;
+  const depNom = d.departements[m.dep];
+  const anLab = m.annee === 'periode' ? 'de ' + d.annees[0] + ' à ' + d.annees[d.annees.length - 1] : 'en ' + m.annee;
+  out.append(h('div', {class:'kpis'},
+    h('div', {class:'card kpi hero'}, h('div', {class:'kpi-label'}, 'Prix médian · ' + DVF_CAT[m.cat].toLowerCase() + ' · ' + depNom),
+      h('div', {class:'kpi-value'}, cur.med != null ? [nf0.format(cur.med), h('span', {class:'kpi-unit'}, '€/m²')] : '—'),
+      h('div', {class:'kpi-sub'}, cur.med != null ? 'Moitié centrale des ventes : ' + nf0.format(cur.q1) + ' à ' + fmtM2(cur.q3) + ', ' + anLab : 'Pas assez de ventes ' + anLab)),
+    h('div', {class:'card kpi'}, h('div', {class:'kpi-label'}, 'Ventes retenues'), h('div', {class:'kpi-value'}, cur.n != null ? nf0.format(cur.n) : '—'), h('div', {class:'kpi-sub'}, "Ventes d'un seul local, " + anLab)),
+    h('div', {class:'card kpi'}, h('div', {class:'kpi-label'}, 'Sur un an'), h('div', {class:'kpi-value'}, evo != null ? fmtPct(evo) : '—'), h('div', {class:'kpi-sub'}, evo != null ? 'Médiane ' + m.annee + ' comparée à ' + prevY : m.annee === 'periode' ? 'Choisissez une année pour comparer' : 'Pas d\'année précédente disponible')),
+    h('div', {class:'card kpi'}, h('div', {class:'kpi-label'}, 'Depuis ' + (first || '—')), h('div', {class:'kpi-value'}, evo5 != null ? fmtPct(evo5) : '—'), h('div', {class:'kpi-sub'}, evo5 != null ? 'Médiane ' + lastY + ' comparée à ' + first : 'Pas assez de ventes'))));
+  // classement par zone
+  const zones = Object.entries(d.zones).filter(([, z]) => z.dep === m.dep).map(([code, z]) => ({code, nom:z.nom, st:((d.stats[m.cat] || {})[code] || {})[m.annee] || {}}));
+  const avec = zones.filter(z => z.st.med != null).sort((a, b) => b.st.med - a.st.med);
+  const sans = zones.filter(z => z.st.med == null).sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+  const unite = m.dep === '75' ? 'arrondissement' : 'commune';
+  const dealsIn = code => state.data.transactions.filter(t => DVF_CAT_DEAL[t.classe] === m.cat && dvfZoneForDeal(t) === code);
+  const pick = code => { m.zone = m.zone === code ? null : code; renderView(); };
+  let listEl;
+  if (!avec.length) listEl = h('p', {class:'note'}, 'Aucune ' + unite + ' ne compte assez de ventes (' + d.seuil_ventes + ' au minimum) ' + anLab + '.');
+  else {
+    const scale = Math.ceil(Math.max(...avec.map(z => z.st.q3)) / 5000) * 5000;
+    const stp = scale <= 20000 ? 5000 : 10000;
+    const ticks = []; for (let x = 0; x <= scale; x += stp) ticks.push(x);
+    listEl = h('div', {class:'pr-list'},
+      h('div', {class:'pr-axis', 'aria-hidden':'true'}, h('span', {class:'ax-lab'}, cap1(unite)), h('div', {class:'dp-ticks'}, ticks.map(x => h('span', {style:{left:(x / scale * 100) + '%'}}, x ? nf0.format(x / 1000) + ' k€' : '0'))), h('span', {class:'ax-val'}, 'Médiane')),
+      avec.map(z => {
+        const nd = dealsIn(z.code).length;
+        const b = h('button', {class:'pr-row' + (m.zone === z.code ? ' is-sel' : ''), type:'button', 'aria-pressed': m.zone === z.code ? 'true' : 'false', 'aria-label': z.nom + ' : médiane ' + fmtM2(z.st.med) + ', moitié centrale de ' + nf0.format(z.st.q1) + ' à ' + fmtM2(z.st.q3) + ', ' + nVentes(z.st.n), onclick:() => pick(z.code)},
+          h('span', {class:'pr-lab'}, z.nom, nd ? h('span', {class:'tag-soft'}, plural(nd, 'opération', 'opérations')) : null),
+          h('span', {class:'pr-track'}, ticks.slice(1).map(x => h('span', {class:'dp-grid', style:{left:(x / scale * 100) + '%'}})), h('span', {class:'pr-iqr', style:{left:(z.st.q1 / scale * 100) + '%', width:((z.st.q3 - z.st.q1) / scale * 100) + '%'}}), h('span', {class:'pr-med', style:{left:(z.st.med / scale * 100) + '%'}})),
+          h('span', {class:'pr-val'}, fmtM2(z.st.med)));
+        withTip(b, () => h('div', null, h('div', {class:'tt-v'}, fmtM2(z.st.med)), h('div', {class:'tt-s'}, z.nom + ' · médiane ' + anLab), h('div', {class:'tt-s'}, 'Moitié centrale : ' + nf0.format(z.st.q1) + ' à ' + fmtM2(z.st.q3) + ' · ' + nVentes(z.st.n)), nd ? h('div', {class:'tt-s'}, plural(nd, 'opération recensée', 'opérations recensées') + ' dans cette zone') : null));
+        return b;
+      }),
+      sans.length ? h('p', {class:'note', style:{marginTop:'10px'}}, 'Moins de ' + d.seuil_ventes + ' ventes ' + anLab + ', médiane non publiée : ' + sans.map(z => z.nom).join(', ') + '.') : null);
+  }
+  const tableB = () => h('div', {class:'simple-wrap'}, h('table', {class:'simple'},
+    h('caption', {class:'sr-only'}, 'Prix médian par ' + unite + ', ' + DVF_CAT[m.cat].toLowerCase() + ', ' + anLab),
+    h('thead', null, h('tr', null, h('th', null, cap1(unite)), h('th', {class:'t-num'}, 'Médiane'), h('th', {class:'t-num'}, '1er quartile'), h('th', {class:'t-num'}, '3e quartile'), h('th', {class:'t-num'}, 'Ventes'))),
+    h('tbody', null, avec.concat(sans).map(z => h('tr', null, h('td', null, z.nom), h('td', {class:'t-num'}, z.st.med != null ? fmtM2(z.st.med) : 'non publiée'), h('td', {class:'t-num'}, z.st.q1 != null ? fmtM2(z.st.q1) : '—'), h('td', {class:'t-num'}, z.st.q3 != null ? fmtM2(z.st.q3) : '—'), h('td', {class:'t-num'}, String(z.st.n || 0)))))));
+  const tg = dataToggle(listEl, tableB);
+  // carte des prix
+  let mapEl = null;
+  const c = state.bases.carte;
+  if (c && c.zones && avec.length){
+    const meds = avec.map(z => z.st.med).sort((a, b) => a - b);
+    const q = f => Math.round(meds[Math.min(meds.length - 1, Math.floor(f * meds.length))] / 100) * 100;
+    const cuts = meds.length >= 4 ? [q(0.25), q(0.5), q(0.75)] : [];
+    const level = v => v == null ? 0 : 1 + cuts.filter(x => v >= x).length;
+    const byCode = new Map(zones.map(z => [z.code, z]));
+    const buckets = [1, 2, 3, 4].map(i => avec.filter(z => level(z.st.med) === i).map(z => z.st.med)).map((vs, i) => vs.length ? {i:i + 1, lo:Math.min(...vs), hi:Math.max(...vs)} : null).filter(Boolean);
+    const vb = m.dep === '75' ? c.cadre_paris : zonesBox(c.zones.filter(z => z.dep === m.dep), 10);
+    const selZone = m.zone && byCode.has(m.zone) ? m.zone : null;
+    mapEl = h('div', null,
+      geoMap({viewBox:vb, cls:'choro', selected:selZone, label:'Carte des prix médians, ' + DVF_CAT[m.cat].toLowerCase() + ', ' + depNom + ', ' + anLab,
+        fill: z => z.dep !== m.dep ? null : 'var(--map-' + (byCode.has(z.code) ? level(byCode.get(z.code).st.med) : 0) + ')',
+        dim: z => z.dep !== m.dep,
+        labels: m.dep === '75' ? (z => z.dep === '75') : null, labelText: z => z.nom.replace(/^Paris /, ''),
+        zoneTip: z => { const x = byCode.get(z.code); return h('div', null, h('div', {class:'tt-v'}, x && x.st.med != null ? fmtM2(x.st.med) : z.nom), h('div', {class:'tt-s'}, x && x.st.med != null ? z.nom + ' · ' + nVentes(x.st.n) : z.dep === m.dep ? 'Moins de ' + d.seuil_ventes + ' ventes : médiane non publiée' : 'Hors du département affiché')); },
+        onZone: z => { if (byCode.has(z.code)) pick(z.code); }}),
+      h('div', {class:'map-legend'}, 'Prix médian (€/m²)',
+        buckets.map(b => h('span', {class:'lg-item'}, h('i', {class:'lg-sw', style:{background:'var(--map-' + b.i + ')'}}), b.lo === b.hi ? nf0.format(b.lo) : nf0.format(b.lo) + '–' + nf0.format(b.hi))),
+        sans.length ? h('span', {class:'lg-item'}, h('i', {class:'lg-sw', style:{background:'var(--map-0)', boxShadow:'inset 0 0 0 1px var(--line-strong)'}}), 'non publiée') : null));
+  }
+  const grid = h('div', {class:'grid'});
+  grid.append(h('div', {class:'span-7'}, card('Prix médian par ' + unite, 'Trait : médiane. Bande : moitié centrale des ventes (du 1er au 3e quartile). ' + DVF_CAT[m.cat] + ', ' + anLab + '. Cliquez sur une ligne pour la repérer sur la carte.', tg.box, {actions:[tg.btn]})));
+  if (mapEl) grid.append(h('div', {class:'span-5'}, card('Carte des prix', 'Couleur : groupe de prix médian (quartiles des ' + unite + 's affichées).', mapEl)));
+  const tr = dvfTrend(d, m.dep);
+  grid.append(h('div', {class:'span-12'}, card('Évolution du prix médian · ' + depNom, 'Médiane annuelle des ventes de locaux commerciaux et d\'appartements, en €/m².', tr.box, {actions: tr.btn ? [tr.btn] : null})));
+  out.append(grid);
+  out.append(h('div', {class:'notice'}, icon('info', 16), h('div', null, h('b', null, 'Méthode. '), d.methode + ' Locaux commerciaux : bureaux, commerces et locaux d\'activité, que DVF ne distingue pas. ', 'Source : ', h('a', {href:d.source.url, target:'_blank', rel:'noopener'}, 'DGFiP, demandes de valeurs foncières (version géolocalisée Etalab)'), ', ' + (d.source.licence || 'Licence Ouverte') + '. Mise à jour automatique, dernière actualisation le ' + fmtDateISO(String(d.maj).slice(0, 10)) + '.')));
+  if (m.scroll){ m.scroll = false; requestAnimationFrame(() => { const el = document.querySelector('.pr-row.is-sel'); if (el) el.scrollIntoView({block:'center'}); }); }
+  return out;
+}
+function dvfTrend(d, dep){
+  const series = [{cat:'local', color:'var(--cat-1)'}, {cat:'appartement', color:'var(--cat-2)'}].map(sr => Object.assign(sr, {pts: d.annees.map((a, i) => ({a, i, st: ((d.agregats[sr.cat] || {})[dep] || {})[a]})).filter(p => p.st && p.st.med != null)}));
+  const all = series.flatMap(sr => sr.pts.map(p => p.st.med));
+  if (!all.length) return {box: h('p', {class:'note'}, 'Pas assez de ventes pour tracer une évolution.'), btn:null};
+  const lo = Math.min(...all), hi = Math.max(...all);
+  const step = niceStep(Math.max(hi - lo, hi * 0.25), 4);
+  const yMin = Math.max(0, Math.floor(lo * 0.94 / step) * step), yMax = Math.ceil(hi * 1.04 / step) * step;
+  const n = d.annees.length;
+  const wrap = h('div', {class:'tl-wrap'});
+  function draw(){
+    wrap.textContent = '';
+    const W = Math.max(300, wrap.clientWidth || 700), H = 220, pl = 52, pr = 22, pt = 12, pb = 26;
+    const X = i => pl + 14 + (W - pl - pr - 28) * (n === 1 ? 0.5 : i / (n - 1));
+    const Y = v => pt + (H - pt - pb) * (1 - (v - yMin) / (yMax - yMin));
+    const svg = s('svg', {viewBox:'0 0 ' + W + ' ' + H, width:W, height:H, role:'img', 'aria-label':'Évolution du prix médian au m², ' + series.map(sr => DVF_CAT[sr.cat].toLowerCase() + ' : ' + sr.pts.map(p => p.a + ' ' + nf0.format(p.st.med)).join(', ')).join(' ; ')});
+    for (let v = yMin; v <= yMax + 1e-6; v += step){
+      svg.append(s('line', {x1:pl, x2:W - pr, y1:Y(v), y2:Y(v), class:'gl'}));
+      svg.append(s('text', {x:pl - 7, y:Y(v) + 4, 'text-anchor':'end', class:'axis-t'}, nf1.format(v / 1000) + ' k€'));
+    }
+    d.annees.forEach((a, i) => svg.append(s('text', {x:X(i), y:H - 8, 'text-anchor':'middle', class:'axis-t'}, a + ((d.annees_partielles || []).includes(a) ? '*' : ''))));
+    series.forEach(sr => { if (sr.pts.length > 1) svg.append(s('path', {d:sr.pts.map((p, k) => (k ? 'L' : 'M') + X(p.i).toFixed(1) + ',' + Y(p.st.med).toFixed(1)).join(''), class:'ln', style:'stroke:' + sr.color})); });
+    crosshair(svg, {x0:pl, x1:W - pr, y0:pt, y1:H - pb, n, X, tip:i => h('div', null, h('div', {class:'tt-s'}, d.annees[i]), series.map(sr => { const p = sr.pts.find(x => x.i === i); return tipRow(sr.color, p ? fmtM2(p.st.med) : 'NC', DVF_CAT[sr.cat] + (p ? ' · ' + nVentes(p.st.n) : '')); }))});
+    series.forEach(sr => sr.pts.forEach(p => svg.append(s('circle', {cx:X(p.i), cy:Y(p.st.med), r:4, class:'pt', style:'fill:' + sr.color + ';pointer-events:none'}))));
+    wrap.append(svg);
+  }
+  requestAnimationFrame(draw);
+  if (window.ResizeObserver){ let lw = 0; const ro = new ResizeObserver(() => { const w = wrap.clientWidth; if (w && Math.abs(w - lw) > 4){ lw = w; draw(); } }); ro.observe(wrap); }
+  const chart = h('div', null, wrap,
+    h('div', {class:'legend'}, series.map(sr => h('span', null, lineKey(sr.color), DVF_CAT[sr.cat]))),
+    (d.annees_partielles || []).length ? h('p', {class:'note'}, '* année partielle') : null);
+  const table = () => h('div', {class:'simple-wrap'}, h('table', {class:'simple'},
+    h('caption', {class:'sr-only'}, 'Prix médian au m² par année'),
+    h('thead', null, h('tr', null, h('th', null, 'Année'), series.map(sr => [h('th', {class:'t-num'}, DVF_CAT[sr.cat] + ' (médiane)'), h('th', {class:'t-num'}, 'Ventes')]))),
+    h('tbody', null, d.annees.slice().reverse().map(a => h('tr', null, h('td', null, a), series.map(sr => { const st = ((d.agregats[sr.cat] || {})[dep] || {})[a] || {}; return [h('td', {class:'t-num'}, st.med != null ? fmtM2(st.med) : 'non publiée'), h('td', {class:'t-num'}, String(st.n || 0))]; }))))));
+  return dataToggle(chart, table);
+}
+
+/* ---------- fiche : repères des bases publiques */
+function repereSection(t){
+  const parts = [];
+  const dv = dvfRepereBlock(t);
+  if (dv) parts.push(dv);
+  const pm = permisBlock(t);
+  if (pm) parts.push(pm);
+  const g = geoOf(t);
+  if (g){
+    const contest = (t.contradictions || []).some(c => c.champ === 'arrondissement');
+    parts.push(h('div', {class:'repere-box'},
+      h('div', {class:'fig-lab'}, 'Adresse géolocalisée'),
+      h('p', null, g.libelle + (g.precision === 'street' ? ' (position de la voie : numéro non publié)' : '')),
+      contest ? h('p', {class:'fig-note'}, "Repère de la Base Adresse Nationale ; les versions des sources sur l'arrondissement restent présentées ci-dessous.") : null,
+      h('div', {class:'d-badges'}, srcBase('IGN, Base Adresse Nationale', state.bases.geo.source.url),
+        h('button', {class:'link-btn', type:'button', onclick:() => { state.carteFocus = t.id; state.carteVue = String(g.code_insee || '').startsWith('75') ? 'paris' : 'couronne'; state.mapSel = null; closeDrawer(); go('carte'); }}, 'Voir sur le plan', icon('arrow', 13)))));
+  }
+  if (!parts.length) return null;
+  return h('div', {class:'d-sec'}, h('h3', null, 'Repères des bases publiques'), parts);
+}
+
+/* ---------- Méthode : bases publiques */
+function basesMethodCard(){
+  return lazyBox(['bases_etat'], () => {
+    const e = ((state.bases.bases_etat || {}).modules) || {};
+    const st = k => { const x = e[k]; if (!x) return '—'; return x.statut === 'ok' ? 'À jour' + (x.derniere_reussite ? ' (' + fmtDateISO(String(x.derniere_reussite).slice(0, 10)) + ')' : '') : 'Incident, nouvel essai automatique'; };
+    const rows = [
+      ['Demandes de valeurs foncières (DVF), version géolocalisée', 'DGFiP, publiée par Etalab', 'Prix médians au m² par arrondissement et commune ; repère de prix dans les fiches', 'Deux livraisons par an, vérifiées chaque mois', 'dvf'],
+      ["Taux de l'OAT 10 ans", 'Banque centrale européenne', 'Comparaison avec les rendements prime (prime de risque)', 'Mensuelle', 'taux'],
+      ["Permis de construire et autres autorisations d'urbanisme (Sitadel)", 'SDES, ministère de la Transition écologique', "Autorisations délivrées à l'adresse des actifs, indices de travaux", 'Mensuelle, vérifiée chaque semaine', 'permis'],
+      ['Base Adresse Nationale (géocodage)', 'IGN, Géoplateforme', 'Placement des opérations à leur adresse publiée', 'À chaque nouvelle fiche', 'geocodage'],
+      ['Contours des communes et arrondissements', "geo.api.gouv.fr, d'après l'IGN", 'Fond du plan et de la carte des prix', 'Semestrielle', 'carte']];
+    return h('div', null,
+      h('div', {class:'simple-wrap'}, h('table', {class:'simple'},
+        h('thead', null, h('tr', null, h('th', null, 'Base'), h('th', null, 'Producteur'), h('th', null, 'Usage sur le site'), h('th', null, 'Mise à jour'), h('th', null, 'État'))),
+        h('tbody', null, rows.map(r => h('tr', null, h('td', null, r[0]), h('td', null, r[1]), h('td', null, r[2]), h('td', null, r[3]), h('td', {class:'note'}, st(r[4]))))))),
+      h('div', {class:'prose', style:{marginTop:'14px'}},
+        h('p', null, "Ces bases sont téléchargées et mises à jour automatiquement, puis réduites aux seuls éléments affichés. Elles sont publiées sous Licence Ouverte (Etalab) ou réutilisables avec mention de la source, citée à chaque affichage."),
+        h('p', null, h('b', null, 'DVF. '), "Seules des médianes et des quartiles calculés sur au moins 11 ventes sont publiés, jamais une vente individuelle, conformément aux conditions de réutilisation : aucune ré-identification des personnes n'est possible et ces données sont exclues de l'indexation par les moteurs de recherche. DVF ne couvre pas les cessions de sociétés (share deals) et paraît avec plusieurs mois de décalage."),
+        h('p', null, h('b', null, 'Permis de construire. '), "Le rapprochement se fait sur l'adresse publiée de l'actif (numéro et nom de voie) : une autorisation peut ne concerner qu'une partie de l'immeuble. Seuls les demandeurs personnes morales sont nommés."),
+        h('p', null, h('b', null, 'Taux. '), "L'OAT 10 ans est la moyenne mensuelle publiée par la BCE ; les rendements prime viennent des études trimestrielles des conseils, citées une à une.")));
+  });
 }
 
 /* =========================================================== boot */
@@ -1792,6 +2488,7 @@ async function boot(){
   window.addEventListener('hashchange', () => {
     const tok = (location.hash || '').replace(/^#/, '');
     if (state.drawer && (tok === 'op-' + state.drawer.id || tok === 'acteur-' + state.drawer.id)) return;
+    if (state.drawer && !/^(op|acteur)-/.test(tok)) closeDrawer(true);
     const prevView = state.view;
     readHash();
     if (state.view !== prevView) go(state.view, {hash: tok});

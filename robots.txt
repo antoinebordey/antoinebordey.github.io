@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+# Données DVF : agrégats non destinés à l'indexation (conditions de réutilisation de la DGFiP)
+Disallow: /data/dvf.json
 
 Sitemap: https://antoinebordey.github.io/sitemap.xml
