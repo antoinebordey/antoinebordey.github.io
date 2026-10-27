@@ -4,8 +4,9 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-10-27T13:05:05+00:00",
- "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue.",
+ "maj": "2026-10-27T13:10:20+00:00",
+ "methode": 2,
+ "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
   "pdm-002": {
    "requete": "38 rue du Rocher 75008 Paris",
@@ -18,10 +19,11 @@
    "code_insee": "75108"
   },
   "pdm-003": {
-   "requete": "Place du Trocadéro 75016 Paris",
+   "requete": "Place du Trocadéro Paris",
    "trouve": false,
-   "meilleur": "Rue du Ranelagh 75016 Paris",
-   "score": 0.407
+   "motif": "voie différente",
+   "meilleur": "Square du Trocadéro 75116 Paris",
+   "score": 0.613
   },
   "pdm-005": {
    "requete": "29 avenue des Champs-Élysées 75008 Paris",
@@ -94,7 +96,7 @@
    "code_insee": "75115"
   },
   "pdm-024": {
-   "requete": "51 rue de l'Assomption 75016 Paris",
+   "requete": "51 rue de l'Assomption Paris",
    "trouve": true,
    "lat": 48.854876,
    "lon": 2.268492,
@@ -194,13 +196,13 @@
    "code_insee": "75111"
   },
   "pdm-039": {
-   "requete": "90 avenue Victor Hugo 75016 Paris",
+   "requete": "90 avenue Victor Hugo Paris",
    "trouve": true,
-   "lat": 48.851564,
-   "lon": 2.267508,
-   "libelle": "90 Avenue Mozart 75016 Paris",
+   "lat": 48.869211,
+   "lon": 2.283938,
+   "libelle": "90 Avenue Victor Hugo 75116 Paris",
    "precision": "housenumber",
-   "score": 0.491,
+   "score": 0.982,
    "code_insee": "75116"
   },
   "pdm-040": {
