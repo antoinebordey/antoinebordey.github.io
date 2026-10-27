@@ -2437,7 +2437,7 @@ function repereSection(t){
     const contest = (t.contradictions || []).some(c => c.champ === 'arrondissement');
     parts.push(h('div', {class:'repere-box'},
       h('div', {class:'fig-lab'}, 'Adresse géolocalisée'),
-      h('p', null, g.libelle + (g.precision === 'street' ? ' (position de la voie : numéro non publié)' : '')),
+      h('p', null, g.libelle + (g.precision === 'street' ? ' (position de la voie)' : '')),
       contest ? h('p', {class:'fig-note'}, "Repère de la Base Adresse Nationale ; les versions des sources sur l'arrondissement restent présentées ci-dessous.") : null,
       h('div', {class:'d-badges'}, srcBase('IGN, Base Adresse Nationale', state.bases.geo.source.url),
         h('button', {class:'link-btn', type:'button', onclick:() => { state.carteFocus = t.id; state.carteVue = String(g.code_insee || '').startsWith('75') ? 'paris' : 'couronne'; state.mapSel = null; closeDrawer(); go('carte'); }}, 'Voir sur le plan', icon('arrow', 13)))));
@@ -2465,6 +2465,7 @@ function basesMethodCard(){
         h('p', null, "Ces bases sont téléchargées et mises à jour automatiquement, puis réduites aux seuls éléments affichés. Elles sont publiées sous Licence Ouverte (Etalab) ou réutilisables avec mention de la source, citée à chaque affichage."),
         h('p', null, h('b', null, 'DVF. '), "Seules des médianes et des quartiles calculés sur au moins 11 ventes sont publiés, jamais une vente individuelle, conformément aux conditions de réutilisation : aucune ré-identification des personnes n'est possible et ces données sont exclues de l'indexation par les moteurs de recherche. DVF ne couvre pas les cessions de sociétés (share deals) et paraît avec plusieurs mois de décalage."),
         h('p', null, h('b', null, 'Permis de construire. '), "Le rapprochement se fait sur l'adresse publiée de l'actif (numéro et nom de voie) : une autorisation peut ne concerner qu'une partie de l'immeuble. Seuls les demandeurs personnes morales sont nommés."),
+        h('p', null, h('b', null, 'Géocodage. '), "Une opération n'est placée sur le plan que si la voie, le numéro et l'arrondissement renvoyés par la Base Adresse Nationale correspondent à l'adresse publiée ; sinon, elle reste sans position."),
         h('p', null, h('b', null, 'Taux. '), "L'OAT 10 ans est la moyenne mensuelle publiée par la BCE ; les rendements prime viennent des études trimestrielles des conseils, citées une à une.")));
   });
 }
