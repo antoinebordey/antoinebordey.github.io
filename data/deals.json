@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 8,
+  "version": 9,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-10-27T14:05:00+01:00",
+  "derniere_mise_a_jour": "2026-10-30T07:20:02+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 45
+  "prochain_id": 46
  },
  "transactions": [
   {
@@ -7827,6 +7827,188 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-045",
+   "titre": "Edgar Suites acquiert un terrain à Vincennes pour y développer une résidence hôtelière",
+   "resume": "Edgar Suites, qui développe et exploite des résidences hôtelières haut de gamme, a acquis un terrain à Vincennes, sous la forme d'une cession de société (share deal). Le site doit accueillir une résidence hôtelière de 2 865 m² : 120 appartements de deux à quatre pièces, un commerce de 150 m² en rez-de-chaussée et 13 places de stationnement, un projet mené avec Sogeprom. L'ouverture est prévue fin 2028 ; ni le vendeur ni le prix ne sont communiqués.",
+   "date": {
+    "valeur": "2026-04-07",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-04-07",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition sous forme de cession de société (share deal)"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Terrain destiné à une résidence hôtelière (120 appartements)",
+   "actif": {
+    "nom": "Terrain à Vincennes, future résidence hôtelière Edgar Suites",
+    "adresse": null,
+    "commune": "Vincennes (94)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "Adresse non publiée ; la source situe le terrain près de la ligne 1 du métro, du RER A, du centre-ville et du château de Vincennes."
+   },
+   "acquereurs": [
+    {
+     "nom": "Edgar Suites",
+     "type": "Développeur et exploitant de résidences hôtelières",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Arsene",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Adden Avocats",
+     "cote": "non_precise",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Alamo",
+     "cote": "non_precise",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Lexfair Notaires",
+     "cote": "non_precise",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Sekri Valentin Zerrouk",
+     "cote": "non_precise",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Sogeprom",
+     "role": "Partenaire de développement du projet",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 2865,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Surface de la résidence hôtelière prévue, et non celle du terrain."
+    },
+    "logements": {
+     "valeur": 120,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": null,
+     "libelle": "Appartements prévus"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Programme",
+     "valeur": "120 appartements de deux à quatre pièces, un commerce de 150 m² en rez-de-chaussée et 13 places de stationnement",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Ouverture",
+     "valeur": "Prévue fin 2028",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "opportunistic",
+    "indices": [
+     "Acquisition d'un terrain pour construire une résidence hôtelière neuve de 2 865 m²",
+     "Ouverture prévue fin 2028, après la phase de développement"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Opportunistic » est une hypothèse d'analyste, liée au risque de développement."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce d'Arsene)",
+     "titre": "Arsene conseille Edgar Suites dans l'acquisition d'un terrain à Vincennes pour le développement d'une résidence hôtelière haut de gamme",
+     "url": "https://www.lemondedudroit.fr/deals/103687-arsene-conseille-edgar-suites-dans-lacquisition-dun-terrain-a-vincennes-pour-le-developpement-dune-residence-hoteliere-haut-de-gamme.html",
+     "date": "2026-04-07",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-10-30",
+   "verifie_le": "2026-10-30",
+   "historique": [
+    {
+     "date": "2026-10-30",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -7882,6 +8064,16 @@
     "niveau": "B",
     "nature": "etude",
     "acces": "integral"
+   },
+   {
+    "id": "M6",
+    "editeur": "Cushman & Wakefield France",
+    "titre": "Réactions aux indicateurs Immostat — 3e trimestre 2026 (bureaux et investissement)",
+    "url": "https://www.cushmanwakefield.com/fr-fr/france/news/2026/10/reactions-immostat-t3-2026",
+    "date": "2026-10-06",
+    "niveau": "B",
+    "nature": "etude",
+    "acces": "integral"
    }
   ],
   "series": {
@@ -7903,7 +8095,8 @@
     }
    ],
    "sources": [
-    "M1"
+    "M1",
+    "M6"
    ],
    "note": "Cumul des neuf premiers mois : 10,3 Md€."
   },
@@ -7913,7 +8106,8 @@
     "valeur": "1 250 €/m²/an",
     "detail": "T3 2026 — stable sur un trimestre, +4 % sur un an",
     "sources": [
-     "M1"
+     "M1",
+     "M6"
     ]
    },
    {
@@ -7938,6 +8132,14 @@
     "detail": "1er semestre 2026 — loyer prime de 16 000 €/m²/an",
     "sources": [
      "M2"
+    ]
+   },
+   {
+    "libelle": "Investissement en bureaux, Île-de-France",
+    "valeur": "3,63 Md€",
+    "detail": "Depuis le début de 2026 (fin septembre) — 88 % des montants investis en bureaux en France",
+    "sources": [
+     "M6"
     ]
    }
   ],
@@ -8048,6 +8250,26 @@
    "a_confirmer": 1,
    "sources_consultees": 31,
    "resume": "Rattrapage de la base : six opérations de 2024 (O'Parinor, Opéra Gramont, bureaux de Gaîté-Montparnasse, Ville-l'Évêque, Pullman Paris Tour Eiffel, résidence Adagio Caumartin) et neuf opérations de 2025-2026 ajoutées à partir des annonces des parties et de leurs conseils ; fiche de l'immeuble Marignan enrichie (adresse, état locatif, projet)."
+  },
+  {
+   "date": "2026-10-28T07:10:00+01:00",
+   "type": "veille_automatique",
+   "statut": "incident",
+   "ajoutees": 0,
+   "mises_a_jour": 0,
+   "a_confirmer": 0,
+   "sources_consultees": 3,
+   "resume": "Passage interrompu : la consultation des sources a été bloquée en cours de recherche ; les recherches ont été reprises au passage du 30 octobre."
+  },
+  {
+   "date": "2026-10-30T07:20:02+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 1,
+   "mises_a_jour": 0,
+   "a_confirmer": 0,
+   "sources_consultees": 13,
+   "resume": "Aucune nouvelle opération suffisamment sourcée depuis le 24 octobre : les annonces repérées restent en vérification. Une opération ajoutée lors du rattrapage (terrain d'Edgar Suites à Vincennes) et contexte de marché complété (investissement en bureaux en Île-de-France)."
   }
  ]
 }
