@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 9,
+  "version": 10,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-10-30T07:20:02+01:00",
+  "derniere_mise_a_jour": "2026-11-02T07:29:43+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 46
+  "prochain_id": 49
  },
  "transactions": [
   {
@@ -1097,7 +1097,8 @@
      "type": "Foncière cotée",
      "statut": "communique",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
      ]
     }
    ],
@@ -1108,11 +1109,30 @@
      "precision": "Détenu par des investisseurs sud-coréens",
      "statut": "communique",
      "sources": [
-      "S1"
+      "S1",
+      "S2"
+     ],
+     "gestionnaire": "Amundi"
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "August Debouzy",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Gide Loyrette Nouel",
+     "cote": "vendeur",
+     "role": "Juridique",
+     "sources": [
+      "S2"
      ]
     }
    ],
-   "conseils": [],
    "financement": [],
    "autres_intervenants": [],
    "chiffres": {
@@ -1203,6 +1223,16 @@
      "niveau": "A",
      "nature": "document_financier",
      "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit (annonce d'August Debouzy)",
+     "titre": "August Debouzy conseille Icade",
+     "url": "https://www.lemondedudroit.fr/deals/105179-august-debouzy-conseille-icade.html",
+     "date": "2026-07-21",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
     }
    ],
    "contradictions": [],
@@ -1212,15 +1242,20 @@
     "preuve": "fort",
     "motifs": [
      "Source de niveau A consultée en intégralité",
-     "Aucune contradiction entre sources"
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
     ]
    },
    "ajoute_le": "2026-10-25",
-   "verifie_le": "2026-10-25",
+   "verifie_le": "2026-11-02",
    "historique": [
     {
      "date": "2026-10-25",
      "evenement": "Fiche créée lors de l'initialisation de la veille"
+    },
+    {
+     "date": "2026-11-02",
+     "evenement": "Source ajoutée : annonce du conseil de l'acquéreur ; conseils et société de gestion du vendeur renseignés"
     }
    ]
   },
@@ -5967,17 +6002,18 @@
   {
    "id": "pdm-034",
    "titre": "URW cède les bureaux de Gaîté-Montparnasse à Norges Bank IM et Swiss Life pour 172,5 M€",
-   "resume": "Unibail-Rodamco-Westfield a signé le 30 septembre 2024 la cession de la société détenant les bureaux de l'ensemble mixte Gaîté-Montparnasse (« Les Ateliers Gaîté », 14e) à une coentreprise de Norges Bank Investment Management (65 %) et de Swiss Life (35 %), pour un coût total d'acquisition de 172,5 M€, soit une décote de 4 % sur la dernière valeur d'expertise. Livrés en 2022, les 12 500 m² de bureaux sont loués en totalité à Wojo, l'opérateur d'espaces de travail flexibles du groupe Accor. La réalisation était attendue au quatrième trimestre 2024.",
+   "resume": "Unibail-Rodamco-Westfield a signé le 30 septembre 2024 la cession de la société détenant les bureaux de l'ensemble mixte Gaîté-Montparnasse (« Les Ateliers Gaîté », 14e) à une coentreprise de Norges Bank Investment Management (65 %) et de Swiss Life (35 %), pour un coût total d'acquisition de 172,5 M€, soit une décote de 4 % sur la dernière valeur d'expertise. Livrés en 2022, les 12 500 m² de bureaux sont loués en totalité à Wojo, l'opérateur d'espaces de travail flexibles du groupe Accor. La cession a été réalisée en novembre 2024, selon les résultats annuels d'URW.",
    "date": {
     "valeur": "2024-09-30",
     "precision": "jour",
     "nature": "annonce"
    },
    "date_publication": "2024-09-30",
-   "statut_operation": "promesse",
+   "statut_operation": "realisee",
    "modalites": [
     "Cession des titres de la société propriétaire",
-    "Réalisation attendue au T4 2024, sous conditions suspensives"
+    "Promesse signée le 30 septembre 2024, sous conditions suspensives",
+    "Réalisation en novembre 2024"
    ],
    "classe": "bureaux",
    "sous_type": "Bureaux d'un ensemble mixte",
@@ -6111,6 +6147,14 @@
      "sources": [
       "S1"
      ]
+    },
+    {
+     "libelle": "Réalisation",
+     "valeur": "Novembre 2024",
+     "statut": "communique",
+     "sources": [
+      "S4"
+     ]
     }
    ],
    "strategie": {
@@ -6154,12 +6198,23 @@
      "niveau": "A",
      "nature": "communique_conseil",
      "acces": "integral"
+    },
+    {
+     "id": "S4",
+     "editeur": "Unibail-Rodamco-Westfield — résultats annuels 2024",
+     "titre": "2024 Full-Year Results",
+     "url": "https://cmuk.westfield.com/-/media/Corporate~o~Sites/Unibail-Rodamco-Corporate/Nasdaq/2025-02-132024-Full-Year-Results.pdf",
+     "date": "2025-02-13",
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Classe la cession des bureaux de Gaîté-Montparnasse parmi les sorties de périmètre de 2024, en novembre 2024."
     }
    ],
    "contradictions": [],
    "notes": [
     "Opération de 2024 ajoutée lors du rattrapage de la base.",
-    "La réalisation définitive n'est pas confirmée par les sources consultées."
+    "Réalisation datée de novembre 2024 par les résultats annuels 2024 d'URW, qui ne rappellent ni le prix ni les acquéreurs."
    ],
    "publication": {
     "statut": "publie_auto",
@@ -6171,11 +6226,15 @@
     ]
    },
    "ajoute_le": "2026-10-27",
-   "verifie_le": "2026-10-27",
+   "verifie_le": "2026-11-02",
    "historique": [
     {
      "date": "2026-10-27",
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    },
+    {
+     "date": "2026-11-02",
+     "evenement": "Promesse réalisée : cession effective en novembre 2024, selon les résultats annuels 2024 d'URW"
     }
    ]
   },
@@ -8009,6 +8068,530 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-046",
+   "titre": "Mandarin Oriental cède les murs de l'hôtel Mandarin Oriental, Paris au groupe Statuto pour 205 M€",
+   "resume": "Mandarin Oriental International a finalisé le 29 avril 2024 la vente des murs de l'hôtel Mandarin Oriental, Paris, rue Saint-Honoré (1er), au groupe italien Statuto, propriétaire d'hôtels de luxe, pour 205 M€. L'hôtel cinq étoiles de 135 chambres reste exploité par le groupe vendeur, qui conserve un contrat de gestion de long terme. Les deux boutiques du même immeuble ont été vendues séparément à Blackstone quelques semaines plus tard.",
+   "date": {
+    "valeur": "2024-04-29",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "date_publication": "2024-05-23",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Cession des murs de l'hôtel",
+    "Contrat de gestion de long terme conservé par le vendeur",
+    "Accords engageants annoncés en janvier 2024, réalisation en avril 2024"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel 5★ (135 chambres)",
+   "actif": {
+    "nom": "Hôtel Mandarin Oriental, Paris",
+    "adresse": "251 rue Saint-Honoré",
+    "commune": "Paris",
+    "arrondissements": [
+     1
+    ],
+    "zone": "paris",
+    "note": "Immeuble réunissant l'hôtel et deux boutiques, divisé en lots distincts par le vendeur après son acquisition en 2013."
+   },
+   "acquereurs": [
+    {
+     "nom": "Statuto Group",
+     "type": "Groupe hôtelier",
+     "precision": "Propriétaire de plusieurs hôtels de luxe en Italie",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Mandarin Oriental International",
+     "type": "Groupe hôtelier coté",
+     "precision": "Groupe Jardine Matheson",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Baker McKenzie",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 205000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "cles": {
+     "valeur": 135,
+     "statut": "communique",
+     "sources": [
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    },
+    "prix_cle": {
+     "valeur": 1518519,
+     "statut": "calcule",
+     "sources": [
+      "S1",
+      "S3"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/clé",
+     "base": "NC",
+     "note": "Calcul : 205 M€ ÷ 135 chambres ≈ 1 518 500 € par clé."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Exploitation",
+     "valeur": "Mandarin Oriental conserve la gestion de l'hôtel par un contrat de long terme",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Signature",
+     "valeur": "Accords engageants annoncés le 15 janvier 2024 ; réalisation subordonnée à la consultation des représentants du personnel",
+     "statut": "communique",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources lues ; indices insuffisants pour une hypothèse."
+   },
+   "sources": [
+    {
+     "editeur": "Mandarin Oriental International — annonce réglementée (SGX)",
+     "titre": "Mandarin Oriental Announces Sale of two Retail Units adjoining Mandarin Oriental, Paris",
+     "url": "https://links.sgx.com/1.0.0/corporate-announcements/42BK1F0LIWU7U3WJ/806463_SGX.pdf",
+     "date": "2024-06-12",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "id": "S1",
+     "note": "Rappelle la vente de l'hôtel au groupe Statuto, pour 205 M€, le 29 avril 2024."
+    },
+    {
+     "id": "S2",
+     "editeur": "Mandarin Oriental International — information trimestrielle (SGX)",
+     "titre": "Interim Management Statement (premier trimestre 2024)",
+     "url": "https://links.sgx.com/1.0.0/corporate-announcements/OA853LCVIT4KU01E/804336_MOIL%20SGX.pdf",
+     "date": "2024-05-23",
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Baker McKenzie (conseil de l'acquéreur)",
+     "titre": "Statuto Group acquisition of Mandarin Oriental Paris",
+     "url": "https://bakermckenzie.com/en/newsroom/2024/01/statuto-group-acquisition-of-mandarin-oriental-paris",
+     "date": "2024-01-15",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "Les deux boutiques du même immeuble font l'objet de la fiche pdm-047."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-02",
+   "verifie_le": "2026-11-02",
+   "historique": [
+    {
+     "date": "2026-11-02",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-047",
+   "titre": "Blackstone acquiert auprès de Mandarin Oriental deux boutiques de luxe rue Saint-Honoré pour 148 M€",
+   "resume": "Mandarin Oriental International a signé le 12 juin 2024 une promesse de vente de deux boutiques attenantes à l'hôtel Mandarin Oriental, Paris, au 251 rue Saint-Honoré (1er), au profit d'une société contrôlée par Blackstone, pour 148 M€. La vente restait soumise, notamment, au droit de préemption de la Ville de Paris ; le conseil de l'acquéreur en a annoncé la finalisation le 24 juillet 2024. Les deux boutiques sont louées aux enseignes Versace et Ports 1961.",
+   "date": {
+    "valeur": "2024-06-12",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-06-12",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Promesse de vente signée le 12 juin 2024, sous conditions, dont le droit de préemption de la Ville de Paris",
+    "Finalisation annoncée le 24 juillet 2024"
+   ],
+   "classe": "commerces",
+   "sous_type": "Deux boutiques de luxe en pied d'immeuble",
+   "actif": {
+    "nom": "Deux boutiques attenantes au Mandarin Oriental, Paris",
+    "adresse": "251 rue Saint-Honoré",
+    "commune": "Paris",
+    "arrondissements": [
+     1
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Blackstone",
+     "type": "Fonds d'investissement",
+     "precision": "Via Lavender Propco SNC, société contrôlée par Blackstone Europe LLP",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Mandarin Oriental International",
+     "type": "Groupe hôtelier coté",
+     "precision": "Groupe Jardine Matheson",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Clifford Chance",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 148000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "locataires": {
+     "valeur": 2,
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "locataires",
+     "note": "Versace et Ports 1961."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Finalisation",
+     "valeur": "Acquisition présentée comme finalisée par le conseil de l'acquéreur le 24 juillet 2024",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources lues ; indices insuffisants pour une hypothèse."
+   },
+   "sources": [
+    {
+     "editeur": "Mandarin Oriental International — annonce réglementée (SGX)",
+     "titre": "Mandarin Oriental Announces Sale of two Retail Units adjoining Mandarin Oriental, Paris",
+     "url": "https://links.sgx.com/1.0.0/corporate-announcements/42BK1F0LIWU7U3WJ/806463_SGX.pdf",
+     "date": "2024-06-12",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "id": "S1"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit (annonce de Clifford Chance)",
+     "titre": "Clifford Chance a conseillé Blackstone dans le cadre de l'acquisition de deux boutiques de luxe auprès de Mandarin Oriental International Limited",
+     "url": "https://www.lemondedudroit.fr/deals/94056-clifford-chance-a-conseille-blackstone-dans-le-cadre-de-l-acquisition-de-deux-boutiques-de-luxe-aupres-de-mandarin-oriental-international-limited.html",
+     "date": "2024-07-24",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "Les murs de l'hôtel, dans le même immeuble, ont été vendus séparément en avril 2024 (fiche pdm-046)."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-02",
+   "verifie_le": "2026-11-02",
+   "historique": [
+    {
+     "date": "2026-11-02",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-048",
+   "titre": "CDL acquiert le Hilton Paris Opéra auprès de fonds gérés par Blackstone pour 240 M€",
+   "resume": "Le groupe singapourien City Developments Limited (CDL) a finalisé, par sa filiale Copthorne Hotel Holdings, l'acquisition de l'hôtel Hilton Paris Opéra, 108 rue Saint-Lazare (8e), auprès de fonds gérés par Blackstone, pour 240 M€. Construit pour l'Exposition universelle de 1889 et rénové en 2015, l'hôtel de 268 chambres développe 18 339 m² sur une parcelle de 3 260 m². Il devient le troisième et le plus grand hôtel du groupe à Paris.",
+   "date": {
+    "valeur": "2024-05-14",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2024-05-14",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition par une filiale détenue à 100 % par l'acquéreur"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel (268 chambres)",
+   "actif": {
+    "nom": "Hôtel Hilton Paris Opéra",
+    "adresse": "108 rue Saint-Lazare",
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": "À côté de la gare Saint-Lazare."
+   },
+   "acquereurs": [
+    {
+     "nom": "City Developments Limited (CDL)",
+     "type": "Groupe immobilier coté",
+     "precision": "Par sa filiale à 100 % Copthorne Hotel Holdings Limited",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Fonds gérés par Blackstone",
+     "type": "Fonds d'investissement",
+     "gestionnaire": "Blackstone",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 240000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Valeur convenue entre les parties, selon l'acquéreur."
+    },
+    "cles": {
+     "valeur": 268,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    },
+    "surface": {
+     "valeur": 18339,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Surface brute de plancher ; parcelle de 3 260 m²."
+    },
+    "prix_cle": {
+     "valeur": 895522,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/clé",
+     "base": "NC",
+     "note": "Calcul : 240 M€ ÷ 268 chambres ≈ 895 500 € par clé."
+    },
+    "prix_m2": {
+     "valeur": 13087,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 240 M€ ÷ 18 339 m² ≈ 13 090 € par m² de surface brute de plancher."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Rénovation",
+     "valeur": "Programme de 43,4 M€ en 2015 ; certification BREEAM In-Use Very Good obtenue en 2023",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Commerces",
+     "valeur": "Deux commerces en rez-de-chaussée, loués indépendamment de l'hôtel",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Portefeuille parisien de l'acquéreur",
+     "valeur": "Troisième hôtel de CDL à Paris, qui y totalise 670 chambres",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core_plus",
+    "indices": [
+     "L'acquéreur présente l'hôtel comme un « trophy asset » qui renforce ses revenus récurrents",
+     "Il met en avant un potentiel de création de valeur (« potential for value-add »)"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core+ » est une hypothèse d'analyste, entre revenus récurrents et potentiel de création de valeur mis en avant par l'acquéreur."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "City Developments Limited — communiqué (SGX)",
+     "titre": "CDL News Release — Hilton Paris Opéra Acquisition",
+     "url": "https://links.sgx.com/1.0.0/corporate-announcements/J6IP8S9VU3Y5ZK23/803310_CDL%20News%20Release-Hilton%20Paris%20Opera%20Acquisition.pdf",
+     "date": "2024-05-14",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "City Developments Limited — salle de presse",
+     "titre": "CDL acquires Hilton Paris Opéra hotel for EUR240 million",
+     "url": "https://cdl.com.sg/newsroom/cdl-acquires-hilton-paris-opera-hotel-for-eur240-million",
+     "date": "2024-05-14",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-02",
+   "verifie_le": "2026-11-02",
+   "historique": [
+    {
+     "date": "2026-11-02",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -8270,6 +8853,16 @@
    "a_confirmer": 0,
    "sources_consultees": 13,
    "resume": "Aucune nouvelle opération suffisamment sourcée depuis le 24 octobre : les annonces repérées restent en vérification. Une opération ajoutée lors du rattrapage (terrain d'Edgar Suites à Vincennes) et contexte de marché complété (investissement en bureaux en Île-de-France)."
+  },
+  {
+   "date": "2026-11-02T07:29:43+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 3,
+   "mises_a_jour": 2,
+   "a_confirmer": 0,
+   "sources_consultees": 18,
+   "resume": "Aucune nouvelle opération suffisamment sourcée parue depuis le 27 octobre. Trois opérations de 2024 ajoutées lors du rattrapage (murs et boutiques du Mandarin Oriental, Paris ; Hilton Paris Opéra), cession des bureaux de Gaîté-Montparnasse confirmée comme réalisée et conseils ajoutés sur la tour Eqho."
   }
  ]
 }
