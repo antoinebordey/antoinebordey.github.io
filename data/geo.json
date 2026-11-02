@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-10-27T13:10:20+00:00",
+ "maj": "2026-11-02T06:30:35+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -234,6 +234,36 @@
    "precision": "housenumber",
    "score": 0.981,
    "code_insee": "75115"
+  },
+  "pdm-046": {
+   "requete": "251 rue Saint-Honoré 75001 Paris",
+   "trouve": true,
+   "lat": 48.867083,
+   "lon": 2.327145,
+   "libelle": "251 Rue Saint-Honoré 75001 Paris",
+   "precision": "housenumber",
+   "score": 0.973,
+   "code_insee": "75101"
+  },
+  "pdm-047": {
+   "requete": "251 rue Saint-Honoré 75001 Paris",
+   "trouve": true,
+   "lat": 48.867083,
+   "lon": 2.327145,
+   "libelle": "251 Rue Saint-Honoré 75001 Paris",
+   "precision": "housenumber",
+   "score": 0.973,
+   "code_insee": "75101"
+  },
+  "pdm-048": {
+   "requete": "108 rue Saint-Lazare 75008 Paris",
+   "trouve": true,
+   "lat": 48.875562,
+   "lon": 2.325367,
+   "libelle": "108 Rue Saint-Lazare 75008 Paris",
+   "precision": "housenumber",
+   "score": 0.963,
+   "code_insee": "75108"
   }
  }
 }
