@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 10,
+  "version": 11,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-02T07:29:43+01:00",
+  "derniere_mise_a_jour": "2026-11-04T07:15:36+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 49
+  "prochain_id": 52
  },
  "transactions": [
   {
@@ -8592,6 +8592,480 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-049",
+   "titre": "AG Real Estate France acquiert auprès d'un fonds de Keys REIM l'ancien siège de Médecins du Monde, rue Marcadet (18e)",
+   "resume": "AG Real Estate France a acquis auprès d'un fonds géré par Keys REIM un immeuble de bureaux de 5 000 m² au 62 rue Marcadet (18e), ancien grand magasin devenu le siège de Médecins du Monde jusqu'en 2019. L'acquéreur reprend le projet de restructuration engagé par le vendeur, dont le permis de construire était délivré : rooftop, deux grandes terrasses et nouveaux espaces de travail. Les travaux devaient commencer début 2025 pour une livraison annoncée en octobre 2026 ; le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2024-12-17",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2024-12-17",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition d'un immeuble à restructurer, avec un permis de construire délivré"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux à restructurer",
+   "actif": {
+    "nom": "Ancien siège de Médecins du Monde",
+    "adresse": "62 rue Marcadet",
+    "commune": "Paris",
+    "arrondissements": [
+     18
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "AG Real Estate France",
+     "type": "Investisseur et promoteur",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Fonds géré par Keys REIM",
+     "type": "Fonds d'investissement",
+     "gestionnaire": "Keys REIM",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "GMH Notaires",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Estate Consultant",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "B&C France",
+     "cote": "vendeur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "ALLEZ et Associés",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 5000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Restructuration de l'immeuble existant, avec un rooftop, deux grandes terrasses et des espaces de travail et de convivialité ; permis de construire délivré",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Calendrier",
+     "valeur": "Travaux à partir du début de 2025, livraison annoncée pour octobre 2026",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Historique",
+     "valeur": "Grand magasin d'ameublement à partir de 1930, puis siège de Médecins du Monde jusqu'en 2019",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "value_add",
+    "niveau": "operation",
+    "citation": "« Cette acquisition témoigne de la stratégie « value-added » d'AG Real Estate France »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Stratégie nommée par le communiqué de l'acquéreur pour cette opération."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "AG Real Estate France — communiqué",
+     "titre": "AG Real Estate France acquiert un immeuble de bureaux de 5 000 m², ancien siège de Médecins du Monde à Paris 18e",
+     "url": "https://pressroom.agrealestate.eu/wp-content/uploads/sites/3/2024/12/CP-AG-Real-Estate-France-Signature-Marcadet-17-12-24FR.pdf",
+     "date": "2024-12-17",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "Le communiqué indique que la transaction a été réalisée avec le concours d'Estate Consultant, sans préciser pour quelle partie."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-04",
+   "verifie_le": "2026-11-04",
+   "historique": [
+    {
+     "date": "2026-11-04",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-050",
+   "titre": "Magellim REIM acquiert pour un fonds value-add un immeuble de bureaux rue Joseph de Maistre (18e)",
+   "resume": "Magellim REIM a acquis, pour un fonds fermé value-add de type FPCI réservé aux investisseurs professionnels, un immeuble de bureaux d'environ 1 900 m² au 17 bis rue Joseph de Maistre (18e). Construit dans les années 1990, en R+5, il dispose d'un parking en sous-sol, d'espaces extérieurs et d'une grande terrasse, et doit être repositionné. Ni le vendeur ni le prix ne sont communiqués.",
+   "date": {
+    "valeur": "2025-04-17",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-04-17",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition par un fonds fermé de type FPCI"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux à repositionner",
+   "actif": {
+    "nom": "Immeuble de bureaux du 17 bis rue Joseph de Maistre",
+    "adresse": "17 bis rue Joseph de Maistre",
+    "commune": "Paris",
+    "arrondissements": [
+     18
+    ],
+    "zone": "paris",
+    "note": "Desservi par les lignes 2, 12 et 13 du métro."
+   },
+   "acquereurs": [
+    {
+     "nom": "Magellim REIM",
+     "type": "Société de gestion",
+     "precision": "Pour un fonds fermé value-add de type FPCI, réservé aux investisseurs professionnels",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 1900,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Caractéristiques",
+     "valeur": "Immeuble des années 1990 en R+5, avec parking en sous-sol, espaces extérieurs et grande terrasse",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "value_add",
+    "niveau": "operation",
+    "citation": "« s'inscrit pleinement dans l'approche value-add défendue par Magellim REIM »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Stratégie nommée par le communiqué de la société de gestion ; le fonds acquéreur est lui-même un fonds value-add."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Pierre Papier (communiqué de Magellim REIM)",
+     "titre": "Magellim REIM renforce sa stratégie value-add avec un immeuble de bureaux à Paris",
+     "url": "https://pierrepapier.fr/communique/magellim-reim-renforce-sa-strategie-value-add-avec-un-immeuble-de-bureaux-a-paris",
+     "date": "2025-04-17",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué de la société de gestion, repris par le site."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2025 ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-04",
+   "verifie_le": "2026-11-04",
+   "historique": [
+    {
+     "date": "2026-11-04",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-051",
+   "titre": "AG Real Estate France cède l'immeuble MyLittleNation, place de la Nation (11e), à Deka Immobilien pour 89 M€",
+   "resume": "AG Real Estate France a vendu à Deka Immobilien, pour 89 M€, l'immeuble MyLittleNation, au 15 place de la Nation (11e). Cet ensemble de 7 750 m², dont 6 050 m² de bureaux occupés par Citeo et un commerce en pied d'immeuble loué à Aldi, avait été entièrement préloué avant son achèvement en mars 2024. BNP Paribas Real Estate a mené la vente, dans le cadre d'un mandat co-exclusif avec Stratégie & Corp.",
+   "date": {
+    "valeur": "2024-12-20",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2024-12-20",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Vente d'un immeuble neuf, entièrement loué"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux neuf avec commerce en pied d'immeuble",
+   "actif": {
+    "nom": "MyLittleNation",
+    "adresse": "15 place de la Nation",
+    "commune": "Paris",
+    "arrondissements": [
+     11
+    ],
+    "zone": "paris",
+    "note": "Immeuble achevé en mars 2024."
+   },
+   "acquereurs": [
+    {
+     "nom": "Deka Immobilien",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "AG Real Estate France",
+     "type": "Investisseur et promoteur",
+     "precision": "Filiale française d'AG Real Estate",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "GMH Notaires",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "BNP Paribas Real Estate",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Stratégie & Corp",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 89000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "surface": {
+     "valeur": 7750,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Dont 6 050 m² de bureaux."
+    },
+    "prix_m2": {
+     "valeur": 11484,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 89 M€ ÷ 7 750 m² ≈ 11 480 €/m²."
+    },
+    "locataires": {
+     "valeur": 2,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "locataires",
+     "note": "Citeo (bureaux) et Aldi (commerce en pied d'immeuble)."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Commercialisation",
+     "valeur": "Immeuble intégralement préloué avant son achèvement en mars 2024",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Mandat de vente",
+     "valeur": "Équipes Capital Markets de BNP Paribas Real Estate, en mandat co-exclusif avec Stratégie & Corp",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeuble neuf, achevé en mars 2024",
+     "Ensemble intégralement préloué à deux locataires (Citeo, Aldi)"
+    ],
+    "commentaire": "Le communiqué qualifie le vendeur de « développeur opportuniste » : ce terme ne décrit pas la stratégie de l'acquéreur. « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "AG Real Estate France — communiqué",
+     "titre": "AG Real Estate France cède l'immeuble de bureaux parisien MyLittleNation",
+     "url": "https://pressroom.agrealestate.eu/wp-content/uploads/sites/3/2024/12/CP-AG-Real-Estate-France-Vente-MyLittleNation-20-12-24-FR.pdf",
+     "date": "2024-12-20",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-04",
+   "verifie_le": "2026-11-04",
+   "historique": [
+    {
+     "date": "2026-11-04",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -8863,6 +9337,16 @@
    "a_confirmer": 0,
    "sources_consultees": 18,
    "resume": "Aucune nouvelle opération suffisamment sourcée parue depuis le 27 octobre. Trois opérations de 2024 ajoutées lors du rattrapage (murs et boutiques du Mandarin Oriental, Paris ; Hilton Paris Opéra), cession des bureaux de Gaîté-Montparnasse confirmée comme réalisée et conseils ajoutés sur la tour Eqho."
+  },
+  {
+   "date": "2026-11-04T07:15:36+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 3,
+   "mises_a_jour": 0,
+   "a_confirmer": 0,
+   "sources_consultees": 8,
+   "resume": "Aucune nouvelle opération suffisamment sourcée parue depuis le 30 octobre. Trois opérations ajoutées lors du rattrapage : l'ancien siège de Médecins du Monde (rue Marcadet) et l'immeuble MyLittleNation (place de la Nation), liés à AG Real Estate France, et un immeuble de bureaux rue Joseph de Maistre acquis par Magellim REIM."
   }
  ]
 }
