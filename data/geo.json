@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-02T06:30:35+00:00",
+ "maj": "2026-11-04T06:16:12+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -264,6 +264,36 @@
    "precision": "housenumber",
    "score": 0.963,
    "code_insee": "75108"
+  },
+  "pdm-049": {
+   "requete": "62 rue Marcadet 75018 Paris",
+   "trouve": true,
+   "lat": 48.890518,
+   "lon": 2.348791,
+   "libelle": "62 Rue Marcadet 75018 Paris",
+   "precision": "housenumber",
+   "score": 0.985,
+   "code_insee": "75118"
+  },
+  "pdm-050": {
+   "requete": "17 bis rue Joseph de Maistre 75018 Paris",
+   "trouve": true,
+   "lat": 48.886328,
+   "lon": 2.333136,
+   "libelle": "17B Rue Joseph de Maistre 75018 Paris",
+   "precision": "housenumber",
+   "score": 0.748,
+   "code_insee": "75118"
+  },
+  "pdm-051": {
+   "requete": "15 place de la Nation 75011 Paris",
+   "trouve": true,
+   "lat": 48.848885,
+   "lon": 2.397483,
+   "libelle": "15 Place de la Nation 75011 Paris",
+   "precision": "housenumber",
+   "score": 0.97,
+   "code_insee": "75111"
   }
  }
 }
