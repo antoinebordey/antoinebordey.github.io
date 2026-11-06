@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-04T06:16:12+00:00",
+ "maj": "2026-11-06T06:15:25+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -294,6 +294,26 @@
    "precision": "housenumber",
    "score": 0.97,
    "code_insee": "75111"
+  },
+  "pdm-052": {
+   "requete": "6 rue Marie-Curie Saint-Ouen-sur-Seine",
+   "trouve": true,
+   "lat": 48.904006,
+   "lon": 2.340811,
+   "libelle": "Rue Marie Curie 93400 Saint-Ouen-sur-Seine",
+   "precision": "street",
+   "score": 0.826,
+   "code_insee": "93070"
+  },
+  "pdm-055": {
+   "requete": "336 rue Saint-Honoré 75001 Paris",
+   "trouve": true,
+   "lat": 48.865875,
+   "lon": 2.330317,
+   "libelle": "336 Rue Saint-Honoré 75001 Paris",
+   "precision": "housenumber",
+   "score": 0.973,
+   "code_insee": "75101"
   }
  }
 }
