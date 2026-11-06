@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 11,
+  "version": 12,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-04T07:15:36+01:00",
+  "derniere_mise_a_jour": "2026-11-06T07:14:58+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 52
+  "prochain_id": 56
  },
  "transactions": [
   {
@@ -8666,7 +8666,7 @@
      ]
     },
     {
-     "nom": "ALLEZ et Associés",
+     "nom": "Allez & Associés",
      "cote": "vendeur",
      "role": "Notaires",
      "sources": [
@@ -8760,11 +8760,15 @@
     ]
    },
    "ajoute_le": "2026-11-04",
-   "verifie_le": "2026-11-04",
+   "verifie_le": "2026-11-06",
    "historique": [
     {
      "date": "2026-11-04",
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    },
+    {
+     "date": "2026-11-06",
+     "evenement": "Nom de l'étude notariale du vendeur harmonisé avec les autres fiches"
     }
    ]
   },
@@ -9066,6 +9070,719 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-052",
+   "titre": "Perial acquiert en club deal l'ancien hôtel Village des Rosiers à Saint-Ouen-sur-Seine, rebaptisé Rosamundi",
+   "resume": "Le groupe Perial a acquis, dans le cadre d'un club deal réunissant quelques co-investisseurs, l'ancien hôtel Village des Rosiers, au 6 rue Marie-Curie à Saint-Ouen-sur-Seine, au cœur des Puces. Cet hôtel neuf de 130 chambres et 5 555 m², réparti en deux bâtiments autour d'une cour, est rebaptisé Rosamundi et sera conçu et exploité avec l'opérateur Hosense, sous le label Drawing Hotels Collection. Ni le vendeur ni le prix ne sont communiqués.",
+   "date": {
+    "valeur": "2026-10-26",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-10-26",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition en club deal avec un cercle restreint de co-investisseurs"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel neuf (130 chambres)",
+   "actif": {
+    "nom": "Ancien hôtel Village des Rosiers (futur Rosamundi)",
+    "adresse": "6 rue Marie-Curie",
+    "commune": "Saint-Ouen-sur-Seine (93)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "Au cœur des Puces de Saint-Ouen."
+   },
+   "acquereurs": [
+    {
+     "nom": "Groupe Perial",
+     "type": "Groupe immobilier",
+     "precision": "En club deal avec un cercle restreint de co-investisseurs",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Hosense",
+     "role": "Opérateur hôtelier : conception et exploitation",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "cles": {
+     "valeur": 130,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    },
+    "surface": {
+     "valeur": 5555,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Deux bâtiments autour d'une cour centrale."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Exploitation",
+     "valeur": "Conception et exploitation confiées à Hosense, sous le label Drawing Hotels Collection",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Équipements",
+     "valeur": "Restauration, bar, terrasse, espaces de fitness et de bien-être",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Ouverture",
+     "valeur": "Ouverture sous le nom Rosamundi annoncée pour mai 2027",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Le groupe parle d'une « diversification sélective et opportuniste » : l'expression décrit sa démarche dans l'hôtellerie, pas une stratégie Opportunistic. Aucune catégorie nommée pour l'opération."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Club Patrimoine (annonce du groupe Perial)",
+     "titre": "Perial : club deal hôtelier — acquisition de l'ancien hôtel Village des Rosiers, rebaptisé Rosamundi",
+     "url": "https://www.clubpatrimoine.com/contenus/perial-club-deal-hotelier",
+     "date": "2026-10-26",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Annonce du groupe Perial reprise par le site."
+    },
+    {
+     "id": "S2",
+     "editeur": "HVS (Hospitality Net)",
+     "titre": "HVS Europe Hotel Transactions Bulletin — semaine close le 30 octobre 2026",
+     "url": "https://www.hospitalitynet.org/news/4135233/hvs-europe-hotel-transactions-bulletin-week-ending-30-october-2026",
+     "date": "2026-11-03",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-06",
+   "verifie_le": "2026-11-06",
+   "historique": [
+    {
+     "date": "2026-11-06",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-053",
+   "titre": "Covivio rachète la participation minoritaire de 25 % de la tour CB21 à La Défense et en reprend la pleine propriété",
+   "resume": "Covivio a racheté le 16 juin 2025 la participation minoritaire de 25 % qu'un investisseur institutionnel français détenait dans la tour CB21, à Paris-La Défense, et en détient désormais la totalité. La tour de 41 niveaux et 68 000 m², acquise par Covivio en 2007, sort du départ de son locataire historique, Suez, qui occupait 38 000 m² : un quart de cette surface est déjà reloué ou en négociation avancée. Covivio indique un rendement global visé de 10 % et poursuit le repositionnement engagé en 2020.",
+   "date": {
+    "valeur": "2025-06-16",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "date_publication": "2025-06-16",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Rachat d'une participation minoritaire de 25 %",
+    "Covivio détient désormais 100 % de la tour"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Tour de bureaux (41 niveaux)",
+   "actif": {
+    "nom": "Tour CB21",
+    "adresse": null,
+    "commune": "La Défense",
+    "arrondissements": [],
+    "zone": "la_defense",
+    "note": "Au pied de la ligne 1 du métro."
+   },
+   "acquereurs": [
+    {
+     "nom": "Covivio",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Investisseur institutionnel français (non nommé)",
+     "type": "Investisseur institutionnel",
+     "precision": "Présenté comme un « investisseur institutionnel de référence en France »",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Veil Jourde",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "nom": "White & Case",
+     "cote": "vendeur",
+     "role": "Juridique",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "nom": "KPMG Avocats",
+     "cote": "vendeur",
+     "role": "Fiscal",
+     "sources": [
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "nom": "Rothschild & Co",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "quote_part": {
+     "valeur": 25,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Participation minoritaire rachetée ; Covivio détient désormais 100 % de la tour."
+    },
+    "surface": {
+     "valeur": 68000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Surface totale de la tour."
+    },
+    "rendement": {
+     "valeur": 10,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "base": "NC",
+     "libelle": "Rendement global visé",
+     "note": "Rendement global visé (« overall target yield ») sur lequel reposent les conditions du rachat, et non rendement immédiat."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataires",
+     "valeur": "Départ à la mi-2025 de Suez, locataire historique de 38 000 m² ; 6 000 m² reloués et 4 000 m² en négociation avancée, soit 25 % de la surface libérée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Repositionnement",
+     "valeur": "Poursuite des travaux engagés en 2020 : nouveau hall, salles de réunion avec conciergerie, rooftop et services (brasserie, club)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Historique",
+     "valeur": "Tour acquise par Covivio en 2007",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Départ du locataire historique, qui occupait 38 000 m² sur 68 000 m²",
+     "Repositionnement de la tour poursuivi (nouveau hall, salles de réunion, rooftop, services)",
+     "Rendement global visé de 10 %"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste, liée à la relocation d'une large part de la tour et à son repositionnement."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Covivio — communiqué réglementé",
+     "titre": "Covivio takes over full ownership of the CB21 tower in a dynamic context for the Paris-La Défense market",
+     "url": "https://www.covivio.eu/en/group/group-communications/press-releases/covivio-takes-over-full-ownership-of-the-cb21-tower/",
+     "date": "2025-06-16",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit (annonce de White & Case)",
+     "titre": "White & Case conseil du vendeur dans le cadre du rachat par Covivio d'une participation minoritaire dans la tour CB21",
+     "url": "https://www.lemondedudroit.fr/deals/99573-white-case-conseil-du-vendeur-dans-le-cadre-du-rachat-par-covivio-dune-participation-minoritaire-dans-la-tour-cb21.html",
+     "date": "2025-06-20",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Le Monde du Droit (annonce de Veil Jourde)",
+     "titre": "Veil Jourde conseil de Covivio dans sa reprise de la pleine propriété de la tour CB21 à La Défense",
+     "url": "https://www.lemondedudroit.fr/deals/99608-veil-jourde-conseil-de-covivio-dans-sa-reprise-de-la-pleine-propriete-de-la-tour-cb21-a-la-defense.html",
+     "date": "2025-06-23",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2025 ajoutée lors du rattrapage de la base.",
+    "Le vendeur n'est pas nommé : les annonces le présentent comme un investisseur institutionnel de référence en France."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-06",
+   "verifie_le": "2026-11-06",
+   "historique": [
+    {
+     "date": "2026-11-06",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-054",
+   "titre": "Une coentreprise du groupe Bolloré, de Gaia Capital et de Mindston Capital acquiert un immeuble boulevard Saint-Germain (7e) pour en faire un hôtel cinq étoiles",
+   "resume": "La société Humières Saint Germain, société de projet issue d'une coentreprise entre le groupe Bolloré, Gaia Capital et Mindston Capital, a acquis un immeuble de logements et de bureaux situé boulevard Saint-Germain, dans le 7e arrondissement, pour le transformer en hôtel cinq étoiles. L'acquisition a été financée par CA Indosuez, Crédit Agricole CIB et LCL. Ni l'adresse exacte, ni le vendeur, ni le prix ne sont communiqués.",
+   "date": {
+    "valeur": "2025-04-07",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-04-07",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition par une société de projet issue d'une coentreprise",
+    "Financement bancaire de l'acquisition"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Immeuble de logements et de bureaux à transformer en hôtel cinq étoiles",
+   "actif": {
+    "nom": "Immeuble du boulevard Saint-Germain (futur hôtel cinq étoiles)",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     7
+    ],
+    "zone": "paris",
+    "note": "Adresse exacte non publiée : boulevard Saint-Germain, dans le 7e arrondissement."
+   },
+   "acquereurs": [
+    {
+     "nom": "Humières Saint Germain",
+     "type": "Société de projet",
+     "precision": "Coentreprise du groupe Bolloré, de Gaia Capital et de Mindston Capital",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "non_precise",
+     "role": "Conseil des prêteurs",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [
+    {
+     "nom": "CA Indosuez",
+     "role": "Prêteur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Crédit Agricole CIB",
+     "role": "Prêteur",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "LCL",
+     "role": "Prêteur",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Usage avant l'opération",
+     "valeur": "Immeuble mixte de logements et de bureaux",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Transformation de l'immeuble en hôtel cinq étoiles",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "opportunistic",
+    "indices": [
+     "Changement d'usage : immeuble de logements et de bureaux à transformer en hôtel cinq étoiles",
+     "Acquisition par une société de projet dédiée, avec un financement bancaire d'acquisition"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Opportunistic » est une hypothèse d'analyste, liée au changement d'usage et au projet de transformation."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "De Pardieu Brocas Maffei (conseil des prêteurs)",
+     "titre": "De Pardieu conseil de CA Indosuez, Crédit Agricole CIB et LCL dans le cadre du financement de l'acquisition par la société Humières Saint Germain d'un immeuble situé boulevard Saint-Germain en vue de le transformer en hôtel cinq étoiles",
+     "url": "https://www.de-pardieu.com/wp-content/uploads/2025/04/250407_DPBM_Deal_CA-INDOSUEZ-002.pdf",
+     "date": "2025-04-07",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2025 ajoutée lors du rattrapage de la base.",
+    "La répartition du capital de la coentreprise entre ses trois associés n'est pas publiée."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-06",
+   "verifie_le": "2026-11-06",
+   "historique": [
+    {
+     "date": "2026-11-06",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-055",
+   "titre": "Barings acquiert une boutique de luxe d'environ 620 m² au 336 rue Saint-Honoré (1er)",
+   "resume": "Barings a acquis un commerce de luxe d'environ 620 m² sur plusieurs niveaux, au 336 rue Saint-Honoré (1er), à quelques pas de la place Vendôme, avec plus de 15 mètres de façade. Ancienne station-service reconvertie, la boutique est entièrement louée à une marque de mode de luxe qui y exploite son flagship parisien depuis plus de dix ans et vient de renouveler son bail en agrandissant sa surface de vente. Les vendeurs et le prix ne sont pas communiqués.",
+   "date": {
+    "valeur": "2026-06-30",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-06-30",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Vente commercialisée par Knight Frank et CBRE pour le compte des vendeurs"
+   ],
+   "classe": "commerces",
+   "sous_type": "Boutique de luxe sur plusieurs niveaux",
+   "actif": {
+    "nom": "Boutique du 336 rue Saint-Honoré",
+    "adresse": "336 rue Saint-Honoré",
+    "commune": "Paris",
+    "arrondissements": [
+     1
+    ],
+    "zone": "paris",
+    "note": "À quelques pas de la place Vendôme ; ancienne station-service reconvertie en commerce de luxe."
+   },
+   "acquereurs": [
+    {
+     "nom": "Barings",
+     "type": "Gestionnaire d'actifs",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "LPA Law",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Oudot",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Knight Frank",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "CBRE",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 620,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Surface commerciale sur plusieurs niveaux."
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%"
+    },
+    "locataires": {
+     "valeur": 1,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "locataires",
+     "note": "Une marque de mode de luxe, non nommée, présente depuis plus de dix ans."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Bail",
+     "valeur": "Bail récemment renouvelé, avec extension de la surface de vente",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Façade",
+     "valeur": "Plus de 15 mètres de façade",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core_plus",
+    "indices": [
+     "L'acquéreur présente l'actif comme un « trophy asset » aux fondamentaux solides à long terme",
+     "La création de valeur passe par l'extension de la surface de vente du locataire, qui a renouvelé son bail"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core+ » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Barings — communiqué",
+     "titre": "Barings Acquires Prime Luxury Retail Unit on Rue Saint-Honoré, Paris",
+     "url": "https://www.barings.com/guest/contact/media/news/barings-acquires-prime-luxury-retail-unit-on-rue-saint-honor-paris",
+     "date": "2026-06-30",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2026 ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-06",
+   "verifie_le": "2026-11-06",
+   "historique": [
+    {
+     "date": "2026-11-06",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -9347,6 +10064,16 @@
    "a_confirmer": 0,
    "sources_consultees": 8,
    "resume": "Aucune nouvelle opération suffisamment sourcée parue depuis le 30 octobre. Trois opérations ajoutées lors du rattrapage : l'ancien siège de Médecins du Monde (rue Marcadet) et l'immeuble MyLittleNation (place de la Nation), liés à AG Real Estate France, et un immeuble de bureaux rue Joseph de Maistre acquis par Magellim REIM."
+  },
+  {
+   "date": "2026-11-06T07:14:58+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 4,
+   "mises_a_jour": 1,
+   "a_confirmer": 0,
+   "sources_consultees": 11,
+   "resume": "Une opération récente ajoutée : l'acquisition en club deal par Perial de l'ancien hôtel Village des Rosiers, à Saint-Ouen-sur-Seine. Trois opérations ajoutées lors du rattrapage : la tour CB21 reprise à 100 % par Covivio, un immeuble du boulevard Saint-Germain destiné à un hôtel cinq étoiles et une boutique du 336 rue Saint-Honoré acquise par Barings."
   }
  ]
 }
