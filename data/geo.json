@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-06T06:15:25+00:00",
+ "maj": "2026-11-09T06:22:15+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -314,6 +314,36 @@
    "precision": "housenumber",
    "score": 0.973,
    "code_insee": "75101"
+  },
+  "pdm-056": {
+   "requete": "32 rue de Monceau 75008 Paris",
+   "trouve": true,
+   "lat": 48.877059,
+   "lon": 2.309452,
+   "libelle": "32 Rue de Monceau 75008 Paris",
+   "precision": "housenumber",
+   "score": 0.972,
+   "code_insee": "75108"
+  },
+  "pdm-057": {
+   "requete": "rue La Fayette 75009 Paris",
+   "trouve": true,
+   "lat": 48.87519,
+   "lon": 2.341288,
+   "libelle": "Rue la Fayette 75009 Paris",
+   "precision": "street",
+   "score": 0.974,
+   "code_insee": "75109"
+  },
+  "pdm-058": {
+   "requete": "place Saint-Ferdinand 75017 Paris",
+   "trouve": true,
+   "lat": 48.87799,
+   "lon": 2.288033,
+   "libelle": "Place Saint-Ferdinand 75017 Paris",
+   "precision": "street",
+   "score": 0.969,
+   "code_insee": "75117"
   }
  }
 }
