@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 12,
+  "version": 13,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-06T07:14:58+01:00",
+  "derniere_mise_a_jour": "2026-11-09T07:21:35+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 56
+  "prochain_id": 59
  },
  "transactions": [
   {
@@ -9783,6 +9783,584 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-056",
+   "titre": "Pontegadea acquiert auprès d'Invesco Real Estate l'ensemble de bureaux Capital 8, rue de Monceau (8e), pour environ 800 M€",
+   "resume": "Pontegadea a acquis auprès d'Invesco Real Estate l'ensemble de bureaux Capital 8, au 32 rue de Monceau (8e), pour environ 800 M€ selon la presse. Ancien siège d'EDF de 1946 à 2001, cet ensemble d'environ 45 000 m², acheté par Invesco en 2018 à Unibail-Rodamco-Westfield, a été restructuré par son propriétaire pour environ 100 M€. Il accueille notamment NatWest, Mitsubishi Corporation et Tikehau Capital.",
+   "date": {
+    "valeur": "2026-07-24",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-07-24",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Cession d'un ensemble de bureaux restructuré et loué"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Ensemble de bureaux restructuré",
+   "actif": {
+    "nom": "Capital 8",
+    "adresse": "32 rue de Monceau",
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": "Ancien siège d'EDF (1946-2001), près du parc Monceau."
+   },
+   "acquereurs": [
+    {
+     "nom": "Pontegadea",
+     "type": "Société d'investissement",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Invesco Real Estate",
+     "type": "Gestionnaire d'actifs",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Deloitte Société d'Avocats",
+     "cote": "vendeur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "CBRE",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Rothschild & Co",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Linklaters",
+     "cote": "non_precise",
+     "role": "Juridique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Baker McKenzie",
+     "cote": "non_precise",
+     "role": "Juridique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 800000000,
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Montant publié par la presse ; l'annonce du conseil du vendeur ne le précise pas."
+    },
+    "surface": {
+     "valeur": 45000,
+     "statut": "presse",
+     "sources": [
+      "S2",
+      "S3"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 17778,
+     "statut": "calcule",
+     "sources": [
+      "S2",
+      "S3"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : environ 800 M€ ÷ environ 45 000 m² ≈ 17 800 €/m²."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataires cités",
+     "valeur": "NatWest, Mitsubishi Corporation et Tikehau Capital, parmi d'autres occupants internationaux",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Historique",
+     "valeur": "Siège d'EDF de 1946 à 2001 ; acquis en 2018 par Invesco auprès d'Unibail-Rodamco-Westfield pour 789 M€",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Restructuration",
+     "valeur": "Programme d'environ 100 M€ sur deux ans, achevé en 2025, mené en site occupé : nouveau rez-de-chaussée de services et rooftop végétalisé de 1 500 m²",
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "libelle": "Portée",
+     "valeur": "Présentée comme la plus importante cession d'un actif de bureaux unique en Europe continentale depuis 2022",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources lues ; indices insuffisants pour une hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de Deloitte Société d'Avocats)",
+     "titre": "Deloitte Société d'Avocats accompagne Invesco Real Estate",
+     "url": "https://www.lemondedudroit.fr/deals/105406-deloitte-societe-davocats-accompagne-invesco-real-estate.html",
+     "date": "2026-08-10",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral",
+     "note": "Annonce du conseil fiscal du vendeur : cession de Capital 8 à Pontegadea, sans prix."
+    },
+    {
+     "id": "S2",
+     "editeur": "Iberian Property",
+     "titre": "Pontegadea acquires Paris office complex in €800m deal",
+     "url": "https://iberian.property/news/offices/pontegadea-acquires-paris-office-complex-in-eur800m-deal/",
+     "date": "2026-07-24",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Europe Real Estate",
+     "titre": "Invesco completes €100m transformation of iconic Paris office tower Capital 8",
+     "url": "https://europe-re.com/invesco-completes-100m-transformation-of-iconic-paris-office-tower-capital-8/74406",
+     "date": "2025-07-11",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2026 ajoutée lors du rattrapage de la base."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-09",
+   "verifie_le": "2026-11-09",
+   "historique": [
+    {
+     "date": "2026-11-09",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-057",
+   "titre": "Pontegadea acquiert l'hôtel Banke (9e) auprès de Derby Hotels pour 97 M€ selon la presse",
+   "resume": "Pontegadea a acquis auprès du groupe hôtelier espagnol Derby Hotels l'hôtel Banke, rue La Fayette, à côté de l'Opéra (9e), pour 97 M€ selon la presse espagnole. Cet hôtel cinq étoiles de 90 chambres et suites, installé dans un immeuble protégé, avait été acheté par Derby Hotels en 2007 pour 75 M€. L'opération n'est connue que par la presse.",
+   "date": {
+    "valeur": "2025-07-10",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-07-10",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel 5★ (90 chambres)",
+   "actif": {
+    "nom": "Hôtel Banke",
+    "adresse": "rue La Fayette",
+    "commune": "Paris",
+    "arrondissements": [
+     9
+    ],
+    "zone": "paris",
+    "note": "À côté de l'Opéra ; immeuble protégé par la Ville de Paris, selon la presse. Numéro de voie non retenu faute de source."
+   },
+   "acquereurs": [
+    {
+     "nom": "Pontegadea",
+     "type": "Société d'investissement",
+     "statut": "presse",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Derby Hotels",
+     "type": "Groupe hôtelier",
+     "statut": "presse",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 97000000,
+     "statut": "presse",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC"
+    },
+    "cles": {
+     "valeur": 90,
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres",
+     "note": "Chambres et suites."
+    },
+    "prix_cle": {
+     "valeur": 1077778,
+     "statut": "calcule",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/clé",
+     "base": "NC",
+     "note": "Calcul : 97 M€ ÷ 90 chambres ≈ 1 078 000 € par clé."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Acquisition précédente",
+     "valeur": "Hôtel acheté par Derby Hotels en 2007 pour 75 M€",
+     "statut": "presse",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Acquéreur",
+     "valeur": "Septième acquisition de Pontegadea en France, dont six à Paris",
+     "statut": "presse",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources lues ; indices insuffisants pour une hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "La Nación (dépêche Europa Press)",
+     "titre": "Pontegadea adquiere un hotel en París a Derby Hoteles por 97 millones",
+     "url": "https://www.lanacion.com.ar/agencias/pontegadea-adquiere-un-hotel-en-paris-a-derby-hoteles-por-us97-millones-nid10072025",
+     "date": "2025-07-10",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Le titre parle de dollars, le texte de 97 millions d'euros ; la dépêche cite des sources proches de l'opération."
+    },
+    {
+     "id": "S2",
+     "editeur": "Forbes España",
+     "titre": "Pontegadea adquiere un hotel en París a Derby Hoteles por 97 millones",
+     "url": "https://forbes.es/forbestravel/760673/pontegadea-adquiere-un-hotel-en-paris-a-derby-hoteles-por-97-millones/",
+     "date": "2025-07-11",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Nomme l'hôtel Banke, cinq étoiles, rue La Fayette, à côté de l'Opéra."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2025 ajoutée lors du rattrapage de la base.",
+    "Aucune source officielle trouvée : la fiche reste à confirmer."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "moyen",
+    "motifs": [
+     "Aucune source de niveau A",
+     "Deux sources de presse lues en intégralité",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-09",
+   "verifie_le": "2026-11-09",
+   "historique": [
+    {
+     "date": "2026-11-09",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-058",
+   "titre": "Immorente (Sofidy) acquiert trois plateaux de bureaux place Saint-Ferdinand, dans le QCA, pour 15 M€",
+   "resume": "Sofidy a acquis pour la SCPI Immorente trois plateaux de bureaux détenus en copropriété dans un immeuble situé à l'angle de la place Saint-Ferdinand, dans le quartier central des affaires, pour 15 M€ net vendeur, soit environ 8 600 € par m² hors parkings. Finalisée fin décembre 2023 et annoncée le 15 janvier 2024, l'acquisition a été financée pour moitié par une dette. Le rendement initial acte en main ressort à 6,5 % après relocation des parkings.",
+   "date": {
+    "valeur": "2024-01-15",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-01-15",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition de trois lots de copropriété",
+    "Financement à hauteur de 50 % par une dette d'acquisition"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Trois plateaux de bureaux en copropriété",
+   "actif": {
+    "nom": "Plateaux de bureaux de la place Saint-Ferdinand",
+    "adresse": "place Saint-Ferdinand",
+    "commune": "Paris",
+    "arrondissements": [
+     17
+    ],
+    "zone": "paris_qca",
+    "note": "À l'angle de la place Saint-Ferdinand ; numéro de voie non publié."
+   },
+   "acquereurs": [
+    {
+     "nom": "Immorente",
+     "type": "SCPI",
+     "gestionnaire": "Sofidy",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Notaires du Louvre",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Arkimmo",
+     "cote": "acquereur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Catella",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "JLL",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 15000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "HD",
+     "note": "Prix net vendeur."
+    },
+    "prix_m2": {
+     "valeur": 8600,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "HD",
+     "note": "Prix net vendeur hors parkings."
+    },
+    "rendement": {
+     "valeur": 6.5,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "base": "DI",
+     "note": "Rendement initial acte en main (frais et droits inclus), après relocation des parkings."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Réalisation",
+     "valeur": "Acquisition finalisée fin décembre 2023",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Financement",
+     "valeur": "Dette d'acquisition à hauteur de 50 %, à un taux inférieur à 4 %, amortissable sur 10 ans",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Mandat de vente",
+     "valeur": "Catella, dans le cadre d'un mandat co-exclusif avec JLL",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources lues ; indices insuffisants pour une hypothèse."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Sofidy — communiqué",
+     "titre": "Immorente acquiert trois plateaux de bureaux place Saint-Ferdinand, dans le QCA",
+     "url": "https://www.sofidy.com/app/uploads/2024/01/20240115-CP-Acquisition-Brunel.pdf",
+     "date": "2024-01-15",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Meilleurtaux Placement",
+     "titre": "Immorente vient de faire une acquisition au cœur du QCA à Paris",
+     "url": "https://placement.meilleurtaux.com/scpi/actualites/2024-janvier/immorente-vient-faire-acquisition-coeur-qca-paris.html",
+     "date": "2024-01-30",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "Le numéro de voie n'est pas publié : l'actif est placé au niveau de la place."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-09",
+   "verifie_le": "2026-11-09",
+   "historique": [
+    {
+     "date": "2026-11-09",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -10074,6 +10652,16 @@
    "a_confirmer": 0,
    "sources_consultees": 11,
    "resume": "Une opération récente ajoutée : l'acquisition en club deal par Perial de l'ancien hôtel Village des Rosiers, à Saint-Ouen-sur-Seine. Trois opérations ajoutées lors du rattrapage : la tour CB21 reprise à 100 % par Covivio, un immeuble du boulevard Saint-Germain destiné à un hôtel cinq étoiles et une boutique du 336 rue Saint-Honoré acquise par Barings."
+  },
+  {
+   "date": "2026-11-09T07:21:35+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 3,
+   "mises_a_jour": 0,
+   "a_confirmer": 1,
+   "sources_consultees": 14,
+   "resume": "Aucune nouvelle opération suffisamment sourcée parue depuis le 3 novembre ; la promesse de Wenova à Aubervilliers n'est toujours pas annoncée comme réalisée. Trois opérations ajoutées lors du rattrapage : Capital 8, cédé par Invesco Real Estate à Pontegadea, l'hôtel Banke (à confirmer) et trois plateaux de bureaux place Saint-Ferdinand acquis par Immorente."
   }
  ]
 }
