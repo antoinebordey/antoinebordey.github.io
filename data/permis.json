@@ -4,10 +4,10 @@
   "jeu": "Liste des permis de construire et autres autorisations d’urbanisme",
   "fichier": "Liste des autorisations d'urbanisme créant des logements",
   "url": "https://www.data.gouv.fr/fr/datasets/689c42fa521ccf80ce954f83/",
-  "maj_source": "2026-10-31T14:00:08.640000+00:00",
+  "maj_source": "2026-11-09T10:59:32.244909+00:00",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-03T05:22:13+00:00",
+ "maj": "2026-11-11T05:26:14+00:00",
  "depuis": "2022-01-01",
  "note": "Autorisations rapprochées par numéro et nom de voie de l'adresse publiée de l'actif ; seuls les demandeurs personnes morales sont nommés.",
  "fiches": {}
