@@ -1,9 +1,9 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 14,
+  "version": 15,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-11T07:24:13+01:00",
+  "derniere_mise_a_jour": "2026-11-11T07:27:14+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
   "prochain_id": 63
@@ -10556,7 +10556,7 @@
      14
     ],
     "zone": "paris",
-    "note": "À la limite entre Montrouge et le 14e arrondissement, près de la porte d'Orléans ; le bulletin d'Immorente le situe à Paris, en bordure du boulevard périphérique. Adresse donnée comme 1-11 boulevard Romain-Rolland par MeilleureSCPI."
+    "note": "À la limite entre Montrouge et le 14e arrondissement, près de la porte d'Orléans (De Pardieu) ; le bulletin d'Immorente le situe à « Paris 14ème » (« Paris (75) » dans son tableau des acquisitions), « en bordure de Paris ». Adresse donnée comme 1-11 boulevard Romain-Rolland par MeilleureSCPI."
    },
    "acquereurs": [
     {
@@ -10740,7 +10740,7 @@
      "niveau": "A",
      "nature": "document_financier",
      "acces": "integral",
-     "note": "Date d'acquisition (2 avril 2026), quote-part d'Immorente et taux d'occupation."
+     "note": "Date d'acquisition (2 avril 2026), localisation (« Paris 14ème »), quote-part d'Immorente et taux d'occupation."
     },
     {
      "id": "S4",
