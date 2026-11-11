@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-09T06:22:15+00:00",
+ "maj": "2026-11-11T06:24:47+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -344,6 +344,33 @@
    "precision": "street",
    "score": 0.969,
    "code_insee": "75117"
+  },
+  "pdm-060": {
+   "requete": "9 boulevard Romain-Rolland 75014 Paris",
+   "trouve": false,
+   "motif": "score insuffisant",
+   "meilleur": "9 Boulevard Jourdan 75014 Paris",
+   "score": 0.526
+  },
+  "pdm-061": {
+   "requete": "rue Montmartre Paris",
+   "trouve": true,
+   "lat": 48.867891,
+   "lon": 2.343801,
+   "libelle": "Rue Montmartre 75002 Paris",
+   "precision": "street",
+   "score": 0.971,
+   "code_insee": "75102"
+  },
+  "pdm-062": {
+   "requete": "53 boulevard Saint-Marcel 75013 Paris",
+   "trouve": true,
+   "lat": 48.837778,
+   "lon": 2.355614,
+   "libelle": "53 Boulevard Saint-Marcel 75013 Paris",
+   "precision": "housenumber",
+   "score": 0.976,
+   "code_insee": "75113"
   }
  }
 }
