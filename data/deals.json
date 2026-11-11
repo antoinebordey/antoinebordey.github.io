@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 13,
+  "version": 14,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-09T07:21:35+01:00",
+  "derniere_mise_a_jour": "2026-11-11T07:24:13+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 59
+  "prochain_id": 63
  },
  "transactions": [
   {
@@ -10361,6 +10361,777 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-059",
+   "titre": "La SCPI Iroko Zen acquiert l'ensemble de bureaux Citizen à Bois-Colombes pour 94 M€ selon la presse",
+   "resume": "La SCPI Iroko Zen a acquis Citizen, un ensemble de près de 30 000 m² de bureaux à Bois-Colombes, au pied de la gare de Bécon-les-Bruyères, sur la base d'une valeur de 94 M€, soit environ 3 100 € par m², pour un rendement acte en main supérieur à 11 %. Livré en 2013 et rénové entre 2020 et 2022, l'immeuble est loué à 95 % à Coface, NaTran (ex-GRTgaz), SVP et Keyence, avec une durée ferme moyenne restante de plus de cinq ans. L'opération n'est connue que par un article de France SCPI.",
+   "date": {
+    "valeur": "2026-11-03",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-11-03",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Ensemble de bureaux",
+   "actif": {
+    "nom": "Citizen",
+    "adresse": null,
+    "commune": "Bois-Colombes (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": "Au pied de la gare de Bécon-les-Bruyères ; adresse non publiée."
+   },
+   "acquereurs": [
+    {
+     "nom": "Iroko Zen",
+     "type": "SCPI",
+     "gestionnaire": "Iroko",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 94000000,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "« Valeur » de 94 M€ selon la source, sans précision hors droits ou acte en main."
+    },
+    "surface": {
+     "valeur": 30000,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "pres_de",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 3100,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Valeur au m² indiquée par la source."
+    },
+    "rendement": {
+     "valeur": 11,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "%",
+     "base": "DI",
+     "note": "Rendement acte en main, selon la source."
+    },
+    "occupation": {
+     "valeur": 95,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%"
+    },
+    "duree_baux": {
+     "valeur": 5,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "ans",
+     "libelle": "Durée ferme moyenne restante (WALB)"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataires",
+     "valeur": "Coface, NaTran (ex-GRTgaz), SVP et Keyence",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Livraison",
+     "valeur": "2013, rénovation entre 2020 et 2022",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Certifications",
+     "valeur": "BREEAM Excellent, HQE Très Performant",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par la source. Les indices divergent : immeuble loué à 95 % avec plus de cinq ans de durée ferme, mais rendement de plus de 11 %, contre 7,64 % en moyenne pour les acquisitions de la SCPI au 3e trimestre selon la source ; pas d'hypothèse formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "France SCPI",
+     "titre": "Acquisition record de 94 M€ pour la SCPI Iroko Zen",
+     "url": "https://francescpi.com/scpi/actualites-scpi/acquisition-record-de-94-me-pour-la-scpi-iroko-zen-2026",
+     "date": "2026-11-03",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Média spécialisé ; le site signale ses articles comme communications publicitaires. Date de dernière mise à jour de l'article, qui situe l'acquisition « ces derniers jours »."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Zone « Croissant Ouest » : Bois-Colombes (Hauts-de-Seine).",
+    "Aucune annonce d'Iroko ni d'un conseil trouvée au 11 novembre 2026 : la fiche reste à confirmer."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "faible",
+    "motifs": [
+     "Une seule source de presse consultée en intégralité",
+     "Vendeur non communiqué"
+    ]
+   },
+   "ajoute_le": "2026-11-11",
+   "verifie_le": "2026-11-11",
+   "historique": [
+    {
+     "date": "2026-11-11",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-060",
+   "titre": "Des fonds gérés par Sofidy et Batipart Europe acquièrent en coentreprise l'immeuble de bureaux Magnetik (14e), près de la porte d'Orléans",
+   "resume": "Les SCPI Immorente et Sofidynamic et la société civile Meilleurimmo, gérées par Sofidy, ont acquis avec Batipart Europe, au travers d'une coentreprise, l'immeuble de bureaux Magnetik, au 9 boulevard Romain-Rolland, à la limite entre Montrouge et le 14e arrondissement, près de la porte d'Orléans. Ses deux bâtiments, qui développent près de 34 000 m², accueillent huit sièges sociaux, dont ceux de Chronopost, MSC Croisières, Jacquet Brossard, B&B et l'Institut Mines-Télécom ; le taux d'occupation est de 96 %. L'acquisition a été réalisée le 2 avril 2026. Le prix global n'est pas publié ; la quote-part d'Immorente s'élève à 23,6 M€ frais inclus.",
+   "date": {
+    "valeur": "2026-04-02",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-04-10",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition au travers d'une coentreprise entre des fonds gérés par Sofidy et Batipart Europe"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Ensemble de bureaux (deux bâtiments)",
+   "actif": {
+    "nom": "Magnetik",
+    "adresse": "9 boulevard Romain-Rolland",
+    "commune": "Paris",
+    "arrondissements": [
+     14
+    ],
+    "zone": "paris",
+    "note": "À la limite entre Montrouge et le 14e arrondissement, près de la porte d'Orléans ; le bulletin d'Immorente le situe à Paris, en bordure du boulevard périphérique. Adresse donnée comme 1-11 boulevard Romain-Rolland par MeilleureSCPI."
+   },
+   "acquereurs": [
+    {
+     "nom": "Immorente",
+     "type": "SCPI",
+     "gestionnaire": "Sofidy",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S3"
+     ]
+    },
+    {
+     "nom": "Sofidynamic",
+     "type": "SCPI",
+     "gestionnaire": "Sofidy",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Meilleurimmo",
+     "type": "Société civile",
+     "gestionnaire": "Sofidy",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Batipart Europe",
+     "type": "Société d'investissement",
+     "precision": "Coentreprise avec les fonds gérés par Sofidy",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Norton Rose Fulbright",
+     "cote": "acquereur",
+     "role": "Juridique et fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix global non publié ; quote-part d'Immorente : 23 625 000 € frais inclus (bulletin du 2e trimestre 2026)."
+    },
+    "surface": {
+     "valeur": 34000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ],
+     "qualificatif": "pres_de",
+     "unite": "m²"
+    },
+    "occupation": {
+     "valeur": 96,
+     "statut": "communique",
+     "sources": [
+      "S3",
+      "S4"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Au 30 mars 2026, selon MeilleureSCPI."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Quote-part d'Immorente",
+     "valeur": "23 625 000 € frais inclus",
+     "statut": "communique",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "libelle": "Locataires cités",
+     "valeur": "Huit sièges sociaux, dont Chronopost, MSC Croisières, Jacquet Brossard, B&B et l'Institut Mines-Télécom",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Composition",
+     "valeur": "Deux bâtiments",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Rénovation",
+     "valeur": "2018",
+     "statut": "presse",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "libelle": "Certifications",
+     "valeur": "BREEAM Very Good, HQE, WiredScore",
+     "statut": "presse",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Taux d'occupation de 96 %",
+     "Huit sièges sociaux en place",
+     "Acquéreurs principaux : SCPI, véhicules de rendement"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet Norton Rose Fulbright",
+     "titre": "Norton Rose Fulbright accompagne des fonds gérés par Sofidy dans le cadre de l'acquisition de l'immeuble Magnetik",
+     "url": "https://www.lemondedudroit.fr/deals/103717-norton-rose-fulbright-accompagne-des-fonds-geres-par-sofidy-dans-le-cadre-de-lacquisition-de-limmeuble-magnetik.html",
+     "date": "2026-04-10",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "De Pardieu Brocas Maffei — communiqué",
+     "titre": "De Pardieu conseil de Batipart Europe sur les aspects fiscaux de l'acquisition de l'immeuble Magnetik",
+     "url": "https://www.de-pardieu.com/wp-content/uploads/2026/04/260413_DPBM_Deal_BATIPART-VF.pdf",
+     "date": "2026-04-16",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral",
+     "note": "Donne l'adresse (9 boulevard Romain-Rolland) et l'association avec trois fonds gérés par Sofidy."
+    },
+    {
+     "id": "S3",
+     "editeur": "Sofidy — bulletin trimestriel d'Immorente",
+     "titre": "Immorente — bulletin trimestriel du 2e trimestre 2026",
+     "url": "https://www.sofidy.com/app/uploads/2026/07/Bulletin_Trimestriel_-_Immorente_2026_2T_OPTI.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Date d'acquisition (2 avril 2026), quote-part d'Immorente et taux d'occupation."
+    },
+    {
+     "id": "S4",
+     "editeur": "MeilleureSCPI",
+     "titre": "Batipart Europe et Sofidy acquièrent l'immeuble Magnetik aux portes de Paris",
+     "url": "https://www.meilleurescpi.com/actualites/batipart-europe-et-sofidy-acquierent-l-immeuble-magnetik-aux-portes-de-paris/",
+     "date": "2026-11-10",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Date de dernière mise à jour ; l'article cite les communiqués de Batipart Europe et de Sofidy."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2026 ajoutée lors du rattrapage de la base.",
+    "Ni le vendeur ni le prix global ne sont publiés par les sources lues."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-11",
+   "verifie_le": "2026-11-11",
+   "historique": [
+    {
+     "date": "2026-11-11",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-061",
+   "titre": "Immorente (Sofidy) acquiert en cession-bail les hôtels Korner Opéra (2e) et Korner Eiffel (15e) pour environ 9,5 M€",
+   "resume": "Sofidy a acquis pour la SCPI Immorente deux hôtels trois étoiles de la marque Korner à Paris : le Korner Opéra, rue Montmartre (2e, 23 chambres), et le Korner Eiffel, avenue Émile-Zola (15e, 35 chambres), pour environ 9,5 M€ acte en main. L'opération prend la forme d'une cession-bail : les deux hôtels sont loués à leur exploitant par des baux fermes de 12 ans, de type triple net. Annoncée par Sofidy le 22 janvier 2026, l'acquisition figurait déjà dans le bulletin HVS des transactions hôtelières de la semaine close le 28 novembre 2025.",
+   "date": {
+    "valeur": "2026-01-22",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-01-22",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Cession-bail (sale and leaseback)",
+    "Baux fermes de 12 ans, de type triple net"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Deux hôtels 3★ (58 chambres)",
+   "actif": {
+    "nom": "Hôtels Korner Opéra et Korner Eiffel",
+    "adresse": "rue Montmartre ; avenue Émile-Zola",
+    "commune": "Paris",
+    "arrondissements": [
+     2,
+     15
+    ],
+    "zone": "paris",
+    "note": "Korner Opéra : rue Montmartre (2e) ; Korner Eiffel : avenue Émile-Zola (15e). Numéros de voie non publiés."
+   },
+   "acquereurs": [
+    {
+     "nom": "Immorente",
+     "type": "SCPI",
+     "gestionnaire": "Sofidy",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Investisseur privé (non nommé)",
+     "type": "Investisseur privé",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 9500000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "EUR",
+     "base": "DI",
+     "note": "Montant acte en main (AEM)."
+    },
+    "cles": {
+     "valeur": 58,
+     "statut": "calcule",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres",
+     "note": "Somme des 23 chambres du Korner Opéra et des 35 chambres du Korner Eiffel."
+    },
+    "prix_cle": {
+     "valeur": 163793,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/clé",
+     "base": "DI",
+     "note": "Calcul : environ 9,5 M€ ÷ 58 chambres ≈ 164 000 € par chambre."
+    },
+    "duree_baux": {
+     "valeur": 12,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "ans",
+     "libelle": "Durée ferme des baux"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Korner Opéra",
+     "valeur": "Rue Montmartre (2e), trois étoiles, 23 chambres",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Korner Eiffel",
+     "valeur": "Avenue Émile-Zola (15e), trois étoiles, 35 chambres",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Preneur",
+     "valeur": "L'exploitant des hôtels Korner",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Première mention dans la presse",
+     "valeur": "Bulletin HVS des transactions hôtelières de la semaine close le 28 novembre 2025",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Cession-bail avec baux fermes de 12 ans",
+     "Baux de type triple net",
+     "Acquéreur : SCPI, véhicule de rendement"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Pierre Papier (communiqué de Sofidy)",
+     "titre": "Immorente renforce son exposition hôtelière à Paris avec l'acquisition de deux établissements du groupe Korner",
+     "url": "https://www.pierrepapier.fr/wp-content/uploads/2026/01/2026_01_22_SOFIDY_IMMORENTE_RENFORCE_EXPOSITION_HOTELIERE.pdf",
+     "date": "2026-01-22",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué de la société de gestion, repris par le site."
+    },
+    {
+     "id": "S2",
+     "editeur": "HVS (Hospitality Net)",
+     "titre": "HVS Europe Hotel Transactions Bulletin — semaine close le 28 novembre 2025",
+     "url": "https://www.hospitalitynet.org/news/4130007/hvs-europe-hotel-transactions-bulletin-week-ending-28-november-2025",
+     "date": "2025-12-02",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Décrit une cession-bail conclue avec un investisseur privé ; montant rapporté « autour de 10 M€ » (172 400 € par chambre), le communiqué de Sofidy indiquant environ 9,5 M€ acte en main."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération annoncée en janvier 2026, ajoutée lors du rattrapage de la base.",
+    "Les numéros de voie ne sont pas publiés : chaque hôtel n'est connu que par sa rue."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-11",
+   "verifie_le": "2026-11-11",
+   "historique": [
+    {
+     "date": "2026-11-11",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-062",
+   "titre": "Wenova Asset Management acquiert un immeuble haussmannien de 22 logements au 53 boulevard Saint-Marcel (13e)",
+   "resume": "Wenova Asset Management a acquis, pour le compte du FPCI ELTIF Wenova Transition et de Wenova Living, un immeuble résidentiel haussmannien de 1 025 m² au 53 boulevard Saint-Marcel (13e), à proximité du Jardin des Plantes. L'immeuble compte 22 logements et deux commerces en pied d'immeuble ; il doit être rénové pour offrir des logements aux dernières normes. L'acquisition, annoncée le 19 mai 2025, a été financée par la Caisse d'épargne Île-de-France.",
+   "date": {
+    "valeur": "2025-05-19",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-05-19",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition financée par un prêt bancaire"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Immeuble haussmannien (22 logements et deux commerces)",
+   "actif": {
+    "nom": "53 boulevard Saint-Marcel",
+    "adresse": "53 boulevard Saint-Marcel",
+    "commune": "Paris",
+    "arrondissements": [
+     13
+    ],
+    "zone": "paris",
+    "note": "À proximité du Jardin des Plantes."
+   },
+   "acquereurs": [
+    {
+     "nom": "Wenova Asset Management",
+     "type": "Société de gestion",
+     "precision": "Pour le compte du FPCI ELTIF Wenova Transition et de Wenova Living",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Delsol Avocats",
+     "cote": "acquereur",
+     "role": "Juridique (immobilier)",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "C&L Notaires",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [
+    {
+     "nom": "Caisse d'épargne Île-de-France",
+     "role": "Prêteur",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 1025,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "logements": {
+     "valeur": 22,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": null
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Composition",
+     "valeur": "22 logements et deux commerces en pied d'immeuble",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Rénovation pour transformer des logements obsolètes en logements aux dernières normes",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Immeuble ancien acquis pour être rénové",
+     "Objectif affiché de transformer des logements obsolètes en logements aux dernières normes"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet Delsol Avocats",
+     "titre": "Delsol Avocats a conseillé Wenova Asset Management dans l'acquisition d'un immeuble résidentiel haussmannien à proximité du Jardin des Plantes",
+     "url": "https://www.lemondedudroit.fr/deals/99111-delsol-avocats-a-conseille-wenova-asset-management-acquisition-immeuble-residentiel-haussmannien-a-proximite-du-jardin-des-plantes.html",
+     "date": "2025-05-19",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2025 ajoutée lors du rattrapage de la base.",
+    "Ni le prix ni le vendeur ne sont publiés."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-11",
+   "verifie_le": "2026-11-11",
+   "historique": [
+    {
+     "date": "2026-11-11",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -10662,6 +11433,16 @@
    "a_confirmer": 1,
    "sources_consultees": 14,
    "resume": "Aucune nouvelle opération suffisamment sourcée parue depuis le 3 novembre ; la promesse de Wenova à Aubervilliers n'est toujours pas annoncée comme réalisée. Trois opérations ajoutées lors du rattrapage : Capital 8, cédé par Invesco Real Estate à Pontegadea, l'hôtel Banke (à confirmer) et trois plateaux de bureaux place Saint-Ferdinand acquis par Immorente."
+  },
+  {
+   "date": "2026-11-11T07:24:13+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 4,
+   "mises_a_jour": 0,
+   "a_confirmer": 1,
+   "sources_consultees": 20,
+   "resume": "Une nouvelle opération repérée : l'ensemble de bureaux Citizen, à Bois-Colombes, acquis par la SCPI Iroko Zen pour 94 M€ selon la presse (à confirmer, une seule source). Trois opérations ajoutées lors du rattrapage : l'immeuble Magnetik (14e), acquis par des fonds gérés par Sofidy et Batipart Europe, les hôtels Korner Opéra et Korner Eiffel, acquis par Immorente, et le 53 boulevard Saint-Marcel (13e), acquis par Wenova Asset Management."
   }
  ]
 }
