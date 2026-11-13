@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 15,
+  "version": 16,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-11T07:27:14+01:00",
+  "derniere_mise_a_jour": "2026-11-13T07:17:27+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 63
+  "prochain_id": 69
  },
  "transactions": [
   {
@@ -11132,6 +11132,983 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-063",
+   "titre": "La SCPI Allianz Pierre acquiert l'immeuble de bureaux du 1 rue de Gramont (2e) pour 24,6 M€",
+   "resume": "La SCPI Allianz Pierre, gérée par Allianz Immovalor, a acquis le 2 avril 2026 un immeuble de bureaux de 2 148 m² au 1 rue de Gramont, dans le 2e arrondissement, pour 24,6 M€ acte en main. Selon la presse spécialisée, l'immeuble réunit bureaux, commerce avec une salle de sport et parkings, et compte six locataires. La société de gestion annonce un rendement brut supérieur à 5 % pour chacune de ses deux acquisitions parisiennes du semestre.",
+   "date": {
+    "valeur": "2026-04-02",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux",
+   "actif": {
+    "nom": "1 rue de Gramont",
+    "adresse": "1 rue de Gramont",
+    "commune": "Paris",
+    "arrondissements": [
+     2
+    ],
+    "zone": "paris_qca",
+    "note": "Situé dans le Quartier central des affaires selon France SCPI."
+   },
+   "acquereurs": [
+    {
+     "nom": "Allianz Pierre",
+     "type": "SCPI",
+     "gestionnaire": "Allianz Immovalor",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 24644269,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "DI",
+     "note": "Prix acte en main."
+    },
+    "surface": {
+     "valeur": 2148,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 11473,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "DI",
+     "note": "Calcul : 24 644 269 € ÷ 2 148 m² ≈ 11 473 €/m², acte en main."
+    },
+    "rendement": {
+     "valeur": 5,
+     "statut": "communique",
+     "qualificatif": "plus_de",
+     "unite": "%",
+     "libelle": "Rendement brut",
+     "note": "Selon le commentaire de gestion, qui l'indique pour chacune des deux acquisitions parisiennes du premier semestre 2026.",
+     "sources": [
+      "S1"
+     ]
+    },
+    "locataires": {
+     "valeur": 6,
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "locataires"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Usages",
+     "valeur": "Bureaux, commerce avec une salle de sport et places de parking",
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "libelle": "Finalisation",
+     "valeur": "Acquisition finalisée le 2 avril 2026, annoncée dans le bulletin du 1er trimestre",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeuble loué à six locataires",
+     "Acquéreur : SCPI, véhicule de rendement"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "editeur": "Allianz Immovalor — bulletin trimestriel d'Allianz Pierre (copie publiée par France SCPI)",
+     "titre": "Allianz Pierre — bulletin trimestriel d'information du 2e trimestre 2026",
+     "url": "https://francescpi.com/scpi-de-rendement/allianz-pierre/bi/allianz-pierre-bulletin-2026-t2.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Tableau d'évolution du patrimoine ; bulletin valable jusqu'au 30 septembre 2026.",
+     "id": "S1"
+    },
+    {
+     "editeur": "Allianz Immovalor — bulletin trimestriel d'Allianz Pierre (copie publiée par France SCPI)",
+     "titre": "Allianz Pierre — bulletin trimestriel d'information du 1er trimestre 2026",
+     "url": "https://francescpi.com/scpi-de-rendement/allianz-pierre/bi/allianz-pierre-bulletin-2026-t1.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Chiffres arrêtés au 31 mars 2026.",
+     "id": "S2"
+    },
+    {
+     "id": "S3",
+     "editeur": "France SCPI",
+     "titre": "La SCPI Allianz Pierre acquiert un immeuble mixte parisien",
+     "url": "https://francescpi.com/scpi/actualites-scpi/la-scpi-allianz-pierre-acquiert-un-immeuble-mixte-parisien-2026",
+     "date": "2026-04-20",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Date de dernière mise à jour ; le site signale ses articles comme communications publicitaires."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le vendeur n'est pas précisé par les sources."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-13",
+   "verifie_le": "2026-11-13",
+   "historique": [
+    {
+     "date": "2026-11-13",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-064",
+   "titre": "La SCPI Allianz Pierre acquiert un immeuble d'enseignement au 105 boulevard Raspail (6e) pour 42,4 M€",
+   "resume": "La SCPI Allianz Pierre, gérée par Allianz Immovalor, a acquis le 13 mai 2026 un immeuble d'enseignement de 2 862 m² au 105 boulevard Raspail, dans le 6e arrondissement, pour 42,4 M€ acte en main. La société de gestion annonce un rendement brut supérieur à 5 % pour chacune de ses deux acquisitions parisiennes du semestre. Ni le vendeur ni l'occupant ne sont précisés.",
+   "date": {
+    "valeur": "2026-05-13",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "autre",
+   "sous_type": "Immeuble d'enseignement",
+   "actif": {
+    "nom": "105 boulevard Raspail",
+    "adresse": "105 boulevard Raspail",
+    "commune": "Paris",
+    "arrondissements": [
+     6
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Allianz Pierre",
+     "type": "SCPI",
+     "gestionnaire": "Allianz Immovalor",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 42411300,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "DI",
+     "note": "Prix acte en main."
+    },
+    "surface": {
+     "valeur": 2862,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 14819,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "DI",
+     "note": "Calcul : 42 411 300 € ÷ 2 862 m² ≈ 14 819 €/m², acte en main."
+    },
+    "rendement": {
+     "valeur": 5,
+     "statut": "communique",
+     "qualificatif": "plus_de",
+     "unite": "%",
+     "libelle": "Rendement brut",
+     "note": "Selon le commentaire de gestion, qui l'indique pour chacune des deux acquisitions parisiennes du premier semestre 2026.",
+     "sources": [
+      "S1"
+     ]
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources."
+   },
+   "sources": [
+    {
+     "editeur": "Allianz Immovalor — bulletin trimestriel d'Allianz Pierre (copie publiée par France SCPI)",
+     "titre": "Allianz Pierre — bulletin trimestriel d'information du 2e trimestre 2026",
+     "url": "https://francescpi.com/scpi-de-rendement/allianz-pierre/bi/allianz-pierre-bulletin-2026-t2.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Tableau d'évolution du patrimoine ; bulletin valable jusqu'au 30 septembre 2026.",
+     "id": "S1"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le vendeur et l'occupant ne sont pas précisés par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-13",
+   "verifie_le": "2026-11-13",
+   "historique": [
+    {
+     "date": "2026-11-13",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-065",
+   "titre": "La SCPI Allianz Pierre cède un commerce de 583 m² au 15-19 rue Niepce (14e) pour 2,55 M€",
+   "resume": "La SCPI Allianz Pierre, gérée par Allianz Immovalor, a cédé le 12 février 2026 un commerce de 583 m² aux 15-19 rue Niepce, dans le 14e arrondissement, pour 2,55 M€ net vendeur. Acquis en juillet 2011 pour 1,28 M€, l'actif lui procure une plus-value nette d'environ 1 M€. L'acquéreur n'est pas précisé.",
+   "date": {
+    "valeur": "2026-02-12",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "commerces",
+   "sous_type": "Commerce",
+   "actif": {
+    "nom": "15-19 rue Niepce",
+    "adresse": "15-19 rue Niepce",
+    "commune": "Paris",
+    "arrondissements": [
+     14
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "Allianz Pierre",
+     "type": "SCPI",
+     "gestionnaire": "Allianz Immovalor",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 2550000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix de vente net vendeur."
+    },
+    "surface": {
+     "valeur": 583,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 4374,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 2 550 000 € ÷ 583 m² ≈ 4 374 €/m², net vendeur."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Acquisition par la SCPI",
+     "valeur": "6 juillet 2011, pour 1 277 353 €",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Dernière valeur d'expertise",
+     "valeur": "2 060 000 €",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Plus-value nette",
+     "valeur": "1 012 074 €",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Arbitrage d'un actif détenu depuis 2011 ; aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "editeur": "Allianz Immovalor — bulletin trimestriel d'Allianz Pierre (copie publiée par France SCPI)",
+     "titre": "Allianz Pierre — bulletin trimestriel d'information du 1er trimestre 2026",
+     "url": "https://francescpi.com/scpi-de-rendement/allianz-pierre/bi/allianz-pierre-bulletin-2026-t1.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Chiffres arrêtés au 31 mars 2026.",
+     "id": "S1"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'acquéreur n'est pas précisé par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-13",
+   "verifie_le": "2026-11-13",
+   "historique": [
+    {
+     "date": "2026-11-13",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-066",
+   "titre": "Foncière Renaissance et MIMCO acquièrent le 91 avenue des Champs-Élysées (8e) pour 320 M€",
+   "resume": "Foncière Renaissance et MIMCO ont finalisé l'acquisition du 91 avenue des Champs-Élysées, un immeuble d'environ 4 200 m² dans le 8e arrondissement, pour 320 M€. Occupé par plusieurs locataires mais doté de surfaces vacantes, l'immeuble doit être repositionné sur les standards prime du marché. C'est la deuxième acquisition commune des deux partenaires, après le 48 rue Notre-Dame-des-Victoires. Selon la presse, l'opération est financée par un prêt senior de 288,6 M€ de Cheyne Capital.",
+   "date": {
+    "valeur": "2026-03-19",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-03-19",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition conjointe des deux partenaires (coentreprise, selon la presse)",
+    "Prêt senior de 288,6 M€, selon la presse"
+   ],
+   "classe": "mixte",
+   "sous_type": "Immeuble mixte",
+   "actif": {
+    "nom": "91 Champs-Élysées",
+    "adresse": "91 avenue des Champs-Élysées",
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Foncière Renaissance",
+     "type": "Foncière",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "MIMCO",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Racine",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [
+    {
+     "nom": "Cheyne Capital",
+     "role": "Prêteur (prêt senior)",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 320000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Montant annoncé, sans précision hors droits ou droits inclus."
+    },
+    "surface": {
+     "valeur": 4200,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 76190,
+     "statut": "calcule",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 320 000 000 € ÷ environ 4 200 m² ≈ 76 200 €/m²."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Occupation",
+     "valeur": "Plusieurs locataires et des surfaces vacantes",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Repositionnement de l'immeuble sur les standards prime du marché",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Prêt senior",
+     "valeur": "288,6 M€, accordé par Cheyne Capital",
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "libelle": "Autres intervenants cités, sans précision de rôle",
+     "valeur": "R&D Notaires, Renaissance Capital, LAB Partners, Fairway, Deloitte, Gide, Dantes Law, Cheyne, Zetland, De Pardieu, Wemagate Holdings (conseillée par Bensaid Avocats), Sarment et C&W",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Surfaces partiellement vacantes",
+     "Repositionnement annoncé sur les standards prime du marché",
+     "Potentiel de revalorisation mis en avant par le conseil des acquéreurs"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "MIMCO et Foncière Renaissance — communiqué (Galivel)",
+     "titre": "MIMCO et Foncière Renaissance finalisent avec succès l'acquisition du 91 avenue des Champs-Élysées",
+     "url": "https://www.galivel.com/media/files/260319_mimco_cpsignature_91ce-1.pdf",
+     "date": "2026-03-19",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit — annonce du cabinet Racine",
+     "titre": "Racine accompagne Foncière Renaissance et MIMCO dans l'acquisition du 91 avenue des Champs-Élysées à Paris",
+     "url": "https://www.lemondedudroit.fr/deals/103608-racine-accompagne-fonciere-renaissance-et-mimco-dans-lacquisition-du-91-avenue-des-champs-elysees-a-paris.html",
+     "date": "2026-03-29",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "IREI",
+     "titre": "Cheyne Capital provides €288.6m senior financing for landmark Champs-Élysées acquisition",
+     "url": "https://irei.com/news/cheyne-capital-provides-e288-6m-senior-financing-for-landmark-champs-elysees-acquisition/",
+     "date": "2026-04-01",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Décrit l'acquéreur comme une coentreprise entre MIMCO et Foncière Renaissance et l'immeuble comme un actif mixte."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2026 ajoutée lors du rattrapage de la base.",
+    "Le vendeur n'est pas nommé par les sources lues.",
+    "Première acquisition commune des deux partenaires : fiche pdm-026."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-13",
+   "verifie_le": "2026-11-13",
+   "historique": [
+    {
+     "date": "2026-11-13",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-067",
+   "titre": "Hines cède l'immeuble de bureaux et commerces du 223 rue Saint-Honoré (1er)",
+   "resume": "Hines a cédé l'immeuble du 223 rue Saint-Honoré, dans le 1er arrondissement, entre la place Vendôme et le jardin des Tuileries. L'immeuble développe plus de 3 600 m² sur huit niveaux, avec des bureaux et des commerces en rez-de-chaussée loués notamment aux enseignes Diesel et Stone Island. L'acquéreur et le prix ne sont pas publiés ; la cession a été annoncée par le conseil fiscal du vendeur le 8 octobre 2025.",
+   "date": {
+    "valeur": "2025-10-08",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-10-08",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "mixte",
+   "sous_type": "Bureaux et commerces en rez-de-chaussée",
+   "actif": {
+    "nom": "223 Saint-Honoré",
+    "adresse": "223 rue Saint-Honoré",
+    "commune": "Paris",
+    "arrondissements": [
+     1
+    ],
+    "zone": "paris",
+    "note": "Entre la place Vendôme et le jardin des Tuileries."
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "Hines",
+     "type": "Gestionnaire d'actifs",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Gaulle Fleurance",
+     "cote": "vendeur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Étude Lasaygues",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Lacourte Raquin Tatar",
+     "cote": "vendeur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non publié."
+    },
+    "surface": {
+     "valeur": 3600,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "plus_de",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Niveaux",
+     "valeur": "Huit, avec terrasses et parking",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Locataires cités",
+     "valeur": "Un cabinet d'expertise comptable, une société de gestion d'actifs, une foncière, un cabinet d'avocats, Diesel (groupe OTB) et Stone Island (groupe Moncler)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Opération connue du seul côté vendeur ; aucune stratégie nommée par les sources."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet De Gaulle Fleurance",
+     "titre": "De Gaulle Fleurance conseille la cession du 223 Saint-Honoré",
+     "url": "https://www.lemondedudroit.fr/deals/100878-de-gaulle-fleurance-conseille-cession-223-saint-honore.html",
+     "date": "2025-10-08",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "CoStar",
+     "titre": "Hines completes sale of trophy asset on rue Saint-Honoré",
+     "url": "https://www.costar.com/article/324778373/hines-completes-sale-of-trophy-asset-on-rue-saint-honore",
+     "date": null,
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article payant : seul le titre a été lu."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2025 ajoutée lors du rattrapage de la base.",
+    "L'acquéreur et le prix ne sont pas publiés."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-13",
+   "verifie_le": "2026-11-13",
+   "historique": [
+    {
+     "date": "2026-11-13",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-068",
+   "titre": "Hines acquiert auprès d'Ofi Invest Real Estate l'immeuble vacant du 32 avenue d'Iéna, à restructurer",
+   "resume": "Hines a acquis auprès d'Ofi Invest Real Estate l'immeuble haussmannien du 32 avenue d'Iéna, ancien siège de l'Union Financière de France, vide depuis 2023. D'environ 3 000 m² sur sept étages, il doit être entièrement restructuré pour devenir un immeuble tertiaire haut de gamme : les travaux commencent au printemps 2026 et la livraison est prévue au printemps 2028. Le prix n'est pas publié.",
+   "date": {
+    "valeur": "2026-03-27",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-03-27",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Immeuble haussmannien à restructurer",
+   "actif": {
+    "nom": "32 Iéna",
+    "adresse": "32 avenue d'Iéna",
+    "commune": "Paris",
+    "arrondissements": [],
+    "zone": "paris_nc",
+    "note": "Arrondissement non précisé par les sources."
+   },
+   "acquereurs": [
+    {
+     "nom": "Hines",
+     "type": "Gestionnaire d'actifs",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Ofi Invest Real Estate",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non publié."
+    },
+    "surface": {
+     "valeur": 3000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Sur sept étages."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "État à l'acquisition",
+     "valeur": "Vacant depuis 2023 ; ancien siège de l'Union Financière de France",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Calendrier des travaux",
+     "valeur": "Curage et dépollution à partir du printemps 2026, livraison prévue au printemps 2028",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Certifications visées",
+     "valeur": "BREEAM Excellent, WELL et WiredScore",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Immeuble vacant depuis 2023",
+     "Restructuration complète prévue avant relocation",
+     "Objectif affiché de créer un actif tertiaire haut de gamme"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "De Pardieu Brocas Maffei — actualité du cabinet",
+     "titre": "De Pardieu tax advisor to Hines on the acquisition of the 32 Iéna property from Ofi Invest Real Estate",
+     "url": "https://www.de-pardieu.com/en/de-pardieu-tax-advisor-to-hines-on-the-acquisition-of-the-32-iena-property-from-ofi-invest-real-estate/",
+     "date": "2026-03-27",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit — annonce du cabinet De Pardieu",
+     "titre": "De Pardieu, conseil fiscal de Hines dans le cadre de l'acquisition de l'immeuble 32 Iéna",
+     "url": "https://www.lemondedudroit.fr/deals/103654-de-pardieu-conseil-fiscal-de-hines-dans-le-cadre-de-lacquisition-de-limmeuble-32-iena.html",
+     "date": "2026-04-04",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2026 ajoutée lors du rattrapage de la base.",
+    "Le fonds de Hines concerné n'est pas précisé."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-13",
+   "verifie_le": "2026-11-13",
+   "historique": [
+    {
+     "date": "2026-11-13",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -11443,6 +12420,16 @@
    "a_confirmer": 1,
    "sources_consultees": 20,
    "resume": "Une nouvelle opération repérée : l'ensemble de bureaux Citizen, à Bois-Colombes, acquis par la SCPI Iroko Zen pour 94 M€ selon la presse (à confirmer, une seule source). Trois opérations ajoutées lors du rattrapage : l'immeuble Magnetik (14e), acquis par des fonds gérés par Sofidy et Batipart Europe, les hôtels Korner Opéra et Korner Eiffel, acquis par Immorente, et le 53 boulevard Saint-Marcel (13e), acquis par Wenova Asset Management."
+  },
+  {
+   "date": "2026-11-13T07:17:27+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 6,
+   "mises_a_jour": 0,
+   "a_confirmer": 0,
+   "sources_consultees": 16,
+   "resume": "Trois opérations d'Allianz Pierre relevées dans ses bulletins trimestriels : les acquisitions du 1 rue de Gramont (2e) et du 105 boulevard Raspail (6e) et la cession d'un commerce rue Niepce (14e). Trois opérations ajoutées lors du rattrapage : le 91 avenue des Champs-Élysées, acquis pour 320 M€ par Foncière Renaissance et MIMCO, la cession par Hines du 223 rue Saint-Honoré et l'acquisition par Hines du 32 avenue d'Iéna."
   }
  ]
 }
