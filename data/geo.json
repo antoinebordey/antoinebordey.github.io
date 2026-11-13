@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-11T06:24:47+00:00",
+ "maj": "2026-11-13T06:18:00+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -371,6 +371,66 @@
    "precision": "housenumber",
    "score": 0.976,
    "code_insee": "75113"
+  },
+  "pdm-063": {
+   "requete": "1 rue de Gramont 75002 Paris",
+   "trouve": true,
+   "lat": 48.869036,
+   "lon": 2.33666,
+   "libelle": "1 Rue de Gramont 75002 Paris",
+   "precision": "housenumber",
+   "score": 0.965,
+   "code_insee": "75102"
+  },
+  "pdm-064": {
+   "requete": "105 boulevard Raspail 75006 Paris",
+   "trouve": true,
+   "lat": 48.846074,
+   "lon": 2.328624,
+   "libelle": "105 Boulevard Raspail 75006 Paris",
+   "precision": "housenumber",
+   "score": 0.973,
+   "code_insee": "75106"
+  },
+  "pdm-065": {
+   "requete": "15 rue Niepce 75014 Paris",
+   "trouve": true,
+   "lat": 48.834692,
+   "lon": 2.318681,
+   "libelle": "15 Rue Niepce 75014 Paris",
+   "precision": "housenumber",
+   "score": 0.971,
+   "code_insee": "75114"
+  },
+  "pdm-066": {
+   "requete": "91 avenue des Champs-Élysées 75008 Paris",
+   "trouve": true,
+   "lat": 48.871167,
+   "lon": 2.302109,
+   "libelle": "91 Avenue des Champs Élysées 75008 Paris",
+   "precision": "housenumber",
+   "score": 0.973,
+   "code_insee": "75108"
+  },
+  "pdm-067": {
+   "requete": "223 rue Saint-Honoré 75001 Paris",
+   "trouve": true,
+   "lat": 48.865901,
+   "lon": 2.329832,
+   "libelle": "223 Rue Saint-Honoré 75001 Paris",
+   "precision": "housenumber",
+   "score": 0.973,
+   "code_insee": "75101"
+  },
+  "pdm-068": {
+   "requete": "32 avenue d'Iéna Paris",
+   "trouve": true,
+   "lat": 48.865977,
+   "lon": 2.294936,
+   "libelle": "32 Avenue d'Iéna 75116 Paris",
+   "precision": "housenumber",
+   "score": 0.978,
+   "code_insee": "75116"
   }
  }
 }
