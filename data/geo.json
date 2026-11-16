@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-13T06:18:00+00:00",
+ "maj": "2026-11-16T06:16:43+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -431,6 +431,26 @@
    "precision": "housenumber",
    "score": 0.978,
    "code_insee": "75116"
+  },
+  "pdm-071": {
+   "requete": "42 rue de Sèvres 75007 Paris",
+   "trouve": true,
+   "lat": 48.849105,
+   "lon": 2.321638,
+   "libelle": "42 Rue de Sèvres 75007 Paris",
+   "precision": "housenumber",
+   "score": 0.971,
+   "code_insee": "75107"
+  },
+  "pdm-072": {
+   "requete": "6 avenue Jean-Jaurès Cachan",
+   "trouve": true,
+   "lat": 48.791561,
+   "lon": 2.327179,
+   "libelle": "6 Avenue Jean Jaurès 94230 Cachan",
+   "precision": "housenumber",
+   "score": 0.969,
+   "code_insee": "94016"
   }
  }
 }
