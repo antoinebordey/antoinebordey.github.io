@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 16,
+  "version": 17,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-13T07:17:27+01:00",
+  "derniere_mise_a_jour": "2026-11-16T07:16:04+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 69
+  "prochain_id": 73
  },
  "transactions": [
   {
@@ -12109,6 +12109,729 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-069",
+   "titre": "Sogaris acquiert auprès d'Icade le parc d'activités Le Mauvin à Aubervilliers pour 69 M€ hors droits",
+   "resume": "Sogaris, foncière du Grand Paris spécialisée dans l'immobilier industriel et logistique, a acquis auprès d'Icade le parc d'activités Le Mauvin, à Aubervilliers, près du boulevard périphérique et du canal Saint-Denis. L'ensemble de 21 350 m² accueille notamment de grands comptes. Le prix atteint environ 74 M€ acte en main, soit 69 M€ hors droits ; l'opération a été annoncée le 29 décembre 2025 par le conseil fiscal de l'acquéreur.",
+   "date": {
+    "valeur": "2025-12-29",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-12-29",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "activites",
+   "sous_type": "Parc d'activités",
+   "actif": {
+    "nom": "Le Mauvin",
+    "adresse": null,
+    "commune": "Aubervilliers (93)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "À proximité immédiate de Paris, du boulevard périphérique et du canal Saint-Denis ; adresse non publiée."
+   },
+   "acquereurs": [
+    {
+     "nom": "Sogaris",
+     "type": "Foncière",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Icade",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Arsene",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Étude Cheuvreux",
+     "cote": "non_precise",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Caryatid",
+     "role": "Asset management",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 69000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "HD",
+     "note": "69 M€ hors droits, soit environ 74 M€ acte en main."
+    },
+    "surface": {
+     "valeur": 21350,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 3232,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "HD",
+     "note": "Calcul : 69 000 000 € ÷ 21 350 m² ≈ 3 232 €/m², hors droits."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Prix acte en main",
+     "valeur": "Environ 74 M€",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Financement annoncé par Sogaris",
+     "valeur": "Enveloppe bancaire de 380 M€ (BNP Paribas, chef de file et agent, Banque Européenne du Crédit Mutuel, Société Générale, Caisse d'Épargne Île-de-France et Bpifrance), présentée par l'annonce comme le plus important financement de Sogaris depuis 2015",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet Arsene",
+     "titre": "Arsene conseille Sogaris pour l'acquisition du parc d'activités Le Mauvin à Aubervilliers",
+     "url": "https://www.lemondedudroit.fr/deals/102271-arsene-conseille-sogaris-pour-lacquisition-du-parc-dactivites-le-mauvin-a-aubervilliers.html",
+     "date": "2025-12-29",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'adresse du parc n'est pas publiée : l'actif n'est pas placé sur la carte."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-16",
+   "verifie_le": "2026-11-16",
+   "historique": [
+    {
+     "date": "2026-11-16",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-070",
+   "titre": "BauMont Real Estate Capital et Picture Asset Management acquièrent le Square d'Orléans (9e), ensemble mixte de 14 000 m²",
+   "resume": "BauMont Real Estate Capital et Picture Asset Management ont acquis hors marché, auprès d'un investisseur institutionnel non nommé, le Square d'Orléans, un ensemble de bureaux et de logements d'environ 14 000 m² dans le 9e arrondissement, inscrit au titre des monuments historiques. L'acquisition passe par un fonds professionnel géré par Picture Asset Management. Les acquéreurs prévoient de réhabiliter toutes les surfaces pour repositionner l'ensemble dans le cadre du nouveau PLU bioclimatique ; l'opération a été annoncée le 27 février 2025.",
+   "date": {
+    "valeur": "2025-02-27",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-02-27",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition hors marché",
+    "Acquisition portée par un fonds professionnel géré par Picture Asset Management"
+   ],
+   "classe": "mixte",
+   "sous_type": "Ensemble de bureaux et de logements",
+   "actif": {
+    "nom": "Square d'Orléans",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [
+     9
+    ],
+    "zone": "paris",
+    "note": "Inscrit au titre des monuments historiques ; adresse non publiée par la source."
+   },
+   "acquereurs": [
+    {
+     "nom": "BauMont Real Estate Capital",
+     "type": "Société d'investissement",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Picture Asset Management",
+     "type": "Société de gestion",
+     "precision": "Via un fonds professionnel qu'elle gère",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Investisseur institutionnel (non nommé)",
+     "type": "Investisseur institutionnel",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Arsene",
+     "cote": "acquereur",
+     "role": "Fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "August Debouzy",
+     "cote": "acquereur",
+     "role": "Juridique (financement)",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Ginkgo Avocats",
+     "cote": "acquereur",
+     "role": "Juridique (urbanisme)",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Le Carré Avocats",
+     "cote": "acquereur",
+     "role": "Juridique (audit)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non publié."
+    },
+    "surface": {
+     "valeur": 14000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Surface de plancher."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Usages",
+     "valeur": "Bureaux et logements",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Réhabilitation de l'ensemble des surfaces, en conformité avec le nouveau PLU bioclimatique",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Réhabilitation de l'ensemble des surfaces prévue",
+     "Repositionnement annoncé dans le cadre du nouveau PLU bioclimatique"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit — annonce du cabinet Arsene",
+     "titre": "Arsene conseille BauMont Real Estate Capital et Picture Asset Management pour l'acquisition du Square d'Orléans",
+     "url": "https://www.lemondedudroit.fr/deals/97395-arsene-conseille-baumont-real-estate-capital-et-picture-asset-management-pour-l-acquisition-du-square-d-orleans.html",
+     "date": "2025-02-27",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'adresse n'est pas publiée par la source : l'actif n'est pas placé sur la carte.",
+    "Le vendeur n'est pas nommé."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-16",
+   "verifie_le": "2026-11-16",
+   "historique": [
+    {
+     "date": "2026-11-16",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-071",
+   "titre": "Barings acquiert auprès d'une compagnie d'assurance un magasin alimentaire de 4 500 m² au 42 rue de Sèvres (7e)",
+   "resume": "Barings a acquis, pour une stratégie d'investissement core, un magasin alimentaire d'environ 4 500 m², dont plus de 2 400 m² de surface de vente, au 42 rue de Sèvres, dans le 7e arrondissement. L'actif, cédé par une compagnie d'assurance non nommée, est entièrement loué à un grand distributeur français. Le prix n'est pas communiqué par les parties ; une étude de marché recense une vente de commerce à 35 M€ à cette adresse au premier semestre 2024.",
+   "date": {
+    "valeur": "2024-07-16",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-07-16",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "commerces",
+   "sous_type": "Magasin alimentaire",
+   "actif": {
+    "nom": "42 rue de Sèvres",
+    "adresse": "42 rue de Sèvres",
+    "commune": "Paris",
+    "arrondissements": [
+     7
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Barings",
+     "type": "Gestionnaire d'actifs",
+     "precision": "Pour une stratégie core ; actif détenu par un OPCI géré par Edmond de Rothschild, selon le conseil de l'acquéreur",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Compagnie d'assurance (non nommée)",
+     "type": "Assureur",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "LPA-CGR avocats",
+     "cote": "acquereur",
+     "role": "Juridique et fiscal",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Étude Oudot",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Cushman & Wakefield",
+     "cote": "acquereur",
+     "role": "Conseil",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Rothschild & Co",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Knight Frank",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Arcadis",
+     "role": "Conseil technique et environnemental de l'acquéreur",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "RSM",
+     "role": "Conseil comptable de l'acquéreur",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 35000000,
+     "statut": "presse",
+     "sources": [
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Montant figurant dans le tableau des principales ventes du premier semestre 2024 d'une étude de marché ; non communiqué par les parties."
+    },
+    "surface": {
+     "valeur": 4500,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "note": "Dont plus de 2 400 m² de surface de vente."
+    },
+    "prix_m2": {
+     "valeur": 7778,
+     "statut": "calcule",
+     "sources": [
+      "S1",
+      "S3"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 35 000 000 € ÷ environ 4 500 m² ≈ 7 778 €/m²."
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Entièrement loué à un grand distributeur français."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataire",
+     "valeur": "Un grand distributeur français, non nommé",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "core",
+    "niveau": "operation",
+    "citation": "« on behalf of a strategy to acquire core real estate »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Stratégie nommée par le communiqué de l'acquéreur pour cette opération."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Barings — communiqué de presse",
+     "titre": "Barings acquires prime Paris retail space",
+     "url": "https://www.barings.com/en-sg/guest/contact/media/news/barings-acquires-prime-paris-retail-space",
+     "date": "2024-07-16",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit — annonce du cabinet LPA-CGR avocats",
+     "titre": "LPA-CGR avocats conseille Barings dans l'acquisition d'un actif de grande distribution auprès d'une compagnie",
+     "url": "https://www.lemondedudroit.fr/deals/94418-lpa-cgr-avocats-conseille-barings-dans-l-acquisition-d-un-actif-de-grande-distribution-aupres-d-une-compagnie.html",
+     "date": "2024-09-06",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Arthur Loyd",
+     "titre": "L'indispensable du marché — Investissement Île-de-France, T2 2024",
+     "url": "https://arthur-loyd.com/media/file/49f543cd-l-indispensable-investissement-t2-2024.pdf",
+     "date": null,
+     "niveau": "B",
+     "nature": "etude",
+     "acces": "integral",
+     "note": "Ligne « 42 Sèvres – Paris 7 », commerce, 35 M€, dans les ventes du premier semestre 2024."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 ajoutée lors du rattrapage de la base.",
+    "Le distributeur locataire n'est pas nommé par les sources."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-16",
+   "verifie_le": "2026-11-16",
+   "historique": [
+    {
+     "date": "2026-11-16",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-072",
+   "titre": "Immorente (Sofidy) acquiert une résidence de coliving de 11 chambres à Cachan pour 1,3 M€",
+   "resume": "La SCPI Immorente, gérée par Sofidy, a acquis le 31 mars 2026 une résidence de coliving de 11 chambres au 6 avenue Jean-Jaurès, à Cachan, à proximité immédiate du RER. L'opérateur Colive l'exploite dans le cadre d'un bail ferme de 12 ans. Le prix s'élève à 1,33 M€ frais inclus, une partie des travaux payée à l'acquisition comprise. Le bulletin de la SCPI donne deux surfaces différentes, 249 m² et 243 m².",
+   "date": {
+    "valeur": "2026-03-31",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "residentiel",
+   "sous_type": "Résidence de coliving",
+   "actif": {
+    "nom": "Coliving Cachan",
+    "adresse": "6 avenue Jean-Jaurès",
+    "commune": "Cachan (94)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "À proximité immédiate du RER."
+   },
+   "acquereurs": [
+    {
+     "nom": "Immorente",
+     "type": "SCPI",
+     "gestionnaire": "Sofidy",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Colive",
+     "role": "Exploitant (bail ferme de 12 ans)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": 1333424,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "DI",
+     "note": "Frais inclus ; intègre une partie des travaux payée à l'acquisition."
+    },
+    "logements": {
+     "valeur": 11,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres"
+    },
+    "duree_baux": {
+     "valeur": 12,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "ans",
+     "libelle": "Durée ferme du bail"
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Bail ferme de 12 ans avec l'exploitant",
+     "Acquéreur : SCPI, véhicule de rendement"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Sofidy — bulletin trimestriel d'Immorente",
+     "titre": "Immorente — bulletin trimestriel du 1er trimestre 2026",
+     "url": "https://www.sofidy.com/app/uploads/2026/05/IMMORENTE-BT-1T-2026.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Référence BT-IR-042026-FR-2-2985 ; tableau des acquisitions et commentaire de gestion."
+    }
+   ],
+   "contradictions": [
+    {
+     "champ": "surface",
+     "libelle": "Surface de la résidence",
+     "valeurs": [
+      {
+       "valeur": "249 m²",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "valeur": "243 m²",
+       "sources": [
+        "S1"
+       ]
+      }
+     ],
+     "note": "Le bulletin indique 249 m² dans le tableau des acquisitions et 243 m² dans son commentaire ; les deux valeurs sont conservées."
+    }
+   ],
+   "notes": [
+    "Opération de 2026 ajoutée lors du rattrapage de la base.",
+    "Le vendeur n'est pas précisé par la source."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "moyen",
+    "motifs": [
+     "Contradiction au sein de la source : surface"
+    ]
+   },
+   "ajoute_le": "2026-11-16",
+   "verifie_le": "2026-11-16",
+   "historique": [
+    {
+     "date": "2026-11-16",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -12430,6 +13153,16 @@
    "a_confirmer": 0,
    "sources_consultees": 16,
    "resume": "Trois opérations d'Allianz Pierre relevées dans ses bulletins trimestriels : les acquisitions du 1 rue de Gramont (2e) et du 105 boulevard Raspail (6e) et la cession d'un commerce rue Niepce (14e). Trois opérations ajoutées lors du rattrapage : le 91 avenue des Champs-Élysées, acquis pour 320 M€ par Foncière Renaissance et MIMCO, la cession par Hines du 223 rue Saint-Honoré et l'acquisition par Hines du 32 avenue d'Iéna."
+  },
+  {
+   "date": "2026-11-16T07:16:04+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 4,
+   "mises_a_jour": 0,
+   "a_confirmer": 1,
+   "sources_consultees": 12,
+   "resume": "Deux opérations relevées : le parc d'activités Le Mauvin, à Aubervilliers, acquis par Sogaris auprès d'Icade pour 69 M€ hors droits, et le Square d'Orléans (9e), acquis par BauMont Real Estate Capital et Picture Asset Management. Deux opérations ajoutées lors du rattrapage : le magasin du 42 rue de Sèvres (7e), acquis par Barings, et une résidence de coliving à Cachan, acquise par Immorente (à confirmer)."
   }
  ]
 }
