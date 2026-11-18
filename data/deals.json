@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 17,
+  "version": 18,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-16T07:16:04+01:00",
+  "derniere_mise_a_jour": "2026-11-18T07:14:38+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 73
+  "prochain_id": 79
  },
  "transactions": [
   {
@@ -12832,6 +12832,796 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-073",
+   "titre": "La SCI Panara cède l'immeuble de bureaux du 117 rue de la Tour (16e) à une coentreprise de Foncière Bonneau et Foncière de Rive",
+   "resume": "La SCI Panara a cédé l'immeuble de bureaux du 117 rue de la Tour, dans le 16e arrondissement, composé d'un bâtiment principal et d'un pavillon et entièrement loué à 360Learning. L'acquéreur, Optimus Prime la Tour, est une coentreprise entre Foncière Bonneau et Foncière de Rive, dont c'est la première opération commune. Le prix n'est pas publié ; la cession a été annoncée le 13 septembre 2024 par le conseil du vendeur.",
+   "date": {
+    "valeur": "2024-09-13",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2024-09-13",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux (bâtiment principal et pavillon)",
+   "actif": {
+    "nom": "117 rue de la Tour",
+    "adresse": "117 rue de la Tour",
+    "commune": "Paris",
+    "arrondissements": [
+     16
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Optimus Prime la Tour",
+     "type": "Société de projet",
+     "precision": "Coentreprise entre Foncière Bonneau et Foncière de Rive",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "SCI Panara",
+     "type": "Société civile immobilière",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Gaulle Fleurance",
+     "cote": "vendeur",
+     "role": "Juridique (immobilier et construction)",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Monceau Notaires",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non publié."
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Entièrement loué à 360Learning."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataire",
+     "valeur": "360Learning",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "De Gaulle Fleurance — actualité du cabinet",
+     "titre": "De Gaulle Fleurance conseille la SCI Panara dans le cadre de la cession d'un immeuble de bureaux à Paris",
+     "url": "https://www.degaullefleurance.com/en/actualites/de-gaulle-fleurance-conseille-la-sci-panara-dans-le-cadre-de-la-cession-dun-immeuble-de-bureaux-a-paris/",
+     "date": "2024-09-13",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le détenteur de la SCI Panara n'est pas précisé par la source.",
+    "Surface et prix non publiés."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-18",
+   "verifie_le": "2026-11-18",
+   "historique": [
+    {
+     "date": "2026-11-18",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-074",
+   "titre": "MIMCO signe une promesse pour acquérir le 22 rue Bayen (17e) et le transformer en résidence para-hôtelière",
+   "resume": "Le groupe MIMCO a signé en avril 2026 une promesse de vente portant sur l'immeuble de bureaux du 22 rue Bayen, dans le 17e arrondissement, près de la place des Ternes. D'une surface de plancher de 2 367 m² sur sept niveaux et un rez-de-chaussée, il doit être entièrement transformé en 47 appartements de tourisme haut de gamme, exploités par OptiGuest sous la marque Quartier Libre Collection, pour une mise en exploitation prévue au second semestre 2029. Le vendeur et le prix ne sont pas publiés.",
+   "date": {
+    "valeur": "2026-05-04",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-05-04",
+   "statut_operation": "promesse",
+   "modalites": [
+    "Promesse de vente signée en avril 2026"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux à transformer en résidence para-hôtelière",
+   "actif": {
+    "nom": "22 Bayen",
+    "adresse": "22 rue Bayen",
+    "commune": "Paris",
+    "arrondissements": [
+     17
+    ],
+    "zone": "paris",
+    "note": "Près de la place des Ternes et de l'avenue de Wagram."
+   },
+   "acquereurs": [
+    {
+     "nom": "MIMCO",
+     "type": "Société de gestion",
+     "precision": "Groupe MIMCO",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "OptiGuest (groupe JHMH)",
+     "role": "Futur exploitant, sous la marque Quartier Libre Collection",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non publié."
+    },
+    "surface": {
+     "valeur": 2367,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Surface de plancher de bureaux."
+    },
+    "logements": {
+     "valeur": 47,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": null,
+     "libelle": "Appartements de tourisme prévus"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Transformation complète en 47 appartements de tourisme haut de gamme, avec un espace spa et 29 places de parking",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Calendrier",
+     "valeur": "Livraison et mise en exploitation prévues au second semestre 2029",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Transformation complète de bureaux en résidence para-hôtelière",
+     "Stratégie affichée de reconversion d'immeubles de bureaux sous-exploités"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "MIMCO — communiqué (Galivel)",
+     "titre": "MIMCO signe l'acquisition du 22 Bayen (Paris 17e) et prépare sa transformation en résidence para-hôtelière premium",
+     "url": "https://www.galivel.com/media/files/260504_mimco_cp22bayen.pdf",
+     "date": "2026-05-04",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Hospitality ON",
+     "titre": "MIMCO boucle le rachat du 22 rue Bayen pour en faire 47 appartements para-hôteliers",
+     "url": "https://hospitality-on.com/fr/hotellerie/mimco-boucle-le-rachat-du-22-rue-bayen-pour-en-faire-47-appartements-para-hoteliers",
+     "date": null,
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article non consultable : seul le titre a été lu."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "La presse hôtelière titre ensuite sur la finalisation du rachat ; faute d'avoir pu lire l'article, la fiche reste au stade de la promesse.",
+    "Le vendeur n'est pas nommé par le communiqué."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-18",
+   "verifie_le": "2026-11-18",
+   "historique": [
+    {
+     "date": "2026-11-18",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-075",
+   "titre": "Henderson Park et Atream acquièrent cinq hôtels Novotel Suites, dont trois en Île-de-France (Issy-les-Moulineaux, Montreuil, Saint-Denis)",
+   "resume": "Henderson Park a acquis, aux côtés de la société de gestion Atream, un portefeuille de cinq hôtels Novotel Suites totalisant 645 chambres, auprès d'investisseurs institutionnels français non nommés. Trois hôtels sont en Île-de-France, à Issy-les-Moulineaux (128 chambres), Montreuil (166) et Saint-Denis (101) ; les deux autres sont à Lille et à Cannes. Jusque-là exploités au travers de baux variables, les hôtels restent gérés par Accor dans le cadre de nouveaux contrats de gestion. Le prix n'est pas publié.",
+   "date": {
+    "valeur": "2025-02-18",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-02-18",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition des murs et reprise de l'exploitation",
+    "Nouveaux contrats de gestion avec Accor, à la place de baux variables"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Portefeuille de cinq hôtels Novotel Suites (645 chambres)",
+   "actif": {
+    "nom": "Portefeuille Novotel Suites",
+    "adresse": null,
+    "commune": "Issy-les-Moulineaux (92), Montreuil (93) et Saint-Denis (93)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "Portefeuille de cinq hôtels : trois en Île-de-France, deux hors du périmètre suivi (Lille et Cannes) ; adresses non publiées."
+   },
+   "acquereurs": [
+    {
+     "nom": "Henderson Park",
+     "type": "Société d'investissement",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Atream",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Investisseurs institutionnels français (non nommés)",
+     "type": "Investisseur institutionnel",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Accor",
+     "role": "Exploitant (nouveaux contrats de gestion)",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non publié."
+    },
+    "cles": {
+     "valeur": 645,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres",
+     "note": "Portefeuille entier ; les trois hôtels franciliens totalisent 395 chambres (128 + 166 + 101)."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Hôtels en Île-de-France",
+     "valeur": "Issy-les-Moulineaux (128 chambres), Montreuil (166) et Saint-Denis (101)",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Hôtels hors Île-de-France",
+     "valeur": "Lille (126 chambres) et Cannes (124)",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Passage de baux variables à des contrats de gestion",
+     "Reprise de l'exploitation des hôtels par les acquéreurs"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Henderson Park — communiqué de presse",
+     "titre": "Henderson Park acquires portfolio of five French hotels",
+     "url": "https://hendersonpark.com/?p=2634",
+     "date": "2025-02-18",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Hospitality Net",
+     "titre": "Henderson Park acquires portfolio of five French hotels",
+     "url": "https://hospitalitynet.org/news/4125881.html",
+     "date": "2025-02-18",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Seuls les trois hôtels franciliens relèvent du périmètre suivi ; la fiche décrit l'ensemble du portefeuille.",
+    "Les adresses ne sont pas publiées : les hôtels ne sont pas placés sur la carte."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-18",
+   "verifie_le": "2026-11-18",
+   "historique": [
+    {
+     "date": "2026-11-18",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-076",
+   "titre": "La SCPI PF Grand Paris cède un immeuble route de la Reine à Boulogne-Billancourt pour 9,4 M€ selon la presse",
+   "resume": "La SCPI PF Grand Paris, gérée par Perial Asset Management, a cédé en septembre 2026 un immeuble route de la Reine, à Boulogne-Billancourt, pour 9,4 M€ selon une synthèse de son bulletin du troisième trimestre publiée par la presse spécialisée. C'est l'une des six ventes de la SCPI sur le trimestre. L'acquéreur n'est pas précisé.",
+   "date": {
+    "valeur": "2026-09",
+    "precision": "mois",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "autre",
+   "sous_type": "Immeuble (usage non précisé)",
+   "actif": {
+    "nom": "Immeuble route de la Reine",
+    "adresse": "route de la Reine",
+    "commune": "Boulogne-Billancourt (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": "Numéro de voie non publié."
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "PF Grand Paris",
+     "type": "SCPI",
+     "gestionnaire": "Perial Asset Management",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 9400000,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix de cession selon la synthèse du bulletin, sans précision de base."
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Arbitrage d'une SCPI ; aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "France SCPI",
+     "titre": "Six ventes immobilières au 3e trimestre 2026 pour Perial Grand Paris",
+     "url": "https://francescpi.com/scpi/actualites-scpi/perial-grand-paris-bulletin-3e-trimestre-2026",
+     "date": "2026-11-16",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Synthèse du bulletin du 3e trimestre 2026 de la SCPI ; date de dernière mise à jour ; le site signale ses articles comme communications publicitaires."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Fiche à confirmer par le bulletin du 3e trimestre 2026 de la SCPI, non trouvé au 18 novembre 2026."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "faible",
+    "motifs": [
+     "Une seule source de presse consultée en intégralité",
+     "Bulletin de la SCPI non encore consulté",
+     "Acquéreur non communiqué"
+    ]
+   },
+   "ajoute_le": "2026-11-18",
+   "verifie_le": "2026-11-18",
+   "historique": [
+    {
+     "date": "2026-11-18",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-077",
+   "titre": "La SCPI PF Grand Paris cède l'immeuble Grandcoing à Ivry-sur-Seine pour 7 M€ selon la presse",
+   "resume": "La SCPI PF Grand Paris, gérée par Perial Asset Management, a cédé en juillet 2026 l'immeuble Grandcoing, à Ivry-sur-Seine, pour 7 M€ selon une synthèse de son bulletin du troisième trimestre publiée par la presse spécialisée. C'est l'une des six ventes de la SCPI sur le trimestre. L'acquéreur n'est pas précisé.",
+   "date": {
+    "valeur": "2026-07",
+    "precision": "mois",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "autre",
+   "sous_type": "Immeuble (usage non précisé)",
+   "actif": {
+    "nom": "Immeuble Grandcoing",
+    "adresse": null,
+    "commune": "Ivry-sur-Seine (94)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "Adresse non publiée."
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "PF Grand Paris",
+     "type": "SCPI",
+     "gestionnaire": "Perial Asset Management",
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 7000000,
+     "statut": "presse",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix de cession selon la synthèse du bulletin, sans précision de base."
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Arbitrage d'une SCPI ; aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "France SCPI",
+     "titre": "Six ventes immobilières au 3e trimestre 2026 pour Perial Grand Paris",
+     "url": "https://francescpi.com/scpi/actualites-scpi/perial-grand-paris-bulletin-3e-trimestre-2026",
+     "date": "2026-11-16",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral",
+     "note": "Synthèse du bulletin du 3e trimestre 2026 de la SCPI ; date de dernière mise à jour ; le site signale ses articles comme communications publicitaires."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Fiche à confirmer par le bulletin du 3e trimestre 2026 de la SCPI, non trouvé au 18 novembre 2026."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "faible",
+    "motifs": [
+     "Une seule source de presse consultée en intégralité",
+     "Bulletin de la SCPI non encore consulté",
+     "Acquéreur non communiqué"
+    ]
+   },
+   "ajoute_le": "2026-11-18",
+   "verifie_le": "2026-11-18",
+   "historique": [
+    {
+     "date": "2026-11-18",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-078",
+   "titre": "Le FPCI Perial Next Value 1 acquiert 700 m² de bureaux vacants à Jouy-en-Josas pour les transformer en coliving seniors",
+   "resume": "Perial Asset Management a acquis le 7 mai 2026, pour son FPCI Perial Next Value 1, un immeuble de bureaux vacant de 700 m² à Jouy-en-Josas, dans les Yvelines. Les autorisations administratives étant obtenues et purgées, il doit devenir une résidence de coliving pour seniors exploitée par Chez Jeannette dans le cadre d'un bail ferme de 12 ans, avec une livraison prévue en janvier 2027. Le prix et le vendeur ne sont pas publiés.",
+   "date": {
+    "valeur": "2026-05-07",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-05-18",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Bureaux vacants à transformer en coliving seniors",
+   "actif": {
+    "nom": "Bureaux de Jouy-en-Josas",
+    "adresse": null,
+    "commune": "Jouy-en-Josas (78)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "Adresse non publiée."
+   },
+   "acquereurs": [
+    {
+     "nom": "Perial Next Value 1",
+     "type": "FPCI",
+     "gestionnaire": "Perial Asset Management",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Chez Jeannette",
+     "role": "Futur exploitant (bail ferme de 12 ans)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non publié."
+    },
+    "surface": {
+     "valeur": 700,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "duree_baux": {
+     "valeur": 12,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "ans",
+     "libelle": "Durée ferme du futur bail"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Projet",
+     "valeur": "Transformation en résidence de coliving pour seniors, livraison prévue en janvier 2027",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Rang dans le fonds",
+     "valeur": "Deuxième acquisition du FPCI",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Bureaux vacants acquis pour être transformés",
+     "Stratégie du fonds : repositionnement, rénovation ou restructuration avec revente à court terme"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Value-Add » est une hypothèse d'analyste ; le TRI cible de plus de 20 % affiché par le fonds la rapproche d'une stratégie opportuniste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Finyear (communiqué de Perial Asset Management)",
+     "titre": "PERIAL Next Value 1 réalise sa deuxième acquisition et prolonge sa période de souscription jusqu'au 20 novembre 2026",
+     "url": "https://finyear.com/perial-next-value-1-realise-sa-deuxieme-acquisition-et-prolonge-sa-periode-de-souscription-jusquau-20-novembre-2026/",
+     "date": "2026-05-18",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué de la société de gestion, repris tel quel par le site."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'adresse n'est pas publiée : l'actif n'est pas placé sur la carte."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-18",
+   "verifie_le": "2026-11-18",
+   "historique": [
+    {
+     "date": "2026-11-18",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -13163,6 +13953,16 @@
    "a_confirmer": 1,
    "sources_consultees": 12,
    "resume": "Deux opérations relevées : le parc d'activités Le Mauvin, à Aubervilliers, acquis par Sogaris auprès d'Icade pour 69 M€ hors droits, et le Square d'Orléans (9e), acquis par BauMont Real Estate Capital et Picture Asset Management. Deux opérations ajoutées lors du rattrapage : le magasin du 42 rue de Sèvres (7e), acquis par Barings, et une résidence de coliving à Cachan, acquise par Immorente (à confirmer)."
+  },
+  {
+   "date": "2026-11-18T07:14:38+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 6,
+   "mises_a_jour": 0,
+   "a_confirmer": 2,
+   "sources_consultees": 7,
+   "resume": "Six opérations ajoutées : la cession du 117 rue de la Tour (16e), la promesse de MIMCO sur le 22 rue Bayen (17e), le portefeuille de cinq hôtels Novotel Suites d'Henderson Park et Atream, deux cessions de la SCPI PF Grand Paris à Boulogne-Billancourt et à Ivry-sur-Seine (à confirmer) et des bureaux à Jouy-en-Josas acquis par le FPCI Perial Next Value 1."
   }
  ]
 }
