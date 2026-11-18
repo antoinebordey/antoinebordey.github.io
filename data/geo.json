@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-16T06:16:43+00:00",
+ "maj": "2026-11-18T06:15:24+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -451,6 +451,36 @@
    "precision": "housenumber",
    "score": 0.969,
    "code_insee": "94016"
+  },
+  "pdm-073": {
+   "requete": "117 rue de la Tour Paris",
+   "trouve": true,
+   "lat": 48.863044,
+   "lon": 2.275265,
+   "libelle": "117 Rue de la Tour 75116 Paris",
+   "precision": "housenumber",
+   "score": 0.981,
+   "code_insee": "75116"
+  },
+  "pdm-074": {
+   "requete": "22 rue Bayen 75017 Paris",
+   "trouve": true,
+   "lat": 48.880269,
+   "lon": 2.294084,
+   "libelle": "22 Rue Bayen 75017 Paris",
+   "precision": "housenumber",
+   "score": 0.978,
+   "code_insee": "75117"
+  },
+  "pdm-076": {
+   "requete": "route de la Reine Boulogne-Billancourt",
+   "trouve": true,
+   "lat": 48.839658,
+   "lon": 2.240546,
+   "libelle": "Route de la Reine 92100 Boulogne-Billancourt",
+   "precision": "street",
+   "score": 0.981,
+   "code_insee": "92012"
   }
  }
 }

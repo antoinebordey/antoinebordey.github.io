@@ -7,8 +7,34 @@
   "maj_source": "2026-11-09T10:59:32.244909+00:00",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-11T05:26:14+00:00",
+ "maj": "2026-11-18T06:20:29+00:00",
  "depuis": "2022-01-01",
  "note": "Autorisations rapprochées par numéro et nom de voie de l'adresse publiée de l'actif ; seuls les demandeurs personnes morales sont nommés.",
- "fiches": {}
+ "fiches": {
+  "pdm-064": [
+   {
+    "type": "PC",
+    "numero": "07510623V0031",
+    "date_autorisation": "2023-12-29",
+    "etat": "6",
+    "debut_travaux": "2024-08-06",
+    "achevement": "2026-04-15",
+    "adresse": "105 BOULEVARD RASPAIL",
+    "code_commune": "75106",
+    "nature_projet": "3",
+    "surfaces": {
+     "SURF_HAB_AVANT": 67,
+     "SURF_HAB_CREEE": 296,
+     "SURF_HAB_ISSUE_TRANSFO": 1052,
+     "SURF_LOC_AVANT": 3530,
+     "SURF_LOC_CREEE": 457,
+     "SURF_LOC_DEMOLIE": 194,
+     "SURF_LOC_TRANSFORMEE": 1052,
+     "SURF_PUB_TRANSFORMEE": 1052
+    },
+    "demandeur": "GDG CAPITAL 7",
+    "siren": "892262551"
+   }
+  ]
+ }
 }
