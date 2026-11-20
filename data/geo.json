@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-18T06:15:24+00:00",
+ "maj": "2026-11-20T06:13:26+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -481,6 +481,46 @@
    "precision": "street",
    "score": 0.981,
    "code_insee": "92012"
+  },
+  "pdm-079": {
+   "requete": "45 rue Madame de Sanzillon Clichy",
+   "trouve": true,
+   "lat": 48.903502,
+   "lon": 2.316264,
+   "libelle": "Rue Madame de Sanzillon 92110 Clichy",
+   "precision": "street",
+   "score": 0.803,
+   "code_insee": "92024"
+  },
+  "pdm-080": {
+   "requete": "37 boulevard d'Inkermann Neuilly-sur-Seine",
+   "trouve": true,
+   "lat": 48.887793,
+   "lon": 2.275237,
+   "libelle": "37 Boulevard d'Inkermann 92200 Neuilly-sur-Seine",
+   "precision": "housenumber",
+   "score": 0.972,
+   "code_insee": "92051"
+  },
+  "pdm-081": {
+   "requete": "66 avenue du Maine 75014 Paris",
+   "trouve": true,
+   "lat": 48.839438,
+   "lon": 2.321691,
+   "libelle": "66 Avenue du Maine 75014 Paris",
+   "precision": "housenumber",
+   "score": 0.981,
+   "code_insee": "75114"
+  },
+  "pdm-082": {
+   "requete": "27 villa Wagram 75008 Paris",
+   "trouve": true,
+   "lat": 48.876703,
+   "lon": 2.298248,
+   "libelle": "27 Villa Wagram-Saint-Honoré 75008 Paris",
+   "precision": "housenumber",
+   "score": 0.604,
+   "code_insee": "75108"
   }
  }
 }
