@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 18,
+  "version": 19,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-18T07:14:38+01:00",
+  "derniere_mise_a_jour": "2026-11-20T07:12:44+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 79
+  "prochain_id": 83
  },
  "transactions": [
   {
@@ -13622,6 +13622,600 @@
      "evenement": "Fiche créée par la veille"
     }
    ]
+  },
+  {
+   "id": "pdm-079",
+   "titre": "Foncière Volta et le groupe Distrimo acquièrent l'immeuble de bureaux Marco Polo à Clichy pour 17,5 M€ hors droits",
+   "resume": "Foncière Volta a acquis, au travers d'une société commune détenue à parité avec le groupe Distrimo et qu'elle gère, l'immeuble de bureaux Marco Polo, au 45 rue Madame-de-Sanzillon et 1 rue Mozart à Clichy, auprès d'investisseurs institutionnels non nommés. Le prix s'élève à 17,5 M€ hors droits, soit environ 2 200 € par m², et l'acquisition est financée par un crédit-bail immobilier d'Arkéa Banque Entreprises et Institutionnels. Le communiqué donne deux surfaces utiles différentes : plus de 8 100 m² et environ 7 890 m².",
+   "date": {
+    "valeur": "2026-08-31",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-08-31",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition par une société commune détenue à parité par Foncière Volta et Distrimo",
+    "Financement par crédit-bail immobilier"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux avec restaurant interentreprises",
+   "actif": {
+    "nom": "Marco Polo",
+    "adresse": "45 rue Madame de Sanzillon",
+    "commune": "Clichy (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": "Également au 1 rue Mozart ; ZAC des Terrains Citroën selon la presse boursière."
+   },
+   "acquereurs": [
+    {
+     "nom": "Foncière Volta",
+     "type": "Foncière cotée",
+     "precision": "Via une société commune détenue à parité avec Distrimo, qu'elle gère",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "nom": "Distrimo",
+     "type": "Groupe",
+     "precision": "Associé à parité dans la société commune",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Investisseurs institutionnels (non nommés)",
+     "type": "Investisseur institutionnel",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [
+    {
+     "nom": "Arkéa Banque Entreprises et Institutionnels",
+     "role": "Crédit-bailleur",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 17500000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "HD"
+    },
+    "prix_m2": {
+     "valeur": 2200,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "HD",
+     "note": "Valeur au m² indiquée par le communiqué."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Niveaux",
+     "valeur": "Sept",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Livraison",
+     "valeur": "2005",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "L'acquéreur met en avant un potentiel de création de valeur dans un secteur en mutation ; un seul indice, pas d'hypothèse formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "ABC Bourse (communiqué de Foncière Volta, Actusnews Wire)",
+     "titre": "Foncière Volta acquiert l'immeuble « Marco Polo » à Clichy",
+     "url": "https://www.abcbourse.com/marches/fonciere-volta-acquiert-l-immeuble-quot-marco-polo-quot-a-clichy_701824",
+     "date": "2026-08-31",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué de la société cotée, repris tel quel par le site."
+    },
+    {
+     "id": "S2",
+     "editeur": "ABC Bourse",
+     "titre": "Foncière Volta acquiert l'immeuble Marco Polo à Clichy pour 17,5 millions d'euros",
+     "url": "https://www.abcbourse.com/marches/fonciere-volta-acquiert-limmeuble-marco-polo-a-clichy-pour-17-5-millions-deuro_701830",
+     "date": "2026-08-31",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [
+    {
+     "champ": "surface",
+     "libelle": "Surface utile",
+     "valeurs": [
+      {
+       "valeur": "plus de 8 100 m²",
+       "sources": [
+        "S1",
+        "S2"
+       ]
+      },
+      {
+       "valeur": "environ 7 890 m²",
+       "sources": [
+        "S1"
+       ]
+      }
+     ],
+     "note": "Le communiqué indique environ 7 890 m² dans son chapô et plus de 8 100 m² dans son texte ; les deux valeurs sont conservées."
+    }
+   ],
+   "notes": [
+    "Le vendeur n'est pas nommé."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "moyen",
+    "motifs": [
+     "Contradiction au sein de la source : surface utile"
+    ]
+   },
+   "ajoute_le": "2026-11-20",
+   "verifie_le": "2026-11-20",
+   "historique": [
+    {
+     "date": "2026-11-20",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-080",
+   "titre": "Cogifrance acquiert un immeuble résidentiel de 17 logements au 37-39 boulevard d'Inkermann à Neuilly-sur-Seine",
+   "resume": "Cogifrance a acquis auprès d'un investisseur institutionnel non nommé un immeuble résidentiel au 37-39 boulevard d'Inkermann, à Neuilly-sur-Seine. L'immeuble compte 17 logements pour 1 360 m² habitables et 23 places de stationnement. Le prix reste confidentiel ; l'opération a été annoncée le 29 octobre 2024 par Cushman & Wakefield, qui l'a accompagnée avec Enoma Partners.",
+   "date": {
+    "valeur": "2024-10-29",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-10-29",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "residentiel",
+   "sous_type": "Immeuble résidentiel (17 logements)",
+   "actif": {
+    "nom": "37-39 boulevard d'Inkermann",
+    "adresse": "37-39 boulevard d'Inkermann",
+    "commune": "Neuilly-sur-Seine (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Cogifrance",
+     "type": "Foncière",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Investisseur institutionnel (non nommé)",
+     "type": "Investisseur institutionnel",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Cushman & Wakefield",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Enoma Partners",
+     "cote": "non_precise",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix confidentiel."
+    },
+    "surface": {
+     "valeur": 1360,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "note": "Surface habitable."
+    },
+    "logements": {
+     "valeur": 17,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": null
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Stationnement",
+     "valeur": "23 places",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Cushman & Wakefield — actualité",
+     "titre": "Cogifrance acquiert un immeuble résidentiel prime à Neuilly-sur-Seine",
+     "url": "https://www.cushmanwakefield.com/fr-fr/france/news/2024/10/cogifrance-acquires-prime-residential-property-in-neuilly-sur-seine",
+     "date": "2024-10-29",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral",
+     "note": "Mandat co-exclusif avec Enoma Partners ; le côté représenté par chaque conseil n'est pas précisé."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Opération de 2024 relevée par la veille.",
+    "Le vendeur n'est pas nommé."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-20",
+   "verifie_le": "2026-11-20",
+   "historique": [
+    {
+     "date": "2026-11-20",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-081",
+   "titre": "La SCPI Aestiam Agora cède un plateau de bureaux de 1 071 m² au 66 avenue du Maine (14e) pour 7,6 M€",
+   "resume": "La SCPI Aestiam Agora, gérée par Aestiam, a cédé le 9 février 2026 un plateau de bureaux de 1 071 m² au 66 avenue du Maine, dans l'immeuble Heron Building, dans le 14e arrondissement, pour 7,6 M€. Elle l'avait acquis en juin 2017. L'acquéreur n'est pas précisé.",
+   "date": {
+    "valeur": "2026-02-09",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-07-21",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Plateau de bureaux",
+   "actif": {
+    "nom": "Heron Building (plateau de bureaux)",
+    "adresse": "66 avenue du Maine",
+    "commune": "Paris",
+    "arrondissements": [
+     14
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "Aestiam Agora",
+     "type": "SCPI",
+     "gestionnaire": "Aestiam",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 7600000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix de vente, sans précision de base."
+    },
+    "surface": {
+     "valeur": 1071,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 7096,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 7 600 000 € ÷ 1 071 m² ≈ 7 096 €/m²."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Acquisition par la SCPI",
+     "valeur": "19 juin 2017",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Arbitrage d'une SCPI ; aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Club Patrimoine (communiqué d'Aestiam)",
+     "titre": "Aestiam annonce la cession d'un actif de bureaux au 27 Villa Wagram (Paris 8e)",
+     "url": "https://www.clubpatrimoine.com/contenus/scpi-aestiam-agora-cession",
+     "date": "2026-07-21",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué de la société de gestion repris par le site ; il présente aussi la cession du 66 avenue du Maine."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'acquéreur n'est pas précisé par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-20",
+   "verifie_le": "2026-11-20",
+   "historique": [
+    {
+     "date": "2026-11-20",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
+  },
+  {
+   "id": "pdm-082",
+   "titre": "La SCPI Aestiam Agora cède un plateau de bureaux de 115 m² au 27 Villa Wagram (8e) pour 1,15 M€",
+   "resume": "La SCPI Aestiam Agora, gérée par Aestiam, a cédé le 8 juillet 2026 un plateau de bureaux de 115 m² au 27 Villa Wagram, dans le 8e arrondissement, pour 1,15 M€ net vendeur. Acquis en juin 2008, le lot dégage une plus-value de 37 %. L'acquéreur n'est pas précisé.",
+   "date": {
+    "valeur": "2026-07-08",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "date_publication": "2026-07-21",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Plateau de bureaux",
+   "actif": {
+    "nom": "27 Villa Wagram (plateau de bureaux)",
+    "adresse": "27 villa Wagram",
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": null
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "Aestiam Agora",
+     "type": "SCPI",
+     "gestionnaire": "Aestiam",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 1150000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix net vendeur."
+    },
+    "surface": {
+     "valeur": 115,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 10000,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 1 150 000 € ÷ 115 m² = 10 000 €/m², net vendeur."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Acquisition par la SCPI",
+     "valeur": "25 juin 2008",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Plus-value",
+     "valeur": "37 %",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Arbitrage d'une SCPI ; aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Club Patrimoine (communiqué d'Aestiam)",
+     "titre": "Aestiam annonce la cession d'un actif de bureaux au 27 Villa Wagram (Paris 8e)",
+     "url": "https://www.clubpatrimoine.com/contenus/scpi-aestiam-agora-cession",
+     "date": "2026-07-21",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué de la société de gestion repris par le site ; il présente aussi la cession du 66 avenue du Maine."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'acquéreur n'est pas précisé par la source."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-20",
+   "verifie_le": "2026-11-20",
+   "historique": [
+    {
+     "date": "2026-11-20",
+     "evenement": "Fiche créée par la veille"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -13963,6 +14557,16 @@
    "a_confirmer": 2,
    "sources_consultees": 7,
    "resume": "Six opérations ajoutées : la cession du 117 rue de la Tour (16e), la promesse de MIMCO sur le 22 rue Bayen (17e), le portefeuille de cinq hôtels Novotel Suites d'Henderson Park et Atream, deux cessions de la SCPI PF Grand Paris à Boulogne-Billancourt et à Ivry-sur-Seine (à confirmer) et des bureaux à Jouy-en-Josas acquis par le FPCI Perial Next Value 1."
+  },
+  {
+   "date": "2026-11-20T07:12:44+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 4,
+   "mises_a_jour": 0,
+   "a_confirmer": 1,
+   "sources_consultees": 9,
+   "resume": "Quatre opérations ajoutées : l'immeuble Marco Polo à Clichy, acquis pour 17,5 M€ hors droits par Foncière Volta et Distrimo (à confirmer), un immeuble résidentiel à Neuilly-sur-Seine acquis par Cogifrance, et deux cessions de plateaux de bureaux par la SCPI Aestiam Agora, au 66 avenue du Maine (14e) et au 27 Villa Wagram (8e)."
   }
  ]
 }
