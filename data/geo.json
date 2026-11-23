@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-20T06:13:26+00:00",
+ "maj": "2026-11-23T06:25:56+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -521,6 +521,56 @@
    "precision": "housenumber",
    "score": 0.604,
    "code_insee": "75108"
+  },
+  "pdm-084": {
+   "requete": "39 rue du Colisée 75008 Paris",
+   "trouve": true,
+   "lat": 48.871735,
+   "lon": 2.31088,
+   "libelle": "39 Rue du Colisée 75008 Paris",
+   "precision": "housenumber",
+   "score": 0.97,
+   "code_insee": "75108"
+  },
+  "pdm-085": {
+   "requete": "2 rue Louis David Paris",
+   "trouve": true,
+   "lat": 48.862133,
+   "lon": 2.281733,
+   "libelle": "2 Rue Louis David 75116 Paris",
+   "precision": "housenumber",
+   "score": 0.974,
+   "code_insee": "75116"
+  },
+  "pdm-086": {
+   "requete": "31 bis rue Bergère 75009 Paris",
+   "trouve": true,
+   "lat": 48.872518,
+   "lon": 2.343947,
+   "libelle": "31B Rue Bergère 75009 Paris",
+   "precision": "housenumber",
+   "score": 0.695,
+   "code_insee": "75109"
+  },
+  "pdm-087": {
+   "requete": "21 rue de Bruxelles 75009 Paris",
+   "trouve": true,
+   "lat": 48.882852,
+   "lon": 2.328728,
+   "libelle": "21 Rue de Bruxelles 75009 Paris",
+   "precision": "housenumber",
+   "score": 0.971,
+   "code_insee": "75109"
+  },
+  "pdm-088": {
+   "requete": "12 rue Auber 75009 Paris",
+   "trouve": true,
+   "lat": 48.872828,
+   "lon": 2.328982,
+   "libelle": "12 Rue Auber 75009 Paris",
+   "precision": "housenumber",
+   "score": 0.968,
+   "code_insee": "75109"
   }
  }
 }
