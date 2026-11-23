@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 19,
+  "version": 20,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-20T07:12:44+01:00",
+  "derniere_mise_a_jour": "2026-11-23T07:24:59+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 83
+  "prochain_id": 91
  },
  "transactions": [
   {
@@ -14216,6 +14216,1457 @@
      "evenement": "Fiche créée par la veille"
     }
    ]
+  },
+  {
+   "id": "pdm-083",
+   "titre": "Edge acquiert auprès de Præmia REIM France l'ensemble de bureaux Les Miroirs, à La Défense, pour le transformer",
+   "resume": "Le promoteur et investisseur néerlandais Edge a acquis l'ensemble Les Miroirs, à La Défense, auprès de Præmia REIM France, en reprenant les titres de la société propriétaire. Selon la presse locale, ce complexe d'environ 71 000 m², construit au début des années 1980, est vide depuis plusieurs années. Edge prévoit de le repositionner en un projet mixte de nouvelle génération, avec Paris La Défense ; c'est sa première acquisition en France, et le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2025-06-04",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-06-04",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition sous forme de cession de titres (share deal)",
+    "Première acquisition d'Edge en France"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Ensemble de bureaux vacant à transformer",
+   "actif": {
+    "nom": "Les Miroirs",
+    "adresse": null,
+    "commune": "La Défense",
+    "arrondissements": [],
+    "zone": "la_defense",
+    "note": "En bordure du boulevard Patrick-Devedjian, près de la station Esplanade de La Défense ; adresse précise non communiquée."
+   },
+   "acquereurs": [
+    {
+     "nom": "Edge",
+     "type": "Investisseur et promoteur",
+     "precision": "Promoteur et investisseur néerlandais (Edge Technologies)",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Præmia REIM France",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S2",
+      "S4"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Gide",
+     "cote": "acquereur",
+     "role": "Juridique et fiscal",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Loyens & Loeff",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S3"
+     ]
+    },
+    {
+     "nom": "Allez & Associés",
+     "cote": "non_precise",
+     "role": "Notaires",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Interpath",
+     "cote": "non_precise",
+     "role": "Conseil financier",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "nom": "Orféo",
+     "cote": "non_precise",
+     "role": null,
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Paris La Défense",
+     "role": "Partenaire du projet de transformation annoncé",
+     "sources": [
+      "S1",
+      "S4"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 71000,
+     "statut": "presse",
+     "sources": [
+      "S4"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "libelle": "Surface de l'ensemble"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Construction",
+     "valeur": "Début des années 1980",
+     "statut": "presse",
+     "sources": [
+      "S4"
+     ]
+    },
+    {
+     "libelle": "Occupation",
+     "valeur": "Vide depuis plusieurs années",
+     "statut": "presse",
+     "sources": [
+      "S4"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "value_add",
+    "indices": [
+     "Ensemble vide depuis plusieurs années selon la presse locale",
+     "Repositionnement et transformation en projet mixte annoncés par l'acquéreur",
+     "Redéveloppement en immeuble de bureaux de nouvelle génération selon un conseil de l'acquéreur"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Value-Add » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Edge — actualité",
+     "titre": "Edge enters Parisian market with first project: acquisition of Les Miroirs in La Défense",
+     "url": "https://edge.tech/articles/edge-enters-parisian-market-with-first-project-acquisition-of-les-miroirs-in-la-defense",
+     "date": "2025-06-04",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Le Monde du Droit (annonce de Gide)",
+     "titre": "Gide conseil de Edge Technologies dans le cadre de l'acquisition de l'ensemble immobilier Les Miroirs à La Défense",
+     "url": "https://www.lemondedudroit.fr/deals/99853-gide-conseil-de-edge-technologies-dans-le-cadre-de-lacquisition-de-lensemble-immobilier-les-miroirs-a-la-defense.html",
+     "date": "2025-07-07",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Loyens & Loeff",
+     "titre": "Edge enters Paris market with Les Miroirs acquisition",
+     "url": "https://www.loyensloeff.com/insights/news--events/news/edge-enters-paris-market-with-les-miroirs-acquisition/",
+     "date": "2025-06-05",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S4",
+     "editeur": "Defense-92",
+     "titre": "En cédant l'ensemble des Miroirs, Præmia REIM renonce à son mégaprojet Odyssey",
+     "url": "https://www.defense-92.fr/projets/en-cedant-lensemble-des-miroirs-praemia-reim-renonce-a-son-megaprojet-odyssey-83838",
+     "date": "2025-06-06",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le prix n'est pas communiqué.",
+    "Selon la presse locale, l'avenir du projet de tours Odyssey, autorisé sur le site pour le vendeur, paraît compromis."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-23",
+   "verifie_le": "2026-11-23",
+   "historique": [
+    {
+     "date": "2026-11-23",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-084",
+   "titre": "DWS acquiert pour un fonds institutionnel l'immeuble de bureaux « core » du 39 rue du Colisée (8e), pour environ 140 M€ selon la presse",
+   "resume": "DWS Real Estate a acquis, pour l'un de ses fonds immobiliers institutionnels, un immeuble de bureaux de huit niveaux avec quelques commerces au 39 rue du Colisée, près des Champs-Élysées. Entièrement rénové et loué à un locataire de premier plan par un bail de longue durée, l'immeuble est présenté comme un actif « core » par l'acquéreur. Selon la presse spécialisée allemande, le vendeur serait BNP Paribas Asset Management et le prix avoisinerait 140 M€. Le communiqué donne deux surfaces incompatibles.",
+   "date": {
+    "valeur": "2026-04-14",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-04-14",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition pour le compte d'un fonds immobilier institutionnel de DWS"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux avec commerces",
+   "actif": {
+    "nom": "39 rue du Colisée",
+    "adresse": "39 rue du Colisée",
+    "commune": "Paris",
+    "arrondissements": [
+     8
+    ],
+    "zone": "paris_qca",
+    "note": "Près des Champs-Élysées."
+   },
+   "acquereurs": [
+    {
+     "nom": "DWS Real Estate",
+     "type": "Gestionnaire d'actifs",
+     "precision": "Pour l'un de ses fonds immobiliers institutionnels (non nommé)",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "BNP Paribas Asset Management",
+     "type": "Gestionnaire d'actifs",
+     "precision": "Selon la presse, qui cite Green Street News",
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 140000000,
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "environ",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Montant cité par la presse d'après des sources de marché."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Niveaux",
+     "valeur": "Huit",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Occupation",
+     "valeur": "Entièrement loué à un locataire de premier plan, par un bail de longue durée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Rénovation",
+     "valeur": "Entièrement rénové selon les critères de la taxonomie européenne",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "core",
+    "niveau": "operation",
+    "citation": "« by acquiring a core office building »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Stratégie nommée par le communiqué de l'acquéreur pour cette opération."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "IREI (communiqué de DWS repris par le site)",
+     "titre": "DWS Real Estate strengthens presence in the central business district of Paris by acquiring a core office building",
+     "url": "https://irei.com/news/dws-real-estate-strengthens-presence-in-the-central-business-district-of-paris-by-acquiring-a-core-office-building/",
+     "date": "2026-04-14",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "extrait",
+     "note": "Communiqué de DWS repris par le site ; une partie du texte est réservée aux abonnés."
+    },
+    {
+     "id": "S2",
+     "editeur": "Private Banking Magazin",
+     "titre": "DWS Real Estate kauft Pariser Bürogebäude von BNP Paribas AM",
+     "url": "https://www.private-banking-magazin.de/dws-real-estate-paris-immobilien-bnp-paribas-am/",
+     "date": "2026-04-16",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [
+    {
+     "champ": "surface",
+     "libelle": "Surface de l'immeuble",
+     "valeurs": [
+      {
+       "valeur": "environ 6 100 m²",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "valeur": "657 000 pieds carrés",
+       "sources": [
+        "S1"
+       ]
+      }
+     ],
+     "note": "Le communiqué repris par le site donne deux surfaces incompatibles (6 100 m² correspondent à environ 65 700 pieds carrés) ; aucune n'est retenue dans les chiffres."
+    }
+   ],
+   "notes": [
+    "L'article de presse ne donne pas l'adresse : le rapprochement avec le communiqué repose sur la description (immeuble de bureaux de huit niveaux près des Champs-Élysées, acquis par DWS pour ses fonds institutionnels) et sur la date."
+   ],
+   "publication": {
+    "statut": "a_confirmer",
+    "preuve": "moyen",
+    "motifs": [
+     "Source de niveau A consultée par extrait seulement",
+     "Contradiction au sein de la source : surface"
+    ]
+   },
+   "ajoute_le": "2026-11-23",
+   "verifie_le": "2026-11-23",
+   "historique": [
+    {
+     "date": "2026-11-23",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-085",
+   "titre": "CBRE Investment Management acquiert auprès de NOE REIM et de la SCPI Allianz Pierre l'immeuble de bureaux du 2-4 rue Louis-David (16e)",
+   "resume": "CBRE Investment Management a acquis, pour le compte d'un client en mandat dédié, un immeuble de bureaux d'environ 5 800 m² au 2-4 rue Louis-David, dans le 16e arrondissement. Les vendeurs sont ses deux copropriétaires, NOE REIM et la SCPI Allianz Pierre, gérée par Allianz Immovalor. Construit en 1957 et rénové en 2000, l'immeuble compte sept niveaux, une cour intérieure et plusieurs terrasses ; le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2025-03-25",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-03-25",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition pour le compte d'un client en mandat dédié",
+    "Cession par les deux copropriétaires de l'immeuble"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux",
+   "actif": {
+    "nom": "2-4 rue Louis-David",
+    "adresse": "2-4 rue Louis David",
+    "commune": "Paris",
+    "arrondissements": [
+     16
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "CBRE Investment Management",
+     "type": "Gestionnaire d'actifs",
+     "precision": "Pour le compte d'un client en mandat dédié (non nommé)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "NOE REIM",
+     "type": "Société de gestion",
+     "precision": "Copropriétaire",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "SCPI Allianz Pierre",
+     "type": "SCPI",
+     "precision": "Copropriétaire",
+     "gestionnaire": "Allianz Immovalor",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Strategies and Corp",
+     "cote": "non_precise",
+     "role": "Intermédiaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "BNP Paribas Real Estate",
+     "cote": "non_precise",
+     "role": "Intermédiaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Allez & Associés",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Screeb",
+     "cote": "vendeur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "14 Pyramides",
+     "cote": "vendeur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 5800,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Construction",
+     "valeur": "1957",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Rénovation",
+     "valeur": "2000",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Niveaux",
+     "valeur": "Sept",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Extérieurs",
+     "valeur": "Cour intérieure et plusieurs terrasses",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Le communiqué évoque des stratégies « de forte conviction » sans nommer de catégorie ; aucune hypothèse formulée."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "CBRE Investment Management — communiqué",
+     "titre": "CBRE Investment Management acquires prime office asset in Paris",
+     "url": "https://www.cbreim.com/press-releases/cbre-investment-management-acquires-prime-office-asset-in-paris?linkId=782710135",
+     "date": "2025-03-25",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le prix n'est pas communiqué.",
+    "Le client pour le compte duquel l'immeuble est acquis n'est pas nommé.",
+    "Le communiqué ne précise pas le rôle des conseils de chaque partie, à part celui des deux intermédiaires."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-23",
+   "verifie_le": "2026-11-23",
+   "historique": [
+    {
+     "date": "2026-11-23",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-086",
+   "titre": "AM ALPHA acquiert auprès de Mata Capital un immeuble de bureaux d'environ 2 100 m² au 31 bis rue Bergère (9e)",
+   "resume": "AM ALPHA, family office international spécialisé dans l'immobilier, a acquis auprès de Mata Capital un immeuble de bureaux d'environ 2 100 m² au 31 bis rue Bergère, dans le 9e arrondissement, avec des surfaces en sous-sol et des places de stationnement. L'opération a été annoncée par le conseil de l'acquéreur, intervenu sur les aspects fiscaux, la structuration juridique et les prix de transfert. Le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2026-04-28",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-04-28",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux",
+   "actif": {
+    "nom": "31 bis rue Bergère",
+    "adresse": "31 bis rue Bergère",
+    "commune": "Paris",
+    "arrondissements": [
+     9
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "AM ALPHA",
+     "type": "Holding patrimoniale (family office)",
+     "precision": "Family office international spécialisé dans l'investissement immobilier",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Mata Capital",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "DLA Piper",
+     "cote": "acquereur",
+     "role": "Juridique et fiscal",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 2100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²",
+     "libelle": "Surface de bureaux"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Annexes",
+     "valeur": "Surfaces en sous-sol et emplacements de stationnement",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "DLA Piper — actualité",
+     "titre": "DLA Piper conseille AM ALPHA dans le cadre de l'acquisition d'un immeuble de bureau à Paris",
+     "url": "https://www.dlapiper.com/fr-fr/news/2026/04/dla-piper-conseille-am-alpha",
+     "date": "2026-04-28",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le prix n'est pas communiqué.",
+    "Les bureaux de DLA Piper à Luxembourg et à Madrid sont aussi intervenus sur les aspects fiscaux."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-23",
+   "verifie_le": "2026-11-23",
+   "historique": [
+    {
+     "date": "2026-11-23",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-087",
+   "titre": "La Française REM acquiert pour l'ERAFP un immeuble de bureaux entièrement loué de 1 000 m² au 21 rue de Bruxelles (9e)",
+   "resume": "La Française Real Estate Managers a acquis pour le compte de l'ERAFP, l'établissement de retraite additionnelle de la fonction publique, un immeuble de bureaux de 1 000 m² au 21 rue de Bruxelles, dans le 9e arrondissement. Cet ancien hôtel particulier, entièrement restructuré en 2021 et certifié NF HQE niveau Excellent, dispose d'un jardin paysager de 100 m². Il est entièrement loué à un grand opérateur européen de coliving, qui y a installé son siège ; le vendeur et le prix ne sont pas communiqués.",
+   "date": {
+    "valeur": "2025-11-12",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-11-13",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition pour le compte de l'ERAFP"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Hôtel particulier restructuré en bureaux",
+   "actif": {
+    "nom": "21 rue de Bruxelles",
+    "adresse": "21 rue de Bruxelles",
+    "commune": "Paris",
+    "arrondissements": [
+     9
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "ERAFP",
+     "type": "Caisse de retraite",
+     "precision": "Établissement de retraite additionnelle de la fonction publique",
+     "gestionnaire": "La Française Real Estate Managers",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Attal & Associés",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Fairway",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "CWS",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Catella Property",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Ikory",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Burgeap",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 1000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Immeuble entièrement loué selon le communiqué."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Locataire",
+     "valeur": "Grand opérateur européen de coliving (non nommé), qui y a installé son siège",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Restructuration",
+     "valeur": "Ancien hôtel particulier entièrement restructuré en 2021",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Certification",
+     "valeur": "NF HQE, niveau Excellent",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Niveaux",
+     "valeur": "Quatre niveaux et un sous-sol",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Jardin",
+     "valeur": "Jardin paysager de 100 m²",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeuble entièrement loué à un locataire unique qui y a installé son siège",
+     "Actif entièrement restructuré en 2021 et certifié NF HQE niveau Excellent",
+     "Acquisition présentée comme conforme à une stratégie sélective, centrée sur des actifs de qualité bien situés"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "La Française — salle de presse",
+     "titre": "La Française Real Estate Managers announces the acquisition of an office building in Paris 9th arrondissement",
+     "url": "https://pressroom.la-francaise.com/news/la-francaise-real-estate-managers-announces-the-acquisition-of-an-office-building-in-paris-9th-arrondissement-beefe-64c1b.html",
+     "date": "2025-11-12",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué daté du 12 novembre 2025, mis en ligne le 13 novembre 2025."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le vendeur et le prix ne sont pas communiqués.",
+    "Le communiqué ne précise pas le rôle de chacun des conseils de l'acquéreur."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-23",
+   "verifie_le": "2026-11-23",
+   "historique": [
+    {
+     "date": "2026-11-23",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-088",
+   "titre": "La Société de la Tour Eiffel cède à Herrmann Immeubles l'immeuble haussmannien de bureaux et commerces du 12 rue Auber (9e)",
+   "resume": "La Société de la Tour Eiffel a cédé à Herrmann Immeubles l'immeuble du 12 rue Auber, dans le 9e arrondissement, qu'elle détenait depuis 2008. Cet immeuble d'angle de style haussmannien d'environ 2 400 m² abrite des bureaux loués à plusieurs locataires et des commerces en rez-de-chaussée. La foncière inscrit la vente dans la feuille de route annoncée en 2022, pour financer ses développements ; le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2024-07-03",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-07-03",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "mixte",
+   "sous_type": "Immeuble haussmannien de bureaux et commerces",
+   "actif": {
+    "nom": "12 rue Auber",
+    "adresse": "12 rue Auber",
+    "commune": "Paris",
+    "arrondissements": [
+     9
+    ],
+    "zone": "paris",
+    "note": "Immeuble d'angle."
+   },
+   "acquereurs": [
+    {
+     "nom": "Herrmann Immeubles",
+     "type": "Société immobilière",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Société de la Tour Eiffel",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Wargny Katz",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Savills",
+     "cote": "vendeur",
+     "role": "Conseil",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Strategies and Corp",
+     "cote": "vendeur",
+     "role": "Intermédiaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "C&C Notaires",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Theop",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Archers",
+     "cote": "acquereur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 2400,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Détention par le vendeur",
+     "valeur": "Depuis 2008",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Locataires",
+     "valeur": "Plusieurs locataires de bureaux et des commerces en rez-de-chaussée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée pour l'acquéreur ; le vendeur inscrit la cession dans sa feuille de route de 2022."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Société de la Tour Eiffel — information réglementée diffusée par l'AMF",
+     "titre": "La Société de la Tour Eiffel annonce la cession d'un ensemble immobilier à Paris",
+     "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/ACT/2024/07/FCACT070110_20240703.pdf",
+     "date": "2024-07-03",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le prix n'est pas communiqué."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-23",
+   "verifie_le": "2026-11-23",
+   "historique": [
+    {
+     "date": "2026-11-23",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-089",
+   "titre": "RedTree Capital acquiert auprès de Præmia REIM l'immeuble de bureaux vacant Alpha, à Boulogne-Billancourt, pour le restructurer",
+   "resume": "RedTree Capital a acquis auprès de Præmia REIM l'immeuble Alpha, un ensemble de bureaux d'environ 7 600 m² situé quai du Point-du-Jour à Boulogne-Billancourt. L'immeuble, vacant, doit être restructuré et repositionné, et l'acquisition s'accompagne d'un co-investissement. RedTree Capital rattache l'opération à sa stratégie value-add ; le prix n'est pas communiqué.",
+   "date": {
+    "valeur": "2026-07-29",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2026-07-29",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Co-investissement mis en place lors de l'acquisition"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux vacant à restructurer",
+   "actif": {
+    "nom": "Alpha",
+    "adresse": null,
+    "commune": "Boulogne-Billancourt (92)",
+    "arrondissements": [],
+    "zone": "croissant_ouest",
+    "note": "Quai du Point-du-Jour ; numéro non communiqué."
+   },
+   "acquereurs": [
+    {
+     "nom": "RedTree Capital",
+     "type": "Société d'investissement",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Præmia REIM",
+     "type": "Société de gestion",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "UGGC Avocats",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 7600,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Occupation",
+     "valeur": "Vacant",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Projet",
+     "valeur": "Restructuration et repositionnement",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": "value_add",
+    "niveau": "operation",
+    "citation": "« Cette nouvelle acquisition s'inscrit pleinement dans la stratégie value-add de RedTree Capital »",
+    "sources": [
+     "S1"
+    ],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Stratégie nommée par l'annonce du conseil de l'acquéreur pour cette opération."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce d'UGGC Avocats)",
+     "titre": "UGGC Avocats accompagne RedTree Capital",
+     "url": "https://www.lemondedudroit.fr/deals/105295-uggc-avocats-accompagne-redtree-capital.html",
+     "date": "2026-07-29",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "CoStar",
+     "titre": "Redtree Capital finalise l'acquisition de l'immeuble Alpha à Boulogne-Billancourt",
+     "url": "https://www.costar.com/article/353522153/redtree-capital-finalise-lacquisition-de-limmeuble-alpha-a-boulogne-billancourt",
+     "date": null,
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article payant : seul le titre a été consulté."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le prix n'est pas communiqué.",
+    "La date retenue est celle de la publication de l'annonce ; la presse spécialisée titre sur la finalisation de l'acquisition."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-23",
+   "verifie_le": "2026-11-23",
+   "historique": [
+    {
+     "date": "2026-11-23",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-090",
+   "titre": "Experimental Group acquiert les murs et le fonds de l'hôtel 5★ Sinner Paris auprès de Zaka Investissement et Evok Collection",
+   "resume": "Le groupe hôtelier Experimental Group a acquis l'hôtel cinq étoiles Sinner Paris, dans le Marais, à la fois les murs et le fonds de commerce. Les vendeurs sont Zaka Investissement, société immobilière d'un groupe privé, et Evok Collection, qui portait l'exploitation. L'hôtel compte 43 chambres et une suite ; l'acquéreur y a consacré un budget global de 53 M€, soit environ 1,2 M€ par clé.",
+   "date": {
+    "valeur": "2024-10-10",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-10-10",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition des murs et du fonds de commerce"
+   ],
+   "classe": "hotellerie",
+   "sous_type": "Hôtel 5 étoiles",
+   "actif": {
+    "nom": "Sinner Paris",
+    "adresse": null,
+    "commune": "Paris",
+    "arrondissements": [],
+    "zone": "paris_nc",
+    "note": "Dans le Marais selon la presse ; adresse non communiquée par les sources."
+   },
+   "acquereurs": [
+    {
+     "nom": "Experimental Group",
+     "type": "Groupe hôtelier",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Zaka Investissement",
+     "type": "Société immobilière",
+     "precision": "Société immobilière d'un groupe privé",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    },
+    {
+     "nom": "Evok Collection",
+     "type": "Exploitant hôtelier",
+     "precision": "Société qui portait l'exploitation de l'hôtel",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "De Pardieu Brocas Maffei",
+     "cote": "vendeur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Gide",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 53000000,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "libelle": "Budget global de l'opération",
+     "note": "Le conseil des vendeurs parle d'un budget total de 53 M€ déployé par l'acquéreur ; le bulletin de presse présente ce montant comme le prix. Les sources ne précisent pas s'il comprend des travaux."
+    },
+    "cles": {
+     "valeur": 44,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres",
+     "note": "Calcul : 43 chambres + 1 suite, selon l'annonce du conseil des vendeurs."
+    },
+    "prix_cle": {
+     "valeur": 1200000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/clé",
+     "base": "NC",
+     "note": "Valeur par clé indiquée par l'annonce, rapportée au budget global."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Catégorie",
+     "valeur": "5 étoiles",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par les sources."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Chambers and Partners (annonce de De Pardieu Brocas Maffei)",
+     "titre": "De Pardieu advises Zaka Investissement and Evok Collection on the sale of the 5* hotel Sinner Paris",
+     "url": "https://chambers.com/articles/de-pardieu-advises-zaka-investissement-and-evok-collection-on-the-sale-of-the-5-hotel-sinner-paris-t",
+     "date": "2024-10-10",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "Gide — actualité",
+     "titre": "Gide advises Experimental Group on the acquisition of the 5* hotel Sinner Paris from Zaka Investissement and Evok Collection",
+     "url": "https://www.gide.com/en/news-insights/gide-advises-experimental-group-on-the-acquisition-of-the-5-hotel-sinner-paris-from-zaka-investissement-and-evok-collection/",
+     "date": "2024-10-18",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "HVS (Hospitality Net)",
+     "titre": "HVS Europe Hotel Transactions Bulletin — semaine close le 11 octobre 2024",
+     "url": "https://hospitalitynet.org/news/4124147.html",
+     "date": "2024-10-15",
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'adresse de l'hôtel n'est pas donnée par les sources."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-23",
+   "verifie_le": "2026-11-23",
+   "historique": [
+    {
+     "date": "2026-11-23",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -14567,6 +16018,16 @@
    "a_confirmer": 1,
    "sources_consultees": 9,
    "resume": "Quatre opérations ajoutées : l'immeuble Marco Polo à Clichy, acquis pour 17,5 M€ hors droits par Foncière Volta et Distrimo (à confirmer), un immeuble résidentiel à Neuilly-sur-Seine acquis par Cogifrance, et deux cessions de plateaux de bureaux par la SCPI Aestiam Agora, au 66 avenue du Maine (14e) et au 27 Villa Wagram (8e)."
+  },
+  {
+   "date": "2026-11-23T07:24:59+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 8,
+   "mises_a_jour": 0,
+   "a_confirmer": 1,
+   "sources_consultees": 29,
+   "resume": "Huit opérations ajoutées, dont l'ensemble Les Miroirs à La Défense (Edge), l'immeuble « core » du 39 rue du Colisée acquis par DWS pour environ 140 M€ selon la presse (à confirmer), quatre immeubles parisiens (rue Louis-David, rue Bergère, rue de Bruxelles, rue Auber), l'immeuble Alpha à Boulogne-Billancourt (RedTree Capital) et l'hôtel Sinner Paris (Experimental Group). Les deux promesses suivies restent au stade de la promesse faute de source de niveau A sur leur réalisation."
   }
  ]
 }
