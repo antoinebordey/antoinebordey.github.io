@@ -4,7 +4,7 @@
   "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
   "licence": "Licence Ouverte 2.0"
  },
- "maj": "2026-11-23T06:25:56+00:00",
+ "maj": "2026-11-25T06:17:47+00:00",
  "methode": 2,
  "note": "Seules les fiches dont l'adresse est publiée par une source sont géolocalisées ; la première adresse citée est retenue, et seulement si la voie, le numéro et l'arrondissement trouvés correspondent.",
  "fiches": {
@@ -571,6 +571,66 @@
    "precision": "housenumber",
    "score": 0.968,
    "code_insee": "75109"
+  },
+  "pdm-091": {
+   "requete": "35 avenue de Suffren 75007 Paris",
+   "trouve": true,
+   "lat": 48.854946,
+   "lon": 2.295255,
+   "libelle": "35 Avenue de Suffren 75007 Paris",
+   "precision": "housenumber",
+   "score": 0.972,
+   "code_insee": "75107"
+  },
+  "pdm-092": {
+   "requete": "1 rue Camille Decauville Tigery",
+   "trouve": true,
+   "lat": 48.634211,
+   "lon": 2.514429,
+   "libelle": "1 Rue Camille Decauville 91250 Tigery",
+   "precision": "housenumber",
+   "score": 0.954,
+   "code_insee": "91617"
+  },
+  "pdm-093": {
+   "requete": "13 avenue du Général Leclerc Choisy-le-Roi",
+   "trouve": true,
+   "lat": 48.761856,
+   "lon": 2.405715,
+   "libelle": "13 Avenue du Général Leclerc 94600 Choisy-le-Roi",
+   "precision": "housenumber",
+   "score": 0.968,
+   "code_insee": "94022"
+  },
+  "pdm-094": {
+   "requete": "9 avenue Sainte-Marie Chaville",
+   "trouve": true,
+   "lat": 48.809833,
+   "lon": 2.183073,
+   "libelle": "9 Avenue Sainte-Marie 92370 Chaville",
+   "precision": "housenumber",
+   "score": 0.963,
+   "code_insee": "92022"
+  },
+  "pdm-095": {
+   "requete": "8 avenue Gustave Eiffel Montigny-le-Bretonneux",
+   "trouve": true,
+   "lat": 48.785334,
+   "lon": 2.044587,
+   "libelle": "8 Avenue Gustave Eiffel 78180 Montigny-le-Bretonneux",
+   "precision": "housenumber",
+   "score": 0.963,
+   "code_insee": "78423"
+  },
+  "pdm-096": {
+   "requete": "24 rue Fernand Léger Pierrelaye",
+   "trouve": true,
+   "lat": 49.006214,
+   "lon": 2.173054,
+   "libelle": "24 Rue Fernand Léger 95480 Pierrelaye",
+   "precision": "housenumber",
+   "score": 0.959,
+   "code_insee": "95488"
   }
  }
 }
