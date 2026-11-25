@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 20,
+  "version": 21,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-23T07:24:59+01:00",
+  "derniere_mise_a_jour": "2026-11-25T07:16:53+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 91
+  "prochain_id": 98
  },
  "transactions": [
   {
@@ -14605,7 +14605,7 @@
   {
    "id": "pdm-085",
    "titre": "CBRE Investment Management acquiert auprès de NOE REIM et de la SCPI Allianz Pierre l'immeuble de bureaux du 2-4 rue Louis-David (16e)",
-   "resume": "CBRE Investment Management a acquis, pour le compte d'un client en mandat dédié, un immeuble de bureaux d'environ 5 800 m² au 2-4 rue Louis-David, dans le 16e arrondissement. Les vendeurs sont ses deux copropriétaires, NOE REIM et la SCPI Allianz Pierre, gérée par Allianz Immovalor. Construit en 1957 et rénové en 2000, l'immeuble compte sept niveaux, une cour intérieure et plusieurs terrasses ; le prix n'est pas communiqué.",
+   "resume": "CBRE Investment Management a acquis, pour le compte d'un client en mandat dédié, un immeuble de bureaux d'environ 5 800 m² au 2-4 rue Louis-David, dans le 16e arrondissement. Les vendeurs sont ses deux copropriétaires, NOE REIM et la SCPI Allianz Pierre, gérée par Allianz Immovalor. Construit en 1957 et rénové en 2000, l'immeuble compte sept niveaux, une cour intérieure et plusieurs terrasses ; le prix n'est pas communiqué par l'acquéreur, la presse spécialisée évoquant un peu moins de 70 M€.",
    "date": {
     "valeur": "2025-03-25",
     "precision": "jour",
@@ -14651,7 +14651,7 @@
      ]
     },
     {
-     "nom": "SCPI Allianz Pierre",
+     "nom": "Allianz Pierre",
      "type": "SCPI",
      "precision": "Copropriétaire",
      "gestionnaire": "Allianz Immovalor",
@@ -14707,13 +14707,15 @@
    "autres_intervenants": [],
    "chiffres": {
     "montant": {
-     "valeur": null,
-     "statut": "nc",
-     "sources": [],
-     "qualificatif": "exact",
+     "valeur": 70000000,
+     "statut": "presse",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "pres_de",
      "unite": "EUR",
      "base": "NC",
-     "note": "Prix non communiqué."
+     "note": "Montant cité par le titre d'un article de presse spécialisée (un peu moins de 70 millions) ; le communiqué de l'acquéreur ne donne pas le prix."
     },
     "surface": {
      "valeur": 5800,
@@ -14778,11 +14780,22 @@
      "niveau": "A",
      "nature": "communique_partie",
      "acces": "integral"
+    },
+    {
+     "id": "S2",
+     "editeur": "CoStar",
+     "titre": "CBRE IM acquires coveted 2-4 rue Louis David for just under 70m",
+     "url": "https://costar.com/article/1895087192/cbre-im-acquires-coveted-2-4-rue-louis-david-for-just-under-70m",
+     "date": null,
+     "niveau": "B",
+     "nature": "presse",
+     "acces": "extrait",
+     "note": "Article payant : seul le titre a été consulté."
     }
    ],
    "contradictions": [],
    "notes": [
-    "Le prix n'est pas communiqué.",
+    "Le communiqué ne donne pas le prix ; le montant retenu provient de la presse spécialisée.",
     "Le client pour le compte duquel l'immeuble est acquis n'est pas nommé.",
     "Le communiqué ne précise pas le rôle des conseils de chaque partie, à part celui des deux intermédiaires."
    ],
@@ -14796,11 +14809,15 @@
     ]
    },
    "ajoute_le": "2026-11-23",
-   "verifie_le": "2026-11-23",
+   "verifie_le": "2026-11-25",
    "historique": [
     {
      "date": "2026-11-23",
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    },
+    {
+     "date": "2026-11-25",
+     "evenement": "Montant cité par la presse ajouté (un peu moins de 70 M€)"
     }
    ]
   },
@@ -15667,6 +15684,1086 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-091",
+   "titre": "Barings acquiert l'immeuble résidentiel haussmannien du 35 avenue de Suffren (7e), 18 appartements et deux commerces",
+   "resume": "Barings a acquis l'immeuble du 35 avenue de Suffren, dans le 7e arrondissement, un ensemble haussmannien d'environ 2 230 m² qui compte 18 appartements et deux commerces en pied d'immeuble. L'immeuble, doté d'un jardin privatif et de balcons, a récemment fait l'objet d'importants travaux, dont la réfection de la façade et de la toiture. La vente a été menée dans le cadre d'un mandat co-exclusif ; le vendeur n'est pas nommé et les parties n'ont pas communiqué le prix.",
+   "date": {
+    "valeur": "2025-12-18",
+    "precision": "jour",
+    "nature": "publication"
+   },
+   "date_publication": "2025-12-18",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Vente menée dans le cadre d'un mandat de vente co-exclusif"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Immeuble résidentiel haussmannien avec commerces en pied d'immeuble",
+   "actif": {
+    "nom": "35 avenue de Suffren",
+    "adresse": "35 avenue de Suffren",
+    "commune": "Paris",
+    "arrondissements": [
+     7
+    ],
+    "zone": "paris",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Barings",
+     "type": "Gestionnaire d'actifs",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "LPA Law",
+     "cote": "acquereur",
+     "role": "Juridique et fiscal",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "LPA Law",
+     "cote": "vendeur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Bridge Real Estate",
+     "cote": "vendeur",
+     "role": "Intermédiaire",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Newmark",
+     "cote": "vendeur",
+     "role": "Intermédiaire",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Les parties ont convenu de ne pas communiquer le prix."
+    },
+    "surface": {
+     "valeur": 2230,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "logements": {
+     "valeur": 18,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": null,
+     "libelle": "Appartements"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Commerces",
+     "valeur": "Deux commerces en pied d'immeuble",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Travaux récents",
+     "valeur": "Réfection de la façade et de la toiture, raccordement au chauffage urbain",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Extérieurs",
+     "valeur": "Jardin privatif et balcons",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Immeuble présenté par le conseil comme un actif résidentiel prime",
+     "Immeuble récemment rénové (façade, toiture) et raccordé au chauffage urbain"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Le Monde du Droit (annonce de LPA Law)",
+     "titre": "LPA Law conseille Barings (acquéreur) et le vendeur dans la transaction du 35 avenue de Suffren, actif résidentiel prime du 7ᵉ arrondissement",
+     "url": "https://www.lemondedudroit.fr/deals/102134-lpa-law-conseille-barings-acquereur-et-le-vendeur-dans-la-transaction-du-35-avenue-de-suffren-actif-residentiel-prime-du-7e-arrondissement.html",
+     "date": "2025-12-18",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le vendeur n'est pas nommé par la source.",
+    "Le fonds de Barings qui acquiert l'immeuble n'est pas précisé."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-25",
+   "verifie_le": "2026-11-25",
+   "historique": [
+    {
+     "date": "2026-11-25",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-092",
+   "titre": "La Française REM acquiert pour un fonds deux bâtiments d'activités entièrement loués au Parc des Vergers 2, à Tigery (91)",
+   "resume": "La Française Real Estate Managers a acquis hors marché, pour le compte d'un fonds immobilier, deux bâtiments d'activités construits en 2020 au 1 rue Camille-Decauville, dans le Parc des Vergers 2 à Tigery, près d'Évry. L'ensemble d'environ 2 300 m² associe 17 % de bureaux et 83 % de locaux d'activités ; il est entièrement loué sur une longue durée. L'opération a été apportée par AZEO Real Estate ; le vendeur et le prix ne sont pas communiqués.",
+   "date": {
+    "valeur": "2026-05-19",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2026-05-20",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition hors marché pour le compte d'un fonds immobilier (non nommé)"
+   ],
+   "classe": "activites",
+   "sous_type": "Bâtiments d'activités",
+   "actif": {
+    "nom": "Parc des Vergers 2",
+    "adresse": "1 rue Camille Decauville",
+    "commune": "Tigery (91)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "En bordure de la Francilienne, près d'Évry."
+   },
+   "acquereurs": [
+    {
+     "nom": "Fonds immobilier géré par La Française REM (non nommé)",
+     "type": "Fonds d'investissement",
+     "gestionnaire": "La Française Real Estate Managers",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "Allez & Associés",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Jeantet",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "AZEO Real Estate",
+     "role": "Apporteur de l'opération",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 2300,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "m²"
+    },
+    "occupation": {
+     "valeur": 100,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "note": "Bâtiments entièrement loués selon le communiqué."
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Construction",
+     "valeur": "2020",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Répartition",
+     "valeur": "17 % de bureaux et 83 % de locaux d'activités",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Baux",
+     "valeur": "Loués sur une longue durée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Bâtiments récents, construits en 2020",
+     "Bâtiments entièrement loués sur une longue durée"
+    ],
+    "commentaire": "Aucune catégorie nommée par la source : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "La Française — communiqué",
+     "titre": "La Française REM announces the acquisition of two light industrial buildings in Tigery (91), France",
+     "url": "https://www.la-francaise.com/en-fr/investor/la-francaise-rem-announces-the-acquisition-of-two-light-industrial-buildings-in-tigery.html",
+     "date": "2026-05-19",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué daté du 19 mai 2026, mis en ligne le 20 mai 2026."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le vendeur et le prix ne sont pas communiqués.",
+    "Le fonds pour le compte duquel les bâtiments sont acquis n'est pas nommé."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-25",
+   "verifie_le": "2026-11-25",
+   "historique": [
+    {
+     "date": "2026-11-25",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-093",
+   "titre": "La SCPI LF Avenir Santé acquiert une maison de maître à Choisy-le-Roi (94) pour la transformer en coliving pour seniors",
+   "resume": "La Française Real Estate Managers a acquis, pour la SCPI LF Avenir Santé, une maison de maître de la fin du XIXe siècle au 13 avenue du Général-Leclerc, en centre-ville de Choisy-le-Roi. Le bâtiment de 538 m² Carrez, doté d'un jardin de 300 m², doit devenir un habitat partagé pour 12 seniors, avec 11 chambres et un appartement indépendant. Il sera exploité par Chez Jeannette dans le cadre d'un bail de 12 ans fermes ; le vendeur et le prix ne sont pas communiqués.",
+   "date": {
+    "valeur": "2025-04-03",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2025-04-03",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition pour le compte de la SCPI LF Avenir Santé",
+    "Transformation en habitat partagé pour seniors"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Coliving pour seniors",
+   "actif": {
+    "nom": "13 avenue du Général-Leclerc",
+    "adresse": "13 avenue du Général Leclerc",
+    "commune": "Choisy-le-Roi (94)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "En centre-ville."
+   },
+   "acquereurs": [
+    {
+     "nom": "LF Avenir Santé",
+     "type": "SCPI",
+     "gestionnaire": "La Française Real Estate Managers",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "14 Pyramides",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Archers",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Nerco",
+     "cote": "acquereur",
+     "role": "Conseil technique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Wüest Partner",
+     "cote": "acquereur",
+     "role": "Conseil ESG",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Chez Jeannette",
+     "role": "Exploitant (bail de 12 ans fermes)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 538,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²",
+     "libelle": "Surface Carrez"
+    },
+    "duree_baux": {
+     "valeur": 12,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "ans",
+     "libelle": "Durée ferme du bail"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Capacité",
+     "valeur": "12 colocataires : 11 chambres avec salle de bains et un appartement indépendant",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Bâtiment",
+     "valeur": "Maison de maître de la fin du XIXe siècle, sur trois étages",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Jardin",
+     "valeur": "300 m², exposé plein sud",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "La Française — communiqué",
+     "titre": "La Française Real Estate Managers (REM) acquiert un coliving pour seniors à Choisy-le-Roi (94)",
+     "url": "https://presse.la-francaise.com/assets/030425-cp-lfrem-acquisition-avenir-sante-choisy-pdf-cb66f-61d2f.html?dl=1",
+     "date": "2025-04-03",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le vendeur et le prix ne sont pas communiqués."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-25",
+   "verifie_le": "2026-11-25",
+   "historique": [
+    {
+     "date": "2026-11-25",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-094",
+   "titre": "La SCPI LF Avenir Santé acquiert un hôtel particulier à Chaville (92) pour le transformer en coliving pour seniors",
+   "resume": "La Française Real Estate Managers a acquis hors marché, pour la SCPI LF Avenir Santé, un hôtel particulier du XIXe siècle entouré d'espaces verts au 9 avenue Sainte-Marie, à Chaville. Le bâtiment de 310 m² sur quatre niveaux doit accueillir huit résidents seniors, chacun avec sa chambre et sa salle de bains, après des travaux financés par la SCPI. Il sera exploité par Chez Jeannette dans le cadre d'un bail de 12 ans fermes ; le vendeur et le prix ne sont pas communiqués.",
+   "date": {
+    "valeur": "2024-01-23",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-01-23",
+   "statut_operation": "realisee",
+   "modalites": [
+    "Acquisition hors marché pour le compte de la SCPI LF Avenir Santé",
+    "Travaux de transformation en coliving financés par la SCPI"
+   ],
+   "classe": "residentiel",
+   "sous_type": "Coliving pour seniors",
+   "actif": {
+    "nom": "9 avenue Sainte-Marie",
+    "adresse": "9 avenue Sainte-Marie",
+    "commune": "Chaville (92)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "LF Avenir Santé",
+     "type": "SCPI",
+     "gestionnaire": "La Française Real Estate Managers",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "vendeurs": [],
+   "conseils": [
+    {
+     "nom": "14 Pyramides",
+     "cote": "acquereur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Archers",
+     "cote": "acquereur",
+     "role": "Juridique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Delpha Conseil",
+     "cote": "acquereur",
+     "role": "Conseil technique et ESG",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [
+    {
+     "nom": "Chez Jeannette",
+     "role": "Exploitant (bail de 12 ans fermes)",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 310,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "logements": {
+     "valeur": 8,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "chambres",
+     "libelle": "Chambres prévues"
+    },
+    "duree_baux": {
+     "valeur": 12,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "ans",
+     "libelle": "Durée ferme du bail"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Bâtiment",
+     "valeur": "Hôtel particulier du XIXe siècle sur quatre niveaux (sous-sol et R+2)",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Travaux",
+     "valeur": "Transformation en coliving, avec ascenseur et amélioration de la performance énergétique",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée par la source."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "La Française — communiqué",
+     "titre": "La Française Real Estate Managers (REM) acquiert un coliving pour seniors à Chaville (92)",
+     "url": "https://presse.la-francaise.com/assets/230124-cp-lfrem-coliving-chaville-pdf-1e95-61d2f.html?dl=1",
+     "date": "2024-01-23",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "Le vendeur et le prix ne sont pas communiqués."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-25",
+   "verifie_le": "2026-11-25",
+   "historique": [
+    {
+     "date": "2026-11-25",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-095",
+   "titre": "La Société de la Tour Eiffel cède l'immeuble de bureaux Diagonale Ouest à Montigny-le-Bretonneux (78)",
+   "resume": "La Société de la Tour Eiffel a cédé le Diagonale Ouest, un immeuble de bureaux d'angle de près de 8 300 m² avec une galerie de commerces en rez-de-chaussée, au 8-14 avenue Gustave-Eiffel à Montigny-le-Bretonneux, au cœur de Saint-Quentin-en-Yvelines. Détenu depuis 1999 et loué à plusieurs locataires, il représentait moins de 2 % de son patrimoine. La foncière inscrit la vente dans la rotation de ses actifs ; l'acquéreur et le prix ne sont pas communiqués.",
+   "date": {
+    "valeur": "2024-07-11",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-07-11",
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "bureaux",
+   "sous_type": "Immeuble de bureaux avec galerie commerciale",
+   "actif": {
+    "nom": "Diagonale Ouest",
+    "adresse": "8-14 avenue Gustave Eiffel",
+    "commune": "Montigny-le-Bretonneux (78)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "Pôle de Saint-Quentin-en-Yvelines ; immeuble d'angle."
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "Société de la Tour Eiffel",
+     "type": "Foncière cotée",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Screeb",
+     "cote": "vendeur",
+     "role": "Notaires",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "BNP Paribas",
+     "cote": "vendeur",
+     "role": null,
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "nom": "Arthur Loyd",
+     "cote": "vendeur",
+     "role": "Intermédiaire",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": null,
+     "statut": "nc",
+     "sources": [],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix non communiqué."
+    },
+    "surface": {
+     "valeur": 8300,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "pres_de",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Détention par le vendeur",
+     "valeur": "Depuis 1999",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Locataires",
+     "valeur": "Plusieurs locataires",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Poids dans le patrimoine du vendeur",
+     "valeur": "Moins de 2 %",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée pour l'acquéreur, qui n'est pas connu."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Société de la Tour Eiffel — information réglementée diffusée par l'AMF",
+     "titre": "La Société de la Tour Eiffel cède un immeuble de bureaux en région parisienne et poursuit la rationalisation de son patrimoine",
+     "url": "https://echanges.dila.gouv.fr/OPENDATA/AMF/ACT/2024/07/FCACT070269_20240711.pdf",
+     "date": "2024-07-11",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'acquéreur et le prix ne sont pas communiqués.",
+    "Le communiqué écrit « Arthur Lloyd » pour le courtier du vendeur."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-25",
+   "verifie_le": "2026-11-25",
+   "historique": [
+    {
+     "date": "2026-11-25",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-096",
+   "titre": "La SCPI Patrimmo Commerce cède un actif de 1 217 m² dans la ZAE La Main Pendue, à Pierrelaye (95), pour 3 M€",
+   "resume": "La SCPI Patrimmo Commerce, gérée par Praemia REIM France, a cédé le 6 juillet 2026 un actif de 1 217 m² situé 24 rue Fernand-Léger, dans la zone d'activités La Main Pendue à Pierrelaye. Le prix de vente s'élève à 3 M€. Le bulletin ne précise ni la nature de l'actif ni l'acquéreur.",
+   "date": {
+    "valeur": "2026-07-06",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "autre",
+   "sous_type": "Actif en zone d'activités (nature non précisée)",
+   "actif": {
+    "nom": "ZAE La Main Pendue",
+    "adresse": "24 rue Fernand Léger",
+    "commune": "Pierrelaye (95)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": null
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "Patrimmo Commerce",
+     "type": "SCPI",
+     "gestionnaire": "Praemia REIM France",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 3000000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix de vente de la quote-part de la SCPI (100 %), sans précision de base."
+    },
+    "surface": {
+     "valeur": 1217,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 2465,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 3 000 000 € ÷ 1 217 m² ≈ 2 465 €/m²."
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée ; l'acquéreur n'est pas connu."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Praemia REIM France — bulletin trimestriel de Patrimmo Commerce (copie publiée par France SCPI)",
+     "titre": "Patrimmo Commerce — bulletin trimestriel d'information du 3e trimestre 2026",
+     "url": "https://francescpi.com/scpi-de-rendement/patrimmo-commerce/bi/patrimmo-commerce-bulletin-2026-t3.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Chiffres arrêtés au 30 septembre 2026."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'acquéreur n'est pas précisé par la source.",
+    "Le bulletin ne précise pas la nature de l'actif cédé."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-25",
+   "verifie_le": "2026-11-25",
+   "historique": [
+    {
+     "date": "2026-11-25",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
+  },
+  {
+   "id": "pdm-097",
+   "titre": "La SCPI Patrimmo Commerce cède un actif de 1 690 m² dans la ZAC des Quarante Sous, à Orgeval (78), pour 1,8 M€",
+   "resume": "La SCPI Patrimmo Commerce, gérée par Praemia REIM France, a cédé le 31 juillet 2026 un actif de 1 690 m² situé dans la ZAC des Quarante Sous, à Orgeval. Le prix de vente s'élève à 1,8 M€. Le bulletin ne donne ni l'adresse précise, ni la nature de l'actif, ni l'acquéreur.",
+   "date": {
+    "valeur": "2026-07-31",
+    "precision": "jour",
+    "nature": "realisation"
+   },
+   "statut_operation": "realisee",
+   "modalites": [],
+   "classe": "autre",
+   "sous_type": "Actif en zone d'activités (nature non précisée)",
+   "actif": {
+    "nom": "ZAC des Quarante Sous",
+    "adresse": null,
+    "commune": "Orgeval (78)",
+    "arrondissements": [],
+    "zone": "idf",
+    "note": "Adresse précise non communiquée."
+   },
+   "acquereurs": [],
+   "vendeurs": [
+    {
+     "nom": "Patrimmo Commerce",
+     "type": "SCPI",
+     "gestionnaire": "Praemia REIM France",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "conseils": [],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 1800000,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "note": "Prix de vente de la quote-part de la SCPI (100 %), sans précision de base."
+    },
+    "surface": {
+     "valeur": 1690,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    },
+    "prix_m2": {
+     "valeur": 1065,
+     "statut": "calcule",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "environ",
+     "unite": "€/m²",
+     "base": "NC",
+     "note": "Calcul : 1 800 000 € ÷ 1 690 m² ≈ 1 065 €/m²."
+    }
+   },
+   "faits": [],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": null,
+    "indices": [],
+    "commentaire": "Aucune stratégie nommée ; l'acquéreur n'est pas connu."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Praemia REIM France — bulletin trimestriel de Patrimmo Commerce (copie publiée par France SCPI)",
+     "titre": "Patrimmo Commerce — bulletin trimestriel d'information du 3e trimestre 2026",
+     "url": "https://francescpi.com/scpi-de-rendement/patrimmo-commerce/bi/patrimmo-commerce-bulletin-2026-t3.pdf",
+     "date": null,
+     "niveau": "A",
+     "nature": "document_financier",
+     "acces": "integral",
+     "note": "Chiffres arrêtés au 30 septembre 2026."
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "L'acquéreur n'est pas précisé par la source.",
+    "Le bulletin ne précise pas la nature de l'actif cédé."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-25",
+   "verifie_le": "2026-11-25",
+   "historique": [
+    {
+     "date": "2026-11-25",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -16028,6 +17125,16 @@
    "a_confirmer": 1,
    "sources_consultees": 29,
    "resume": "Huit opérations ajoutées, dont l'ensemble Les Miroirs à La Défense (Edge), l'immeuble « core » du 39 rue du Colisée acquis par DWS pour environ 140 M€ selon la presse (à confirmer), quatre immeubles parisiens (rue Louis-David, rue Bergère, rue de Bruxelles, rue Auber), l'immeuble Alpha à Boulogne-Billancourt (RedTree Capital) et l'hôtel Sinner Paris (Experimental Group). Les deux promesses suivies restent au stade de la promesse faute de source de niveau A sur leur réalisation."
+  },
+  {
+   "date": "2026-11-25T07:16:53+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 7,
+   "mises_a_jour": 1,
+   "a_confirmer": 0,
+   "sources_consultees": 12,
+   "resume": "Sept opérations ajoutées, dont l'immeuble résidentiel du 35 avenue de Suffren (Barings), deux colivings pour seniors de la SCPI LF Avenir Santé, des bâtiments d'activités à Tigery et trois cessions franciliennes (Diagonale Ouest à Montigny-le-Bretonneux, Pierrelaye, Orgeval) ; le montant cité par la presse pour le 2-4 rue Louis-David a été ajouté."
   }
  ]
 }
