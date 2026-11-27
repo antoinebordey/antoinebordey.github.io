@@ -1,12 +1,12 @@
 {
  "meta": {
   "nom": "Paris Deal Monitor",
-  "version": 21,
+  "version": 22,
   "schema": 1,
-  "derniere_mise_a_jour": "2026-11-25T07:16:53+01:00",
+  "derniere_mise_a_jour": "2026-11-27T07:15:02+01:00",
   "perimetre": "Transactions publiques à Paris, La Défense et en Île-de-France, depuis janvier 2024",
   "rythme_veille": "Lundi, mercredi et vendredi, vers 7 h 15 (heure de Paris)",
-  "prochain_id": 98
+  "prochain_id": 99
  },
  "transactions": [
   {
@@ -1742,7 +1742,7 @@
   {
    "id": "pdm-010",
    "titre": "Pontegadea acquiert l'immeuble Capital 8 auprès d'Invesco",
-   "resume": "Selon Merca2, Pontegadea, la holding d'Amancio Ortega, a acquis l'immeuble Capital 8 (8e, près de l'Arc de Triomphe) pour 800 M€. L'ensemble de 45 000 m², occupé à environ 95 %, est loué notamment à Mitsubishi, Standard Chartered et CMA CGM ; Invesco l'avait acquis 789 M€ en 2018. Business Immo évoque de son côté près de 850 M€.",
+   "resume": "Selon Merca2, Pontegadea, holding patrimoniale d'un investisseur privé, a acquis l'immeuble Capital 8 (8e, près de l'Arc de Triomphe) pour 800 M€. L'ensemble de 45 000 m², occupé à environ 95 %, est loué notamment à Mitsubishi, Standard Chartered et CMA CGM ; Invesco l'avait acquis 789 M€ en 2018. Business Immo évoque de son côté près de 850 M€.",
    "date": {
     "valeur": "2026-07-24",
     "precision": "jour",
@@ -1768,7 +1768,7 @@
     {
      "nom": "Pontegadea",
      "type": "Holding patrimoniale (family office)",
-     "precision": "Holding d'Amancio Ortega",
+     "precision": "Holding patrimoniale d'un investisseur privé",
      "statut": "presse",
      "sources": [
       "S1",
@@ -1875,7 +1875,7 @@
     {
      "id": "S1",
      "editeur": "Merca2",
-     "titre": "Amancio Ortega de compras por París: récord de 800 millones en oficinas",
+     "titre": "« … de compras por París: récord de 800 millones en oficinas » (titre abrégé, sans le nom de la personne citée)",
      "url": "https://www.merca2.es/2026/07/24/amancio-ortega-compra-paris-800-millones-2423576/",
      "date": "2026-07-24",
      "niveau": "B",
@@ -1916,7 +1916,8 @@
     }
    ],
    "notes": [
-    "Article en espagnol ; informations reprises dans nos propres termes."
+    "Article en espagnol ; informations reprises dans nos propres termes.",
+    "Même opération que la fiche pdm-056, établie à partir de l'annonce du conseil du vendeur (niveau A) : les deux fiches font doublon."
    ],
    "publication": {
     "statut": "a_confirmer",
@@ -1927,11 +1928,15 @@
     ]
    },
    "ajoute_le": "2026-10-25",
-   "verifie_le": "2026-10-25",
+   "verifie_le": "2026-11-27",
    "historique": [
     {
      "date": "2026-10-25",
      "evenement": "Fiche créée lors de l'initialisation de la veille"
+    },
+    {
+     "date": "2026-11-27",
+     "evenement": "Retrait d'un nom de personne physique ; doublon avec pdm-056 signalé"
     }
    ]
   },
@@ -16764,6 +16769,214 @@
      "evenement": "Fiche créée par la veille (rattrapage de la base)"
     }
    ]
+  },
+  {
+   "id": "pdm-098",
+   "titre": "Unibail-Rodamco-Westfield cède 80 % de la tour Trinity, à La Défense, à Norges Bank Investment Management, sur une valeur d'environ 450 M€",
+   "resume": "Unibail-Rodamco-Westfield a signé la cession de 80 % de la tour de bureaux Trinity, à La Défense, à Norges Bank Investment Management, gestionnaire du fonds souverain norvégien. L'opération valorise à environ 450 M€ cet immeuble multilocataire d'environ 49 900 m², livré en 2020 ; l'acquéreur paie 347,4 M€ pour sa participation. URW conserve 20 % au sein d'une nouvelle coentreprise et continue d'assurer la gestion de l'actif ; la réalisation était attendue au premier trimestre 2025.",
+   "date": {
+    "valeur": "2024-12-20",
+    "precision": "jour",
+    "nature": "annonce"
+   },
+   "date_publication": "2024-12-20",
+   "statut_operation": "annoncee",
+   "modalites": [
+    "Cession de 80 % des titres de la société propriétaire",
+    "Coentreprise : le vendeur conserve 20 % et assure l'asset et le property management",
+    "Actif sans dette ; aucun financement dans l'opération"
+   ],
+   "classe": "bureaux",
+   "sous_type": "Tour de bureaux multilocataire",
+   "actif": {
+    "nom": "Tour Trinity",
+    "adresse": null,
+    "commune": "La Défense",
+    "arrondissements": [],
+    "zone": "la_defense",
+    "note": null
+   },
+   "acquereurs": [
+    {
+     "nom": "Norges Bank Investment Management",
+     "type": "Investisseur institutionnel",
+     "precision": "Gestionnaire du fonds souverain norvégien ; participation de 80 %",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "vendeurs": [
+    {
+     "nom": "Unibail-Rodamco-Westfield",
+     "type": "Foncière cotée",
+     "precision": "Conserve 20 % de la coentreprise",
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ]
+    }
+   ],
+   "conseils": [
+    {
+     "nom": "Jones Day",
+     "cote": "vendeur",
+     "role": "Juridique",
+     "sources": [
+      "S3"
+     ]
+    }
+   ],
+   "financement": [],
+   "autres_intervenants": [],
+   "chiffres": {
+    "montant": {
+     "valeur": 447500000,
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ],
+     "qualificatif": "exact",
+     "unite": "EUR",
+     "base": "NC",
+     "libelle": "Valeur de l'immeuble à 100 %",
+     "note": "Valeur brute de 447,5 M€ selon l'acquéreur ; le vendeur indique un prix implicite d'environ 0,45 Md€ à 100 %. Les sources ne précisent pas s'il s'agit d'une valeur droits inclus ou hors droits."
+    },
+    "quote_part": {
+     "valeur": 80,
+     "statut": "communique",
+     "sources": [
+      "S1",
+      "S2",
+      "S3"
+     ],
+     "qualificatif": "exact",
+     "unite": "%",
+     "libelle": "Participation cédée"
+    },
+    "surface": {
+     "valeur": 49900,
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ],
+     "qualificatif": "exact",
+     "unite": "m²"
+    }
+   },
+   "faits": [
+    {
+     "libelle": "Prix de la participation de 80 %",
+     "valeur": "347,4 M€",
+     "statut": "communique",
+     "sources": [
+      "S2"
+     ]
+    },
+    {
+     "libelle": "Livraison",
+     "valeur": "Novembre 2020",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Certifications",
+     "valeur": "BREEAM Construction Excellent, HQE Excellent et BREEAM In-Use Excellent",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Occupation",
+     "valeur": "Immeuble multilocataire",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    },
+    {
+     "libelle": "Désendettement du vendeur",
+     "valeur": "Environ 0,35 Md€ de dette nette en moins",
+     "statut": "communique",
+     "sources": [
+      "S1"
+     ]
+    }
+   ],
+   "strategie": {
+    "confirmee": null,
+    "niveau": null,
+    "citation": null,
+    "sources": [],
+    "hypothese": "core",
+    "indices": [
+     "Tour récente (livrée en 2020), multilocataire et certifiée BREEAM et HQE au niveau Excellent",
+     "Participation acquise sans dette, au sein d'une coentreprise où le vendeur garde la gestion de l'actif"
+    ],
+    "commentaire": "Aucune catégorie nommée par les sources : « Core » est une hypothèse d'analyste."
+   },
+   "sources": [
+    {
+     "id": "S1",
+     "editeur": "Unibail-Rodamco-Westfield — communiqué (publié sur l'ASX)",
+     "titre": "URW sells 80% stake in Trinity office tower to Norges Bank Investment Management",
+     "url": "https://announcements.asx.com.au/asxpdf/20241223/pdf/06cyv5pkl5w2y8.pdf",
+     "date": "2024-12-20",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral",
+     "note": "Communiqué daté du 20 décembre 2024, publié sur l'ASX le 23 décembre 2024."
+    },
+    {
+     "id": "S2",
+     "editeur": "Norges Bank Investment Management — communiqué",
+     "titre": "Fund makes new investment in Paris",
+     "url": "https://nbim.no/en/news-and-insights/the-press/press-releases/2024/fund-makes-new-investment-in-paris2",
+     "date": "2024-12-20",
+     "niveau": "A",
+     "nature": "communique_partie",
+     "acces": "integral"
+    },
+    {
+     "id": "S3",
+     "editeur": "Le Monde du Droit (annonce de Jones Day)",
+     "titre": "Jones Day a conseillé Unibail-Rodamco-Westfield dans le cadre de la cession d'une participation de 80 % dans la tour Trinity à Norges Bank Investment Management",
+     "url": "https://www.lemondedudroit.fr/deals/97357-jones-day-a-conseille-unibail-rodamco-westfield-dans-le-cadre-de-la-cession-d-une-participation-de-80-dans-la-tour-trinity-a-norges-bank-investment-management.html",
+     "date": "2025-02-25",
+     "niveau": "A",
+     "nature": "communique_conseil",
+     "acces": "integral"
+    }
+   ],
+   "contradictions": [],
+   "notes": [
+    "La réalisation, attendue au premier trimestre 2025, n'est pas datée par les sources consultées."
+   ],
+   "publication": {
+    "statut": "publie_auto",
+    "preuve": "fort",
+    "motifs": [
+     "Source de niveau A consultée en intégralité",
+     "Aucune contradiction entre sources",
+     "Date connue au jour"
+    ]
+   },
+   "ajoute_le": "2026-11-27",
+   "verifie_le": "2026-11-27",
+   "historique": [
+    {
+     "date": "2026-11-27",
+     "evenement": "Fiche créée par la veille (rattrapage de la base)"
+    }
+   ]
   }
  ],
  "contexte": {
@@ -17135,6 +17348,16 @@
    "a_confirmer": 0,
    "sources_consultees": 12,
    "resume": "Sept opérations ajoutées, dont l'immeuble résidentiel du 35 avenue de Suffren (Barings), deux colivings pour seniors de la SCPI LF Avenir Santé, des bâtiments d'activités à Tigery et trois cessions franciliennes (Diagonale Ouest à Montigny-le-Bretonneux, Pierrelaye, Orgeval) ; le montant cité par la presse pour le 2-4 rue Louis-David a été ajouté."
+  },
+  {
+   "date": "2026-11-27T07:15:02+01:00",
+   "type": "veille_automatique",
+   "statut": "ok",
+   "ajoutees": 1,
+   "mises_a_jour": 1,
+   "a_confirmer": 0,
+   "sources_consultees": 18,
+   "resume": "Une opération ajoutée : la cession par Unibail-Rodamco-Westfield de 80 % de la tour Trinity, à La Défense, à Norges Bank Investment Management, sur une valeur d'environ 450 M€. La fiche pdm-010 est mise à jour (retrait d'un nom de personne, doublon signalé avec pdm-056) ; aucune nouvelle annonce n'a été repérée sur la période."
   }
  ]
 }
